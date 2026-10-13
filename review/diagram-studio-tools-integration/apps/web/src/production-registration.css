@@ -1,0 +1,14 @@
+.productionRegistrationTime{display:grid;gap:12px;padding:18px;margin-bottom:20px;border:1px solid var(--border,#d5dce5);border-radius:14px;background:var(--surface,#fff);color:var(--text,#202936)}
+.productionRegistrationTime>div:first-child{display:grid;gap:4px}
+.productionRegistrationTime form{display:flex;align-items:end;gap:14px;flex-wrap:wrap}
+.productionRegistrationTime label{display:grid;gap:6px;font-weight:600}
+.productionRegistrationTime input[type=time]{width:170px;max-width:100%;min-height:44px;padding:8px 12px;font:inherit;color:inherit;background:transparent;border:1px solid var(--border,#b7c3d4);border-radius:9px}
+.productionRegistrationActions{display:flex;gap:8px;flex-wrap:wrap}
+.productionRegistrationTime>small{line-height:1.5;opacity:.8}
+.productionRegistrationTime p[role=alert]{color:#c34141;margin:0}
+.productionRegistrationTime button:disabled{opacity:.55;cursor:not-allowed}
+:root[data-theme="dark"] .productionRegistrationTime{background:#1c2530;color:#e7eaf0;border-color:#3b4b5f}
+:root[data-theme="dark"] .productionRegistrationTime input[type=time]{background:#151c24;border-color:#52657c}
+:root[data-theme="dark"] .productionRegistrationTime p[role=alert]{color:#ffada8}
+.productionWorklogSpace .productionScheduleGrid .scheduleStartTime{display:block;font-size:12px;line-height:1.4;white-space:normal;font-weight:600}
+@media(max-width:600px){.productionRegistrationTime{padding:12px}.productionRegistrationTime form,.productionRegistrationTime label,.productionRegistrationActions{width:100%}.productionRegistrationActions button{flex:1}}

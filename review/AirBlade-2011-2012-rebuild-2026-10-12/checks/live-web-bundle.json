@@ -1,0 +1,15 @@
+{
+  "url": "https://auto2tech-app-production.up.railway.app",
+  "asset": "/assets/index-BPDeFL3k.js",
+  "sha256": "70324367feba63cbace628fc423a497e71653d98cb9fa4d30db38ad9bd9b50b2",
+  "markers": {
+    "symbolRef": false,
+    "Non-orthogonal wire segment": true,
+    "sourceSha256": false,
+    "Chọn nhiều JSON": false,
+    "Nạp JSON có sẵn": false,
+    "Lớp vector chưa hợp lệ": false,
+    "drawing.version": false,
+    "pinoutData": false
+  }
+}

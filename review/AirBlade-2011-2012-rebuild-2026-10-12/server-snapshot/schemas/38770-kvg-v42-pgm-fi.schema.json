@@ -1,0 +1,2563 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "Screenshot from 2026-09-30 08-38-16.png",
+  "id": "38770-kvg-v42-pgm-fi",
+  "vehicleId": "38770-kvg-v42",
+  "vehicleTitle": "AIR BLADE 2011 - 2012",
+  "circuitTitle": "Hệ thống phun xăng điện tử PGM-FI",
+  "canvas": {
+    "width": 1687,
+    "height": 952
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 267,
+      "y": 769,
+      "width": 61,
+      "height": 95,
+      "label": "Ắc quy",
+      "terminals": [
+        {
+          "id": "pos",
+          "label": "+",
+          "x": 267,
+          "y": 788
+        },
+        {
+          "id": "neg",
+          "label": "−",
+          "x": 267,
+          "y": 844
+        }
+      ]
+    },
+    {
+      "id": "fuse-main",
+      "type": "fuse",
+      "x": 203,
+      "y": 626,
+      "width": 37,
+      "height": 80,
+      "label": "MAIN 20A",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 222,
+          "y": 626
+        },
+        {
+          "id": "bottom",
+          "x": 222,
+          "y": 706
+        }
+      ]
+    },
+    {
+      "id": "fuse-fi",
+      "type": "fuse",
+      "x": 272,
+      "y": 626,
+      "width": 36,
+      "height": 79,
+      "label": "FI 10A",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 290,
+          "y": 626
+        },
+        {
+          "id": "bottom",
+          "x": 290,
+          "y": 705
+        }
+      ]
+    },
+    {
+      "id": "fuse-horn",
+      "type": "fuse",
+      "x": 203,
+      "y": 177,
+      "width": 37,
+      "height": 80,
+      "label": "HORN, TURN… 10A",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 222,
+          "y": 177
+        },
+        {
+          "id": "bottom",
+          "x": 222,
+          "y": 257
+        }
+      ]
+    },
+    {
+      "id": "main-relay",
+      "type": "relay",
+      "x": 198,
+      "y": 313,
+      "width": 111,
+      "height": 76,
+      "label": "Rơ le chính",
+      "terminals": [
+        {
+          "id": "contact-top",
+          "x": 222,
+          "y": 313
+        },
+        {
+          "id": "contact-bottom",
+          "x": 222,
+          "y": 389
+        },
+        {
+          "id": "coil-top",
+          "x": 289,
+          "y": 313
+        },
+        {
+          "id": "coil-bottom",
+          "x": 289,
+          "y": 389
+        }
+      ]
+    },
+    {
+      "id": "ignition-switch",
+      "type": "switch",
+      "x": 263,
+      "y": 459,
+      "width": 45,
+      "height": 77,
+      "label": "Công tắc máy",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 290,
+          "y": 459
+        },
+        {
+          "id": "bottom",
+          "x": 290,
+          "y": 536
+        }
+      ]
+    },
+    {
+      "id": "capacitor",
+      "type": "device",
+      "x": 375,
+      "y": 458,
+      "width": 33,
+      "height": 52,
+      "label": "Tụ điện",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 392,
+          "y": 458
+        },
+        {
+          "id": "bottom",
+          "x": 392,
+          "y": 510
+        }
+      ]
+    },
+    {
+      "id": "regulator",
+      "type": "device",
+      "x": 343,
+      "y": 624,
+      "width": 87,
+      "height": 85,
+      "label": "Tiết chế chỉnh lưu",
+      "terminals": [
+        {
+          "id": "rw",
+          "label": "R/W",
+          "x": 361,
+          "y": 624
+        },
+        {
+          "id": "g",
+          "label": "G",
+          "x": 407,
+          "y": 624
+        },
+        {
+          "id": "y1",
+          "label": "Y",
+          "x": 359,
+          "y": 709
+        },
+        {
+          "id": "y2",
+          "label": "Y",
+          "x": 385,
+          "y": 709
+        },
+        {
+          "id": "y3",
+          "label": "Y",
+          "x": 411,
+          "y": 709
+        }
+      ]
+    },
+    {
+      "id": "acg",
+      "type": "acg",
+      "x": 460,
+      "y": 772,
+      "width": 122,
+      "height": 116,
+      "label": "Máy phát",
+      "terminals": [
+        {
+          "id": "phase-top",
+          "x": 550,
+          "y": 779
+        },
+        {
+          "id": "phase-left",
+          "x": 462,
+          "y": 830
+        },
+        {
+          "id": "phase-bottom",
+          "x": 550,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 475,
+      "y": 461,
+      "width": 912,
+      "height": 153,
+      "label": "ECM 33P",
+      "terminals": [
+        {
+          "id": "p7",
+          "label": "7 PRC",
+          "x": 501,
+          "y": 461
+        },
+        {
+          "id": "p20",
+          "label": "20 SOLV",
+          "x": 563,
+          "y": 461
+        },
+        {
+          "id": "p1",
+          "label": "1 IGP",
+          "x": 656,
+          "y": 461
+        },
+        {
+          "id": "p8",
+          "label": "8 FLR",
+          "x": 735,
+          "y": 461
+        },
+        {
+          "id": "p16",
+          "label": "16 INJ",
+          "x": 805,
+          "y": 461
+        },
+        {
+          "id": "p11",
+          "label": "11 IGP-LS",
+          "x": 918,
+          "y": 461
+        },
+        {
+          "id": "p33",
+          "label": "33 SRELAY",
+          "x": 1164,
+          "y": 461
+        },
+        {
+          "id": "p22",
+          "label": "22 FIWARN",
+          "x": 1229,
+          "y": 461
+        },
+        {
+          "id": "p18",
+          "label": "18 TW WARN",
+          "x": 1300,
+          "y": 461
+        },
+        {
+          "id": "p12",
+          "label": "12 PCP",
+          "x": 501,
+          "y": 614
+        },
+        {
+          "id": "p23",
+          "label": "23 PCM",
+          "x": 557,
+          "y": 614
+        },
+        {
+          "id": "p6",
+          "label": "6 VCC",
+          "x": 645,
+          "y": 614
+        },
+        {
+          "id": "p3",
+          "label": "3 THL",
+          "x": 672,
+          "y": 614
+        },
+        {
+          "id": "p4",
+          "label": "4 SG1",
+          "x": 698,
+          "y": 614
+        },
+        {
+          "id": "p14",
+          "label": "14 TA",
+          "x": 749,
+          "y": 614
+        },
+        {
+          "id": "p24",
+          "label": "24 TW",
+          "x": 849,
+          "y": 614
+        },
+        {
+          "id": "p31",
+          "label": "31 SG2",
+          "x": 893,
+          "y": 614
+        },
+        {
+          "id": "p5",
+          "label": "5 O₂",
+          "x": 955,
+          "y": 614
+        },
+        {
+          "id": "p25",
+          "label": "25 SSTAND",
+          "x": 1051,
+          "y": 614
+        },
+        {
+          "id": "p30",
+          "label": "30 K-LINE",
+          "x": 1146,
+          "y": 614
+        },
+        {
+          "id": "p15",
+          "label": "15 SCS",
+          "x": 1171,
+          "y": 614
+        },
+        {
+          "id": "p2",
+          "label": "2 LG",
+          "x": 1197,
+          "y": 614
+        },
+        {
+          "id": "p10",
+          "label": "10 PG2",
+          "x": 1226,
+          "y": 614
+        },
+        {
+          "id": "p9",
+          "label": "9 PG1",
+          "x": 1252,
+          "y": 614
+        },
+        {
+          "id": "p29",
+          "label": "29 STSW",
+          "x": 1354,
+          "y": 614
+        }
+      ]
+    },
+    {
+      "id": "starter-relay",
+      "type": "relay",
+      "x": 860,
+      "y": 118,
+      "width": 82,
+      "height": 89,
+      "label": "Rơ le khởi động",
+      "terminals": [
+        {
+          "id": "contact-in",
+          "x": 860,
+          "y": 140
+        },
+        {
+          "id": "contact-out",
+          "x": 942,
+          "y": 140
+        },
+        {
+          "id": "coil-in",
+          "x": 860,
+          "y": 190
+        },
+        {
+          "id": "coil-out",
+          "x": 942,
+          "y": 190
+        }
+      ]
+    },
+    {
+      "id": "starter-motor",
+      "type": "motor",
+      "x": 1022,
+      "y": 117,
+      "width": 60,
+      "height": 47,
+      "label": "Mô tơ khởi động",
+      "terminals": [
+        {
+          "id": "pos",
+          "x": 1022,
+          "y": 140
+        },
+        {
+          "id": "neg",
+          "x": 1082,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "idle-valve",
+      "type": "valve",
+      "x": 576,
+      "y": 344,
+      "width": 47,
+      "height": 38,
+      "label": "Van từ cầm chừng nhanh",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 576,
+          "y": 355
+        },
+        {
+          "id": "lower",
+          "x": 576,
+          "y": 374
+        }
+      ]
+    },
+    {
+      "id": "fuel-pump",
+      "type": "pump",
+      "x": 712,
+      "y": 313,
+      "width": 45,
+      "height": 61,
+      "label": "Bơm xăng",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 735,
+          "y": 313
+        },
+        {
+          "id": "bottom",
+          "x": 735,
+          "y": 374
+        }
+      ]
+    },
+    {
+      "id": "injector",
+      "type": "injector",
+      "x": 819,
+      "y": 331,
+      "width": 69,
+      "height": 52,
+      "label": "Kim phun",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 819,
+          "y": 337
+        },
+        {
+          "id": "lower",
+          "x": 819,
+          "y": 350
+        }
+      ]
+    },
+    {
+      "id": "ignition-coil",
+      "type": "ignitionCoil",
+      "x": 940,
+      "y": 317,
+      "width": 74,
+      "height": 52,
+      "label": "Mô-bin sườn",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 940,
+          "y": 330
+        },
+        {
+          "id": "lower",
+          "x": 940,
+          "y": 357
+        },
+        {
+          "id": "ht",
+          "x": 1014,
+          "y": 343
+        }
+      ]
+    },
+    {
+      "id": "spark-plug",
+      "type": "sparkPlug",
+      "x": 1014,
+      "y": 330,
+      "width": 88,
+      "height": 26,
+      "label": "Bugi",
+      "terminals": []
+    },
+    {
+      "id": "mil",
+      "type": "lamp",
+      "x": 1213,
+      "y": 264,
+      "width": 32,
+      "height": 33,
+      "label": "MIL",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1229,
+          "y": 264
+        },
+        {
+          "id": "bottom",
+          "x": 1229,
+          "y": 297
+        }
+      ]
+    },
+    {
+      "id": "temperature-lamp",
+      "type": "lamp",
+      "x": 1285,
+      "y": 264,
+      "width": 31,
+      "height": 33,
+      "label": "Đèn cảnh báo nhiệt độ",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1300,
+          "y": 264
+        },
+        {
+          "id": "bottom",
+          "x": 1300,
+          "y": 297
+        }
+      ]
+    },
+    {
+      "id": "front-brake-switch",
+      "type": "switch",
+      "x": 1356,
+      "y": 222,
+      "width": 34,
+      "height": 59,
+      "label": "Công tắc phanh trước",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1376,
+          "y": 222
+        },
+        {
+          "id": "bottom",
+          "x": 1376,
+          "y": 281
+        }
+      ]
+    },
+    {
+      "id": "rear-brake-switch",
+      "type": "switch",
+      "x": 1401,
+      "y": 222,
+      "width": 34,
+      "height": 59,
+      "label": "Công tắc phanh sau",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1420,
+          "y": 222
+        },
+        {
+          "id": "bottom",
+          "x": 1420,
+          "y": 281
+        }
+      ]
+    },
+    {
+      "id": "starter-switch",
+      "type": "switch",
+      "x": 1396,
+      "y": 701,
+      "width": 35,
+      "height": 56,
+      "label": "Công tắc khởi động",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1420,
+          "y": 701
+        },
+        {
+          "id": "bottom",
+          "x": 1420,
+          "y": 757
+        }
+      ]
+    },
+    {
+      "id": "ckp",
+      "type": "sensor",
+      "x": 489,
+      "y": 703,
+      "width": 80,
+      "height": 58,
+      "label": "Cảm biến CKP",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 501,
+          "y": 703
+        },
+        {
+          "id": "right",
+          "x": 557,
+          "y": 703
+        }
+      ]
+    },
+    {
+      "id": "tp",
+      "type": "sensor",
+      "x": 635,
+      "y": 756,
+      "width": 74,
+      "height": 49,
+      "label": "Cảm biến TP",
+      "terminals": [
+        {
+          "id": "vcc",
+          "x": 645,
+          "y": 756
+        },
+        {
+          "id": "signal",
+          "x": 672,
+          "y": 756
+        },
+        {
+          "id": "return",
+          "x": 698,
+          "y": 756
+        }
+      ]
+    },
+    {
+      "id": "iat",
+      "type": "sensor",
+      "x": 741,
+      "y": 761,
+      "width": 62,
+      "height": 40,
+      "label": "Cảm biến IAT",
+      "terminals": [
+        {
+          "id": "signal",
+          "x": 749,
+          "y": 761
+        },
+        {
+          "id": "return",
+          "x": 793,
+          "y": 761
+        }
+      ]
+    },
+    {
+      "id": "ect",
+      "type": "sensor",
+      "x": 839,
+      "y": 760,
+      "width": 63,
+      "height": 40,
+      "label": "Cảm biến ECT",
+      "terminals": [
+        {
+          "id": "signal",
+          "x": 849,
+          "y": 760
+        },
+        {
+          "id": "return",
+          "x": 893,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "oxygen",
+      "type": "sensor",
+      "x": 940,
+      "y": 733,
+      "width": 30,
+      "height": 70,
+      "label": "Cảm biến ôxy",
+      "terminals": [
+        {
+          "id": "signal",
+          "x": 955,
+          "y": 733
+        }
+      ]
+    },
+    {
+      "id": "side-stand-switch",
+      "type": "switch",
+      "x": 1032,
+      "y": 721,
+      "width": 32,
+      "height": 59,
+      "label": "Công tắc chống nghiêng",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1051,
+          "y": 721
+        },
+        {
+          "id": "bottom",
+          "x": 1051,
+          "y": 780
+        }
+      ]
+    },
+    {
+      "id": "dlc",
+      "type": "connector",
+      "x": 1107,
+      "y": 717,
+      "width": 100,
+      "height": 22,
+      "label": "DLC",
+      "terminals": [
+        {
+          "id": "bl",
+          "label": "Bl",
+          "x": 1120,
+          "y": 717
+        },
+        {
+          "id": "ow",
+          "label": "O/W",
+          "x": 1146,
+          "y": 717
+        },
+        {
+          "id": "br",
+          "label": "Br",
+          "x": 1171,
+          "y": 717
+        },
+        {
+          "id": "gbl",
+          "label": "G/Bl",
+          "x": 1197,
+          "y": 717
+        }
+      ]
+    },
+    {
+      "id": "scs-tool",
+      "type": "connector",
+      "x": 1107,
+      "y": 744,
+      "width": 101,
+      "height": 79,
+      "label": "Đầu nối SCS",
+      "terminals": []
+    },
+    {
+      "id": "power-junction",
+      "type": "junction",
+      "x": 798,
+      "y": 211,
+      "width": 14,
+      "height": 14,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 805,
+          "y": 218
+        }
+      ]
+    },
+    {
+      "id": "capacitor-junction",
+      "type": "junction",
+      "x": 385,
+      "y": 548,
+      "width": 14,
+      "height": 14,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 392,
+          "y": 555
+        }
+      ]
+    },
+    {
+      "id": "battery-ground",
+      "type": "ground",
+      "x": 285,
+      "y": 866,
+      "width": 21,
+      "height": 31,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 285,
+          "y": 881
+        }
+      ]
+    },
+    {
+      "id": "capacitor-ground",
+      "type": "ground",
+      "x": 409,
+      "y": 402,
+      "width": 24,
+      "height": 33,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 409,
+          "y": 418
+        }
+      ]
+    },
+    {
+      "id": "regulator-ground",
+      "type": "ground",
+      "x": 425,
+      "y": 564,
+      "width": 24,
+      "height": 35,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 425,
+          "y": 581
+        }
+      ]
+    },
+    {
+      "id": "starter-ground",
+      "type": "ground",
+      "x": 1126,
+      "y": 121,
+      "width": 25,
+      "height": 37,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1126,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "ecm-ground",
+      "type": "ground",
+      "x": 1302,
+      "y": 658,
+      "width": 29,
+      "height": 35,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1307,
+          "y": 675
+        }
+      ]
+    },
+    {
+      "id": "stand-ground",
+      "type": "ground",
+      "x": 1074,
+      "y": 847,
+      "width": 24,
+      "height": 32,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1074,
+          "y": 863
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w-battery-ground",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "neg"
+      },
+      "to": {
+        "componentId": "battery-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 267,
+          "y": 844
+        },
+        {
+          "x": 222,
+          "y": 844
+        },
+        {
+          "x": 222,
+          "y": 881
+        },
+        {
+          "x": 285,
+          "y": 881
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-battery-main",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "pos"
+      },
+      "to": {
+        "componentId": "fuse-main",
+        "terminalId": "bottom"
+      },
+      "points": [
+        {
+          "x": 267,
+          "y": 788
+        },
+        {
+          "x": 222,
+          "y": 788
+        },
+        {
+          "x": 222,
+          "y": 706
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "w-battery-fi",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "pos"
+      },
+      "to": {
+        "componentId": "fuse-fi",
+        "terminalId": "bottom"
+      },
+      "points": [
+        {
+          "x": 267,
+          "y": 788
+        },
+        {
+          "x": 222,
+          "y": 788
+        },
+        {
+          "x": 222,
+          "y": 745
+        },
+        {
+          "x": 290,
+          "y": 745
+        },
+        {
+          "x": 290,
+          "y": 705
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "w-main-relay-feed",
+      "from": {
+        "componentId": "fuse-main",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "contact-bottom"
+      },
+      "points": [
+        {
+          "x": 222,
+          "y": 626
+        },
+        {
+          "x": 222,
+          "y": 389
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-main-regulator",
+      "from": {
+        "componentId": "fuse-main",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "regulator",
+        "terminalId": "rw"
+      },
+      "points": [
+        {
+          "x": 222,
+          "y": 626
+        },
+        {
+          "x": 222,
+          "y": 581
+        },
+        {
+          "x": 361,
+          "y": 581
+        },
+        {
+          "x": 361,
+          "y": 624
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-fi-ignition",
+      "from": {
+        "componentId": "fuse-fi",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "ignition-switch",
+        "terminalId": "bottom"
+      },
+      "points": [
+        {
+          "x": 290,
+          "y": 626
+        },
+        {
+          "x": 290,
+          "y": 536
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ignition-cap-node",
+      "from": {
+        "componentId": "ignition-switch",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "capacitor-junction",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 290,
+          "y": 536
+        },
+        {
+          "x": 290,
+          "y": 555
+        },
+        {
+          "x": 392,
+          "y": 555
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-cap-node",
+      "from": {
+        "componentId": "capacitor-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "capacitor",
+        "terminalId": "bottom"
+      },
+      "points": [
+        {
+          "x": 392,
+          "y": 555
+        },
+        {
+          "x": 392,
+          "y": 510
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-cap-ground",
+      "from": {
+        "componentId": "capacitor",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "capacitor-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 392,
+          "y": 458
+        },
+        {
+          "x": 392,
+          "y": 418
+        },
+        {
+          "x": 409,
+          "y": 418
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-regulator-ground",
+      "from": {
+        "componentId": "regulator",
+        "terminalId": "g"
+      },
+      "to": {
+        "componentId": "regulator-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 407,
+          "y": 624
+        },
+        {
+          "x": 407,
+          "y": 581
+        },
+        {
+          "x": 425,
+          "y": 581
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-acg-bottom",
+      "from": {
+        "componentId": "regulator",
+        "terminalId": "y1"
+      },
+      "to": {
+        "componentId": "acg",
+        "terminalId": "phase-bottom"
+      },
+      "points": [
+        {
+          "x": 359,
+          "y": 709
+        },
+        {
+          "x": 359,
+          "y": 880
+        },
+        {
+          "x": 550,
+          "y": 880
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-acg-left",
+      "from": {
+        "componentId": "regulator",
+        "terminalId": "y2"
+      },
+      "to": {
+        "componentId": "acg",
+        "terminalId": "phase-left"
+      },
+      "points": [
+        {
+          "x": 385,
+          "y": 709
+        },
+        {
+          "x": 385,
+          "y": 830
+        },
+        {
+          "x": 462,
+          "y": 830
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-acg-top",
+      "from": {
+        "componentId": "regulator",
+        "terminalId": "y3"
+      },
+      "to": {
+        "componentId": "acg",
+        "terminalId": "phase-top"
+      },
+      "points": [
+        {
+          "x": 411,
+          "y": 709
+        },
+        {
+          "x": 411,
+          "y": 779
+        },
+        {
+          "x": 550,
+          "y": 779
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-horn-fuse",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "contact-top"
+      },
+      "to": {
+        "componentId": "fuse-horn",
+        "terminalId": "bottom"
+      },
+      "points": [
+        {
+          "x": 222,
+          "y": 313
+        },
+        {
+          "x": 222,
+          "y": 257
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-main-relay-prc",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "coil-top"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p7"
+      },
+      "points": [
+        {
+          "x": 289,
+          "y": 313
+        },
+        {
+          "x": 289,
+          "y": 178
+        },
+        {
+          "x": 501,
+          "y": 178
+        },
+        {
+          "x": 501,
+          "y": 461
+        }
+      ],
+      "code": "W/Bl",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-ignition",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "coil-bottom"
+      },
+      "to": {
+        "componentId": "ignition-switch",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 289,
+          "y": 389
+        },
+        {
+          "x": 289,
+          "y": 423
+        },
+        {
+          "x": 290,
+          "y": 423
+        },
+        {
+          "x": 290,
+          "y": 459
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ignition-power",
+      "from": {
+        "componentId": "ignition-switch",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 290,
+          "y": 459
+        },
+        {
+          "x": 290,
+          "y": 423
+        },
+        {
+          "x": 360,
+          "y": 423
+        },
+        {
+          "x": 360,
+          "y": 218
+        },
+        {
+          "x": 805,
+          "y": 218
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-power-igp",
+      "from": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p1"
+      },
+      "points": [
+        {
+          "x": 805,
+          "y": 218
+        },
+        {
+          "x": 656,
+          "y": 218
+        },
+        {
+          "x": 656,
+          "y": 461
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-power-starter-relay",
+      "from": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "starter-relay",
+        "terminalId": "coil-in"
+      },
+      "points": [
+        {
+          "x": 805,
+          "y": 218
+        },
+        {
+          "x": 805,
+          "y": 190
+        },
+        {
+          "x": 860,
+          "y": 190
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-starter-control",
+      "from": {
+        "componentId": "starter-relay",
+        "terminalId": "coil-out"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p33"
+      },
+      "points": [
+        {
+          "x": 942,
+          "y": 190
+        },
+        {
+          "x": 1164,
+          "y": 190
+        },
+        {
+          "x": 1164,
+          "y": 461
+        }
+      ],
+      "code": "Y/G",
+      "primaryColor": "#ffff00",
+      "stripeColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-starter-motor",
+      "from": {
+        "componentId": "starter-relay",
+        "terminalId": "contact-out"
+      },
+      "to": {
+        "componentId": "starter-motor",
+        "terminalId": "pos"
+      },
+      "points": [
+        {
+          "x": 942,
+          "y": 140
+        },
+        {
+          "x": 1022,
+          "y": 140
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-starter-ground",
+      "from": {
+        "componentId": "starter-motor",
+        "terminalId": "neg"
+      },
+      "to": {
+        "componentId": "starter-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1082,
+          "y": 140
+        },
+        {
+          "x": 1126,
+          "y": 140
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-idle-power",
+      "from": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "idle-valve",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 805,
+          "y": 218
+        },
+        {
+          "x": 563,
+          "y": 218
+        },
+        {
+          "x": 563,
+          "y": 355
+        },
+        {
+          "x": 576,
+          "y": 355
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-idle-control",
+      "from": {
+        "componentId": "idle-valve",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p20"
+      },
+      "points": [
+        {
+          "x": 576,
+          "y": 374
+        },
+        {
+          "x": 563,
+          "y": 374
+        },
+        {
+          "x": 563,
+          "y": 461
+        }
+      ],
+      "code": "O/Bl",
+      "primaryColor": "#f97316",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-pump-power",
+      "from": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuel-pump",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 805,
+          "y": 218
+        },
+        {
+          "x": 735,
+          "y": 218
+        },
+        {
+          "x": 735,
+          "y": 313
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-pump-control",
+      "from": {
+        "componentId": "fuel-pump",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p8"
+      },
+      "points": [
+        {
+          "x": 735,
+          "y": 374
+        },
+        {
+          "x": 735,
+          "y": 461
+        }
+      ],
+      "code": "Br/Bl",
+      "primaryColor": "#8b5a2b",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-injector-power",
+      "from": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "injector",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 805,
+          "y": 218
+        },
+        {
+          "x": 805,
+          "y": 337
+        },
+        {
+          "x": 819,
+          "y": 337
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-injector-control",
+      "from": {
+        "componentId": "injector",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p16"
+      },
+      "points": [
+        {
+          "x": 819,
+          "y": 350
+        },
+        {
+          "x": 805,
+          "y": 350
+        },
+        {
+          "x": 805,
+          "y": 461
+        }
+      ],
+      "code": "P/Bu",
+      "primaryColor": "#f3a6bd",
+      "stripeColor": "#2596d1",
+      "state": "controlled"
+    },
+    {
+      "id": "w-coil-power",
+      "from": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "ignition-coil",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 805,
+          "y": 218
+        },
+        {
+          "x": 918,
+          "y": 218
+        },
+        {
+          "x": 918,
+          "y": 330
+        },
+        {
+          "x": 940,
+          "y": 330
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-coil-control",
+      "from": {
+        "componentId": "ignition-coil",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p11"
+      },
+      "points": [
+        {
+          "x": 940,
+          "y": 357
+        },
+        {
+          "x": 918,
+          "y": 357
+        },
+        {
+          "x": 918,
+          "y": 461
+        }
+      ],
+      "code": "Y/Bu",
+      "primaryColor": "#ffff00",
+      "stripeColor": "#2596d1",
+      "state": "controlled"
+    },
+    {
+      "id": "w-mil-control",
+      "from": {
+        "componentId": "mil",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p22"
+      },
+      "points": [
+        {
+          "x": 1229,
+          "y": 297
+        },
+        {
+          "x": 1229,
+          "y": 461
+        }
+      ],
+      "code": "Bu/Y",
+      "primaryColor": "#2596d1",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-temperature-control",
+      "from": {
+        "componentId": "temperature-lamp",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p18"
+      },
+      "points": [
+        {
+          "x": 1300,
+          "y": 297
+        },
+        {
+          "x": 1300,
+          "y": 461
+        }
+      ],
+      "code": "Lg/R",
+      "primaryColor": "#8bd450",
+      "stripeColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "w-mil-feed",
+      "from": {
+        "componentId": "fuse-horn",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "mil",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 222,
+          "y": 177
+        },
+        {
+          "x": 222,
+          "y": 80
+        },
+        {
+          "x": 1229,
+          "y": 80
+        },
+        {
+          "x": 1229,
+          "y": 264
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#111111",
+      "stripeColor": "#8b5a2b",
+      "state": "controlled"
+    },
+    {
+      "id": "w-temperature-feed",
+      "from": {
+        "componentId": "fuse-horn",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "temperature-lamp",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 222,
+          "y": 177
+        },
+        {
+          "x": 222,
+          "y": 80
+        },
+        {
+          "x": 1300,
+          "y": 80
+        },
+        {
+          "x": 1300,
+          "y": 264
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#111111",
+      "stripeColor": "#8b5a2b",
+      "state": "controlled"
+    },
+    {
+      "id": "w-front-brake-feed",
+      "from": {
+        "componentId": "fuse-horn",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "front-brake-switch",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 222,
+          "y": 177
+        },
+        {
+          "x": 222,
+          "y": 80
+        },
+        {
+          "x": 1376,
+          "y": 80
+        },
+        {
+          "x": 1376,
+          "y": 222
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#111111",
+      "stripeColor": "#8b5a2b",
+      "state": "controlled"
+    },
+    {
+      "id": "w-rear-brake-feed",
+      "from": {
+        "componentId": "fuse-horn",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "rear-brake-switch",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 222,
+          "y": 177
+        },
+        {
+          "x": 222,
+          "y": 80
+        },
+        {
+          "x": 1420,
+          "y": 80
+        },
+        {
+          "x": 1420,
+          "y": 222
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#111111",
+      "stripeColor": "#8b5a2b",
+      "state": "controlled"
+    },
+    {
+      "id": "w-rear-brake-start",
+      "from": {
+        "componentId": "rear-brake-switch",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "starter-switch",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1420,
+          "y": 281
+        },
+        {
+          "x": 1420,
+          "y": 701
+        }
+      ],
+      "code": "G/Y",
+      "primaryColor": "#00a651",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-front-brake-start",
+      "from": {
+        "componentId": "front-brake-switch",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "starter-switch",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1376,
+          "y": 281
+        },
+        {
+          "x": 1376,
+          "y": 330
+        },
+        {
+          "x": 1420,
+          "y": 330
+        },
+        {
+          "x": 1420,
+          "y": 701
+        }
+      ],
+      "code": "G/Y",
+      "primaryColor": "#00a651",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-start-input",
+      "from": {
+        "componentId": "starter-switch",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "p29"
+      },
+      "points": [
+        {
+          "x": 1420,
+          "y": 757
+        },
+        {
+          "x": 1420,
+          "y": 844
+        },
+        {
+          "x": 1354,
+          "y": 844
+        },
+        {
+          "x": 1354,
+          "y": 614
+        }
+      ],
+      "code": "Y/G",
+      "primaryColor": "#ffff00",
+      "stripeColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ckp-plus",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p12"
+      },
+      "to": {
+        "componentId": "ckp",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 501,
+          "y": 614
+        },
+        {
+          "x": 501,
+          "y": 703
+        }
+      ],
+      "code": "Bu/Y",
+      "primaryColor": "#2596d1",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ckp-minus",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p23"
+      },
+      "to": {
+        "componentId": "ckp",
+        "terminalId": "right"
+      },
+      "points": [
+        {
+          "x": 557,
+          "y": 614
+        },
+        {
+          "x": 557,
+          "y": 703
+        }
+      ],
+      "code": "W/Y",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-tp-vcc",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p6"
+      },
+      "to": {
+        "componentId": "tp",
+        "terminalId": "vcc"
+      },
+      "points": [
+        {
+          "x": 645,
+          "y": 614
+        },
+        {
+          "x": 645,
+          "y": 756
+        }
+      ],
+      "code": "Y/O",
+      "primaryColor": "#ffff00",
+      "stripeColor": "#f97316",
+      "state": "controlled"
+    },
+    {
+      "id": "w-tp-signal",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p3"
+      },
+      "to": {
+        "componentId": "tp",
+        "terminalId": "signal"
+      },
+      "points": [
+        {
+          "x": 672,
+          "y": 614
+        },
+        {
+          "x": 672,
+          "y": 756
+        }
+      ],
+      "code": "W/R",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "w-tp-return",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p4"
+      },
+      "to": {
+        "componentId": "tp",
+        "terminalId": "return"
+      },
+      "points": [
+        {
+          "x": 698,
+          "y": 614
+        },
+        {
+          "x": 698,
+          "y": 756
+        }
+      ],
+      "code": "G/O",
+      "primaryColor": "#00a651",
+      "stripeColor": "#f97316",
+      "state": "controlled"
+    },
+    {
+      "id": "w-iat-signal",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p14"
+      },
+      "to": {
+        "componentId": "iat",
+        "terminalId": "signal"
+      },
+      "points": [
+        {
+          "x": 749,
+          "y": 614
+        },
+        {
+          "x": 749,
+          "y": 761
+        }
+      ],
+      "code": "Gr/Bu",
+      "primaryColor": "#9ca3af",
+      "stripeColor": "#2596d1",
+      "state": "controlled"
+    },
+    {
+      "id": "w-iat-return",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p4"
+      },
+      "to": {
+        "componentId": "iat",
+        "terminalId": "return"
+      },
+      "points": [
+        {
+          "x": 698,
+          "y": 614
+        },
+        {
+          "x": 698,
+          "y": 687
+        },
+        {
+          "x": 793,
+          "y": 687
+        },
+        {
+          "x": 793,
+          "y": 761
+        }
+      ],
+      "code": "G/O",
+      "primaryColor": "#00a651",
+      "stripeColor": "#f97316",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ect-signal",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p24"
+      },
+      "to": {
+        "componentId": "ect",
+        "terminalId": "signal"
+      },
+      "points": [
+        {
+          "x": 849,
+          "y": 614
+        },
+        {
+          "x": 849,
+          "y": 760
+        }
+      ],
+      "code": "P/W",
+      "primaryColor": "#f3a6bd",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ect-return",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p31"
+      },
+      "to": {
+        "componentId": "ect",
+        "terminalId": "return"
+      },
+      "points": [
+        {
+          "x": 893,
+          "y": 614
+        },
+        {
+          "x": 893,
+          "y": 760
+        }
+      ],
+      "code": "G/R",
+      "primaryColor": "#00a651",
+      "stripeColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "w-oxygen-signal",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p5"
+      },
+      "to": {
+        "componentId": "oxygen",
+        "terminalId": "signal"
+      },
+      "points": [
+        {
+          "x": 955,
+          "y": 614
+        },
+        {
+          "x": 955,
+          "y": 733
+        }
+      ],
+      "code": "Bl/O",
+      "primaryColor": "#111111",
+      "stripeColor": "#f97316",
+      "state": "controlled"
+    },
+    {
+      "id": "w-stand-input",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p25"
+      },
+      "to": {
+        "componentId": "side-stand-switch",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1051,
+          "y": 614
+        },
+        {
+          "x": 1051,
+          "y": 721
+        }
+      ],
+      "code": "G/W",
+      "primaryColor": "#00a651",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-stand-ground",
+      "from": {
+        "componentId": "side-stand-switch",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "stand-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1051,
+          "y": 780
+        },
+        {
+          "x": 1051,
+          "y": 863
+        },
+        {
+          "x": 1074,
+          "y": 863
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-dlc-power",
+      "from": {
+        "componentId": "power-junction",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "dlc",
+        "terminalId": "bl"
+      },
+      "points": [
+        {
+          "x": 805,
+          "y": 218
+        },
+        {
+          "x": 1120,
+          "y": 218
+        },
+        {
+          "x": 1120,
+          "y": 717
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-dlc-k-line",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p30"
+      },
+      "to": {
+        "componentId": "dlc",
+        "terminalId": "ow"
+      },
+      "points": [
+        {
+          "x": 1146,
+          "y": 614
+        },
+        {
+          "x": 1146,
+          "y": 717
+        }
+      ],
+      "code": "O/W",
+      "primaryColor": "#f97316",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-dlc-scs",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p15"
+      },
+      "to": {
+        "componentId": "dlc",
+        "terminalId": "br"
+      },
+      "points": [
+        {
+          "x": 1171,
+          "y": 614
+        },
+        {
+          "x": 1171,
+          "y": 717
+        }
+      ],
+      "code": "Br",
+      "primaryColor": "#8b5a2b",
+      "state": "controlled"
+    },
+    {
+      "id": "w-dlc-ground",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p2"
+      },
+      "to": {
+        "componentId": "dlc",
+        "terminalId": "gbl"
+      },
+      "points": [
+        {
+          "x": 1197,
+          "y": 614
+        },
+        {
+          "x": 1197,
+          "y": 717
+        }
+      ],
+      "code": "G/Bl",
+      "primaryColor": "#00a651",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "w-lg-ground",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "p2"
+      },
+      "to": {
+        "componentId": "ecm-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1197,
+          "y": 614
+        },
+        {
+          "x": 1197,
+          "y": 675
+        },
+        {
+          "x": 1307,
+          "y": 675
+        }
+      ],
+      "code": "G/Bl",
+      "primaryColor": "#00a651",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    }
+  ],
+  "exportMetadata": {
+    "version": 1,
+    "vehicle": {
+      "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+      "vehicleId": "38770-kvg-v42",
+      "vehicleTitle": "AIR BLADE 2011 - 2012",
+      "manufacturer": "HONDA",
+      "modelYear": "2011-2012",
+      "ecmId": "01 00 F9",
+      "scuId": null
+    },
+    "circuit": {
+      "id": "fd9e51a9-bfae-420a-90ea-5347cbf2dc8e",
+      "key": "pgm-fi",
+      "title": "Hệ thống phun xăng điện tử PGM-FI",
+      "progressStatus": "DONE",
+      "savedProgressStatus": "DONE",
+      "progressNote": "",
+      "technicalStatus": "NEEDS_REVIEW",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z"
+    },
+    "unsavedChanges": false
+  }
+}

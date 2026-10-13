@@ -1,0 +1,107 @@
+{
+  "status": "SUPERSEDED",
+  "notice": "Báo cáo nội bộ cũ không xác nhận đúng ảnh nguồn. Xem review/verified-check/index.html.",
+  "certifiesSourceAccuracy": false,
+  "records": {
+    "01. Mạch cấp nguồn.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 26,
+      "wires": 28,
+      "textItems": 56,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "02. Mạch còi.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 12,
+      "wires": 12,
+      "textItems": 20,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "03. Mạch xi nhan.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 16,
+      "wires": 16,
+      "textItems": 28,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "04. Mạch đèn phanh.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 18,
+      "wires": 19,
+      "textItems": 28,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "05. Mạch báo xăng.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 13,
+      "wires": 14,
+      "textItems": 24,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "06. Mạch đèn đêm.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 26,
+      "wires": 28,
+      "textItems": 42,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "07. Mạch đánh lửa.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 17,
+      "wires": 20,
+      "textItems": 41,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "08. Mạch khởi động.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 26,
+      "wires": 32,
+      "textItems": 52,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "09. Mạch điện xác định vị trí xe.json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 22,
+      "wires": 25,
+      "textItems": 60,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    },
+    "10. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json": {
+      "errors": [],
+      "layoutWarnings": [],
+      "components": 39,
+      "wires": 60,
+      "textItems": 206,
+      "certifiesSourceAccuracy": false,
+      "scope": "legacy-internal-consistency-only"
+    }
+  },
+  "textRepair": {
+    "date": "2026-10-08",
+    "glyphMetrics": "Arial Windows",
+    "labelsFilled": 3,
+    "textCount": 557,
+    "bothRenderersChecked": true,
+    "noteTitleAnchor": "middle",
+    "noteBodyAnchor": "start",
+    "liveWebsiteUpdated": false
+  }
+}

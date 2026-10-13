@@ -1,0 +1,18 @@
+{
+  "url": "https://auto2tech-app-production.up.railway.app/#/task",
+  "text": "AUTO2TECH OS\nDashboard\nTài khoản\nMật khẩu\nĐăng nhập",
+  "inputs": [
+    {
+      "type": "text",
+      "name": "username",
+      "placeholder": ""
+    },
+    {
+      "type": "password",
+      "name": "password",
+      "placeholder": ""
+    }
+  ],
+  "pageErrors": [],
+  "status": "LOGIN_REQUIRED"
+}

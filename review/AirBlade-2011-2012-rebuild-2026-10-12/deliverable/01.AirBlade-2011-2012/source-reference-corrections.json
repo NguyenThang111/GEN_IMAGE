@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-12",
+  "source": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-38-16.png",
+  "sourceBytesChanged": false,
+  "corrections": [
+    {
+      "field": "ECM pin 11 signal label",
+      "before": "IGP-LS",
+      "after": "IGPLS",
+      "sourceBox": {"x": 902, "y": 458, "width": 34, "height": 78},
+      "evidence": "Original screenshot and source-details/10-pgm.png rotated for reading; source has no hyphen.",
+      "referenceArtifact": "tools/diagram_check/reference.py",
+      "method": "manual image transcription; no candidate-derived expected answer"
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "coverage": "Hand-read selected pins, fuses, wire codes and networks; not a full electrical certification.",
+  "circuits": {
+    "1": {
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "backup": 10,
+        "usb": 10,
+        "sub1": 10,
+        "sub2": 10
+      },
+      "networks": [
+        [
+          "battery.pos",
+          "backup.in"
+        ],
+        [
+          "main-relay.contact-out",
+          "sub2.in"
+        ],
+        [
+          "sub2.out",
+          "engine-loads.in"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ]
+      ],
+      "codes": {
+        "engine-feed": "Bl/W",
+        "usb-out": "Bl/R",
+        "key-sub1": "R/Bu",
+        "control-out": "R/G"
+      }
+    },
+    "2": {
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "sub1.out",
+          "horn-switch.in"
+        ],
+        [
+          "horn-switch.out",
+          "horn.power"
+        ]
+      ],
+      "codes": {
+        "horn-switch-feed": "Bl/Br",
+        "horn-control": "Lg",
+        "relay-coil-key": "R/G"
+      }
+    },
+    "3": {
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "flasher.out",
+          "diode.cathode"
+        ],
+        [
+          "diode.anode",
+          "turn-switch.common"
+        ],
+        [
+          "turn-switch.left",
+          "left-lamp.power"
+        ],
+        [
+          "turn-switch.right",
+          "right-lamp.power"
+        ]
+      ],
+      "codes": {
+        "flasher-diode": "Bu/W",
+        "diode-switch": "Gr",
+        "left-signal": "O",
+        "right-signal": "Lb"
+      }
+    },
+    "4": {
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "sub1.out",
+          "front-brake.in"
+        ],
+        [
+          "sub1.out",
+          "rear-brake.in"
+        ],
+        [
+          "front-brake.out",
+          "brake-lamp.power"
+        ],
+        [
+          "rear-brake.out",
+          "brake-lamp.power"
+        ]
+      ],
+      "codes": {
+        "front-feed": "Bl/Br",
+        "rear-feed": "Bl",
+        "brake-lamp": "G/Y"
+      }
+    },
+    "5": {
+      "pins": {
+        "cluster": [
+          "10 IGN",
+          "13 FUEL",
+          "1 GND"
+        ]
+      },
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "cluster.fuel",
+          "sender.fuel"
+        ],
+        [
+          "cluster.ground",
+          "sender.ground"
+        ]
+      ],
+      "codes": {
+        "fuel-signal": "Bu/W",
+        "sender-fuel": "R",
+        "sender-ground": "Bl"
+      }
+    },
+    "6": {
+      "pins": {
+        "cluster": [
+          "7 HIGH BEAM"
+        ],
+        "headlamp": [
+          "3 HI BEAM",
+          "1 DIMMER SW",
+          "8 VCC H/L",
+          "5 GND",
+          "6 GND"
+        ]
+      },
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "headlamp.high",
+          "cluster.high"
+        ],
+        [
+          "dimmer.common",
+          "headlamp.dimmer"
+        ],
+        [
+          "sub1.out",
+          "tail.power"
+        ]
+      ],
+      "codes": {
+        "high-indicator": "G",
+        "dimmer-headlamp": "Gr",
+        "tail-lamp-ground": "G/R",
+        "position-lamp-power": "Br"
+      }
+    },
+    "7": {
+      "pins": {
+        "cluster": [
+          "10 IGN",
+          "11 SPEED",
+          "1 GND"
+        ],
+        "ecm": [
+          "A19 SP-SE",
+          "A26 LG"
+        ]
+      },
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "vs.signal",
+          "cluster.speed"
+        ],
+        [
+          "vs.signal",
+          "ecm.speed"
+        ],
+        [
+          "sub1.out",
+          "vs.power"
+        ],
+        [
+          "ecm.lg",
+          "vs.ground"
+        ]
+      ],
+      "codes": {
+        "sensor-signal": "Br",
+        "sensor-ground": "G",
+        "ecm-lg": "G/Bl"
+      }
+    },
+    "8": {
+      "pins": {
+        "ecm": [
+          "A25",
+          "A26",
+          "B2",
+          "A4",
+          "A27",
+          "A20",
+          "A21",
+          "A34",
+          "A39",
+          "A2",
+          "A22"
+        ]
+      },
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub2": 10
+      },
+      "networks": [
+        [
+          "battery.neg",
+          "ecm.ground"
+        ],
+        [
+          "key.out",
+          "ecm.power"
+        ],
+        [
+          "ecm.u",
+          "ckp.u"
+        ],
+        [
+          "ecm.pul",
+          "ckp.pul"
+        ],
+        [
+          "ecm.bank",
+          "bank.signal"
+        ]
+      ],
+      "codes": {
+        "ignition-control": "Bu",
+        "ecm-ckp-u": "V",
+        "ecm-ckp-pul": "Y",
+        "ckp-u": "W/R",
+        "ckp-pul": "Bu/Y"
+      }
+    },
+    "9": {
+      "pins": {
+        "ecm": [
+          "B2",
+          "A4",
+          "A32",
+          "A28",
+          "B1",
+          "C3",
+          "C2",
+          "C1",
+          "A20",
+          "A21",
+          "A34",
+          "A2",
+          "A22",
+          "A39",
+          "A25",
+          "A26"
+        ],
+        "scu": [
+          "15",
+          "19"
+        ]
+      },
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "battery.neg",
+          "ecm.ground"
+        ],
+        [
+          "scu.start",
+          "ecm.start"
+        ],
+        [
+          "start-switch.out",
+          "scu.button"
+        ],
+        [
+          "ecm.u",
+          "ckp.u"
+        ],
+        [
+          "ecm.phase-u",
+          "acg.u"
+        ]
+      ],
+      "codes": {
+        "scu-ecm": "Y",
+        "start-scu": "Y/G",
+        "starter-coil-out": "Y",
+        "starter-battery-out": "R/Y",
+        "ecm-ckp-u": "V"
+      }
+    },
+    "10": {
+      "pins": {
+        "ecm": [
+          "B2",
+          "A4",
+          "A19",
+          "A17",
+          "A28",
+          "B1",
+          "C3",
+          "C2",
+          "C1",
+          "A20",
+          "A21",
+          "A34",
+          "A2",
+          "A22",
+          "A39",
+          "A23",
+          "A25",
+          "A26",
+          "A13",
+          "A36",
+          "A12",
+          "A37"
+        ],
+        "cluster": [
+          "10",
+          "1",
+          "11",
+          "16"
+        ]
+      },
+      "fuses": {
+        "main-fuse": 20,
+        "ign-fuse": 10,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "battery.neg",
+          "ecm.ground"
+        ],
+        [
+          "vs.signal",
+          "cluster.speed"
+        ],
+        [
+          "vs.signal",
+          "ecm.speed"
+        ],
+        [
+          "ecm.sg",
+          "tp.ground"
+        ],
+        [
+          "ecm.sg",
+          "ect.ground"
+        ],
+        [
+          "ecm.idle",
+          "idle-switch.in"
+        ]
+      ],
+      "codes": {
+        "tp-vcc": "W/R",
+        "tp-signal": "Y",
+        "ect-signal": "Gr/Bu",
+        "cluster-mil": "G/Bl",
+        "idle-signal": "Bl/G"
+      }
+    },
+    "11": {
+      "pins": {
+        "scu": [
+          "B+ 1",
+          "U-BOX LED 20",
+          "SMART IND 7",
+          "ALARM IND 16",
+          "WINKER L 8",
+          "WINKER R 9",
+          "BUZZER+ 12",
+          "BUZZER- 13",
+          "ENG START 19",
+          "IMOID 10",
+          "IMOAU 11",
+          "4 SOL+",
+          "5 SOL-",
+          "6 KNOB SW",
+          "3 GND",
+          "2 MAIN SW",
+          "15 START SW",
+          "14 ENTRY MODE"
+        ],
+        "ecm": [
+          "A32 ST-SW",
+          "A35 IMOID",
+          "A33 IMOAU"
+        ],
+        "cluster": [
+          "2",
+          "8",
+          "12",
+          "1"
+        ]
+      },
+      "fuses": {
+        "backup": 10,
+        "ign": 10,
+        "main": 20,
+        "sub1": 10
+      },
+      "networks": [
+        [
+          "backup.out",
+          "scu.battery"
+        ],
+        [
+          "backup.out",
+          "cluster.battery"
+        ],
+        [
+          "scu.start",
+          "ecm.start"
+        ],
+        [
+          "scu.imoid",
+          "ecm.imoid"
+        ],
+        [
+          "scu.imoau",
+          "ecm.imoau"
+        ],
+        [
+          "start-switch.out",
+          "scu.start-sw"
+        ]
+      ],
+      "codes": {
+        "smart-ind": "Gr",
+        "alarm-ind": "Bl",
+        "scu-ecm-start": "Y",
+        "scu-ecm-imoid": "P",
+        "scu-ecm-imoau": "Bu",
+        "start-scu": "Y/G"
+      }
+    },
+    "12": {
+      "pins": {
+        "ecm": [
+          "B2 N(-)",
+          "A22 PCB",
+          "A2 VOUT",
+          "A39 P-GND",
+          "A20 IHU",
+          "A21 IHV",
+          "A34 IHW",
+          "A13 VCC(5v)",
+          "A36 THR",
+          "A12 SG",
+          "A24 TA",
+          "A37 TW",
+          "A38 O₂",
+          "A29 K-LINE",
+          "A30 SCS",
+          "A26 LG",
+          "A23 ID-SW",
+          "A25 SS-SW",
+          "A33 IMOAU",
+          "A35 IMOID",
+          "A32 ST-SW",
+          "A28 S/RELAY",
+          "B1 P(+)",
+          "A4 BATT",
+          "A1 PCS",
+          "A5 F-PUMP",
+          "A14 SOLV",
+          "A8 INJ",
+          "A27 IGN",
+          "C3 U-PHASE",
+          "C2 V-PHASE",
+          "C1 W-PHASE",
+          "A17 IS-IND",
+          "A18 ENG CHECK",
+          "A19 SP-SE",
+          "A3 TW-IND"
+        ],
+        "cluster": [
+          "15 MIL",
+          "12",
+          "3",
+          "11",
+          "4",
+          "2",
+          "6",
+          "8"
+        ],
+        "scu": [
+          "15",
+          "11",
+          "10",
+          "19"
+        ]
+      },
+      "fuses": {
+        "main": 20,
+        "meter": 7.5,
+        "fi": 7.5,
+        "pump-fuse": 10
+      },
+      "networks": [
+        [
+          "scu.imoid",
+          "ecm.imoid"
+        ],
+        [
+          "scu.imoau",
+          "ecm.imoau"
+        ],
+        [
+          "scu.start",
+          "ecm.start"
+        ],
+        [
+          "ecm.ignition",
+          "ignition-coil.control"
+        ],
+        [
+          "cluster.vs-vcc",
+          "vs.vcc"
+        ]
+      ],
+      "codes": {
+        "scu-imoid": "Bu",
+        "scu-imoau": "P",
+        "scu-start": "G/W",
+        "ignition-control": "Y/G"
+      }
+    }
+  }
+}

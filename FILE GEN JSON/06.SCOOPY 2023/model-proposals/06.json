@@ -1,0 +1,310 @@
+{
+  "library": "Master contract ID snapshot; NOT actual registry validation",
+  "masterContractSha256": "846d0b3dd08a5bcecdc37032481fa931d46ce37a9d8781a275087d58f91c4c65",
+  "bindings": [
+    {
+      "componentId": "battery",
+      "sourceItemId": "battery",
+      "proposedType": "battery",
+      "symbolRef": {
+        "id": "battery",
+        "version": 1,
+        "ports": {
+          "negative": "negative",
+          "positive": "positive"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "battery-ground",
+      "sourceItemId": "battery-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "main-fuse",
+      "sourceItemId": "main-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "key",
+      "sourceItemId": "key",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "meter-fuse",
+      "sourceItemId": "meter-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "hl-fuse",
+      "sourceItemId": "hl-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "cluster",
+      "sourceItemId": "cluster",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "assembly.cluster-indicators",
+        "version": 1,
+        "ports": {
+          "6": "6"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 16
+    },
+    {
+      "componentId": "head-led",
+      "sourceItemId": "head-led",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "lamp.led-assembly5",
+        "version": 1,
+        "ports": {
+          "hi": "hi",
+          "dimmer": "dimmer",
+          "hl": "hl",
+          "po": "po",
+          "gnd": "gnd"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": true,
+      "sourceCavityCount": 6
+    },
+    {
+      "componentId": "dimmer",
+      "sourceItemId": "dimmer",
+      "proposedType": "selectorSwitch",
+      "symbolRef": {
+        "id": "switch.selector3",
+        "version": 1,
+        "ports": {
+          "common": "common",
+          "throw1": "throw1",
+          "throw2": "throw2"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "dimmer-ground",
+      "sourceItemId": "dimmer-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "led-ground",
+      "sourceItemId": "led-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "hi-bus",
+      "sourceItemId": "hi-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "meter-load-bus",
+      "sourceItemId": "meter-load-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "tail",
+      "sourceItemId": "tail",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.dual-filament-module2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": true,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "tail-ground",
+      "sourceItemId": "tail-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "plate",
+      "sourceItemId": "plate",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.filament2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "plate-ground",
+      "sourceItemId": "plate-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "plate-connector",
+      "sourceItemId": "plate-connector",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "connector.paired2",
+        "version": 1,
+        "ports": {
+          "pair1-a": "feed-a",
+          "pair1-b": "feed-b",
+          "pair2-a": "return-a",
+          "pair2-b": "return-b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 3
+    }
+  ]
+}

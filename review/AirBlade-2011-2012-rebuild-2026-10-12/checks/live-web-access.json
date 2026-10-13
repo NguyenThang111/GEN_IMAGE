@@ -1,0 +1,18 @@
+{
+  "url": "https://auto2tech-app-production.up.railway.app",
+  "status": "LOGIN_REQUIRED",
+  "pages": [
+    {
+      "path": "/diagram-kit-preview.html",
+      "url": "https://auto2tech-app-production.up.railway.app/diagram-kit-preview.html#/worklog",
+      "text": "AUTO2TECH OS\nDashboard\nTài khoản\nMật khẩu\nĐăng nhập"
+    },
+    {
+      "path": "/diagram-upload-check.html",
+      "url": "https://auto2tech-app-production.up.railway.app/diagram-upload-check.html#/worklog",
+      "text": "AUTO2TECH OS\nDashboard\nTài khoản\nMật khẩu\nĐăng nhập"
+    }
+  ],
+  "pageErrors": [],
+  "serverImport": "NOT_RUN"
+}

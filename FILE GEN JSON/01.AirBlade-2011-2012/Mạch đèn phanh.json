@@ -1,0 +1,872 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "Screenshot from 2026-09-30 08-37-39.png",
+  "id": "thang-brake-light",
+  "vehicleId": "thang",
+  "vehicleTitle": "thang",
+  "circuitTitle": "Mạch đèn phanh",
+  "canvas": {
+    "width": 1687,
+    "height": 952
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 201,
+      "y": 451,
+      "width": 102,
+      "height": 75,
+      "label": "Ắc quy",
+      "terminals": [
+        {
+          "id": "negative",
+          "label": "-",
+          "x": 221,
+          "y": 451
+        },
+        {
+          "id": "positive",
+          "label": "+",
+          "x": 282,
+          "y": 451
+        }
+      ]
+    },
+    {
+      "id": "main-fuse",
+      "type": "fuse",
+      "x": 402,
+      "y": 374,
+      "width": 86,
+      "height": 38,
+      "label": "Cầu chì MAIN 20A",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 402,
+          "y": 394
+        },
+        {
+          "id": "right",
+          "x": 488,
+          "y": 394
+        }
+      ]
+    },
+    {
+      "id": "fi-fuse",
+      "type": "fuse",
+      "x": 402,
+      "y": 451,
+      "width": 86,
+      "height": 39,
+      "label": "Cầu chì FI 10A",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 402,
+          "y": 471
+        },
+        {
+          "id": "right",
+          "x": 488,
+          "y": 471
+        }
+      ]
+    },
+    {
+      "id": "ignition-switch",
+      "type": "switch",
+      "x": 575,
+      "y": 444,
+      "width": 78,
+      "height": 44,
+      "label": "Công tắc máy",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 575,
+          "y": 471
+        },
+        {
+          "id": "right",
+          "x": 653,
+          "y": 471
+        }
+      ]
+    },
+    {
+      "id": "main-relay",
+      "type": "relay",
+      "x": 735,
+      "y": 371,
+      "width": 78,
+      "height": 112,
+      "label": "Rơ le chính",
+      "terminals": [
+        {
+          "id": "contact-left",
+          "x": 735,
+          "y": 394
+        },
+        {
+          "id": "contact-right",
+          "x": 813,
+          "y": 394
+        },
+        {
+          "id": "coil-left",
+          "x": 735,
+          "y": 471
+        },
+        {
+          "id": "coil-right",
+          "x": 813,
+          "y": 471
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-fuse",
+      "type": "fuse",
+      "x": 914,
+      "y": 374,
+      "width": 83,
+      "height": 38,
+      "label": "Cầu chì 10A TURN, HORN…",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 914,
+          "y": 394
+        },
+        {
+          "id": "right",
+          "x": 997,
+          "y": 393
+        }
+      ]
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 840,
+      "y": 574,
+      "width": 92,
+      "height": 62,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 885,
+          "y": 574
+        }
+      ]
+    },
+    {
+      "id": "front-brake-switch",
+      "type": "switch",
+      "x": 1140,
+      "y": 298,
+      "width": 78,
+      "height": 44,
+      "label": "Công tắc phanh trước",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 1140,
+          "y": 325
+        },
+        {
+          "id": "right",
+          "x": 1218,
+          "y": 325
+        }
+      ]
+    },
+    {
+      "id": "rear-brake-switch",
+      "type": "switch",
+      "x": 1140,
+      "y": 441,
+      "width": 78,
+      "height": 44,
+      "label": "Công tắc phanh sau",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 1140,
+          "y": 467
+        },
+        {
+          "id": "right",
+          "x": 1218,
+          "y": 467
+        }
+      ]
+    },
+    {
+      "id": "brake-tail-lamp",
+      "type": "lamp",
+      "x": 1512,
+      "y": 370,
+      "width": 50,
+      "height": 101,
+      "label": "Đèn phanh / đèn hậu",
+      "terminals": [
+        {
+          "id": "upper-left",
+          "x": 1512,
+          "y": 392
+        },
+        {
+          "id": "lower-left",
+          "x": 1512,
+          "y": 449
+        }
+      ]
+    },
+    {
+      "id": "load-resistor",
+      "type": "device",
+      "x": 1369,
+      "y": 526,
+      "width": 32,
+      "height": 85,
+      "label": "Điện trở 10Ω 20W",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1385,
+          "y": 526
+        },
+        {
+          "id": "bottom",
+          "x": 1385,
+          "y": 611
+        }
+      ]
+    },
+    {
+      "id": "battery-ground",
+      "type": "ground",
+      "x": 155,
+      "y": 496,
+      "width": 40,
+      "height": 25,
+      "label": "Mass ắc quy",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 175,
+          "y": 496
+        }
+      ]
+    },
+    {
+      "id": "lamp-ground",
+      "type": "ground",
+      "x": 1452,
+      "y": 513,
+      "width": 40,
+      "height": 26,
+      "label": "Mass đèn",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1472,
+          "y": 513
+        }
+      ]
+    },
+    {
+      "id": "resistor-ground",
+      "type": "ground",
+      "x": 1365,
+      "y": 678,
+      "width": 40,
+      "height": 25,
+      "label": "Mass điện trở",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1385,
+          "y": 678
+        }
+      ]
+    },
+    {
+      "id": "battery-split",
+      "type": "junction",
+      "x": 336,
+      "y": 390,
+      "width": 8,
+      "height": 8,
+      "label": "Nhánh nguồn R",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 340,
+          "y": 394
+        }
+      ]
+    },
+    {
+      "id": "brake-feed-split",
+      "type": "junction",
+      "x": 1097,
+      "y": 386,
+      "width": 14,
+      "height": 14,
+      "label": "Điểm chia nguồn công tắc phanh",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1104,
+          "y": 393
+        }
+      ]
+    },
+    {
+      "id": "brake-output-join",
+      "type": "junction",
+      "x": 1250,
+      "y": 388,
+      "width": 8,
+      "height": 8,
+      "label": "Điểm hợp nhánh G/Y",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1254,
+          "y": 392
+        }
+      ]
+    },
+    {
+      "id": "resistor-tap",
+      "type": "junction",
+      "x": 1378,
+      "y": 385,
+      "width": 14,
+      "height": 14,
+      "label": "Điểm rẽ nhánh điện trở",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1385,
+          "y": 392
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "battery-negative",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "negative"
+      },
+      "to": {
+        "componentId": "battery-ground",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 221,
+          "y": 451
+        },
+        {
+          "x": 221,
+          "y": 394
+        },
+        {
+          "x": 175,
+          "y": 394
+        },
+        {
+          "x": 175,
+          "y": 496
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "battery-positive",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "positive"
+      },
+      "to": {
+        "componentId": "battery-split",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 282,
+          "y": 451
+        },
+        {
+          "x": 282,
+          "y": 394
+        },
+        {
+          "x": 340,
+          "y": 394
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "main-fuse-feed",
+      "from": {
+        "componentId": "battery-split",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "main-fuse",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 340,
+          "y": 394
+        },
+        {
+          "x": 402,
+          "y": 394
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "fi-fuse-feed",
+      "from": {
+        "componentId": "battery-split",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fi-fuse",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 340,
+          "y": 394
+        },
+        {
+          "x": 340,
+          "y": 471
+        },
+        {
+          "x": 402,
+          "y": 471
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e11d48",
+      "state": "controlled"
+    },
+    {
+      "id": "main-fuse-relay",
+      "from": {
+        "componentId": "main-fuse",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "contact-left"
+      },
+      "points": [
+        {
+          "x": 488,
+          "y": 394
+        },
+        {
+          "x": 735,
+          "y": 394
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "fi-fuse-ignition",
+      "from": {
+        "componentId": "fi-fuse",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "ignition-switch",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 488,
+          "y": 471
+        },
+        {
+          "x": 575,
+          "y": 471
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#262626",
+      "state": "controlled"
+    },
+    {
+      "id": "ignition-relay",
+      "from": {
+        "componentId": "ignition-switch",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "coil-left"
+      },
+      "points": [
+        {
+          "x": 653,
+          "y": 471
+        },
+        {
+          "x": 735,
+          "y": 471
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#262626",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-ecm",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "coil-right"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 813,
+          "y": 471
+        },
+        {
+          "x": 885,
+          "y": 471
+        },
+        {
+          "x": 885,
+          "y": 574
+        }
+      ],
+      "code": "W/Bl",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#262626",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-turn-horn-fuse",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "contact-right"
+      },
+      "to": {
+        "componentId": "turn-horn-fuse",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 813,
+          "y": 394
+        },
+        {
+          "x": 914,
+          "y": 394
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#e11d48",
+      "stripeColor": "#fde047",
+      "state": "controlled"
+    },
+    {
+      "id": "fuse-brake-feed",
+      "from": {
+        "componentId": "turn-horn-fuse",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "brake-feed-split",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 997,
+          "y": 393
+        },
+        {
+          "x": 1104,
+          "y": 393
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#262626",
+      "stripeColor": "#92400e",
+      "state": "controlled"
+    },
+    {
+      "id": "front-brake-feed",
+      "from": {
+        "componentId": "brake-feed-split",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "front-brake-switch",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 1104,
+          "y": 393
+        },
+        {
+          "x": 1104,
+          "y": 325
+        },
+        {
+          "x": 1140,
+          "y": 325
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#262626",
+      "state": "controlled"
+    },
+    {
+      "id": "rear-brake-feed",
+      "from": {
+        "componentId": "brake-feed-split",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "rear-brake-switch",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 1104,
+          "y": 393
+        },
+        {
+          "x": 1104,
+          "y": 467
+        },
+        {
+          "x": 1140,
+          "y": 467
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#262626",
+      "state": "controlled"
+    },
+    {
+      "id": "front-brake-output",
+      "from": {
+        "componentId": "front-brake-switch",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "brake-output-join",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1218,
+          "y": 325
+        },
+        {
+          "x": 1254,
+          "y": 325
+        },
+        {
+          "x": 1254,
+          "y": 392
+        }
+      ],
+      "code": "G/Y",
+      "primaryColor": "#22c55e",
+      "stripeColor": "#fde047",
+      "state": "controlled"
+    },
+    {
+      "id": "rear-brake-output",
+      "from": {
+        "componentId": "rear-brake-switch",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "brake-output-join",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1218,
+          "y": 467
+        },
+        {
+          "x": 1254,
+          "y": 467
+        },
+        {
+          "x": 1254,
+          "y": 392
+        }
+      ],
+      "code": "G/Y",
+      "primaryColor": "#22c55e",
+      "stripeColor": "#fde047",
+      "state": "controlled"
+    },
+    {
+      "id": "brake-output-tap",
+      "from": {
+        "componentId": "brake-output-join",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "resistor-tap",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1254,
+          "y": 392
+        },
+        {
+          "x": 1385,
+          "y": 392
+        }
+      ],
+      "code": "G/Y",
+      "primaryColor": "#22c55e",
+      "stripeColor": "#fde047",
+      "state": "controlled"
+    },
+    {
+      "id": "brake-lamp-feed",
+      "from": {
+        "componentId": "resistor-tap",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "brake-tail-lamp",
+        "terminalId": "upper-left"
+      },
+      "points": [
+        {
+          "x": 1385,
+          "y": 392
+        },
+        {
+          "x": 1512,
+          "y": 392
+        }
+      ],
+      "code": "G/Y",
+      "primaryColor": "#22c55e",
+      "stripeColor": "#fde047",
+      "state": "controlled"
+    },
+    {
+      "id": "resistor-feed",
+      "from": {
+        "componentId": "resistor-tap",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "load-resistor",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1385,
+          "y": 392
+        },
+        {
+          "x": 1385,
+          "y": 526
+        }
+      ],
+      "code": "P",
+      "primaryColor": "#f0a6b8",
+      "state": "controlled"
+    },
+    {
+      "id": "lamp-ground-wire",
+      "from": {
+        "componentId": "brake-tail-lamp",
+        "terminalId": "lower-left"
+      },
+      "to": {
+        "componentId": "lamp-ground",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1512,
+          "y": 449
+        },
+        {
+          "x": 1472,
+          "y": 449
+        },
+        {
+          "x": 1472,
+          "y": 513
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "resistor-ground-wire",
+      "from": {
+        "componentId": "load-resistor",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "resistor-ground",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1385,
+          "y": 611
+        },
+        {
+          "x": 1385,
+          "y": 678
+        }
+      ],
+      "code": "",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    }
+  ]
+}

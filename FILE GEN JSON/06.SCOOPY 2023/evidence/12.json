@@ -1,0 +1,60 @@
+{
+  "vehicleId": "scoopy-2023",
+  "circuitId": "scoopy-2023-pgm-fi",
+  "source": {
+    "recordId": null,
+    "identity": "LOCAL_ONLY",
+    "originalPath": "FILE ANH/06.SCOOPY 2023/12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+    "imageSha256": "5b9085a1af1cf4c4ee67e7ea218143d32f7133ec71b6cf94ae5a74c846fa22c0"
+  },
+  "schemaSha256": "7b44fcf6f57f1641e96ef7b2741986da8537965fccd72116d84498be080b7f7d",
+  "library": {
+    "revision": "APP_REGISTRY_NOT_AVAILABLE",
+    "actualManifestSha256": null,
+    "contractModelSnapshotSha256": "846d0b3dd08a5bcecdc37032481fa931d46ce37a9d8781a275087d58f91c4c65",
+    "legacyGeometrySha256": "b60eb4ffbac76ba26d02c81dc98daa91d6ea389ae8e18adabf597d051abb8b75",
+    "legacyGeometryHelpersSha256": "93386e9f425bd706cc17dc560b6020b970045463434d367e56e4da90a42adf85"
+  },
+  "inventoryArtifact": "inventory/12.json",
+  "coverage": {
+    "transcriptionCarry": "PASS",
+    "sourceInterpretation": "REVIEW_REQUIRED",
+    "unresolved": [
+      "o2: Đầu nối ghi 2P nhưng ảnh chỉ thể hiện một đường tín hiệu; không bịa đường còn lại.",
+      "idle-valve: Hai đầu dây gần nhau hơn clearance Studio 16px; layout cần kiểm detail.",
+      "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+    ]
+  },
+  "genReview": {
+    "reviewer": "Codex author",
+    "verdict": "REVIEW_REQUIRED",
+    "date": "2026-10-12",
+    "checklist": [
+      "Original image viewed before candidate",
+      "Component and terminal inventory transcribed",
+      "Load continuations preserved",
+      "Selected CKP/lamp/coil/sensor-return nets checked",
+      "Local Studio preview viewed; exact contour/text completeness remains pending"
+    ]
+  },
+  "appReview": {
+    "reviewer": null,
+    "verdict": "PENDING",
+    "rendererRevision": null
+  },
+  "validation": {
+    "studioStructural": "PASS",
+    "editorExportRoundTrip": "PASS",
+    "deterministicExport": "PASS",
+    "repeatLocalGenerationNoDiff": "PASS",
+    "apiRoundTrip": "NOT_RUN",
+    "appImport": "NOT_RUN",
+    "appRender": "NOT_RUN",
+    "repeatAppSyncNoDiff": "NOT_RUN",
+    "independentReview": "PENDING",
+    "productionBundleValidator": "PASS",
+    "productionBundleSha256": "70324367feba63cbace628fc423a497e71653d98cb9fa4d30db38ad9bd9b50b2",
+    "componentCompatibilityRevision": "r02"
+  },
+  "deliveryVerdict": "REVIEW_REQUIRED"
+}

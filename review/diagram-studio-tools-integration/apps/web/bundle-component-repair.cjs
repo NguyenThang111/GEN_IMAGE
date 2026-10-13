@@ -1,0 +1,1 @@
+require("esbuild").buildSync({entryPoints:[process.argv[2]],bundle:true,platform:"node",format:"cjs",jsx:"automatic",outfile:process.argv[3]});

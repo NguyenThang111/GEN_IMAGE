@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "exportMetadataVersion": 1,
+  "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+  "vehicleId": "38770-kvg-v42",
+  "vehicleTitle": "AIR BLADE 2011 - 2012",
+  "manufacturer": "HONDA",
+  "modelYear": "2011-2012",
+  "ecmId": "01 00 F9",
+  "scuId": null,
+  "progress": {
+    "total": 10,
+    "completed": 10,
+    "counts": {
+      "TODO": 0,
+      "DOING": 0,
+      "DONE": 10,
+      "ISSUE": 0
+    }
+  },
+  "complete": true,
+  "expectedCircuits": [
+    {
+      "id": "8eede04a-1e19-4afd-a4e9-bfc29e96955d",
+      "key": "power-distribution",
+      "title": "Mạch cấp nguồn",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/power-distribution/38770-kvg-v42-power-distribution.schema.json"
+    },
+    {
+      "id": "4878d1c6-9a46-4a43-9760-94e632475690",
+      "key": "horn",
+      "title": "Mạch còi",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/horn/38770-kvg-v42-horn.schema.json"
+    },
+    {
+      "id": "40a662ed-0f2d-4139-ae51-37f6d4a97b20",
+      "key": "turn-signals",
+      "title": "Mạch xi nhan",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/turn-signals/38770-kvg-v42-turn-signals.schema.json"
+    },
+    {
+      "id": "fa5c1772-6420-4315-af74-97bad7d38762",
+      "key": "brake-light",
+      "title": "Mạch đèn phanh",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/brake-light/38770-kvg-v42-brake-light.schema.json"
+    },
+    {
+      "id": "e7c3caec-8822-4a60-9038-3ff067dbf3f1",
+      "key": "fuel-indicator",
+      "title": "Mạch báo xăng",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/fuel-indicator/38770-kvg-v42-fuel-indicator.schema.json"
+    },
+    {
+      "id": "6665fbdc-88a2-46fc-a796-476fd9000ba1",
+      "key": "vehicle-gps",
+      "title": "Mạch điện xác định vị trí xe",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/vehicle-gps/38770-kvg-v42-vehicle-gps.schema.json"
+    },
+    {
+      "id": "b2a83700-2149-4763-8289-0c5333db0720",
+      "key": "night-lighting",
+      "title": "Mạch đèn đêm",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/night-lighting/38770-kvg-v42-night-lighting.schema.json"
+    },
+    {
+      "id": "7d887672-fd04-4a4c-89e1-a20ca635c62f",
+      "key": "ignition",
+      "title": "Mạch đánh lửa",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/ignition/38770-kvg-v42-ignition.schema.json"
+    },
+    {
+      "id": "9ed9018a-a61f-4e91-8dc5-fc718d21d63a",
+      "key": "starting",
+      "title": "Mạch khởi động",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/starting/38770-kvg-v42-starting.schema.json"
+    },
+    {
+      "id": "fd9e51a9-bfae-420a-90ea-5347cbf2dc8e",
+      "key": "pgm-fi",
+      "title": "Hệ thống phun xăng điện tử PGM-FI",
+      "required": true,
+      "status": "NEEDS_REVIEW",
+      "progressStatus": "DONE",
+      "progressNote": "",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z",
+      "schemaPath": "38770-kvg-v42/pgm-fi/38770-kvg-v42-pgm-fi.schema.json"
+    }
+  ],
+  "missingOutputs": [],
+  "exportedAt": "2026-10-12T05:18:31.585Z"
+}

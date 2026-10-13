@@ -1,0 +1,712 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "08",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-38-06.png",
+    "imageSha256": "af1a8bfbb9832ac3eacde136a1fff56e765c732f5b8112d343b1bb927f5c7f81",
+    "width": 1687,
+    "height": 952,
+    "recordId": "9ed9018a-a61f-4e91-8dc5-fc718d21d63a",
+    "identityStatus": "VERIFIED_SAME_BYTES",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "starting",
+    "serverImageSha256": "af1a8bfbb9832ac3eacde136a1fff56e765c732f5b8112d343b1bb927f5c7f81"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "08:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm trái, dương phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 222,
+        "y": 345,
+        "width": 99,
+        "height": 73
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:fuse-main",
+      "candidateComponentId": "fuse-main",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 441,
+        "y": 116,
+        "width": 83,
+        "height": 37
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 441,
+        "y": 211,
+        "width": 83,
+        "height": 38
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:switch-ignition",
+      "candidateComponentId": "switch-ignition",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 666,
+        "y": 204,
+        "width": 78,
+        "height": 44
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:relay-main",
+      "candidateComponentId": "relay-main",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 964,
+        "y": 116,
+        "width": 76,
+        "height": 89
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:fuse-turn-horn",
+      "candidateComponentId": "fuse-turn-horn",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) TURN,HORN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 1201,
+        "y": 116,
+        "width": 83,
+        "height": 37
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:relay-starter",
+      "candidateComponentId": "relay-starter",
+      "kind": "component",
+      "observation": "RƠ LE KHỞI ĐỘNG; tiếp điểm bên trái, coil bên phải",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 349,
+        "y": 462,
+        "width": 90,
+        "height": 83
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:motor-starter",
+      "candidateComponentId": "motor-starter",
+      "kind": "component",
+      "observation": "MÔ TƠ KHỞI ĐỘNG; nguồn trên, hai case lug và mass dưới",
+      "proposedModelId": "motor.chassis4",
+      "sourceBox": {
+        "x": 305,
+        "y": 685,
+        "width": 133,
+        "height": 119
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; 33,1,7,29,25",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 786,
+        "y": 665,
+        "width": 280,
+        "height": 154
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:switch-brake-rear",
+      "candidateComponentId": "switch-brake-rear",
+      "kind": "component",
+      "observation": "CÔNG TẮC PHANH SAU",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1324,
+        "y": 295,
+        "width": 43,
+        "height": 78
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:switch-brake-front",
+      "candidateComponentId": "switch-brake-front",
+      "kind": "component",
+      "observation": "CÔNG TẮC PHANH TRƯỚC",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1464,
+        "y": 295,
+        "width": 42,
+        "height": 78
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:switch-start",
+      "candidateComponentId": "switch-start",
+      "kind": "component",
+      "observation": "CÔNG TẮC KHỞI ĐỘNG; nhấn",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1155,
+        "y": 462,
+        "width": 80,
+        "height": 49
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:switch-side-stand",
+      "candidateComponentId": "switch-side-stand",
+      "kind": "component",
+      "observation": "CÔNG TẮC CHỐNG NGHIÊNG; hai đầu G/W/G",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1162,
+        "y": 571,
+        "width": 78,
+        "height": 42
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "08:resistor",
+      "candidateComponentId": "resistor",
+      "kind": "component",
+      "observation": "ĐIỆN TRỞ 10 Ω 20W; P xuống mass",
+      "proposedModelId": "passive.resistor2",
+      "sourceBox": {
+        "x": 1396,
+        "y": 563,
+        "width": 32,
+        "height": 85
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "ground-battery.top",
+        "motor-starter.left-lug"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "fuse-fi.left",
+        "relay-starter.contact-in"
+      ],
+      [
+        "fuse-main.right",
+        "relay-main.contact-in"
+      ],
+      [
+        "fuse-fi.right",
+        "switch-ignition.left"
+      ],
+      [
+        "switch-ignition.right",
+        "relay-main.coil-left",
+        "relay-starter.coil-top",
+        "ecm.pin-1"
+      ],
+      [
+        "relay-main.coil-right",
+        "ecm.pin-7"
+      ],
+      [
+        "relay-main.contact-out",
+        "fuse-turn-horn.left"
+      ],
+      [
+        "fuse-turn-horn.right",
+        "switch-brake-front.top",
+        "switch-brake-rear.top"
+      ],
+      [
+        "switch-brake-front.bottom",
+        "switch-brake-rear.bottom",
+        "switch-start.right",
+        "resistor.top"
+      ],
+      [
+        "switch-start.left",
+        "ecm.pin-29"
+      ],
+      [
+        "ecm.pin-25",
+        "switch-side-stand.left"
+      ],
+      [
+        "switch-side-stand.right",
+        "ground-side-stand.top"
+      ],
+      [
+        "relay-starter.coil-bottom",
+        "ecm.pin-33"
+      ],
+      [
+        "relay-starter.contact-out",
+        "motor-starter.power"
+      ],
+      [
+        "motor-starter.right-lug",
+        "ground-motor-wire.top"
+      ],
+      [
+        "motor-starter.bottom",
+        "ground-motor.top"
+      ],
+      [
+        "resistor.bottom",
+        "ground-resistor.top"
+      ]
+    ],
+    "edges": [
+      [
+        "fuse-main.right",
+        "relay-main.contact-in",
+        "R/W"
+      ],
+      [
+        "fuse-fi.right",
+        "switch-ignition.left",
+        "R/Bl"
+      ],
+      [
+        "relay-main.coil-right",
+        "ecm.pin-7",
+        "W/Bl"
+      ],
+      [
+        "relay-starter.coil-bottom",
+        "ecm.pin-33",
+        "Y/G"
+      ],
+      [
+        "relay-starter.contact-out",
+        "motor-starter.power",
+        "R/W"
+      ],
+      [
+        "switch-start.left",
+        "ecm.pin-29",
+        "Y/G"
+      ],
+      [
+        "ecm.pin-25",
+        "switch-side-stand.left",
+        "G/W"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          241,
+          345
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          300,
+          345
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-main.contact-in",
+        "xy": [
+          964,
+          135
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-main.contact-out",
+        "xy": [
+          1040,
+          135
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-main.coil-left",
+        "xy": [
+          964,
+          187
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-main.coil-right",
+        "xy": [
+          1040,
+          187
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-starter.contact-in",
+        "xy": [
+          372,
+          462
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-starter.contact-out",
+        "xy": [
+          372,
+          545
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-starter.coil-top",
+        "xy": [
+          424,
+          462
+        ],
+        "label": null
+      },
+      {
+        "ref": "relay-starter.coil-bottom",
+        "xy": [
+          424,
+          545
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-main.left",
+        "xy": [
+          441,
+          135
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-main.right",
+        "xy": [
+          524,
+          135
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-fi.left",
+        "xy": [
+          441,
+          231
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-fi.right",
+        "xy": [
+          524,
+          231
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-ignition.left",
+        "xy": [
+          666,
+          231
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-ignition.right",
+        "xy": [
+          744,
+          230
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-turn-horn.left",
+        "xy": [
+          1201,
+          135
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-turn-horn.right",
+        "xy": [
+          1284,
+          135
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-brake-rear.top",
+        "xy": [
+          1340,
+          295
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-brake-rear.bottom",
+        "xy": [
+          1340,
+          373
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-brake-front.top",
+        "xy": [
+          1482,
+          295
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-brake-front.bottom",
+        "xy": [
+          1482,
+          373
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-start.left",
+        "xy": [
+          1155,
+          498
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-start.right",
+        "xy": [
+          1235,
+          498
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-side-stand.left",
+        "xy": [
+          1162,
+          597
+        ],
+        "label": null
+      },
+      {
+        "ref": "switch-side-stand.right",
+        "xy": [
+          1240,
+          597
+        ],
+        "label": null
+      },
+      {
+        "ref": "motor-starter.power",
+        "xy": [
+          372,
+          685
+        ],
+        "label": null
+      },
+      {
+        "ref": "motor-starter.left-lug",
+        "xy": [
+          305,
+          693
+        ],
+        "label": null
+      },
+      {
+        "ref": "motor-starter.right-lug",
+        "xy": [
+          438,
+          693
+        ],
+        "label": null
+      },
+      {
+        "ref": "motor-starter.bottom",
+        "xy": [
+          372,
+          804
+        ],
+        "label": null
+      },
+      {
+        "ref": "resistor.top",
+        "xy": [
+          1412,
+          563
+        ],
+        "label": null
+      },
+      {
+        "ref": "resistor.bottom",
+        "xy": [
+          1412,
+          648
+        ],
+        "label": null
+      },
+      {
+        "ref": "ground-battery.top",
+        "xy": [
+          151,
+          380
+        ],
+        "label": null
+      },
+      {
+        "ref": "ground-motor-wire.top",
+        "xy": [
+          557,
+          760
+        ],
+        "label": null
+      },
+      {
+        "ref": "ground-motor.top",
+        "xy": [
+          372,
+          834
+        ],
+        "label": null
+      },
+      {
+        "ref": "ground-side-stand.top",
+        "xy": [
+          1290,
+          654
+        ],
+        "label": null
+      },
+      {
+        "ref": "ground-resistor.top",
+        "xy": [
+          1412,
+          678
+        ],
+        "label": null
+      },
+      {
+        "ref": "ecm.pin-33",
+        "xy": [
+          825,
+          665
+        ],
+        "label": "33"
+      },
+      {
+        "ref": "ecm.pin-1",
+        "xy": [
+          876,
+          665
+        ],
+        "label": "1"
+      },
+      {
+        "ref": "ecm.pin-7",
+        "xy": [
+          928,
+          665
+        ],
+        "label": "7"
+      },
+      {
+        "ref": "ecm.pin-29",
+        "xy": [
+          977,
+          665
+        ],
+        "label": "29"
+      },
+      {
+        "ref": "ecm.pin-25",
+        "xy": [
+          1027,
+          665
+        ],
+        "label": "25"
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": [],
+  "ecmPinOrder": [
+    "33",
+    "1",
+    "7",
+    "29",
+    "25"
+  ]
+}

@@ -1,0 +1,1653 @@
+﻿{
+    "schemaVersion":  1,
+    "reviewStatus":  "draft",
+    "id":  "air-blade-125-abs-2026-starting",
+    "vehicleId":  "air-blade-2026-125-abs",
+    "vehicleTitle":  "AIR BLADE 2026 (125 / ABS)",
+    "vehicleModel":  "Honda AIR BLADE 125 ABS 2026",
+    "circuitTitle":  "Mạch khởi động",
+    "sourceImage":  "air-blade-2026-125-abs-starting.source.jpg",
+    "canvas":  {
+                   "width":  1700,
+                   "height":  850,
+                   "background":  "#ffffff"
+               },
+    "sourceCrop":  {
+                       "x":  0,
+                       "y":  0,
+                       "width":  1700,
+                       "height":  850
+                   },
+    "sourceTransform":  {
+                            "rotateClockwise":  0
+                        },
+    "components":  [
+                       {
+                           "id":  "battery",
+                           "type":  "battery",
+                           "x":  60,
+                           "y":  350,
+                           "width":  80,
+                           "height":  58,
+                           "label":  "ẮC QUY",
+                           "terminals":  [
+                                             {
+                                                 "id":  "neg",
+                                                 "x":  76,
+                                                 "y":  350,
+                                                 "label":  "-"
+                                             },
+                                             {
+                                                 "id":  "pos",
+                                                 "x":  124,
+                                                 "y":  350,
+                                                 "label":  "+"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "battery@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "negative":  "neg",
+                                                           "positive":  "pos"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-battery",
+                           "type":  "ground",
+                           "x":  64,
+                           "y":  306,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  76,
+                                                 "y":  318
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-main",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  335,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (20A) MAIN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  350
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  350
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "relay-main",
+                           "type":  "relay",
+                           "x":  360,
+                           "y":  295,
+                           "width":  120,
+                           "height":  110,
+                           "label":  "RƠ LE CHÍNH",
+                           "terminals":  [
+                                             {
+                                                 "id":  "cl",
+                                                 "x":  360,
+                                                 "y":  350,
+                                                 "label":  "R/W"
+                                             },
+                                             {
+                                                 "id":  "cr",
+                                                 "x":  480,
+                                                 "y":  350,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "col",
+                                                 "x":  396,
+                                                 "y":  405,
+                                                 "label":  "G"
+                                             },
+                                             {
+                                                 "id":  "cor",
+                                                 "x":  444,
+                                                 "y":  405,
+                                                 "label":  "Bl/Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "relay.contact-coil4@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "coil-left":  "col",
+                                                           "coil-right":  "cor",
+                                                           "contact-left":  "cl",
+                                                           "contact-right":  "cr"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-relay",
+                           "type":  "ground",
+                           "x":  384,
+                           "y":  415,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  396,
+                                                 "y":  427
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ignition-switch",
+                           "type":  "switch",
+                           "x":  530,
+                           "y":  290,
+                           "width":  110,
+                           "height":  120,
+                           "label":  "KHÓA ĐIỆN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p1-in",
+                                                 "x":  530,
+                                                 "y":  350,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "p1-out",
+                                                 "x":  640,
+                                                 "y":  350,
+                                                 "label":  "R/Bl"
+                                             },
+                                             {
+                                                 "id":  "p2-in",
+                                                 "x":  530,
+                                                 "y":  410,
+                                                 "label":  "Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "p2-out",
+                                                 "x":  640,
+                                                 "y":  410,
+                                                 "label":  "R/Br"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.dpst4@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "fuse-sub1",
+                           "type":  "fuse",
+                           "x":  700,
+                           "y":  335,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) SUB 1",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  700,
+                                                 "y":  350
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  780,
+                                                 "y":  350
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-ecu",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  485,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (15A) ECU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  500
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  500
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "relay-starter",
+                           "type":  "relay",
+                           "x":  870,
+                           "y":  240,
+                           "width":  140,
+                           "height":  130,
+                           "label":  "RƠ LE ĐỀ/SẠC (5 CHÂN)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "nc",
+                                                 "x":  870,
+                                                 "y":  280,
+                                                 "label":  "Bl/R (NC)"
+                                             },
+                                             {
+                                                 "id":  "no",
+                                                 "x":  870,
+                                                 "y":  320,
+                                                 "label":  "R (NO)"
+                                             },
+                                             {
+                                                 "id":  "com",
+                                                 "x":  1010,
+                                                 "y":  300,
+                                                 "label":  "R/Y common"
+                                             },
+                                             {
+                                                 "id":  "col",
+                                                 "x":  900,
+                                                 "y":  370,
+                                                 "label":  "Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "cor",
+                                                 "x":  950,
+                                                 "y":  370,
+                                                 "label":  "Y→ECM A32"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "relay.changeover-coil5@1",
+                                             "version":  1
+                                         },
+                           "note":  "5 chân: contact chọn Bl/R (NC) hoặc R (NO), common R/Y→ECM B1. Coil: Bl/Bu và Y→ECM A32."
+                       },
+                       {
+                           "id":  "ecm",
+                           "type":  "connector",
+                           "x":  1120,
+                           "y":  200,
+                           "width":  180,
+                           "height":  380,
+                           "label":  "ECM 39P",
+                           "connectorType":  "39P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "b1-pp",
+                                                 "x":  1120,
+                                                 "y":  260,
+                                                 "label":  "B1 P(+) R/Y"
+                                             },
+                                             {
+                                                 "id":  "a8-batt",
+                                                 "x":  1120,
+                                                 "y":  310,
+                                                 "label":  "A8 BATT Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "a32-srl",
+                                                 "x":  1120,
+                                                 "y":  360,
+                                                 "label":  "A32 S/RELAY Y"
+                                             },
+                                             {
+                                                 "id":  "a35-st",
+                                                 "x":  1120,
+                                                 "y":  410,
+                                                 "label":  "A35 ST-SW Lg"
+                                             },
+                                             {
+                                                 "id":  "b2-n",
+                                                 "x":  1120,
+                                                 "y":  460,
+                                                 "label":  "B2 N(-) G"
+                                             },
+                                             {
+                                                 "id":  "a39-ss",
+                                                 "x":  1120,
+                                                 "y":  510,
+                                                 "label":  "A39 SS-SW G/W"
+                                             },
+                                             {
+                                                 "id":  "a11-lg",
+                                                 "x":  1120,
+                                                 "y":  560,
+                                                 "label":  "A11 LG G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "scu",
+                           "type":  "connector",
+                           "x":  1120,
+                           "y":  620,
+                           "width":  160,
+                           "height":  60,
+                           "label":  "SCU 21P\nChân 19 ENG START Lg",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p19-lg",
+                                                 "x":  1120,
+                                                 "y":  650,
+                                                 "label":  "SCU19 Lg"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "brake-sw-front",
+                           "type":  "switch",
+                           "x":  840,
+                           "y":  480,
+                           "width":  100,
+                           "height":  50,
+                           "label":  "CT PHANH TRƯỚC",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  840,
+                                                 "y":  505,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  940,
+                                                 "y":  505,
+                                                 "label":  "G/Y"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "brake-sw-rear",
+                           "type":  "switch",
+                           "x":  840,
+                           "y":  580,
+                           "width":  100,
+                           "height":  50,
+                           "label":  "CT PHANH SAU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  840,
+                                                 "y":  605,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  940,
+                                                 "y":  605,
+                                                 "label":  "G/Y"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "start-button",
+                           "type":  "switch",
+                           "x":  1000,
+                           "y":  550,
+                           "width":  100,
+                           "height":  60,
+                           "label":  "NÚT KHỞI ĐỘNG",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1000,
+                                                 "y":  580,
+                                                 "label":  "G/Y"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  1100,
+                                                 "y":  580,
+                                                 "label":  "Lg"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "gen-motor",
+                           "type":  "motor",
+                           "x":  1380,
+                           "y":  250,
+                           "width":  160,
+                           "height":  160,
+                           "label":  "MÁY PHÁT/KHỞI ĐỘNG\n(Sao 3 pha)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "u",
+                                                 "x":  1380,
+                                                 "y":  300,
+                                                 "label":  "C1 R/Bu → W"
+                                             },
+                                             {
+                                                 "id":  "v",
+                                                 "x":  1380,
+                                                 "y":  360,
+                                                 "label":  "C2 R/W → V"
+                                             },
+                                             {
+                                                 "id":  "w",
+                                                 "x":  1380,
+                                                 "y":  420,
+                                                 "label":  "C3 R/Y → U"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "motor.3phase@1",
+                                             "version":  1
+                                         },
+                           "note":  "Nối sao 3 cuộn. C1 R/Bu→W, C2 R/W→V, C3 R/Y→U."
+                       },
+                       {
+                           "id":  "ckp-connector",
+                           "type":  "connector",
+                           "x":  1380,
+                           "y":  480,
+                           "width":  160,
+                           "height":  200,
+                           "label":  "CẢM BIẾN CKP (6P)",
+                           "connectorType":  "6P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "u",
+                                                 "x":  1380,
+                                                 "y":  510,
+                                                 "label":  "A23 W/R → U"
+                                             },
+                                             {
+                                                 "id":  "v",
+                                                 "x":  1380,
+                                                 "y":  540,
+                                                 "label":  "A24 W/Bu → V"
+                                             },
+                                             {
+                                                 "id":  "w",
+                                                 "x":  1380,
+                                                 "y":  570,
+                                                 "label":  "A26 W/Bl → W"
+                                             },
+                                             {
+                                                 "id":  "pul",
+                                                 "x":  1380,
+                                                 "y":  600,
+                                                 "label":  "A25 Bu/Y → PUL"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  1380,
+                                                 "y":  630,
+                                                 "label":  "A9 Br/Bl → OUT"
+                                             },
+                                             {
+                                                 "id":  "gnd",
+                                                 "x":  1380,
+                                                 "y":  660,
+                                                 "label":  "A10 G → GND"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "tilt-switch",
+                           "type":  "switch",
+                           "x":  1380,
+                           "y":  720,
+                           "width":  140,
+                           "height":  80,
+                           "label":  "CT CHỐNG NGHIÊNG (2P)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a11",
+                                                 "x":  1380,
+                                                 "y":  750,
+                                                 "label":  "A11 G/Bl"
+                                             },
+                                             {
+                                                 "id":  "a39",
+                                                 "x":  1380,
+                                                 "y":  780,
+                                                 "label":  "A39 G/W"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.tilt@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-ecm",
+                           "type":  "ground",
+                           "x":  1108,
+                           "y":  472,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1120,
+                                                 "y":  484
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       }
+                   ],
+    "wires":  [
+                  {
+                      "id":  "w-bat-neg-mass",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "neg"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-battery",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  76,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  76,
+                                         "y":  330
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-main",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-main",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-main-relay-cl",
+                      "from":  {
+                                   "componentId":  "fuse-main",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "relay-main",
+                                 "terminalId":  "cl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  360,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "R/W",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/W",
+                                         "x":  318,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-main-relay-cl",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-ign1",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cr"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p1-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  480,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "Bl/R",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/R",
+                                         "x":  504,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-ign1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-coil-mass",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "col"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-relay",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  396,
+                                         "y":  405
+                                     },
+                                     {
+                                         "x":  396,
+                                         "y":  427
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-relay-coil-ign2",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cor"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  444,
+                                         "y":  405
+                                     },
+                                     {
+                                         "x":  444,
+                                         "y":  430
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  430
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  410
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu",
+                                         "x":  480,
+                                         "y":  420,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-coil-ign2",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ign1-sub1",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p1-out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-sub1",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "R/Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Bl",
+                                         "x":  668,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign1-sub1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-brake-bl",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-sw-front",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  780,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  810,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  810,
+                                         "y":  505
+                                     },
+                                     {
+                                         "x":  840,
+                                         "y":  505
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl",
+                                         "x":  800,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub1-brake-bl",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-brake-rear",
+                      "from":  {
+                                   "componentId":  "brake-sw-front",
+                                   "terminalId":  "in"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-sw-rear",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  810,
+                                         "y":  505
+                                     },
+                                     {
+                                         "x":  810,
+                                         "y":  605
+                                     },
+                                     {
+                                         "x":  840,
+                                         "y":  605
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-front-gy",
+                      "from":  {
+                                   "componentId":  "brake-sw-front",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "start-button",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  505
+                                     },
+                                     {
+                                         "x":  970,
+                                         "y":  505
+                                     },
+                                     {
+                                         "x":  970,
+                                         "y":  580
+                                     },
+                                     {
+                                         "x":  1000,
+                                         "y":  580
+                                     }
+                                 ],
+                      "code":  "G/Y",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Y",
+                                         "x":  955,
+                                         "y":  495,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-front-gy",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-rear-gy",
+                      "from":  {
+                                   "componentId":  "brake-sw-rear",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "start-button",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  605
+                                     },
+                                     {
+                                         "x":  970,
+                                         "y":  605
+                                     },
+                                     {
+                                         "x":  970,
+                                         "y":  580
+                                     }
+                                 ],
+                      "code":  "G/Y",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-start-lg-ecm",
+                      "from":  {
+                                   "componentId":  "start-button",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p19-lg"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  580
+                                     },
+                                     {
+                                         "x":  1110,
+                                         "y":  580
+                                     },
+                                     {
+                                         "x":  1110,
+                                         "y":  650
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  650
+                                     }
+                                 ],
+                      "code":  "Lg",
+                      "primaryColor":  "#88dd44",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Lg",
+                                         "x":  1105,
+                                         "y":  570,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-start-lg-ecm",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu19-ecm35",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p19-lg"
+                               },
+                      "to":  {
+                                 "componentId":  "ecm",
+                                 "terminalId":  "a35-st"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1120,
+                                         "y":  650
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  650
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  410
+                                     }
+                                 ],
+                      "code":  "Lg",
+                      "primaryColor":  "#88dd44",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ign2-blbu-ecm",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p2-out"
+                               },
+                      "to":  {
+                                 "componentId":  "ecm",
+                                 "terminalId":  "a8-batt"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  690,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  690,
+                                         "y":  310
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  310
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu",
+                                         "x":  850,
+                                         "y":  400,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign2-blbu-ecm",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-no",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "relay-starter",
+                                 "terminalId":  "no"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  280
+                                     },
+                                     {
+                                         "x":  870,
+                                         "y":  280
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R",
+                                         "x":  800,
+                                         "y":  270,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-no",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-bl-r-nc",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cr"
+                               },
+                      "to":  {
+                                 "componentId":  "relay-starter",
+                                 "terminalId":  "nc"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  480,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  850,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  850,
+                                         "y":  320
+                                     },
+                                     {
+                                         "x":  870,
+                                         "y":  320
+                                     }
+                                 ],
+                      "code":  "Bl/R",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/R",
+                                         "x":  660,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-bl-r-nc",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-com-ecm-b1",
+                      "from":  {
+                                   "componentId":  "relay-starter",
+                                   "terminalId":  "com"
+                               },
+                      "to":  {
+                                 "componentId":  "ecm",
+                                 "terminalId":  "b1-pp"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1010,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  260
+                                     }
+                                 ],
+                      "code":  "R/Y",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Y",
+                                         "x":  1060,
+                                         "y":  290,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-com-ecm-b1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-coil-blbu",
+                      "from":  {
+                                   "componentId":  "relay-starter",
+                                   "terminalId":  "col"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-out"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  900,
+                                         "y":  370
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  830,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  830,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  410
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-relay-coil-y-ecm",
+                      "from":  {
+                                   "componentId":  "relay-starter",
+                                   "terminalId":  "cor"
+                               },
+                      "to":  {
+                                 "componentId":  "ecm",
+                                 "terminalId":  "a32-srl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  950,
+                                         "y":  370
+                                     },
+                                     {
+                                         "x":  950,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  1080,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  1080,
+                                         "y":  360
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  360
+                                     }
+                                 ],
+                      "code":  "Y",
+                      "primaryColor":  "#ffdd00",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Y",
+                                         "x":  1040,
+                                         "y":  410,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-coil-y-ecm",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-gen-u",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "b1-pp"
+                               },
+                      "to":  {
+                                 "componentId":  "gen-motor",
+                                 "terminalId":  "u"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1300,
+                                         "y":  260
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  300
+                                     }
+                                 ],
+                      "code":  "R/Bu",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Bu C1",
+                                         "x":  1335,
+                                         "y":  255,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-gen-u",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-gen-v",
+                      "from":  {
+                                   "componentId":  "relay-starter",
+                                   "terminalId":  "com"
+                               },
+                      "to":  {
+                                 "componentId":  "gen-motor",
+                                 "terminalId":  "v"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1300,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  360
+                                     }
+                                 ],
+                      "code":  "R/W",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/W C2",
+                                         "x":  1335,
+                                         "y":  295,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-gen-v",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-gen-w",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "b1-pp"
+                               },
+                      "to":  {
+                                 "componentId":  "gen-motor",
+                                 "terminalId":  "w"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1300,
+                                         "y":  260
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  420
+                                     }
+                                 ],
+                      "code":  "R/Y",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Y C3",
+                                         "x":  1335,
+                                         "y":  415,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-gen-w",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecm-b2-mass",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "b2-n"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-ecm",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1120,
+                                         "y":  460
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  484
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-tilt-a39",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a39-ss"
+                               },
+                      "to":  {
+                                 "componentId":  "tilt-switch",
+                                 "terminalId":  "a39"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1300,
+                                         "y":  510
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  750
+                                     }
+                                 ],
+                      "code":  "G/W",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/W",
+                                         "x":  1340,
+                                         "y":  740,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-tilt-a39",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-tilt-a11",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a11-lg"
+                               },
+                      "to":  {
+                                 "componentId":  "tilt-switch",
+                                 "terminalId":  "a11"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1300,
+                                         "y":  560
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  780
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Bl",
+                                         "x":  1340,
+                                         "y":  770,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-tilt-a11",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-bat-ecu",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-ecu",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  500
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  500
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecu-ign2",
+                      "from":  {
+                                   "componentId":  "fuse-ecu",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-out"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  500
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  500
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  410
+                                     }
+                                 ],
+                      "code":  "R/Br",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Br",
+                                         "x":  460,
+                                         "y":  490,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecu-ign2",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  }
+              ],
+    "reviewIssues":  [
+
+                     ],
+    "genReview":  {
+                      "reviewer":  "kiro-agent",
+                      "date":  "2026-10-13",
+                      "verdict":  "PENDING",
+                      "notes":  "Draft. Relay đề/sạc 5 chân: contact NC=Bl/R, NO=R, common R/Y→ECM B1. Coil Bl/Bu và Y→ECM A32. Hai phanh song song→G/Y→nút khởi động→Lg→SCU19↔ECM A35. Máy phát sao 3P C1/C2/C3. CKP 6P đầy đủ."
+                  }
+}

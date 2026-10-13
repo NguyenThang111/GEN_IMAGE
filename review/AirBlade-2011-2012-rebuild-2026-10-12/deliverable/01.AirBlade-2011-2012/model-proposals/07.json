@@ -1,0 +1,290 @@
+{
+  "source": "master contract model ID/version snapshot; not actual manifest",
+  "status": "UNVERIFIED_CONSUMER_SUPPORT",
+  "bindings": [
+    {
+      "componentId": "battery",
+      "proposedType": "battery",
+      "symbolRef": {
+        "id": "battery",
+        "version": 1,
+        "ports": {
+          "positive": "positive",
+          "negative": "negative"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:battery",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-fi",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "left",
+          "b": "right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:fuse-fi",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-power",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "capacitor",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "capacitor.polarized",
+        "version": 1,
+        "ports": {
+          "top": "top",
+          "bottom": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:capacitor",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-battery",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-capacitor",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "main-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "in",
+          "b": "out"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:main-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-ignition",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ckp",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.pickup-coil2",
+        "version": 1,
+        "ports": {
+          "a": "upper",
+          "b": "lower"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:ckp",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ckp-rotor",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "assembly.rotor",
+        "version": 1,
+        "ports": {}
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:ckp-rotor",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ecm",
+      "proposedType": "ecm",
+      "symbolRef": {
+        "id": "control.ecm",
+        "version": 1,
+        "ports": {
+          "pin-23": "pin-23",
+          "pin-12": "pin-12",
+          "pin-1": "pin-1",
+          "pin-11": "pin-11",
+          "pin-25": "pin-25",
+          "pin-9": "pin-9",
+          "pin-2": "pin-2",
+          "pin-10": "pin-10"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:ecm",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-green",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-ground",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-ecm",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "side-stand-switch",
+      "proposedType": "selectorSwitch",
+      "symbolRef": {
+        "id": "switch.tilt-module3",
+        "version": 1,
+        "ports": {
+          "left": "left",
+          "right": "right",
+          "unused-contact": "unused-contact"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:side-stand-switch",
+      "requiresReview": true,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ignition-coil",
+      "proposedType": "ignitionCoil",
+      "symbolRef": {
+        "id": "ignition.module3",
+        "version": 1,
+        "ports": {
+          "primary-a": "left",
+          "primary-b": "right",
+          "hv": "hv"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:ignition-coil",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "spark-plug",
+      "proposedType": "sparkPlug",
+      "symbolRef": {
+        "id": "spark-plug.chassis1",
+        "version": 1,
+        "ports": {
+          "hv": "top"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "07:spark-plug",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    }
+  ],
+  "requiredMigration": [
+    "Verify actual APP registry/schema/layout/geometry",
+    "Implement shared Studio model dispatch",
+    "Migrate pinoutData to actual assemblyData.pinoutGroups contract"
+  ],
+  "unresolved": [
+    "Tilt symbol shows three contact points but only G and G/W external wires; preserve the unused contact without inventing internal electrical edges."
+  ]
+}

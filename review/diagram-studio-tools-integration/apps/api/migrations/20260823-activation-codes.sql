@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS activation_codes (id uuid PRIMARY KEY DEFAULT gen_random_uuid(),series varchar(32) NOT NULL,product varchar(16) NOT NULL,"packageCode" varchar(40) NOT NULL,"activationCode" bigint NOT NULL,source varchar(80) NOT NULL,"paymentStatus" varchar(16) NOT NULL,"createdById" uuid NOT NULL REFERENCES users(id) ON DELETE RESTRICT,"createdAt" timestamptz NOT NULL DEFAULT now());
+CREATE INDEX IF NOT EXISTS idx_activation_codes_lookup ON activation_codes(series,product,"packageCode");
+CREATE INDEX IF NOT EXISTS idx_activation_codes_created_at ON activation_codes("createdAt" DESC);

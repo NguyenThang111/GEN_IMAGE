@@ -1,0 +1,449 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "02",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-37-27.png",
+    "imageSha256": "a7713d513350e3e0bde3177f23a4427197ae920785dac7dffe761d389367f4e8",
+    "width": 1687,
+    "height": 952,
+    "recordId": "4878d1c6-9a46-4a43-9760-94e632475690",
+    "identityStatus": "SERVER_SOURCE_REPLACEMENT_REQUIRED",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "horn",
+    "serverImageSha256": "fd59021470ba535426422f781133a929430eb9e29e95ebb60bffba5b53933ce9"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "02:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm trái, dương phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 199,
+        "y": 475,
+        "width": 98,
+        "height": 72
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:fuse-main",
+      "candidateComponentId": "fuse-main",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 425,
+        "y": 399,
+        "width": 82,
+        "height": 38
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 425,
+        "y": 474,
+        "width": 82,
+        "height": 38
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:ignition-switch",
+      "candidateComponentId": "ignition-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 649,
+        "y": 469,
+        "width": 78,
+        "height": 43
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:main-relay",
+      "candidateComponentId": "main-relay",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH; tiếp điểm trên, coil dưới",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 925,
+        "y": 399,
+        "width": 75,
+        "height": 111
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; W/Bl vào",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 1027,
+        "y": 594,
+        "width": 88,
+        "height": 59
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:fuse-turn-horn",
+      "candidateComponentId": "fuse-turn-horn",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) TURN,HORN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 1129,
+        "y": 399,
+        "width": 83,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:horn-switch",
+      "candidateComponentId": "horn-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC CÒI; tiếp điểm nhấn",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1325,
+        "y": 384,
+        "width": 83,
+        "height": 50
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "02:horn",
+      "candidateComponentId": "horn",
+      "kind": "component",
+      "observation": "CÒI; Lg vào, G ra mass",
+      "proposedModelId": "horn.two-terminal",
+      "sourceBox": {
+        "x": 1489,
+        "y": 341,
+        "width": 57,
+        "height": 84
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "ground-battery.in"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "fuse-fi.left"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left"
+      ],
+      [
+        "fuse-fi.right",
+        "ignition-switch.left"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn-horn.left"
+      ],
+      [
+        "fuse-turn-horn.right",
+        "horn-switch.left"
+      ],
+      [
+        "horn-switch.right",
+        "horn.left"
+      ],
+      [
+        "horn.right",
+        "ground-horn.in"
+      ]
+    ],
+    "edges": [
+      [
+        "battery.negative",
+        "ground-battery.in",
+        "G"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "R"
+      ],
+      [
+        "battery.positive",
+        "fuse-fi.left",
+        "R"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left",
+        "R/W"
+      ],
+      [
+        "fuse-fi.right",
+        "ignition-switch.left",
+        "R/Bl"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left",
+        "Bl"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top",
+        "W/Bl"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn-horn.left",
+        "R/Y"
+      ],
+      [
+        "fuse-turn-horn.right",
+        "horn-switch.left",
+        "Bl/Br"
+      ],
+      [
+        "horn-switch.right",
+        "horn.left",
+        "Lg"
+      ],
+      [
+        "horn.right",
+        "ground-horn.in",
+        "G"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          219,
+          475
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          278,
+          475
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-left",
+        "xy": [
+          925,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-right",
+        "xy": [
+          1001,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-left",
+        "xy": [
+          925,
+          494
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-right",
+        "xy": [
+          1001,
+          494
+        ],
+        "label": null
+      },
+      {
+        "ref": "ground-battery.in",
+        "xy": [
+          174,
+          517
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-main.left",
+        "xy": [
+          425,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-main.right",
+        "xy": [
+          507,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-fi.left",
+        "xy": [
+          425,
+          494
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-fi.right",
+        "xy": [
+          507,
+          494
+        ],
+        "label": null
+      },
+      {
+        "ref": "ignition-switch.left",
+        "xy": [
+          649,
+          494
+        ],
+        "label": null
+      },
+      {
+        "ref": "ignition-switch.right",
+        "xy": [
+          727,
+          494
+        ],
+        "label": null
+      },
+      {
+        "ref": "ecm.top",
+        "xy": [
+          1070,
+          594
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-turn-horn.left",
+        "xy": [
+          1129,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "fuse-turn-horn.right",
+        "xy": [
+          1212,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "horn-switch.left",
+        "xy": [
+          1325,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "horn-switch.right",
+        "xy": [
+          1408,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "horn.left",
+        "xy": [
+          1497,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "horn.right",
+        "xy": [
+          1540,
+          420
+        ],
+        "label": null
+      },
+      {
+        "ref": "ground-horn.in",
+        "xy": [
+          1579,
+          483
+        ],
+        "label": null
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": [
+    "Server source is a derived render (01/02) or the wrong circuit (06); use the original local screenshot and replace the record source through a reviewed workflow."
+  ]
+}

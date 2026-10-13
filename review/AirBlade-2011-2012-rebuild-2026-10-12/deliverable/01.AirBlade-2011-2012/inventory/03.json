@@ -1,0 +1,398 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "03",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-37-33.png",
+    "imageSha256": "206915931e1f623dc91d0797f2fb7d070366df43ea9fee81bd97cb766a31354e",
+    "width": 1687,
+    "height": 952,
+    "recordId": "40a662ed-0f2d-4139-ae51-37f6d4a97b20",
+    "identityStatus": "VERIFIED_SAME_BYTES",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "turn-signals",
+    "serverImageSha256": "206915931e1f623dc91d0797f2fb7d070366df43ea9fee81bd97cb766a31354e"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "03:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm trái, dương phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 199,
+        "y": 502,
+        "width": 98,
+        "height": 72
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:fuse-main",
+      "candidateComponentId": "fuse-main",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 396,
+        "y": 427,
+        "width": 82,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 396,
+        "y": 502,
+        "width": 82,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:engine-switch",
+      "candidateComponentId": "engine-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 559,
+        "y": 497,
+        "width": 76,
+        "height": 44
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:main-relay",
+      "candidateComponentId": "main-relay",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 719,
+        "y": 426,
+        "width": 76,
+        "height": 110
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; W/Bl vào",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 821,
+        "y": 621,
+        "width": 88,
+        "height": 60
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:fuse-turn-horn",
+      "candidateComponentId": "fuse-turn-horn",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) TURN,HORN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 875,
+        "y": 428,
+        "width": 78,
+        "height": 38
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:flasher",
+      "candidateComponentId": "flasher",
+      "kind": "component",
+      "observation": "CHỚP XI NHAN; hai đầu Bl/Br và Gr",
+      "proposedModelId": "flasher.two-terminal",
+      "sourceBox": {
+        "x": 1028,
+        "y": 414,
+        "width": 95,
+        "height": 57
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:diode",
+      "candidateComponentId": "diode",
+      "kind": "component",
+      "observation": "ĐI-ỐT; anode trái, cathode phải",
+      "proposedModelId": "diode.rectifier2",
+      "sourceBox": {
+        "x": 1185,
+        "y": 414,
+        "width": 68,
+        "height": 60
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:turn-switch",
+      "candidateComponentId": "turn-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC XI NHAN; common trái, O trên, Lb dưới",
+      "proposedModelId": "switch.selector3",
+      "sourceBox": {
+        "x": 1311,
+        "y": 412,
+        "width": 80,
+        "height": 70
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:turn-left",
+      "candidateComponentId": "turn-left",
+      "kind": "component",
+      "observation": "ĐÈN XI NHAN TRÁI; sợi đốt",
+      "proposedModelId": "lamp.filament2",
+      "sourceBox": {
+        "x": 1482,
+        "y": 314,
+        "width": 110,
+        "height": 65
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "03:turn-right",
+      "candidateComponentId": "turn-right",
+      "kind": "component",
+      "observation": "ĐÈN XI NHAN PHẢI; sợi đốt",
+      "proposedModelId": "lamp.filament2",
+      "sourceBox": {
+        "x": 1482,
+        "y": 535,
+        "width": 110,
+        "height": 65
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "ground-battery.in"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "fuse-fi.left"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left"
+      ],
+      [
+        "fuse-fi.right",
+        "engine-switch.left"
+      ],
+      [
+        "engine-switch.right",
+        "main-relay.coil-left"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn-horn.left"
+      ],
+      [
+        "fuse-turn-horn.right",
+        "flasher.left"
+      ],
+      [
+        "flasher.right",
+        "diode.left"
+      ],
+      [
+        "diode.right",
+        "turn-switch.common"
+      ],
+      [
+        "turn-switch.upper",
+        "turn-left.feed"
+      ],
+      [
+        "turn-switch.lower",
+        "turn-right.feed"
+      ],
+      [
+        "turn-left.return",
+        "ground-left.in"
+      ],
+      [
+        "turn-right.return",
+        "ground-right.in"
+      ]
+    ],
+    "edges": [
+      [
+        "battery.negative",
+        "ground-battery.in",
+        "G"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "R"
+      ],
+      [
+        "battery.positive",
+        "fuse-fi.left",
+        "R"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left",
+        "R/W"
+      ],
+      [
+        "fuse-fi.right",
+        "engine-switch.left",
+        "R/Bl"
+      ],
+      [
+        "engine-switch.right",
+        "main-relay.coil-left",
+        "Bl"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top",
+        "W/Bl"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn-horn.left",
+        "R/Y"
+      ],
+      [
+        "fuse-turn-horn.right",
+        "flasher.left",
+        "Bl/Br"
+      ],
+      [
+        "flasher.right",
+        "diode.left",
+        "Gr"
+      ],
+      [
+        "diode.right",
+        "turn-switch.common",
+        "Gr"
+      ],
+      [
+        "turn-switch.upper",
+        "turn-left.feed",
+        "O"
+      ],
+      [
+        "turn-switch.lower",
+        "turn-right.feed",
+        "Lb"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          219,
+          502
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          278,
+          502
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-left",
+        "xy": [
+          718,
+          447
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-right",
+        "xy": [
+          794,
+          447
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-left",
+        "xy": [
+          718,
+          521
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-right",
+        "xy": [
+          794,
+          521
+        ],
+        "label": null
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": []
+}

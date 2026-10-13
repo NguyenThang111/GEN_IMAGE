@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "target": "C:/Users/thang/Desktop/auto2techos",
+  "files": [
+    {
+      "path": "apps/web/src/diagram-studio/color-sampling.ts",
+      "before": null,
+      "after": "a92567ab1bf3b78a2adc88363935a00613a64d98f860d4c12e02b9fdadef128b"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/contract.ts",
+      "before": "180f47e51fe67281ad550971cd31c18188735b0c7bf53ff4a145f81466b1ab39",
+      "after": "43dcdc955d5d838925d7248b01761f4098436307f7c9019ea575ff9fcf4d6427"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/deterministic-json.ts",
+      "before": "836c9e6035ae0320f8a4536d44b70dad3e89ecafbeaae7e4396c32091a66fbbf",
+      "after": "aebbd90072423f6a8f3ff9618221d5ee30b2fca990294d494c4b0b72227b59cd"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/diagram-quality.ts",
+      "before": null,
+      "after": "537fe671fb71ac16f97c43ac5e67498aa62d3adb9d0772bffaa5fb1d56b3a995"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/diagram-source.ts",
+      "before": null,
+      "after": "81e8364616f58d0b65b59bbcccfcbabdbbbd51ba97f72bda3f2b0acc4d491a0a"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/diagram-tools.css",
+      "before": null,
+      "after": "290011adc25dc9bfa22adc166916ff53bbc491bc2a9811a3dee65b8c5c26cdc8"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/diagram-tools.test.tsx",
+      "before": null,
+      "after": "161751f6af0a23744ab8f404b1a8a98dea74f41790189a2525c4d4f3f973cb6d"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramBatchTools.tsx",
+      "before": null,
+      "after": "bc177adb2fdfd1c23aa4f4f9b00ddde64e9a13717ddea84d1f93fcd1729a11c3"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramComparisonTools.tsx",
+      "before": null,
+      "after": "e08b2d4d20fd67f9ddb203824a1cdd946798f82af6b8e7137eac18604ab4e823"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramConverterView.tsx",
+      "before": "bd4485e62a524203e69be4ec7150c2a631ed19e7875a7fb1839a0002f146962e",
+      "after": "8f35bec0b9b4a949332d8f1251d9157e585bf1ba83c6e60a5391ab77bf5f5767"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramImagePreparation.tsx",
+      "before": "e23db48964ff1dc12168ed2f2c55a4a56d60132552dbfab9928ac334f657b06d",
+      "after": "aead43ca05652daac71bc48af67dfb7dccdf5b7d8d891962b53c4bfdef566a23"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramJsonEditor.tsx",
+      "before": "b3f93f8573a9c33fdd6502b853d29a9a87b48e61d40149714875c84683298da1",
+      "after": "8e2bc20ff4994b57d64cdc17ecf2d98ba481b653fbd090aac7193ccbc504cf2b"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramKitWorkbench.tsx",
+      "before": "799db5ef28284955d28e37451334b000b543d13c79e65368bfa9f4d10b71cc16",
+      "after": "7aa3672e82dda89a60b3dd810753a5c6076da1b888e4238788df7fba61fdeb2b"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramPreview.tsx",
+      "before": "19bb0f387be8f6bc709f1b93f8a1e82b25ac20d04bc438de3020186dcf6874b1",
+      "after": "8cc993c0530d3d9706b558577d970374757da16eb9c8a918a6276faa4fa4c8aa"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramProjectManagerView.tsx",
+      "before": "63a29792c0b93b4452ba6a8cb8f954a583d059dac191ffe4df05b1dc1990a020",
+      "after": "011dfe8da3837e0232726262ff0cc0f161ba80e253311fbfe043ed5b7c805096"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/DiagramStudioView.tsx",
+      "before": "75523162363fef189f35a247ec025c4a9926c0c580ab3eae1e7b6764ea364ff1",
+      "after": "c3b5dda67664de86d6777e0a91838b6c6e791b1971488d0d5927ba3a2532d704"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/kit-image.ts",
+      "before": "070e5d282b57cb3169cf736860df15c4826612435b66555bcee99f2d4a5002cf",
+      "after": "b5158d8301ec00bc67a27a5c9ecb359c808f7e99c83a35c2b655faec06f87e4f"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/manual-diagram-json.ts",
+      "before": "a475d2ccae72cda6a4d670adc5e992a26142c1bb4d881547ce2b175c2e637e74",
+      "after": "5daacdf6bcace624c25baa36261294e69862f7d87fb23d8445ffed80c6f44cda"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/validate-diagram.ts",
+      "before": "ef25dbab2abca63189cc8af3b2ae83793877bb512b0d909e614ade7eec80acae",
+      "after": "f5bde1cca09378a1e9a2f2d25a8dfcedac62734dcf42a0a2d4a8ad9455cdea9f"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/vector-drawing.ts",
+      "before": null,
+      "after": "6d0d1d484a9a061aad34e2bc8f5fe4fc772d5c6e05ee09ade30aec1674f2ea83"
+    },
+    {
+      "path": "apps/web/src/diagram-studio/VectorDiagramDrawing.tsx",
+      "before": null,
+      "after": "8be9f740b87ccff26befc71aef2b6dc40aaa19348b9058341e01d2c25711740b"
+    },
+    {
+      "path": "apps/api/src/diagram-ai/diagram-ai.service.ts",
+      "before": "e8a2d0f244ea8c0fabb6218871f5d9344562b031dad7ee497fa69e86bef12a7a",
+      "after": "9fa18440fb85f3e3e0984b8e0713079a559939d8fe1c068c2caa99de6ab19807"
+    },
+    {
+      "path": "apps/api/src/diagram-ai/diagram-ai.service.spec.ts",
+      "before": "6b3557bdabf3b6e571209446fc6a0ca021c9d9fb8962a3d82b66c65b47656930",
+      "after": "17cca2280e5d0e21a861356f68bde9db8e6f0e5e5924f2a2f038865929cedd9d"
+    },
+    {
+      "path": "apps/api/src/diagram-projects/image-preparation.ts",
+      "before": "8ba77a8da4812a48bb647a2db3eed0b2ddfd9b62793165b5267644fb8f9d4431",
+      "after": "2babfc7e1860d1232a901871b1d72efa7557a0459c6a0a77612c09bb3fc4c669"
+    },
+    {
+      "path": "apps/api/src/diagram-projects/image-preparation.spec.ts",
+      "before": "3011218dbdc3a20a837ce921832a6258b1b42928965b1cbcd8b2ff6910447aa5",
+      "after": "0ae7e8c8ea379a54bde9d95303db02f2924b0ce12fed473455d6274088b3cd89"
+    },
+    {
+      "path": "docs/diagram-tools-workflow.md",
+      "before": null,
+      "after": "765a10321f809840e9acc5e1e330f23f96c22fc8875b3ce0074d796f01eadb10"
+    }
+  ],
+  "validation": {
+    "webTests": 305,
+    "apiTests": 56,
+    "realDiagramFiles": 34,
+    "webTypeScript": "passed",
+    "viteBuild": "passed",
+    "browserInteraction": "not available"
+  }
+}

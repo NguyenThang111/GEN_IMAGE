@@ -1,0 +1,2624 @@
+﻿{
+    "schemaVersion":  1,
+    "reviewStatus":  "draft",
+    "id":  "air-blade-125-abs-2026-smartkey-system",
+    "vehicleId":  "air-blade-2026-125-abs",
+    "vehicleTitle":  "AIR BLADE 2026 (125 / ABS)",
+    "vehicleModel":  "Honda AIR BLADE 125 ABS 2026",
+    "circuitTitle":  "Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey)",
+    "sourceImage":  "air-blade-2026-125-abs-smartkey-system.source.jpg",
+    "canvas":  {
+                   "width":  2000,
+                   "height":  1000,
+                   "background":  "#ffffff"
+               },
+    "sourceCrop":  {
+                       "x":  0,
+                       "y":  0,
+                       "width":  2000,
+                       "height":  1000
+                   },
+    "sourceTransform":  {
+                            "rotateClockwise":  0
+                        },
+    "components":  [
+                       {
+                           "id":  "battery",
+                           "type":  "battery",
+                           "x":  60,
+                           "y":  400,
+                           "width":  80,
+                           "height":  58,
+                           "label":  "ẮC QUY",
+                           "terminals":  [
+                                             {
+                                                 "id":  "neg",
+                                                 "x":  76,
+                                                 "y":  400,
+                                                 "label":  "-"
+                                             },
+                                             {
+                                                 "id":  "pos",
+                                                 "x":  124,
+                                                 "y":  400,
+                                                 "label":  "+"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "battery@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "negative":  "neg",
+                                                           "positive":  "pos"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-battery",
+                           "type":  "ground",
+                           "x":  64,
+                           "y":  356,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  76,
+                                                 "y":  368
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-backup",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  225,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) BACKUP",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  240
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  240
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-main",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  385,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (20A) MAIN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  400
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  400
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-ecu",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  485,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (15A) ECU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  500
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  500
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "relay-main",
+                           "type":  "relay",
+                           "x":  360,
+                           "y":  355,
+                           "width":  120,
+                           "height":  110,
+                           "label":  "RƠ LE CHÍNH",
+                           "terminals":  [
+                                             {
+                                                 "id":  "cl",
+                                                 "x":  360,
+                                                 "y":  400,
+                                                 "label":  "R/W"
+                                             },
+                                             {
+                                                 "id":  "cr",
+                                                 "x":  480,
+                                                 "y":  400,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "col",
+                                                 "x":  396,
+                                                 "y":  465,
+                                                 "label":  "G"
+                                             },
+                                             {
+                                                 "id":  "cor",
+                                                 "x":  444,
+                                                 "y":  465,
+                                                 "label":  "Bl/Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "relay.contact-coil4@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-relay",
+                           "type":  "ground",
+                           "x":  384,
+                           "y":  475,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  396,
+                                                 "y":  487
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ignition-switch",
+                           "type":  "switch",
+                           "x":  530,
+                           "y":  350,
+                           "width":  110,
+                           "height":  120,
+                           "label":  "KHÓA ĐIỆN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p1-in",
+                                                 "x":  530,
+                                                 "y":  400,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "p1-out",
+                                                 "x":  640,
+                                                 "y":  400,
+                                                 "label":  "R/Bl"
+                                             },
+                                             {
+                                                 "id":  "p2-in",
+                                                 "x":  530,
+                                                 "y":  460,
+                                                 "label":  "Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "p2-out",
+                                                 "x":  640,
+                                                 "y":  460,
+                                                 "label":  "R/Br"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.dpst4@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "fuse-sub1",
+                           "type":  "fuse",
+                           "x":  700,
+                           "y":  385,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) SUB 1",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  700,
+                                                 "y":  400
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  780,
+                                                 "y":  400
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "scu",
+                           "type":  "connector",
+                           "x":  900,
+                           "y":  100,
+                           "width":  200,
+                           "height":  700,
+                           "label":  "SCU 21P",
+                           "connectorType":  "21P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p1-bb",
+                                                 "x":  900,
+                                                 "y":  140,
+                                                 "label":  "1 B+ P/Bl"
+                                             },
+                                             {
+                                                 "id":  "p2-main",
+                                                 "x":  900,
+                                                 "y":  180,
+                                                 "label":  "2 MAIN SW Bl"
+                                             },
+                                             {
+                                                 "id":  "p3-gnd",
+                                                 "x":  900,
+                                                 "y":  220,
+                                                 "label":  "3 GND G/Bl"
+                                             },
+                                             {
+                                                 "id":  "p4-sol+",
+                                                 "x":  900,
+                                                 "y":  260,
+                                                 "label":  "4 SOL+ Bl"
+                                             },
+                                             {
+                                                 "id":  "p5-sol-",
+                                                 "x":  900,
+                                                 "y":  300,
+                                                 "label":  "5 SOL- Bl"
+                                             },
+                                             {
+                                                 "id":  "p6-knob",
+                                                 "x":  900,
+                                                 "y":  340,
+                                                 "label":  "6 KNOB SW Bl"
+                                             },
+                                             {
+                                                 "id":  "p7-si",
+                                                 "x":  900,
+                                                 "y":  380,
+                                                 "label":  "7 SMART IND R/W"
+                                             },
+                                             {
+                                                 "id":  "p8-wl",
+                                                 "x":  900,
+                                                 "y":  420,
+                                                 "label":  "8 WINKER L O"
+                                             },
+                                             {
+                                                 "id":  "p9-wr",
+                                                 "x":  900,
+                                                 "y":  460,
+                                                 "label":  "9 WINKER R Lb"
+                                             },
+                                             {
+                                                 "id":  "p10-imo",
+                                                 "x":  900,
+                                                 "y":  500,
+                                                 "label":  "10 IMOID R"
+                                             },
+                                             {
+                                                 "id":  "p11-imoa",
+                                                 "x":  900,
+                                                 "y":  540,
+                                                 "label":  "11 IMOAU Bu"
+                                             },
+                                             {
+                                                 "id":  "p12-buz",
+                                                 "x":  900,
+                                                 "y":  580,
+                                                 "label":  "12 BUZZER+ Bu"
+                                             },
+                                             {
+                                                 "id":  "p13-buzm",
+                                                 "x":  900,
+                                                 "y":  620,
+                                                 "label":  "13 BUZZER- G"
+                                             },
+                                             {
+                                                 "id":  "p14-entry",
+                                                 "x":  900,
+                                                 "y":  660,
+                                                 "label":  "14 ENTRY MODE Bl/G"
+                                             },
+                                             {
+                                                 "id":  "p15-sw",
+                                                 "x":  900,
+                                                 "y":  700,
+                                                 "label":  "15 START SW Lg"
+                                             },
+                                             {
+                                                 "id":  "p16-alarm",
+                                                 "x":  900,
+                                                 "y":  740,
+                                                 "label":  "16 ALARM IND P/Y"
+                                             },
+                                             {
+                                                 "id":  "p19-eng",
+                                                 "x":  900,
+                                                 "y":  780,
+                                                 "label":  "19 ENG START Lg"
+                                             },
+                                             {
+                                                 "id":  "p20-ubox",
+                                                 "x":  900,
+                                                 "y":  820,
+                                                 "label":  "20 U-BOX LED Gr"
+                                             },
+                                             {
+                                                 "id":  "p21-face",
+                                                 "x":  900,
+                                                 "y":  860,
+                                                 "label":  "21 FACE LED Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         },
+                           "note":  "SCU 21P bảng ba cột 7 hàng. 19 chân dùng."
+                       },
+                       {
+                           "id":  "meter-cluster",
+                           "type":  "connector",
+                           "x":  1200,
+                           "y":  140,
+                           "width":  180,
+                           "height":  220,
+                           "label":  "CỤM ĐỒNG HỒ (16P)",
+                           "connectorType":  "16P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p8-bb",
+                                                 "x":  1200,
+                                                 "y":  180,
+                                                 "label":  "8 P/Bl"
+                                             },
+                                             {
+                                                 "id":  "p15-si",
+                                                 "x":  1200,
+                                                 "y":  220,
+                                                 "label":  "15 R/W"
+                                             },
+                                             {
+                                                 "id":  "p10-al",
+                                                 "x":  1200,
+                                                 "y":  260,
+                                                 "label":  "10 P/Y"
+                                             },
+                                             {
+                                                 "id":  "p14-lb",
+                                                 "x":  1200,
+                                                 "y":  300,
+                                                 "label":  "14 Lb"
+                                             },
+                                             {
+                                                 "id":  "p4-o",
+                                                 "x":  1200,
+                                                 "y":  340,
+                                                 "label":  "4 O"
+                                             },
+                                             {
+                                                 "id":  "p6-gnd",
+                                                 "x":  1200,
+                                                 "y":  380,
+                                                 "label":  "6 G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-meter",
+                           "type":  "ground",
+                           "x":  1188,
+                           "y":  392,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1200,
+                                                 "y":  404
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ignition-key-7p",
+                           "type":  "connector",
+                           "x":  1200,
+                           "y":  480,
+                           "width":  160,
+                           "height":  220,
+                           "label":  "KHÓA ĐIỆN 7P\n(Cuộn điện từ + LED + Núm)",
+                           "connectorType":  "7P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p2-sol+",
+                                                 "x":  1200,
+                                                 "y":  520,
+                                                 "label":  "2 SOL+ ← SCU4"
+                                             },
+                                             {
+                                                 "id":  "p5-sol-",
+                                                 "x":  1200,
+                                                 "y":  560,
+                                                 "label":  "5 SOL- ← SCU5"
+                                             },
+                                             {
+                                                 "id":  "p6-led+",
+                                                 "x":  1200,
+                                                 "y":  600,
+                                                 "label":  "6 FACE LED ← SCU21"
+                                             },
+                                             {
+                                                 "id":  "p3-knob",
+                                                 "x":  1200,
+                                                 "y":  640,
+                                                 "label":  "3 KNOB ← SCU6"
+                                             },
+                                             {
+                                                 "id":  "p7-gnd",
+                                                 "x":  1200,
+                                                 "y":  680,
+                                                 "label":  "7 G (mass)"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         },
+                           "note":  "7P hai cột lệch. Chân4 và7 về mass/nguồn chung. Giữ độc lập các phần."
+                       },
+                       {
+                           "id":  "mass-key7p",
+                           "type":  "ground",
+                           "x":  1188,
+                           "y":  692,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1200,
+                                                 "y":  704
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ecm",
+                           "type":  "connector",
+                           "x":  1200,
+                           "y":  750,
+                           "width":  180,
+                           "height":  160,
+                           "label":  "ECM 39P",
+                           "connectorType":  "39P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a35-st",
+                                                 "x":  1200,
+                                                 "y":  790,
+                                                 "label":  "A35 ST-SW Lg"
+                                             },
+                                             {
+                                                 "id":  "a34-imoid",
+                                                 "x":  1200,
+                                                 "y":  830,
+                                                 "label":  "A34 IMOID R"
+                                             },
+                                             {
+                                                 "id":  "a6-imoau",
+                                                 "x":  1200,
+                                                 "y":  870,
+                                                 "label":  "A6 IMOAU Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "ubox-led",
+                           "type":  "lamp",
+                           "x":  1200,
+                           "y":  430,
+                           "width":  80,
+                           "height":  40,
+                           "label":  "LED HỘP ĐỒ (Gr)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1200,
+                                                 "y":  450,
+                                                 "label":  "Gr"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1280,
+                                                 "y":  450,
+                                                 "label":  "→ SCU20"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.led@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "buzzer",
+                           "type":  "buzzer",
+                           "x":  1480,
+                           "y":  540,
+                           "width":  80,
+                           "height":  60,
+                           "label":  "BUZZER",
+                           "terminals":  [
+                                             {
+                                                 "id":  "pos",
+                                                 "x":  1480,
+                                                 "y":  560,
+                                                 "label":  "Bu SCU12"
+                                             },
+                                             {
+                                                 "id":  "neg",
+                                                 "x":  1480,
+                                                 "y":  590,
+                                                 "label":  "G SCU13"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "buzzer@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-buzzer",
+                           "type":  "ground",
+                           "x":  1468,
+                           "y":  602,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1480,
+                                                 "y":  614
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "brake-sw-front",
+                           "type":  "switch",
+                           "x":  840,
+                           "y":  920,
+                           "width":  100,
+                           "height":  50,
+                           "label":  "CT PHANH TRƯỚC",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  840,
+                                                 "y":  945,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  940,
+                                                 "y":  945,
+                                                 "label":  "G/Y"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "brake-sw-rear",
+                           "type":  "switch",
+                           "x":  980,
+                           "y":  920,
+                           "width":  100,
+                           "height":  50,
+                           "label":  "CT PHANH SAU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  980,
+                                                 "y":  945,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  1080,
+                                                 "y":  945,
+                                                 "label":  "G/Y"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "start-button",
+                           "type":  "switch",
+                           "x":  1120,
+                           "y":  920,
+                           "width":  100,
+                           "height":  50,
+                           "label":  "NÚT KHỞI ĐỘNG",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1120,
+                                                 "y":  945,
+                                                 "label":  "G/Y"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  1220,
+                                                 "y":  945,
+                                                 "label":  "Lg"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "lamp-rear-left",
+                           "type":  "lamp",
+                           "x":  1600,
+                           "y":  380,
+                           "width":  60,
+                           "height":  50,
+                           "label":  "ĐÈN XI NHAN SAU TRÁI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1600,
+                                                 "y":  400,
+                                                 "label":  "O"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1660,
+                                                 "y":  400,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "lamp-front-left",
+                           "type":  "lamp",
+                           "x":  1600,
+                           "y":  450,
+                           "width":  60,
+                           "height":  50,
+                           "label":  "ĐÈN XI NHAN TRƯỚC TRÁI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1600,
+                                                 "y":  470,
+                                                 "label":  "O"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1660,
+                                                 "y":  470,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "lamp-front-right",
+                           "type":  "lamp",
+                           "x":  1600,
+                           "y":  520,
+                           "width":  60,
+                           "height":  50,
+                           "label":  "ĐÈN XI NHAN TRƯỚC PHẢI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1600,
+                                                 "y":  540,
+                                                 "label":  "Lb"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1660,
+                                                 "y":  540,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "lamp-rear-right",
+                           "type":  "lamp",
+                           "x":  1600,
+                           "y":  590,
+                           "width":  60,
+                           "height":  50,
+                           "label":  "ĐÈN XI NHAN SAU PHẢI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1600,
+                                                 "y":  610,
+                                                 "label":  "Lb"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1660,
+                                                 "y":  610,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-wl",
+                           "type":  "ground",
+                           "x":  1648,
+                           "y":  388,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1660,
+                                                 "y":  400
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-fl",
+                           "type":  "ground",
+                           "x":  1648,
+                           "y":  458,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1660,
+                                                 "y":  470
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-fr",
+                           "type":  "ground",
+                           "x":  1648,
+                           "y":  528,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1660,
+                                                 "y":  540
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-rr",
+                           "type":  "ground",
+                           "x":  1648,
+                           "y":  598,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1660,
+                                                 "y":  610
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-scu3",
+                           "type":  "ground",
+                           "x":  888,
+                           "y":  232,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G/Bl (SCU3)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  900,
+                                                 "y":  244
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fob-annotation",
+                           "type":  "annotation",
+                           "x":  1700,
+                           "y":  780,
+                           "width":  200,
+                           "height":  80,
+                           "label":  "FOB + LF ANTENNA / RF UNIT\n(chỉ annotation radio, không phải dây điện)",
+                           "symbolRef":  null
+                       }
+                   ],
+    "wires":  [
+                  {
+                      "id":  "w-bat-neg-mass",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "neg"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-battery",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  76,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  76,
+                                         "y":  380
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-backup",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-backup",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  240
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  240
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-backup-pbl",
+                      "from":  {
+                                   "componentId":  "fuse-backup",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p1-bb"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  240
+                                     },
+                                     {
+                                         "x":  560,
+                                         "y":  240
+                                     },
+                                     {
+                                         "x":  560,
+                                         "y":  140
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  140
+                                     }
+                                 ],
+                      "code":  "P/Bl",
+                      "primaryColor":  "#ff88ff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "P/Bl",
+                                         "x":  420,
+                                         "y":  230,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-backup-pbl",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-backup-ubox",
+                      "from":  {
+                                   "componentId":  "fuse-backup",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "ubox-led",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  560,
+                                         "y":  240
+                                     },
+                                     {
+                                         "x":  560,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  1160,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  1160,
+                                         "y":  450
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  450
+                                     }
+                                 ],
+                      "code":  "P/Bl",
+                      "primaryColor":  "#ff88ff",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-backup-meter8",
+                      "from":  {
+                                   "componentId":  "fuse-backup",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "meter-cluster",
+                                 "terminalId":  "p8-bb"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  560,
+                                         "y":  240
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  180
+                                     }
+                                 ],
+                      "code":  "P/Bl",
+                      "primaryColor":  "#ff88ff",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-main",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-main",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  400
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-main-relay",
+                      "from":  {
+                                   "componentId":  "fuse-main",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "relay-main",
+                                 "terminalId":  "cl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  360,
+                                         "y":  400
+                                     }
+                                 ],
+                      "code":  "R/W",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/W",
+                                         "x":  318,
+                                         "y":  390,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-main-relay",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-ign1",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cr"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p1-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  480,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  400
+                                     }
+                                 ],
+                      "code":  "Bl/R",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/R",
+                                         "x":  504,
+                                         "y":  390,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-ign1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-coil-mass",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "col"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-relay",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  396,
+                                         "y":  465
+                                     },
+                                     {
+                                         "x":  396,
+                                         "y":  487
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-relay-coil-ign2",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cor"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  444,
+                                         "y":  465
+                                     },
+                                     {
+                                         "x":  444,
+                                         "y":  490
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  490
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  460
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  460
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu",
+                                         "x":  480,
+                                         "y":  480,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-coil-ign2",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ign1-sub1",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p1-out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-sub1",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  400
+                                     }
+                                 ],
+                      "code":  "R/Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Bl",
+                                         "x":  668,
+                                         "y":  390,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign1-sub1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-scu2-main",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p2-main"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  780,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  830,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  830,
+                                         "y":  180
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  180
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl",
+                                         "x":  820,
+                                         "y":  390,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub1-scu2-main",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-brake-front",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-sw-front",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  830,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  830,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  840,
+                                         "y":  945
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-sub1-brake-rear",
+                      "from":  {
+                                   "componentId":  "brake-sw-front",
+                                   "terminalId":  "in"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-sw-rear",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  830,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  980,
+                                         "y":  945
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-front-gy",
+                      "from":  {
+                                   "componentId":  "brake-sw-front",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "start-button",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  960,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  960,
+                                         "y":  960
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  960
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  945
+                                     }
+                                 ],
+                      "code":  "G/Y",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Y",
+                                         "x":  1040,
+                                         "y":  965,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-front-gy",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-rear-gy",
+                      "from":  {
+                                   "componentId":  "brake-sw-rear",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "start-button",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1080,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  945
+                                     }
+                                 ],
+                      "code":  "G/Y",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-start-lg-scu15",
+                      "from":  {
+                                   "componentId":  "start-button",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "ecm",
+                                 "terminalId":  "a35-st"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1220,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  1240,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  1240,
+                                         "y":  700
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  700
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  780
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  780
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  790
+                                     }
+                                 ],
+                      "code":  "Lg",
+                      "primaryColor":  "#88dd44",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Lg",
+                                         "x":  1230,
+                                         "y":  935,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-start-lg-scu15",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu15-sw",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p15-sw"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-sw-front",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  900,
+                                         "y":  700
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  700
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  945
+                                     },
+                                     {
+                                         "x":  840,
+                                         "y":  945
+                                     }
+                                 ],
+                      "code":  "Lg",
+                      "primaryColor":  "#88dd44",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Lg SCU15",
+                                         "x":  875,
+                                         "y":  910,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu15-sw",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu19-ecm35",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a35-st"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p19-eng"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  780
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  780
+                                     }
+                                 ],
+                      "code":  "Lg",
+                      "primaryColor":  "#88dd44",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-scu10-imoid",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a34-imoid"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p10-imo"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  830
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  500
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R",
+                                         "x":  1000,
+                                         "y":  660,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu10-imoid",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu11-imoau",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a6-imoau"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p11-imoa"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  870
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  540
+                                     }
+                                 ],
+                      "code":  "Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bu",
+                                         "x":  1000,
+                                         "y":  700,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu11-imoau",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu7-smart-ind",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p7-si"
+                               },
+                      "to":  {
+                                 "componentId":  "meter-cluster",
+                                 "terminalId":  "p15-si"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  220
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  220
+                                     }
+                                 ],
+                      "code":  "R/W",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/W",
+                                         "x":  1150,
+                                         "y":  210,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu7-smart-ind",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu16-alarm",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p16-alarm"
+                               },
+                      "to":  {
+                                 "componentId":  "meter-cluster",
+                                 "terminalId":  "p10-al"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  740
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  260
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  260
+                                     }
+                                 ],
+                      "code":  "P/Y",
+                      "primaryColor":  "#ff88ff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "P/Y",
+                                         "x":  1150,
+                                         "y":  250,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu16-alarm",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu8-wl-o",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p8-wl"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-rear-left",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  1580,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  1580,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  1600,
+                                         "y":  400
+                                     }
+                                 ],
+                      "code":  "O",
+                      "primaryColor":  "#ee8800",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "O",
+                                         "x":  1540,
+                                         "y":  410,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu8-wl-o",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu8-fl-o",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p8-wl"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-front-left",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1580,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  1580,
+                                         "y":  470
+                                     },
+                                     {
+                                         "x":  1600,
+                                         "y":  470
+                                     }
+                                 ],
+                      "code":  "O",
+                      "primaryColor":  "#ee8800",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-meter4-o",
+                      "from":  {
+                                   "componentId":  "meter-cluster",
+                                   "terminalId":  "p4-o"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p8-wl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  340
+                                     },
+                                     {
+                                         "x":  1160,
+                                         "y":  340
+                                     },
+                                     {
+                                         "x":  1160,
+                                         "y":  420
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  420
+                                     }
+                                 ],
+                      "code":  "O",
+                      "primaryColor":  "#ee8800",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-scu9-wr-lb",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p9-wr"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-front-right",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  460
+                                     },
+                                     {
+                                         "x":  1582,
+                                         "y":  460
+                                     },
+                                     {
+                                         "x":  1582,
+                                         "y":  540
+                                     },
+                                     {
+                                         "x":  1600,
+                                         "y":  540
+                                     }
+                                 ],
+                      "code":  "Lb",
+                      "primaryColor":  "#66aaff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Lb",
+                                         "x":  1540,
+                                         "y":  450,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu9-wr-lb",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu9-rr-lb",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p9-wr"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-rear-right",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1582,
+                                         "y":  540
+                                     },
+                                     {
+                                         "x":  1582,
+                                         "y":  610
+                                     },
+                                     {
+                                         "x":  1600,
+                                         "y":  610
+                                     }
+                                 ],
+                      "code":  "Lb",
+                      "primaryColor":  "#66aaff",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-meter14-lb",
+                      "from":  {
+                                   "componentId":  "meter-cluster",
+                                   "terminalId":  "p14-lb"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p9-wr"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  1162,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  1162,
+                                         "y":  460
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  460
+                                     }
+                                 ],
+                      "code":  "Lb",
+                      "primaryColor":  "#66aaff",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-lamp-rl-mass",
+                      "from":  {
+                                   "componentId":  "lamp-rear-left",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-wl",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1660,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  1660,
+                                         "y":  412
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-lamp-fl-mass",
+                      "from":  {
+                                   "componentId":  "lamp-front-left",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-fl",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1660,
+                                         "y":  470
+                                     },
+                                     {
+                                         "x":  1660,
+                                         "y":  482
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-lamp-fr-mass",
+                      "from":  {
+                                   "componentId":  "lamp-front-right",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-fr",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1660,
+                                         "y":  540
+                                     },
+                                     {
+                                         "x":  1660,
+                                         "y":  552
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-lamp-rr-mass",
+                      "from":  {
+                                   "componentId":  "lamp-rear-right",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-rr",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1660,
+                                         "y":  610
+                                     },
+                                     {
+                                         "x":  1660,
+                                         "y":  622
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-scu12-buzzer+",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p12-buz"
+                               },
+                      "to":  {
+                                 "componentId":  "buzzer",
+                                 "terminalId":  "pos"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  580
+                                     },
+                                     {
+                                         "x":  1480,
+                                         "y":  560
+                                     }
+                                 ],
+                      "code":  "Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bu",
+                                         "x":  1290,
+                                         "y":  565,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu12-buzzer+",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu13-buzzer-",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p13-buzm"
+                               },
+                      "to":  {
+                                 "componentId":  "buzzer",
+                                 "terminalId":  "neg"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  620
+                                     },
+                                     {
+                                         "x":  1480,
+                                         "y":  590
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G",
+                                         "x":  1290,
+                                         "y":  605,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu13-buzzer-",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-buzzer-mass",
+                      "from":  {
+                                   "componentId":  "buzzer",
+                                   "terminalId":  "neg"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-buzzer",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1480,
+                                         "y":  590
+                                     },
+                                     {
+                                         "x":  1480,
+                                         "y":  614
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-scu4-sol+",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p4-sol+"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-key-7p",
+                                 "terminalId":  "p2-sol+"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  260
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  520
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl SCU4→2",
+                                         "x":  1150,
+                                         "y":  390,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu4-sol+",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu5-sol-",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p5-sol-"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-key-7p",
+                                 "terminalId":  "p5-sol-"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  560
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl SCU5→5",
+                                         "x":  1155,
+                                         "y":  430,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu5-sol-",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu21-face",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p21-face"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-key-7p",
+                                 "terminalId":  "p6-led+"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  860
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  600
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl SCU21→6",
+                                         "x":  1155,
+                                         "y":  730,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu21-face",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-scu6-knob",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p6-knob"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-key-7p",
+                                 "terminalId":  "p3-knob"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  340
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  640
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl SCU6→3",
+                                         "x":  1155,
+                                         "y":  490,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-scu6-knob",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-key7p-gnd",
+                      "from":  {
+                                   "componentId":  "ignition-key-7p",
+                                   "terminalId":  "p7-gnd"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-key7p",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  680
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  704
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ubox-led-ret",
+                      "from":  {
+                                   "componentId":  "ubox-led",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "scu",
+                                 "terminalId":  "p20-ubox"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1280,
+                                         "y":  450
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  450
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  820
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  820
+                                     }
+                                 ],
+                      "code":  "Gr",
+                      "primaryColor":  "#888888",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Gr→SCU20",
+                                         "x":  1340,
+                                         "y":  440,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ubox-led-ret",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-meter6-gnd",
+                      "from":  {
+                                   "componentId":  "meter-cluster",
+                                   "terminalId":  "p6-gnd"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-meter",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  1200,
+                                         "y":  404
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-scu3-mass",
+                      "from":  {
+                                   "componentId":  "scu",
+                                   "terminalId":  "p3-gnd"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-scu3",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  900,
+                                         "y":  220
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  244
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-ecu",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-ecu",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  500
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  500
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecu-ign2out",
+                      "from":  {
+                                   "componentId":  "fuse-ecu",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-out"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  500
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  500
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  460
+                                     }
+                                 ],
+                      "code":  "R/Br",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Br",
+                                         "x":  460,
+                                         "y":  490,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecu-ign2out",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  }
+              ],
+    "reviewIssues":  [
+                         {
+                             "id":  "ri-sk-01",
+                             "severity":  "info",
+                             "description":  "Nhãn toàn ảnh bị xoay. Giữ tất cả nhánh theo từng nhóm chân. Không bỏ nhánh dù nhãn khó đọc."
+                         },
+                         {
+                             "id":  "ri-sk-02",
+                             "severity":  "info",
+                             "description":  "FOB và LF ANTENNA/RF UNIT là annotation radio (2 mũi tên khác hướng), không phải dây điện. Không thêm dây nối."
+                         },
+                         {
+                             "id":  "ri-sk-03",
+                             "severity":  "info",
+                             "description":  "Khóa điện 7P: chân4 và7 về mass/nguồn chung. Giữ độc lập các phần (cuộn điện từ, LED mặt, công tắc núm)."
+                         }
+                     ],
+    "genReview":  {
+                      "reviewer":  "kiro-agent",
+                      "date":  "2026-10-13",
+                      "verdict":  "PENDING",
+                      "notes":  "Draft. SCU 21P: 19 chân. BACKUP P/Bl→SCU1, LED hộp Gr→SCU20, đồng hồ8. Bốn bóng xi nhan nối O/Lb với SCU8/9 và đồng hồ4/14. ECM A35↔SCU19 Lg, A34↔SCU10 R, A6↔SCU11 Bu. Buzzer 2 dây SCU12/13. Khóa 7P: SCU4→2, SCU5→5, SCU21→6, SCU6→3."
+                  }
+}

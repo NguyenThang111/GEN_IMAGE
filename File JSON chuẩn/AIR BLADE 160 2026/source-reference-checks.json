@@ -1,0 +1,91 @@
+{
+  "status": "PASS_SELECTED_SOURCE_CHECKS",
+  "coverage": "Selected critical pin labels, fuse ratings and wire networks only; not a full certification",
+  "errors": [],
+  "checks": [
+    {
+      "file": "01. power-distribution.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 9,
+      "networks": 0
+    },
+    {
+      "file": "02. horn.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 3,
+      "networks": 3
+    },
+    {
+      "file": "03. turn-signals.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 0,
+      "networks": 4
+    },
+    {
+      "file": "04. brake-light.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 0,
+      "networks": 2
+    },
+    {
+      "file": "05. fuel-indicator.schema.json",
+      "pinLabels": 3,
+      "fuseRatings": 0,
+      "networks": 2
+    },
+    {
+      "file": "06. night-lighting.schema.json",
+      "pinLabels": 6,
+      "fuseRatings": 2,
+      "networks": 0
+    },
+    {
+      "file": "07. vehicle-speed.schema.json",
+      "pinLabels": 7,
+      "fuseRatings": 0,
+      "networks": 4
+    },
+    {
+      "file": "08. ignition.schema.json",
+      "pinLabels": 11,
+      "fuseRatings": 0,
+      "networks": 5
+    },
+    {
+      "file": "09. starting.schema.json",
+      "pinLabels": 18,
+      "fuseRatings": 0,
+      "networks": 0
+    },
+    {
+      "file": "10. idling-stop.schema.json",
+      "pinLabels": 11,
+      "fuseRatings": 0,
+      "networks": 4
+    },
+    {
+      "file": "11. smartkey-system.schema.json",
+      "pinLabels": 22,
+      "fuseRatings": 0,
+      "networks": 0
+    },
+    {
+      "file": "12. abs.schema.json",
+      "pinLabels": 12,
+      "fuseRatings": 2,
+      "networks": 4
+    },
+    {
+      "file": "13. pgm-fi.schema.json",
+      "pinLabels": 32,
+      "fuseRatings": 0,
+      "networks": 0
+    },
+    {
+      "file": "alternate/12. pgm-fi-source-12.schema.json",
+      "pinLabels": 36,
+      "fuseRatings": 0,
+      "networks": 0
+    }
+  ]
+}

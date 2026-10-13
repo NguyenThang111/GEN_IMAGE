@@ -1,0 +1,603 @@
+{
+  "version": 1,
+  "vehicleId": "38770-kvg-v42",
+  "deliveryVerdict": "REVIEW_REQUIRED",
+  "date": "2026-10-12",
+  "files": [
+    {
+      "path": "checks/checker-regression.log",
+      "bytes": 2171,
+      "sha256": "0e2cb8757d4db2dee7da34b583d0305c339f053ad75480c432ca057155e677d3"
+    },
+    {
+      "path": "checks/live-editor/01-export.json",
+      "bytes": 23972,
+      "sha256": "bcd93bfa0dd9dcf279292a692b282c70a64ef95e50f5ab87f4c049e64719e283"
+    },
+    {
+      "path": "checks/live-editor/01-preview.png",
+      "bytes": 30346,
+      "sha256": "189a10926ec3290f92648e5744567cc0f8f5457c92677ee3de6e1f94b780e826"
+    },
+    {
+      "path": "checks/live-editor/02-export.json",
+      "bytes": 11218,
+      "sha256": "813a6fd5dc4937ce1fa87e3fe7eb81f47e552a2b363d23f1a901fe04a4a85563"
+    },
+    {
+      "path": "checks/live-editor/02-preview.png",
+      "bytes": 14943,
+      "sha256": "c798b25b6640cc7e8c2714a20d1b5213ea98bba09cb772aef002e9e19d250def"
+    },
+    {
+      "path": "checks/live-editor/03-export.json",
+      "bytes": 14873,
+      "sha256": "50e0a92b9d1629129d9a9def633169b3c72cce3e3a6d511033b28cadeefc17e0"
+    },
+    {
+      "path": "checks/live-editor/03-preview.png",
+      "bytes": 19585,
+      "sha256": "12feadaaef29f3377b0e6dd05e2ded6e312ff55463898a960c971eeddf076a03"
+    },
+    {
+      "path": "checks/live-editor/04-export.json",
+      "bytes": 17009,
+      "sha256": "052368efeee127227ef02e72c5fd1fe65e7f641a8c5a6867dbe28a19921247cf"
+    },
+    {
+      "path": "checks/live-editor/04-preview.png",
+      "bytes": 20951,
+      "sha256": "92ad5bac992a2bedb7d33ffdd1fb594ef3db35568c5f1dc7d32d84f8d396b701"
+    },
+    {
+      "path": "checks/live-editor/05-export.json",
+      "bytes": 13020,
+      "sha256": "f3976dfd5c9892d05297476e4e09d814dd7ec5b52d043478313d7b4aad658db1"
+    },
+    {
+      "path": "checks/live-editor/05-preview.png",
+      "bytes": 19515,
+      "sha256": "308b56d2ea0a75bf5131b5d73f1aa3c5dcc05b823a2fb71c56cbb66e7a4dc315"
+    },
+    {
+      "path": "checks/live-editor/06-export.json",
+      "bytes": 23682,
+      "sha256": "1526534df6f35211d65723d1dc7a43c3857a54a87a0731aa0cfe7fed6424f4bb"
+    },
+    {
+      "path": "checks/live-editor/06-preview.png",
+      "bytes": 26704,
+      "sha256": "66844c3d7af929a083f8427415b23cd3f862d3b7794987d6aeda6de313414403"
+    },
+    {
+      "path": "checks/live-editor/07-export.json",
+      "bytes": 17775,
+      "sha256": "283baabd7993d51653b716337ce1c44fbb6c2ab2e05f137e8336f4d2db8cba71"
+    },
+    {
+      "path": "checks/live-editor/07-preview.png",
+      "bytes": 24228,
+      "sha256": "1229eb1bdc2ead11b5db7f57e91c926dd176f2ff71bdef37ea606e82962c560b"
+    },
+    {
+      "path": "checks/live-editor/08-export.json",
+      "bytes": 27348,
+      "sha256": "f9fe61a17d33d228f9f680f6e3c718f36edea002f676a334adcb0ff050606cce"
+    },
+    {
+      "path": "checks/live-editor/08-preview.png",
+      "bytes": 33119,
+      "sha256": "3b3a93df8b1e1af74c79d9c1fcfa787bc6c236e2a2ca3352ce6dd3faab770904"
+    },
+    {
+      "path": "checks/live-editor/09-export.json",
+      "bytes": 22064,
+      "sha256": "ada4a1430d2aba9859b2ebc3a5b19ceadcbbf45fa8d498355cf5996bd484a916"
+    },
+    {
+      "path": "checks/live-editor/09-preview.png",
+      "bytes": 33926,
+      "sha256": "814372414f21d64644710d8735567aa4ce1c4111820beed7af1d895c0fee388e"
+    },
+    {
+      "path": "checks/live-editor/10-export.json",
+      "bytes": 49428,
+      "sha256": "df129d79dad69225cb388060b3fb7690832f03bba1a16438b66cfb9ba799e152"
+    },
+    {
+      "path": "checks/live-editor/10-preview.png",
+      "bytes": 55101,
+      "sha256": "7502fb3351a4f3ba4f8a9ce5723f4d932e25c678922daca9f462d7b84c47ed7b"
+    },
+    {
+      "path": "checks/live-editor/results.json",
+      "bytes": 18490,
+      "sha256": "48095a1940cfe7dc14cf9a687d2d465ef2e159635a4a3c1a4177bd5d6640f497"
+    },
+    {
+      "path": "checks/live-server-unchanged.json",
+      "bytes": 150,
+      "sha256": "f670452f71cc9f4baa9c8d435ed39dd8e4e68ed57ca1f3daae06769c1b1e07ee"
+    },
+    {
+      "path": "checks/live-web-bundle.json",
+      "bytes": 462,
+      "sha256": "7ead4b683356ade5700e6c330b8ccb78ce86a6a0cf5539330798eb6b9546ceaf"
+    },
+    {
+      "path": "checks/qa-results.json",
+      "bytes": 444,
+      "sha256": "c80666614ed8294c675e304276dd95b00b9b719bdff2402a0d509008f77de061"
+    },
+    {
+      "path": "checks/repeat-build.json",
+      "bytes": 184,
+      "sha256": "2e9341c3e4beb08178cdc61b0079f4f9bb7ccdb22ecd9b7a42c1d28cca988c13"
+    },
+    {
+      "path": "checks/review-viewer.json",
+      "bytes": 531,
+      "sha256": "a6b9de54447631b81f557db68e31935f1856378839b56f9d25eb71cc0f9549ee"
+    },
+    {
+      "path": "checks/source-check.json",
+      "bytes": 105075,
+      "sha256": "e10ce4727acad64acde194ab8ba23598f2c45704946855614864457994c525f0"
+    },
+    {
+      "path": "checks/studio-regression.log",
+      "bytes": 416,
+      "sha256": "87be0e438357b6cc514007169c8dc8984d417bca6b849ee283eda90f39a2f52b"
+    },
+    {
+      "path": "checks/studio-validation-render.json",
+      "bytes": 6941,
+      "sha256": "2a5b9eb63ed2c000a254303e1ec7711d23a87c87af84f1220d8a64f5f29d2cd1"
+    },
+    {
+      "path": "code-patch/apps/web/src/diagram-studio/validate-diagram.test.ts",
+      "bytes": 6176,
+      "sha256": "26328f0ed0b0023fda3af7785bf9b436929b0de3eb4c0c07e19e092299ee7604"
+    },
+    {
+      "path": "code-patch/apps/web/src/diagram-studio/validate-diagram.ts",
+      "bytes": 12255,
+      "sha256": "10239e6aa327c3cef11e707856328711827229bce3f15d3e1b7ef40c73d5a8e8"
+    },
+    {
+      "path": "code-patch/task-changes.patch",
+      "bytes": 4084,
+      "sha256": "e4fee38cc79bed4c1af569ad9f901d680d233e29816d2247314f2a616d9e57bc"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/contract.ts",
+      "bytes": 3137,
+      "sha256": "9159075e4007da51a5a6a75b048113d0dd2ff532bb9d6c9837c6e84e436e8a3f"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/deterministic-json.ts",
+      "bytes": 2531,
+      "sha256": "aebbd90072423f6a8f3ff9618221d5ee30b2fca990294d494c4b0b72227b59cd"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/diagram-quality.ts",
+      "bytes": 5790,
+      "sha256": "904522639e3a13483a8abe3209225c72cf393196f581d2667d400aa340b2c4a4"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/diagram-text.ts",
+      "bytes": 5614,
+      "sha256": "e61f55e85681db73bd8868f8631ff808fcae7f00ecc9a805a018c1e5624cdfc0"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/DiagramJsonEditor.tsx",
+      "bytes": 8946,
+      "sha256": "8e2bc20ff4994b57d64cdc17ecf2d98ba481b653fbd090aac7193ccbc504cf2b"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/DiagramPreview.tsx",
+      "bytes": 11335,
+      "sha256": "28770086f8a10e4146c91a206219f37e4fb4065f76de00d429c001e821bdd96f"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/export-diagram-image.ts",
+      "bytes": 2798,
+      "sha256": "41d58b8a6afb452ef1b850336df309b10c98a9497ef054f89f35f9bb3d9ba7d1"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/validate-diagram.ts",
+      "bytes": 12255,
+      "sha256": "10239e6aa327c3cef11e707856328711827229bce3f15d3e1b7ef40c73d5a8e8"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/vector-drawing.ts",
+      "bytes": 5585,
+      "sha256": "5b1f796f3a977f3d0b8940fae836ac6325c818d26c07dd8659a830f410e8270e"
+    },
+    {
+      "path": "code-snapshot/apps/web/src/diagram-studio/VectorDiagramDrawing.tsx",
+      "bytes": 1688,
+      "sha256": "d9f62dbfee26a3f609362a3e641076d77612966bdc441ba59e8cf697dc6d022e"
+    },
+    {
+      "path": "corrections.json",
+      "bytes": 7644,
+      "sha256": "a04436f0ad176588b8ff9e32e8a5e7541393c87d919566729b7d2a8617e0d850"
+    },
+    {
+      "path": "inventory/01.json",
+      "bytes": 12621,
+      "sha256": "0d28f98e6d48bcd58091dcbc0a26002027dafa0244e3db77ee614e0d26893cc1"
+    },
+    {
+      "path": "inventory/02.json",
+      "bytes": 10144,
+      "sha256": "6634297f0931a5944080df8bb76165b7ea64b5ad283ad5420d072a1399a08ab9"
+    },
+    {
+      "path": "inventory/03.json",
+      "bytes": 9697,
+      "sha256": "08a263210c4c26bd6a911117179182342ecc89af50197fff6d3ba158c8b27891"
+    },
+    {
+      "path": "inventory/04.json",
+      "bytes": 9233,
+      "sha256": "87dbe4bfc7c5101a6a7d93fea14f293d06a6bc5d790edaddc3fcec2f799fe2df"
+    },
+    {
+      "path": "inventory/05.json",
+      "bytes": 8100,
+      "sha256": "e80811551850077701324ac613b89e71d5b65f7f5ab12dc1943558db49ef30fa"
+    },
+    {
+      "path": "inventory/06.json",
+      "bytes": 12171,
+      "sha256": "8f2d2083d7480752b959109b93788b02598eec563fc82ed47f17e46b204de5a7"
+    },
+    {
+      "path": "inventory/07.json",
+      "bytes": 8901,
+      "sha256": "6f7cd7ff407be68bcf91d4a81f7d3af30c599ea01099b05df668bd92f8792118"
+    },
+    {
+      "path": "inventory/08.json",
+      "bytes": 15824,
+      "sha256": "e83263aa83016aecf0941f4c6641430be9fc188193cc71a6e4437b1531387d69"
+    },
+    {
+      "path": "inventory/09.json",
+      "bytes": 13424,
+      "sha256": "86c9dd0d9caf677addc698e355b2cca6da4ec53280f7de5dbf716dd61e45c8df"
+    },
+    {
+      "path": "inventory/10.json",
+      "bytes": 27944,
+      "sha256": "7301a9fafe0d9a996c422ed544d3344ac95fbfe0a874f58eb25ea71ca48050af"
+    },
+    {
+      "path": "json/01. Mạch cấp nguồn.json",
+      "bytes": 334052,
+      "sha256": "5f6d022b5e0161365ac3889418aad5e059c6ff7c63bf88d0cea1658db022176b"
+    },
+    {
+      "path": "json/02. Mạch còi.json",
+      "bytes": 210720,
+      "sha256": "4a6356041c57bd272aaa5b9fb33a012542f2a3368a2183dd5c9722e9061e43c8"
+    },
+    {
+      "path": "json/03. Mạch xi nhan.json",
+      "bytes": 232438,
+      "sha256": "621b7f439d18ecbcedd7f76b81cbb77619b98c868af74846a21fdab2421ab719"
+    },
+    {
+      "path": "json/04. Mạch đèn phanh.json",
+      "bytes": 224614,
+      "sha256": "e6f3651329c5dd13e60e304553ad7621a9307bc6c556409ee826bed5ff9606f1"
+    },
+    {
+      "path": "json/05. Mạch báo xăng.json",
+      "bytes": 247403,
+      "sha256": "65b291a60e11dc16a98b0dd7124830b9844b978e5712ff78bea23758816c42a6"
+    },
+    {
+      "path": "json/06. Mạch đèn đêm.json",
+      "bytes": 367029,
+      "sha256": "c476ee0c22547f552f4b6c838af79c726ca1c061ec95639108be23eecc9647a6"
+    },
+    {
+      "path": "json/07. Mạch đánh lửa.json",
+      "bytes": 316926,
+      "sha256": "567208ab6d223b51ebe08084c86ffc74899f28e6707c11bf37923a0e0ca50242"
+    },
+    {
+      "path": "json/08. Mạch khởi động.json",
+      "bytes": 413181,
+      "sha256": "5d4cdd75598f4195ed4fbe8c7673bd60f285268529c5a2129feed6171362630a"
+    },
+    {
+      "path": "json/09. Mạch điện xác định vị trí xe.json",
+      "bytes": 378962,
+      "sha256": "16db3329a4909903ffe7e33c89ecb250313933e2ce4eeddf8f57b84346f7f209"
+    },
+    {
+      "path": "json/10. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json",
+      "bytes": 1044685,
+      "sha256": "ab5bce1824bce202cdf681f6d25abcedb6fcc73cb3b5be340826807acd807797"
+    },
+    {
+      "path": "model-proposals/01.json",
+      "bytes": 13767,
+      "sha256": "405de5b8929d8701813cd3123018034b8a3e0250e0b42d6f01567ce6b3ff086f"
+    },
+    {
+      "path": "model-proposals/02.json",
+      "bytes": 6487,
+      "sha256": "ad0578a7887d267055d9bfaba385d1ef612b304e35feff33446a834f3750f372"
+    },
+    {
+      "path": "model-proposals/03.json",
+      "bytes": 8363,
+      "sha256": "3d2be7f2555713ff059e2cd24dc55728ab562a941dfd36d55d4a2f08ed943d98"
+    },
+    {
+      "path": "model-proposals/04.json",
+      "bytes": 9665,
+      "sha256": "6f2fdf7af1e658a8c64121f44408858d04937c49a5946200e0e553b391fe35b5"
+    },
+    {
+      "path": "model-proposals/05.json",
+      "bytes": 6985,
+      "sha256": "b1b377c2177b325a0edb7a2519fbab8decdf5b2c046b35ff565d4dc72d5a36f7"
+    },
+    {
+      "path": "model-proposals/06.json",
+      "bytes": 14122,
+      "sha256": "baa90e651331b5a86f86870f91e16063169e70c8524b8f937ce74fa23cc33965"
+    },
+    {
+      "path": "model-proposals/07.json",
+      "bytes": 9299,
+      "sha256": "bb0c275fa2f831559546d763080cbb87e28dc5eb346e0472387a70a8abe5a4d6"
+    },
+    {
+      "path": "model-proposals/08.json",
+      "bytes": 14024,
+      "sha256": "3b7620dfc4804ca31a3d4d25e4f13bfe86110a838d512c6e155356806f1993e4"
+    },
+    {
+      "path": "model-proposals/09.json",
+      "bytes": 11426,
+      "sha256": "875f0a9c4d3dea9e630e38390ec8b8f9e1f911c5a6a5b34942e95e56c6798658"
+    },
+    {
+      "path": "model-proposals/10.json",
+      "bytes": 20287,
+      "sha256": "f8890e5afc1283fe3754404b3972cb4aee39b5320d9aad5a1574948c4f382e48"
+    },
+    {
+      "path": "preview/01. Mạch cấp nguồn.studio.png",
+      "bytes": 197425,
+      "sha256": "77856ae449365ecece4752d4f5f50d03a4fed2cfe5d2e4e6c9606cf308b8f271"
+    },
+    {
+      "path": "preview/01. Mạch cấp nguồn.studio.svg",
+      "bytes": 119823,
+      "sha256": "95917d1efa2584762266f3f43bc553998849dbef8a058b093362793576009235"
+    },
+    {
+      "path": "preview/02. Mạch còi.studio.png",
+      "bytes": 93053,
+      "sha256": "a2c6801d6fc26ee2d24e3f3188be4b8951ffaaf51e33f4a38bad458b9fe86ecc"
+    },
+    {
+      "path": "preview/02. Mạch còi.studio.svg",
+      "bytes": 77700,
+      "sha256": "ca2f5827311b06e2e2c6d892b6293104bea0f64530d30fdb075ca4eacb0fc0e9"
+    },
+    {
+      "path": "preview/03. Mạch xi nhan.studio.png",
+      "bytes": 121244,
+      "sha256": "6145c3f1c1620c4e93f72f415fba739bab2a7b3b134afb9adcbadd05f6e928f1"
+    },
+    {
+      "path": "preview/03. Mạch xi nhan.studio.svg",
+      "bytes": 93114,
+      "sha256": "fea58610e1ace625e131cf63d56477615fe367d9b6c0eec20185d7cab8f3fc42"
+    },
+    {
+      "path": "preview/04. Mạch đèn phanh.studio.png",
+      "bytes": 121177,
+      "sha256": "963744bd26f4dc2990c6467d839134022c482f87ca5bd98a5514a7f3067c0ca2"
+    },
+    {
+      "path": "preview/04. Mạch đèn phanh.studio.svg",
+      "bytes": 96847,
+      "sha256": "c9e313bc270c16a1246af69715d569fcb0ac4da1409f7d65bb6c0579518b5f72"
+    },
+    {
+      "path": "preview/05. Mạch báo xăng.studio.png",
+      "bytes": 123246,
+      "sha256": "407d450ef741dff948308d0c8ee40b5a9159cb3e63429110b3f6dc1d462e2d6e"
+    },
+    {
+      "path": "preview/05. Mạch báo xăng.studio.svg",
+      "bytes": 97359,
+      "sha256": "ee62a86ac0b7d6fd95ec35d66440255520de997259fd80aeac8f2a4a8958bd4f"
+    },
+    {
+      "path": "preview/06. Mạch đèn đêm.studio.png",
+      "bytes": 164991,
+      "sha256": "5f49000f0c23c6c448fd84524b7e1cf464d827b0b6f0758a80b248b98a43c51c"
+    },
+    {
+      "path": "preview/06. Mạch đèn đêm.studio.svg",
+      "bytes": 160266,
+      "sha256": "cd95fcaddf53f8a0083feda741a14ca0c023e632a83798561b77f4a6642ab680"
+    },
+    {
+      "path": "preview/07. Mạch đánh lửa.studio.png",
+      "bytes": 158604,
+      "sha256": "8a2a4acac0ea2b0859337eb582e7e60397db3bf1927c5e47c0c742919d35b794"
+    },
+    {
+      "path": "preview/07. Mạch đánh lửa.studio.svg",
+      "bytes": 134761,
+      "sha256": "ead2ed6f223cbb0dfdc5fb05d418abe3ea10e4d107b41cdb6bc167403c83e034"
+    },
+    {
+      "path": "preview/08. Mạch khởi động.studio.png",
+      "bytes": 207360,
+      "sha256": "e379db9141e243a8516514579d5378c3090e240c6451ae8f9f4b70d5ef8b006e"
+    },
+    {
+      "path": "preview/08. Mạch khởi động.studio.svg",
+      "bytes": 179143,
+      "sha256": "801a5393e5e6f380a020579d054bec8a53b77744be7237414a5f4ad7f2ada7bc"
+    },
+    {
+      "path": "preview/09. Mạch điện xác định vị trí xe.studio.png",
+      "bytes": 198664,
+      "sha256": "68f547990724ac128e00a3a194826b67dd924fc9835185419efe3bf1e7549ed5"
+    },
+    {
+      "path": "preview/09. Mạch điện xác định vị trí xe.studio.svg",
+      "bytes": 151581,
+      "sha256": "4256ef06243a0276a77b7670e996cd955e8825798246447794d50f0cf3f25fd6"
+    },
+    {
+      "path": "preview/10. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).studio.png",
+      "bytes": 433648,
+      "sha256": "53ae84fccf3ac0d1783905eac1a6b1388f934c00fb9b82462347f305d730d7bb"
+    },
+    {
+      "path": "preview/10. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).studio.svg",
+      "bytes": 431069,
+      "sha256": "7222ddaf0cf0c79295340f0326e2a9602121a563170be22b33b31b0ba5083f15"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5378,
+      "sha256": "26b6b7a1a91e7734dd716852645f10ac5883fb229177feceaa4973b427ff6850"
+    },
+    {
+      "path": "review-report.json",
+      "bytes": 29262,
+      "sha256": "0360abaca8e6deb5592eec982771cffec1b1430191b9103e126a7bce76dd6183"
+    },
+    {
+      "path": "review.html",
+      "bytes": 11327,
+      "sha256": "586a46b79e6a0a03e326f2f8f6bfb3741f67dd4cc5c4a73b58f3e1478a3c3fa3"
+    },
+    {
+      "path": "session.md",
+      "bytes": 4786,
+      "sha256": "a26fa691ffb2398f6996c7dcf7c529774a09efee704dc150eae3fcdb38b31644"
+    },
+    {
+      "path": "source/01.crop.png",
+      "bytes": 533236,
+      "sha256": "0dcf398f8cca2579f037b2011b2caf33a65460c5eac983bd11285a2ac9a600a0"
+    },
+    {
+      "path": "source/01.original.png",
+      "bytes": 581729,
+      "sha256": "cdd7c9ffe0bebf68c6ed07895bfddce9e9aa11f570f94e72f1f6fbd84ab5a456"
+    },
+    {
+      "path": "source/02.crop.png",
+      "bytes": 414106,
+      "sha256": "40afb61e37f503af6ba69e4bf7f82b45f7fecd408c77c7a71964932637a413a6"
+    },
+    {
+      "path": "source/02.original.png",
+      "bytes": 442377,
+      "sha256": "a7713d513350e3e0bde3177f23a4427197ae920785dac7dffe761d389367f4e8"
+    },
+    {
+      "path": "source/03.crop.png",
+      "bytes": 482510,
+      "sha256": "2d975c39022f7480f755751754c75370164d01cc1dba58b23328dede7105d2d3"
+    },
+    {
+      "path": "source/03.original.png",
+      "bytes": 509079,
+      "sha256": "206915931e1f623dc91d0797f2fb7d070366df43ea9fee81bd97cb766a31354e"
+    },
+    {
+      "path": "source/04.crop.png",
+      "bytes": 477586,
+      "sha256": "2f651aa47ba288af28658f1fed981e40d828242c60a335c69f93ecbae9abaa1f"
+    },
+    {
+      "path": "source/04.original.png",
+      "bytes": 503516,
+      "sha256": "c80397755c0ab5600d17c0876ff4eb50527e549c19ad85ac3dfb3b5cb1cdef4f"
+    },
+    {
+      "path": "source/05.crop.png",
+      "bytes": 621354,
+      "sha256": "c4f849188ac0923c17a80c3ef0ae7d50362f6f4449d21f75d2c8642956430b2d"
+    },
+    {
+      "path": "source/05.original.png",
+      "bytes": 654961,
+      "sha256": "b327b47f8f88a5e065b320adf6a349852d6beb70ce8d023ac9e3c11a762e3078"
+    },
+    {
+      "path": "source/06.crop.png",
+      "bytes": 555488,
+      "sha256": "2113812a503f9c1efd7f306dfcd7d06ee7498ef0cfaafab090bdc3b461a9f386"
+    },
+    {
+      "path": "source/06.original.png",
+      "bytes": 581275,
+      "sha256": "5cc063d88fee78e2b8d6c0587f9986e5b520f2e35a6b45c8f88db0aa93ea8967"
+    },
+    {
+      "path": "source/07.crop.png",
+      "bytes": 611670,
+      "sha256": "3404e038a21f533cb66da39b04140d73e25453bf560d2004a07d10b126815917"
+    },
+    {
+      "path": "source/07.original.png",
+      "bytes": 626123,
+      "sha256": "336da75e7184bf01d7d292fb850a358fb8eaacf207b769a4bb03f47208bbb374"
+    },
+    {
+      "path": "source/08.crop.png",
+      "bytes": 706588,
+      "sha256": "9aaf47424dba7f2104b4fdccab39e057f6dc0df77bd93222953c64990e7c95a6"
+    },
+    {
+      "path": "source/08.original.png",
+      "bytes": 731079,
+      "sha256": "af1a8bfbb9832ac3eacde136a1fff56e765c732f5b8112d343b1bb927f5c7f81"
+    },
+    {
+      "path": "source/09.crop.png",
+      "bytes": 750399,
+      "sha256": "eb8d24bdafbb0883f639ac4f8e0ddbc80bd610e433409117156d557b1b94b43d"
+    },
+    {
+      "path": "source/09.original.png",
+      "bytes": 779494,
+      "sha256": "97b518cd3edb50f32fb46d95cecdbdb2a165b8c23a2d7fa635b8a501e1a6ee94"
+    },
+    {
+      "path": "source/10.crop.png",
+      "bytes": 1301208,
+      "sha256": "11b485f7b8b639a366ec6851bb29e532adb5edf9bbf7371606324087df68252e"
+    },
+    {
+      "path": "source/10.original.png",
+      "bytes": 1342147,
+      "sha256": "c359bc27818b8a46dd642d64e4a92329fcac37b1866f39cdcb1ea1b1246b0608"
+    },
+    {
+      "path": "source-reference-corrections.json",
+      "bytes": 600,
+      "sha256": "027e14bdf3b137d441afc64c14599eb56324bb05538fff577aea2426355bbfe4"
+    }
+  ]
+}

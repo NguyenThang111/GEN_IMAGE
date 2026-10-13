@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "vehicleId": "air-blade-2026-125-abs",
+  "vehicleTitle": "AIR BLADE 2026 (125 / ABS)",
+  "vehicleModel": "Honda AIR BLADE 125 ABS 2026",
+  "genDate": "2026-10-13",
+  "genAgent": "kiro-agent",
+  "reviewStatus": "draft",
+  "sourceInventory": "review/air-blade-125-abs-2026-gen-2026-10-13/r01/source-inventory.md",
+  "sourceRef": "EXPORT HONDA 2026 CHUA GEN 2026-10-13/air-blade-2026-125-abs.diagram-project.zip",
+  "totalCircuits": 13,
+  "circuits": [
+    { "index": 1, "id": "air-blade-125-abs-2026-power-distribution", "file": "01. power-distribution.schema.json", "title": "Mạch cấp nguồn", "status": "draft" },
+    { "index": 2, "id": "air-blade-125-abs-2026-horn",               "file": "02. horn.schema.json",               "title": "Mạch còi",             "status": "draft" },
+    { "index": 3, "id": "air-blade-125-abs-2026-turn-signals",        "file": "03. turn-signals.schema.json",       "title": "Mạch xi nhan",          "status": "draft" },
+    { "index": 4, "id": "air-blade-125-abs-2026-brake-light",         "file": "04. brake-light.schema.json",        "title": "Mạch đèn phanh",        "status": "draft" },
+    { "index": 5, "id": "air-blade-125-abs-2026-fuel-indicator",      "file": "05. fuel-indicator.schema.json",     "title": "Mạch báo xăng",         "status": "draft" },
+    { "index": 6, "id": "air-blade-125-abs-2026-night-lighting",      "file": "06. night-lighting.schema.json",     "title": "Mạch đèn đêm và đèn pha LED", "status": "draft" },
+    { "index": 7, "id": "air-blade-125-abs-2026-vehicle-speed",       "file": "07. vehicle-speed.schema.json",      "title": "Mạch báo tốc độ xe",    "status": "draft" },
+    { "index": 8, "id": "air-blade-125-abs-2026-ignition",            "file": "08. ignition.schema.json",           "title": "Mạch đánh lửa",         "status": "draft" },
+    { "index": 9, "id": "air-blade-125-abs-2026-starting",            "file": "09. starting.schema.json",           "title": "Mạch khởi động",        "status": "draft" },
+    { "index": 10,"id": "air-blade-125-abs-2026-idling-stop",         "file": "10. idling-stop.schema.json",        "title": "Mạch dừng động cơ tạm thời (Idling Stop)", "status": "draft" },
+    { "index": 11,"id": "air-blade-125-abs-2026-smartkey-system",     "file": "11. smartkey-system.schema.json",    "title": "Sơ đồ hệ thống khóa thông minh (Smartkey)", "status": "draft" },
+    { "index": 12,"id": "air-blade-125-abs-2026-abs",                 "file": "12. abs.schema.json",                "title": "Sơ đồ bó cứng phanh ABS", "status": "draft" },
+    { "index": 13,"id": "air-blade-125-abs-2026-pgm-fi",              "file": "13. pgm-fi.schema.json",             "title": "Sơ đồ hệ thống phun xăng điện tử (PGM-FI)", "status": "draft" }
+  ],
+  "findings": [
+    "Cụm LED pha/phanh/hậu, chống nghiêng và hình vỏ giắc cần review model; không xem type validator là chứng minh hình đúng.",
+    "Production index-DRbWTSmc.js không chứa symbolRef/textLayout/drawing.version. Cần kiểm khả năng giữ extension khi import.",
+    "Chưa có review APP độc lập; mọi candidate giữ draft. Các trị số/nhãn mâu thuẫn giữa các mạch giữ theo từng ảnh.",
+    "ECT 100°C: 0.1–0.2kΩ là trị số bất thường trong sách nguồn. Cần reviewer xác nhận.",
+    "Đồng hồ 12 M-TXR (pgm-fi) khác M-TXD (idling-stop). Giữ khác biệt nhãn theo từng ảnh.",
+    "Test pass không tự chứng minh đúng ảnh hoặc port hoàn tất."
+  ]
+}

@@ -1,0 +1,1 @@
+ALTER TABLE users ADD COLUMN IF NOT EXISTS "sessionVersion" integer NOT NULL DEFAULT 0;

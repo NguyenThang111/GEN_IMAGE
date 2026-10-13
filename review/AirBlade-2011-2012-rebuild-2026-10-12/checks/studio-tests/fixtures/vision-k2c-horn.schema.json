@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "layout-reviewed",
+  "sourceImage": "1788079542829_1578260408780010418_3822484335472506969_d12854b02797dc27f23a80de5b1b3c70.jpg",
+  "id": "honda-vision-k2c-smartkey-horn",
+  "vehicleId": "honda-vision-k2c-smartkey",
+  "vehicleTitle": "Honda Vision K2C Smartkey",
+  "circuitTitle": "Mạch còi",
+  "canvas": {
+    "width": 1400,
+    "height": 700
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 35,
+      "y": 275,
+      "width": 100,
+      "height": 90,
+      "label": "ẮC QUY",
+      "terminals": [
+        {
+          "id": "negative",
+          "x": 35,
+          "y": 340
+        },
+        {
+          "id": "positive",
+          "x": 135,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "battery-ground",
+      "type": "ground",
+      "x": 35,
+      "y": 405,
+      "width": 60,
+      "height": 45,
+      "label": "MASS",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 65,
+          "y": 405
+        }
+      ]
+    },
+    {
+      "id": "main-fuse",
+      "type": "fuse",
+      "x": 190,
+      "y": 270,
+      "width": 110,
+      "height": 70,
+      "label": "30A MAIN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 190,
+          "y": 305
+        },
+        {
+          "id": "out",
+          "x": 300,
+          "y": 305
+        }
+      ]
+    },
+    {
+      "id": "main-relay",
+      "type": "relay",
+      "x": 365,
+      "y": 245,
+      "width": 110,
+      "height": 70,
+      "label": "RƠ LE CHÍNH",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 365,
+          "y": 280
+        },
+        {
+          "id": "out",
+          "x": 475,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "relay-ground",
+      "type": "ground",
+      "x": 390,
+      "y": 375,
+      "width": 60,
+      "height": 45,
+      "label": "MASS",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 420,
+          "y": 375
+        }
+      ]
+    },
+    {
+      "id": "horn-fuse",
+      "type": "fuse",
+      "x": 650,
+      "y": 210,
+      "width": 110,
+      "height": 70,
+      "label": "5A HORN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 650,
+          "y": 245
+        },
+        {
+          "id": "out",
+          "x": 760,
+          "y": 245
+        }
+      ]
+    },
+    {
+      "id": "horn-switch",
+      "type": "switch",
+      "x": 850,
+      "y": 210,
+      "width": 110,
+      "height": 70,
+      "label": "CÔNG TẮC CÒI",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 850,
+          "y": 245
+        },
+        {
+          "id": "out",
+          "x": 960,
+          "y": 245
+        }
+      ]
+    },
+    {
+      "id": "horn",
+      "type": "horn",
+      "x": 1110,
+      "y": 190,
+      "width": 125,
+      "height": 90,
+      "label": "CÒI",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1110,
+          "y": 214
+        },
+        {
+          "id": "ground",
+          "x": 1235,
+          "y": 214
+        }
+      ]
+    },
+    {
+      "id": "horn-ground",
+      "type": "ground",
+      "x": 1205,
+      "y": 355,
+      "width": 60,
+      "height": 45,
+      "label": "MASS",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1235,
+          "y": 355
+        }
+      ]
+    },
+    {
+      "id": "ignition-switch",
+      "type": "switch",
+      "x": 650,
+      "y": 390,
+      "width": 110,
+      "height": 70,
+      "label": "KHÓA ĐIỆN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 650,
+          "y": 425
+        },
+        {
+          "id": "out",
+          "x": 760,
+          "y": 425
+        }
+      ]
+    },
+    {
+      "id": "ecu-fuse",
+      "type": "fuse",
+      "x": 850,
+      "y": 430,
+      "width": 110,
+      "height": 70,
+      "label": "5A ECU",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 850,
+          "y": 465
+        },
+        {
+          "id": "out",
+          "x": 960,
+          "y": 465
+        }
+      ]
+    },
+    {
+      "id": "ignition-ground",
+      "type": "ground",
+      "x": 935,
+      "y": 535,
+      "width": 60,
+      "height": 45,
+      "label": "MASS",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 965,
+          "y": 535
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "battery-ground",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "negative"
+      },
+      "to": {
+        "componentId": "battery-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 35,
+          "y": 340
+        },
+        {
+          "x": 35,
+          "y": 360
+        },
+        {
+          "x": 65,
+          "y": 360
+        },
+        {
+          "x": 65,
+          "y": 405
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#249650",
+      "state": "controlled"
+    },
+    {
+      "id": "main-feed",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "positive"
+      },
+      "to": {
+        "componentId": "main-fuse",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 135,
+          "y": 300
+        },
+        {
+          "x": 144,
+          "y": 300
+        },
+        {
+          "x": 144,
+          "y": 305
+        },
+        {
+          "x": 190,
+          "y": 305
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#df3030",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-feed",
+      "from": {
+        "componentId": "main-fuse",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 300,
+          "y": 305
+        },
+        {
+          "x": 300,
+          "y": 288
+        },
+        {
+          "x": 365,
+          "y": 288
+        },
+        {
+          "x": 365,
+          "y": 280
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#df3030",
+      "stripeColor": "#171b1f",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-ground",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "relay-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 475,
+          "y": 280
+        },
+        {
+          "x": 475,
+          "y": 288
+        },
+        {
+          "x": 420,
+          "y": 288
+        },
+        {
+          "x": 420,
+          "y": 375
+        }
+      ],
+      "code": "G/Bu",
+      "primaryColor": "#249650",
+      "stripeColor": "#2e91c9",
+      "state": "controlled"
+    },
+    {
+      "id": "horn-feed",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "horn-fuse",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 475,
+          "y": 280
+        },
+        {
+          "x": 475,
+          "y": 264
+        },
+        {
+          "x": 650,
+          "y": 264
+        },
+        {
+          "x": 650,
+          "y": 245
+        }
+      ],
+      "code": "Bl/Y",
+      "primaryColor": "#171b1f",
+      "stripeColor": "#e1c51d",
+      "state": "controlled"
+    },
+    {
+      "id": "horn-switch-feed",
+      "from": {
+        "componentId": "horn-fuse",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "horn-switch",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 760,
+          "y": 245
+        },
+        {
+          "x": 850,
+          "y": 245
+        }
+      ],
+      "code": "Bl/Lg",
+      "primaryColor": "#171b1f",
+      "stripeColor": "#8dbd48",
+      "state": "controlled"
+    },
+    {
+      "id": "horn-output",
+      "from": {
+        "componentId": "horn-switch",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "horn",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 960,
+          "y": 245
+        },
+        {
+          "x": 960,
+          "y": 216
+        },
+        {
+          "x": 1110,
+          "y": 216
+        },
+        {
+          "x": 1110,
+          "y": 214
+        }
+      ],
+      "code": "Lg",
+      "primaryColor": "#8dbd48",
+      "state": "controlled"
+    },
+    {
+      "id": "horn-ground",
+      "from": {
+        "componentId": "horn",
+        "terminalId": "ground"
+      },
+      "to": {
+        "componentId": "horn-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1235,
+          "y": 214
+        },
+        {
+          "x": 1235,
+          "y": 355
+        }
+      ],
+      "code": "G/Bu",
+      "primaryColor": "#249650",
+      "stripeColor": "#2e91c9",
+      "state": "controlled"
+    },
+    {
+      "id": "ignition-feed",
+      "from": {
+        "componentId": "main-fuse",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "ignition-switch",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 300,
+          "y": 305
+        },
+        {
+          "x": 300,
+          "y": 312
+        },
+        {
+          "x": 650,
+          "y": 312
+        },
+        {
+          "x": 650,
+          "y": 425
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#df3030",
+      "stripeColor": "#171b1f",
+      "state": "controlled"
+    },
+    {
+      "id": "ecu-feed",
+      "from": {
+        "componentId": "ignition-switch",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "ecu-fuse",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 760,
+          "y": 425
+        },
+        {
+          "x": 760,
+          "y": 432
+        },
+        {
+          "x": 850,
+          "y": 432
+        },
+        {
+          "x": 850,
+          "y": 465
+        }
+      ],
+      "code": "Bl/R",
+      "primaryColor": "#171b1f",
+      "stripeColor": "#df3030",
+      "state": "controlled"
+    },
+    {
+      "id": "ignition-ground",
+      "from": {
+        "componentId": "ecu-fuse",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "ignition-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 960,
+          "y": 465
+        },
+        {
+          "x": 960,
+          "y": 480
+        },
+        {
+          "x": 965,
+          "y": 480
+        },
+        {
+          "x": 965,
+          "y": 535
+        }
+      ],
+      "code": "Bl/G",
+      "primaryColor": "#171b1f",
+      "stripeColor": "#249650",
+      "state": "controlled"
+    }
+  ]
+}

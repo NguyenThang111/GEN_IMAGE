@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "05",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-37-45.png",
+    "imageSha256": "b327b47f8f88a5e065b320adf6a349852d6beb70ce8d023ac9e3c11a762e3078",
+    "width": 1687,
+    "height": 952,
+    "recordId": "e7c3caec-8822-4a60-9038-3ff067dbf3f1",
+    "identityStatus": "VERIFIED_SAME_BYTES",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "fuel-indicator",
+    "serverImageSha256": "b327b47f8f88a5e065b320adf6a349852d6beb70ce8d023ac9e3c11a762e3078"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "05:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm trái, dương phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 189,
+        "y": 343,
+        "width": 100,
+        "height": 71
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:fuse-main",
+      "candidateComponentId": "fuse-main",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 418,
+        "y": 267,
+        "width": 84,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 418,
+        "y": 342,
+        "width": 84,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:ignition-switch",
+      "candidateComponentId": "ignition-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 645,
+        "y": 338,
+        "width": 77,
+        "height": 44
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:main-relay",
+      "candidateComponentId": "main-relay",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 924,
+        "y": 268,
+        "width": 75,
+        "height": 111
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; W/Bl vào",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 1027,
+        "y": 464,
+        "width": 88,
+        "height": 59
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:fuse-turn-horn",
+      "candidateComponentId": "fuse-turn-horn",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) TURN,HORN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 1130,
+        "y": 270,
+        "width": 83,
+        "height": 38
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:fuel-gauge",
+      "candidateComponentId": "fuel-gauge",
+      "kind": "component",
+      "observation": "ĐỒNG HỒ BÁO XĂNG; Bl/Br, Y/W, G/Bl; F/E",
+      "proposedModelId": "gauge.fuel3",
+      "sourceBox": {
+        "x": 1447,
+        "y": 237,
+        "width": 130,
+        "height": 165
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "05:fuel-sender",
+      "candidateComponentId": "fuel-sender",
+      "kind": "component",
+      "observation": "PHAO XĂNG; Y/W đến đầu điện trở, G/Bl đến wiper",
+      "proposedModelId": "sensor.fuel-rheostat2",
+      "sourceBox": {
+        "x": 1312,
+        "y": 648,
+        "width": 145,
+        "height": 97
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "ground-battery.in"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "fuse-fi.left"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left"
+      ],
+      [
+        "fuse-fi.right",
+        "ignition-switch.left"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn-horn.left"
+      ],
+      [
+        "fuse-turn-horn.right",
+        "fuel-gauge.upper-left"
+      ],
+      [
+        "fuel-gauge.middle-left",
+        "fuel-sender.top-left"
+      ],
+      [
+        "fuel-gauge.lower-left",
+        "fuel-sender.top-right",
+        "ground-fuel.in"
+      ]
+    ],
+    "edges": [
+      [
+        "battery.negative",
+        "ground-battery.in",
+        "G"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "R"
+      ],
+      [
+        "battery.positive",
+        "fuse-fi.left",
+        "R"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left",
+        "R/W"
+      ],
+      [
+        "fuse-fi.right",
+        "ignition-switch.left",
+        "R/Bl"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left",
+        "Bl"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top",
+        "W/Bl"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn-horn.left",
+        "R/Y"
+      ],
+      [
+        "fuse-turn-horn.right",
+        "fuel-gauge.upper-left",
+        "Bl/Br"
+      ],
+      [
+        "fuel-gauge.middle-left",
+        "fuel-sender.top-left",
+        "Y/W"
+      ],
+      [
+        "fuel-gauge.lower-left",
+        "fuel-sender.top-right",
+        "G/Bl"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          209,
+          343
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          269,
+          343
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-left",
+        "xy": [
+          923,
+          288
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-right",
+        "xy": [
+          999,
+          288
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-left",
+        "xy": [
+          923,
+          362
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-right",
+        "xy": [
+          999,
+          362
+        ],
+        "label": null
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [
+    "GHI CHÚ",
+    "DUNG TÍCH BÌNH XĂNG: 4,5 lít"
+  ],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": []
+}

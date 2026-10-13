@@ -1,0 +1,663 @@
+{
+  "source": "master contract model ID/version snapshot; not actual manifest",
+  "status": "UNVERIFIED_CONSUMER_SUPPORT",
+  "bindings": [
+    {
+      "componentId": "battery",
+      "proposedType": "battery",
+      "symbolRef": {
+        "id": "battery",
+        "version": 1,
+        "ports": {
+          "positive": "pos",
+          "negative": "neg"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:battery",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-main",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:fuse-main",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-fi",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:fuse-fi",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-horn",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:fuse-horn",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "main-relay",
+      "proposedType": "relay",
+      "symbolRef": {
+        "id": "relay.contact-coil4",
+        "version": 1,
+        "ports": {
+          "contact-left": "contact-top",
+          "contact-right": "contact-bottom",
+          "coil-left": "coil-top",
+          "coil-right": "coil-bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:main-relay",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ignition-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:ignition-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "capacitor",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "capacitor.polarized",
+        "version": 1,
+        "ports": {
+          "top": "top",
+          "bottom": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:capacitor",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "regulator",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "regulator.three-phase5",
+        "version": 1,
+        "ports": {
+          "top": "rw",
+          "left-top": "y1",
+          "left-middle": "y2",
+          "left-bottom": "y3",
+          "bottom": "g"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:regulator",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "acg",
+      "proposedType": "acg",
+      "symbolRef": {
+        "id": "generator.star3",
+        "version": 1,
+        "ports": {
+          "left": "phase-bottom",
+          "top": "phase-left",
+          "right": "phase-top"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:acg",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ecm",
+      "proposedType": "ecm",
+      "symbolRef": {
+        "id": "control.ecm",
+        "version": 1,
+        "ports": {
+          "p7": "p7",
+          "p20": "p20",
+          "p1": "p1",
+          "p8": "p8",
+          "p16": "p16",
+          "p11": "p11",
+          "p33": "p33",
+          "p22": "p22",
+          "p18": "p18",
+          "p12": "p12",
+          "p23": "p23",
+          "p6": "p6",
+          "p5": "p5",
+          "p4": "p4",
+          "p14": "p14",
+          "p24": "p24",
+          "p31": "p31",
+          "p3": "p3",
+          "p25": "p25",
+          "p30": "p30",
+          "p15": "p15",
+          "p2": "p2",
+          "p10": "p10",
+          "p9": "p9",
+          "p29": "p29"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:ecm",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "starter-relay",
+      "proposedType": "relay",
+      "symbolRef": {
+        "id": "relay.contact-coil4",
+        "version": 1,
+        "ports": {
+          "contact-left": "contact-in",
+          "contact-right": "contact-out",
+          "coil-left": "coil-in",
+          "coil-right": "coil-out"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:starter-relay",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "starter-motor",
+      "proposedType": "motor",
+      "symbolRef": {
+        "id": "motor.dc2",
+        "version": 1,
+        "ports": {
+          "a": "pos",
+          "b": "neg"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:starter-motor",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "idle-valve",
+      "proposedType": "valve",
+      "symbolRef": {
+        "id": "valve.solenoid2",
+        "version": 1,
+        "ports": {
+          "a": "upper",
+          "b": "lower"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:idle-valve",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuel-pump",
+      "proposedType": "pump",
+      "symbolRef": {
+        "id": "motor.dc2",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:fuel-pump",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "injector",
+      "proposedType": "injector",
+      "symbolRef": {
+        "id": "injector.solenoid2",
+        "version": 1,
+        "ports": {
+          "a": "upper",
+          "b": "lower"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:injector",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ignition-coil",
+      "proposedType": "ignitionCoil",
+      "symbolRef": {
+        "id": "ignition.module3",
+        "version": 1,
+        "ports": {
+          "primary-a": "upper",
+          "primary-b": "lower",
+          "hv": "ht"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:ignition-coil",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "spark-plug",
+      "proposedType": "sparkPlug",
+      "symbolRef": {
+        "id": "spark-plug.chassis1",
+        "version": 1,
+        "ports": {
+          "hv": "ht"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:spark-plug",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "mil",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.filament2",
+        "version": 1,
+        "ports": {
+          "feed": "bottom",
+          "return": "top"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:mil",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "temperature-lamp",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.led2",
+        "version": 1,
+        "ports": {
+          "feed": "bottom",
+          "return": "top"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:temperature-lamp",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "front-brake-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:front-brake-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "rear-brake-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:rear-brake-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "starter-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:starter-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ckp",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.pickup-coil2",
+        "version": 1,
+        "ports": {
+          "a": "left",
+          "b": "right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:ckp",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "tp",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.potentiometer3",
+        "version": 1,
+        "ports": {
+          "supply": "vcc",
+          "wiper": "signal",
+          "return": "return"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:tp",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "iat",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.thermistor2",
+        "version": 1,
+        "ports": {
+          "a": "signal",
+          "b": "return"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:iat",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ect",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.thermistor2",
+        "version": 1,
+        "ports": {
+          "a": "signal",
+          "b": "return"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:ect",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "oxygen",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.oxygen-signal1",
+        "version": 1,
+        "ports": {
+          "signal": "signal"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:oxygen",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "side-stand-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "top",
+          "b": "bottom"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:side-stand-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "dlc",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "assembly.service-connector",
+        "version": 1,
+        "ports": {
+          "bl": "bl",
+          "ow": "ow",
+          "br": "br",
+          "gbl": "gbl"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:dlc",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "scs-tool",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "assembly.note",
+        "version": 1,
+        "ports": {}
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:scs-tool",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "power-junction",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "capacitor-junction",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "battery-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "capacitor-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "regulator-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "starter-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ecm-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "stand-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ecm-pinout",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "assembly.pinout",
+        "version": 1,
+        "ports": {}
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "10:ecm-pinout",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    }
+  ],
+  "requiredMigration": [
+    "Verify actual APP registry/schema/layout/geometry",
+    "Implement shared Studio model dispatch",
+    "Migrate pinoutData to actual assemblyData.pinoutGroups contract"
+  ],
+  "unresolved": []
+}

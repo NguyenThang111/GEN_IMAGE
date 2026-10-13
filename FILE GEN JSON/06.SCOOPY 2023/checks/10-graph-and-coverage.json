@@ -1,0 +1,338 @@
+{
+  "number": "10",
+  "schemaSha256": "dd6de1c6012a6f0fb8ed715956319a8328f0957b4655ac581ba0a571a66546b7",
+  "components": 16,
+  "wires": 17,
+  "sourceTranscriptionCarry": "PASS",
+  "graphCases": [],
+  "inventoryMapping": [
+    {
+      "sourceItemId": "battery",
+      "candidateIds": [
+        "battery"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 91,
+        "y": 228,
+        "width": 84,
+        "height": 64
+      }
+    },
+    {
+      "sourceItemId": "battery-ground",
+      "candidateIds": [
+        "battery-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 49,
+        "y": 249,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "main-fuse",
+      "candidateIds": [
+        "main-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 222,
+        "y": 80,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "backup-fuse",
+      "candidateIds": [
+        "backup-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 222,
+        "y": 171,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "key",
+      "candidateIds": [
+        "key"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 406,
+        "y": 72,
+        "width": 70,
+        "height": 44
+      }
+    },
+    {
+      "sourceItemId": "ecu-fuse",
+      "candidateIds": [
+        "ecu-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 586,
+        "y": 80,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "cluster",
+      "candidateIds": [
+        "cluster"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 308,
+        "y": 237,
+        "width": 148,
+        "height": 76
+      }
+    },
+    {
+      "sourceItemId": "alarm",
+      "candidateIds": [
+        "alarm"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 552,
+        "y": 525,
+        "width": 398,
+        "height": 184
+      }
+    },
+    {
+      "sourceItemId": "left-lamp",
+      "candidateIds": [
+        "left-lamp"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 288,
+        "y": 337,
+        "width": 107,
+        "height": 73
+      }
+    },
+    {
+      "sourceItemId": "right-lamp",
+      "candidateIds": [
+        "right-lamp"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1049,
+        "y": 170,
+        "width": 95,
+        "height": 70
+      }
+    },
+    {
+      "sourceItemId": "left-ground",
+      "candidateIds": [
+        "left-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 444,
+        "y": 411,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "right-ground",
+      "candidateIds": [
+        "right-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 968,
+        "y": 239,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "alarm-ground",
+      "candidateIds": [
+        "alarm-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 487,
+        "y": 517,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "buzzer",
+      "candidateIds": [
+        "buzzer"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1113,
+        "y": 302,
+        "width": 37,
+        "height": 73
+      }
+    },
+    {
+      "sourceItemId": "backup-bus",
+      "candidateIds": [
+        "backup-bus"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 711,
+        "y": 257,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "alarm-pinout",
+      "candidateIds": [
+        "alarm-pinout"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 252,
+        "y": 506,
+        "width": 185,
+        "height": 110
+      }
+    },
+    {
+      "sourceItemId": "src-wire-001",
+      "candidateIds": [
+        "wire-001"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-002",
+      "candidateIds": [
+        "wire-002"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-003",
+      "candidateIds": [
+        "wire-003"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-004",
+      "candidateIds": [
+        "wire-004"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-005",
+      "candidateIds": [
+        "wire-005"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-006",
+      "candidateIds": [
+        "wire-006"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-007",
+      "candidateIds": [
+        "wire-007"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-008",
+      "candidateIds": [
+        "wire-008"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-009",
+      "candidateIds": [
+        "wire-009"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-010",
+      "candidateIds": [
+        "wire-010"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-011",
+      "candidateIds": [
+        "wire-011"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-012",
+      "candidateIds": [
+        "wire-012"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-013",
+      "candidateIds": [
+        "wire-013"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-014",
+      "candidateIds": [
+        "wire-014"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-015",
+      "candidateIds": [
+        "wire-015"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-016",
+      "candidateIds": [
+        "wire-016"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-017",
+      "candidateIds": [
+        "wire-017"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    }
+  ],
+  "sourceInterpretationVerdict": "REVIEW_REQUIRED"
+}

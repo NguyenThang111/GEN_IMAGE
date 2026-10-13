@@ -1,0 +1,11 @@
+
+ RUN  v2.1.9 C:/Users/thang/OneDrive/Documents/PlatformIO/Projects/test/review/AirBlade-2011-2012-rebuild-2026-10-12/checks/studio-tests
+
+ ✓ validate-diagram.test.ts (13 tests) 27ms
+ ✓ deterministic-json.test.ts (2 tests) 6ms
+
+ Test Files  2 passed (2)
+      Tests  15 passed (15)
+   Start at  12:50:34
+   Duration  859ms (transform 124ms, setup 0ms, collect 302ms, tests 33ms, environment 0ms, prepare 209ms)
+

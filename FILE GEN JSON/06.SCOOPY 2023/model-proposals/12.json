@@ -1,0 +1,794 @@
+{
+  "library": "Master contract ID snapshot; NOT actual registry validation",
+  "masterContractSha256": "846d0b3dd08a5bcecdc37032481fa931d46ce37a9d8781a275087d58f91c4c65",
+  "bindings": [
+    {
+      "componentId": "ecm",
+      "sourceItemId": "ecm",
+      "proposedType": "ecm",
+      "symbolRef": {
+        "id": "control.ecm",
+        "version": 1,
+        "ports": {
+          "A31": "A31",
+          "A15": "A15",
+          "B6": "B6",
+          "A20": "A20",
+          "A21": "A21",
+          "A34": "A34",
+          "A22": "A22",
+          "A2": "A2",
+          "A39": "A39",
+          "A13": "A13",
+          "A36": "A36",
+          "A37": "A37",
+          "A12": "A12",
+          "A38": "A38",
+          "A3": "A3",
+          "A29": "A29",
+          "A30": "A30",
+          "A26": "A26",
+          "A23": "A23",
+          "A25": "A25",
+          "A32": "A32",
+          "A4": "A4",
+          "A28": "A28",
+          "B3": "B3",
+          "A14": "A14",
+          "A27": "A27",
+          "A8": "A8",
+          "A5": "A5",
+          "B2": "B2",
+          "B5": "B5",
+          "B1": "B1",
+          "A10": "A10",
+          "A19": "A19"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "battery",
+      "sourceItemId": "battery",
+      "proposedType": "battery",
+      "symbolRef": {
+        "id": "battery",
+        "version": 1,
+        "ports": {
+          "negative": "negative",
+          "positive": "positive"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "battery-ground",
+      "sourceItemId": "battery-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "main-fuse",
+      "sourceItemId": "main-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "key",
+      "sourceItemId": "key",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.dpst4",
+        "version": 1,
+        "ports": {
+          "pole1-in": "in1",
+          "pole1-out": "out1",
+          "pole2-in": "in2",
+          "pole2-out": "out2"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "main-relay",
+      "sourceItemId": "main-relay",
+      "proposedType": "relay",
+      "symbolRef": {
+        "id": "relay.contact-coil4",
+        "version": 1,
+        "ports": {
+          "contact-left": "contact-left",
+          "contact-right": "contact-right",
+          "coil-left": "coil-left",
+          "coil-right": "coil-right"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ecu-fuse",
+      "sourceItemId": "ecu-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "meter-fuse",
+      "sourceItemId": "meter-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "fi-fuse",
+      "sourceItemId": "fi-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "start-relay",
+      "sourceItemId": "start-relay",
+      "proposedType": "relay",
+      "symbolRef": {
+        "id": "relay.changeover-coil5",
+        "version": 1,
+        "ports": {
+          "throw1": "throw1",
+          "throw2": "throw2",
+          "common": "common",
+          "coil-left": "coil-left",
+          "coil-right": "coil-right"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "r-bus",
+      "sourceItemId": "r-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "bl-bus",
+      "sourceItemId": "bl-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "key-bus",
+      "sourceItemId": "key-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "fi-bus",
+      "sourceItemId": "fi-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "meter-bus",
+      "sourceItemId": "meter-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ecu-bus",
+      "sourceItemId": "ecu-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "brake-supply",
+      "sourceItemId": "brake-supply",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "brake-out",
+      "sourceItemId": "brake-out",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ckp-connector",
+      "sourceItemId": "ckp-connector",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "connector.paired6",
+        "version": 1,
+        "ports": {
+          "pair1-a": "U-a",
+          "pair1-b": "U-b",
+          "pair2-a": "V-a",
+          "pair2-b": "V-b",
+          "pair3-a": "W-a",
+          "pair3-b": "W-b",
+          "pair4-a": "PUL-a",
+          "pair4-b": "PUL-b",
+          "pair5-a": "OUT-a",
+          "pair5-b": "OUT-b",
+          "pair6-a": "GND-a",
+          "pair6-b": "GND-b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 6
+    },
+    {
+      "componentId": "ckp",
+      "sourceItemId": "ckp",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "sensor.ckp-module6",
+        "version": 1,
+        "ports": {
+          "U": "U",
+          "V": "V",
+          "W": "W",
+          "PUL": "PUL",
+          "OUT": "OUT",
+          "GND": "GND"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "tp",
+      "sourceItemId": "tp",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.potentiometer3",
+        "version": 1,
+        "ports": {
+          "supply": "supply",
+          "wiper": "wiper",
+          "return": "return"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 3
+    },
+    {
+      "componentId": "eot",
+      "sourceItemId": "eot",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.thermistor2",
+        "version": 1,
+        "ports": {
+          "a": "signal",
+          "b": "return"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 2
+    },
+    {
+      "componentId": "sensor-return",
+      "sourceItemId": "sensor-return",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "o2",
+      "sourceItemId": "o2",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.oxygen-signal1",
+        "version": 1,
+        "ports": {
+          "signal": "signal"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 2
+    },
+    {
+      "componentId": "o2-connector",
+      "sourceItemId": "o2-connector",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "connector.paired1",
+        "version": 1,
+        "ports": {
+          "pair1-a": "a",
+          "pair1-b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 2
+    },
+    {
+      "componentId": "idle-valve",
+      "sourceItemId": "idle-valve",
+      "proposedType": "valve",
+      "symbolRef": {
+        "id": "valve.solenoid2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ignition-coil",
+      "sourceItemId": "ignition-coil",
+      "proposedType": "ignitionCoil",
+      "symbolRef": {
+        "id": "ignition.module3",
+        "version": 1,
+        "ports": {
+          "primary-a": "primary-a",
+          "primary-b": "primary-b",
+          "hv": "hv"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "spark-plug",
+      "sourceItemId": "spark-plug",
+      "proposedType": "sparkPlug",
+      "symbolRef": {
+        "id": "spark-plug.chassis1",
+        "version": 1,
+        "ports": {
+          "hv": "hv"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "injector",
+      "sourceItemId": "injector",
+      "proposedType": "injector",
+      "symbolRef": {
+        "id": "injector.solenoid2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "pump",
+      "sourceItemId": "pump",
+      "proposedType": "pump",
+      "symbolRef": {
+        "id": "motor.dc2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "generator",
+      "sourceItemId": "generator",
+      "proposedType": "acg",
+      "symbolRef": {
+        "id": "generator.star3",
+        "version": 1,
+        "ports": {
+          "right": "U",
+          "top": "V",
+          "left": "W"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "dlc",
+      "sourceItemId": "dlc",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "assembly.service-connector",
+        "version": 1,
+        "ports": {
+          "bcut": "bcut",
+          "kline": "kline",
+          "scs": "scs",
+          "lg": "lg"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 4
+    },
+    {
+      "componentId": "dlc-supply",
+      "sourceItemId": "dlc-supply",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "logic-ground-bus",
+      "sourceItemId": "logic-ground-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "idle-switch",
+      "sourceItemId": "idle-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "stand-switch",
+      "sourceItemId": "stand-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "start-switch",
+      "sourceItemId": "start-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "front-brake",
+      "sourceItemId": "front-brake",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "rear-brake",
+      "sourceItemId": "rear-brake",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "cluster",
+      "sourceItemId": "cluster",
+      "proposedType": "gauge",
+      "symbolRef": {
+        "id": "gauge.idle-indicator6",
+        "version": 1,
+        "ports": {
+          "2": "2",
+          "15": "15",
+          "12": "12",
+          "11": "11",
+          "10": "10",
+          "1": "1"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 16
+    },
+    {
+      "componentId": "speed-sensor",
+      "sourceItemId": "speed-sensor",
+      "proposedType": "sensor",
+      "symbolRef": {
+        "id": "sensor.speed-probe2",
+        "version": 1,
+        "ports": {
+          "signal": "signal",
+          "vcc": "vcc"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 2
+    },
+    {
+      "componentId": "cluster-ground",
+      "sourceItemId": "cluster-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ecm-pinout39",
+      "sourceItemId": "ecm-pinout39",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "assembly.pinout",
+        "version": 1,
+        "ports": {}
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ecm-pinout7",
+      "sourceItemId": "ecm-pinout7",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "assembly.pinout",
+        "version": 1,
+        "ports": {}
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 7
+    }
+  ]
+}

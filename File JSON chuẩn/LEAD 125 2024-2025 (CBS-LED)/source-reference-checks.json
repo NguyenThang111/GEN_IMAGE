@@ -1,0 +1,91 @@
+{
+  "status": "PASS_SELECTED_SOURCE_CHECKS",
+  "coverage": "Hand-read selected pins, fuses, wire codes and networks; not a full electrical certification.",
+  "errors": [],
+  "checks": [
+    {
+      "file": "01. power-distribution.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 6,
+      "networks": 4,
+      "wireCodes": 4
+    },
+    {
+      "file": "02. horn.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 3,
+      "networks": 2,
+      "wireCodes": 3
+    },
+    {
+      "file": "03. turn-signals.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 3,
+      "networks": 4,
+      "wireCodes": 4
+    },
+    {
+      "file": "04. brake-light.schema.json",
+      "pinLabels": 0,
+      "fuseRatings": 3,
+      "networks": 4,
+      "wireCodes": 3
+    },
+    {
+      "file": "05. fuel-gauge.schema.json",
+      "pinLabels": 3,
+      "fuseRatings": 3,
+      "networks": 2,
+      "wireCodes": 3
+    },
+    {
+      "file": "06. lighting.schema.json",
+      "pinLabels": 6,
+      "fuseRatings": 3,
+      "networks": 3,
+      "wireCodes": 4
+    },
+    {
+      "file": "07. vehicle-speed.schema.json",
+      "pinLabels": 5,
+      "fuseRatings": 3,
+      "networks": 4,
+      "wireCodes": 3
+    },
+    {
+      "file": "08. ignition.schema.json",
+      "pinLabels": 11,
+      "fuseRatings": 3,
+      "networks": 5,
+      "wireCodes": 5
+    },
+    {
+      "file": "09. starting.schema.json",
+      "pinLabels": 18,
+      "fuseRatings": 3,
+      "networks": 5,
+      "wireCodes": 5
+    },
+    {
+      "file": "10. idle-stop.schema.json",
+      "pinLabels": 26,
+      "fuseRatings": 3,
+      "networks": 6,
+      "wireCodes": 5
+    },
+    {
+      "file": "11. smartkey.schema.json",
+      "pinLabels": 25,
+      "fuseRatings": 4,
+      "networks": 6,
+      "wireCodes": 6
+    },
+    {
+      "file": "12. pgm-fi.schema.json",
+      "pinLabels": 48,
+      "fuseRatings": 4,
+      "networks": 5,
+      "wireCodes": 4
+    }
+  ]
+}

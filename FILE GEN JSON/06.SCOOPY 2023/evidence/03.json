@@ -1,0 +1,58 @@
+{
+  "vehicleId": "scoopy-2023",
+  "circuitId": "scoopy-2023-turn-signals",
+  "source": {
+    "recordId": null,
+    "identity": "LOCAL_ONLY",
+    "originalPath": "FILE ANH/06.SCOOPY 2023/03.Mạch xi nhan.PNG",
+    "imageSha256": "505e8f60e91036faff0ccfcb1e81406dddb5d4f1e909ee8fa699f0f0d091c411"
+  },
+  "schemaSha256": "1c1353f15f7c72521b26c1b587348a3f8fe02ab268b59726538239cc07e43e36",
+  "library": {
+    "revision": "APP_REGISTRY_NOT_AVAILABLE",
+    "actualManifestSha256": null,
+    "contractModelSnapshotSha256": "846d0b3dd08a5bcecdc37032481fa931d46ce37a9d8781a275087d58f91c4c65",
+    "legacyGeometrySha256": "b60eb4ffbac76ba26d02c81dc98daa91d6ea389ae8e18adabf597d051abb8b75",
+    "legacyGeometryHelpersSha256": "93386e9f425bd706cc17dc560b6020b970045463434d367e56e4da90a42adf85"
+  },
+  "inventoryArtifact": "inventory/03.json",
+  "coverage": {
+    "transcriptionCarry": "PASS",
+    "sourceInterpretation": "REVIEW_REQUIRED",
+    "unresolved": [
+      "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+    ]
+  },
+  "genReview": {
+    "reviewer": "Codex author",
+    "verdict": "REVIEW_REQUIRED",
+    "date": "2026-10-12",
+    "checklist": [
+      "Original image viewed before candidate",
+      "Component and terminal inventory transcribed",
+      "Load continuations preserved",
+      "Selected CKP/lamp/coil/sensor-return nets checked",
+      "Local Studio preview viewed; exact contour/text completeness remains pending"
+    ]
+  },
+  "appReview": {
+    "reviewer": null,
+    "verdict": "PENDING",
+    "rendererRevision": null
+  },
+  "validation": {
+    "studioStructural": "PASS",
+    "editorExportRoundTrip": "PASS",
+    "deterministicExport": "PASS",
+    "repeatLocalGenerationNoDiff": "PASS",
+    "apiRoundTrip": "NOT_RUN",
+    "appImport": "NOT_RUN",
+    "appRender": "NOT_RUN",
+    "repeatAppSyncNoDiff": "NOT_RUN",
+    "independentReview": "PENDING",
+    "productionBundleValidator": "PASS",
+    "productionBundleSha256": "70324367feba63cbace628fc423a497e71653d98cb9fa4d30db38ad9bd9b50b2",
+    "componentCompatibilityRevision": "r02"
+  },
+  "deliveryVerdict": "REVIEW_REQUIRED"
+}

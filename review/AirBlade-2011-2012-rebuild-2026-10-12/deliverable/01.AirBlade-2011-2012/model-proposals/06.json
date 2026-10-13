@@ -1,0 +1,437 @@
+{
+  "source": "master contract model ID/version snapshot; not actual manifest",
+  "status": "UNVERIFIED_CONSUMER_SUPPORT",
+  "bindings": [
+    {
+      "componentId": "battery",
+      "proposedType": "battery",
+      "symbolRef": {
+        "id": "battery",
+        "version": 1,
+        "ports": {
+          "positive": "positive",
+          "negative": "negative"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:battery",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-battery",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-r",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-main",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "left",
+          "b": "right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:fuse-main",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-fi",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "left",
+          "b": "right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:fuse-fi",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ignition-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "left",
+          "b": "right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:ignition-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "main-relay",
+      "proposedType": "relay",
+      "symbolRef": {
+        "id": "relay.contact-coil4",
+        "version": 1,
+        "ports": {
+          "contact-left": "contact-left",
+          "contact-right": "contact-right",
+          "coil-left": "coil-left",
+          "coil-right": "coil-right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:main-relay",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ecm",
+      "proposedType": "ecm",
+      "symbolRef": {
+        "id": "control.ecm",
+        "version": 1,
+        "ports": {
+          "top": "top"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:ecm",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-ry",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-head",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "left",
+          "b": "right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:fuse-head",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "fuse-turn",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "left",
+          "b": "right"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:fuse-turn",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "night-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.dpst4",
+        "version": 1,
+        "ports": {
+          "pole1-in": "in1",
+          "pole1-out": "out1",
+          "pole2-in": "in2",
+          "pole2-out": "out2"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:night-switch",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "dimmer",
+      "proposedType": "selectorSwitch",
+      "symbolRef": {
+        "id": "switch.selector3",
+        "version": 1,
+        "ports": {
+          "common": "common",
+          "throw1": "upper",
+          "throw2": "lower"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:dimmer",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-bu",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "high-indicator",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.filament2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:high-indicator",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-high",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "headlamp",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.dual-filament3",
+        "version": 1,
+        "ports": {
+          "common": "return",
+          "high": "high",
+          "low": "low"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:headlamp",
+      "requiresReview": false,
+      "layoutStatus": "SOURCE_ORDER_HIGH_LOW_COMMON; v1 layout extension required"
+    },
+    {
+      "componentId": "ground-head",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-br",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "j-br2",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "position",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.filament2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:position",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-position",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "license",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.filament2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:license",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-license",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "tail",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.led-panel2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": "06:tail",
+      "requiresReview": true,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    },
+    {
+      "componentId": "ground-tail",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "verification": "CONTRACT_ID_SNAPSHOT_ONLY; actual registry, layout and geometry pending",
+      "sourceItemId": null,
+      "sourceReferenceArtifact": "tools/diagram_check/reference.py; source-transcribed wire nets and anchors",
+      "requiresReview": false,
+      "layoutStatus": "UNVERIFIED_ACTUAL_MANIFEST"
+    }
+  ],
+  "requiredMigration": [
+    "Verify actual APP registry/schema/layout/geometry",
+    "Implement shared Studio model dispatch",
+    "Migrate pinoutData to actual assemblyData.pinoutGroups contract"
+  ],
+  "unresolved": [
+    "Server source is a derived render (01/02) or the wrong circuit (06); use the original local screenshot and replace the record source through a reviewed workflow.",
+    "LED panel external channels are visible; manufacturer internal topology is not established by this screenshot.",
+    "Headlamp source role order is high/low/common; contract v1 documents a common/high/low layout restriction. Do not swap electrical roles to bypass it."
+  ]
+}

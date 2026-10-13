@@ -1,0 +1,33 @@
+{
+  "url": "https://auto2tech-app-production.up.railway.app",
+  "asset": "/assets/index-BPDeFL3k.js",
+  "sha256": "70324367feba63cbace628fc423a497e71653d98cb9fa4d30db38ad9bd9b50b2",
+  "componentTypeConstant": "Df",
+  "supportedTypes": [
+    "battery",
+    "fuse",
+    "relay",
+    "switch",
+    "selectorSwitch",
+    "scu",
+    "ecm",
+    "acg",
+    "connector",
+    "ground",
+    "junction",
+    "horn",
+    "flasher",
+    "diode",
+    "lamp",
+    "gauge",
+    "sensor",
+    "ignitionCoil",
+    "sparkPlug",
+    "motor",
+    "injector",
+    "pump",
+    "valve",
+    "device"
+  ],
+  "method": "Fresh public HTTP GET of production HTML and script; no authenticated state or DB mutation"
+}

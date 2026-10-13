@@ -1,0 +1,1 @@
+ALTER TABLE finished_products ALTER COLUMN sku DROP NOT NULL;

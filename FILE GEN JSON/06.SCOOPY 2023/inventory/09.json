@@ -1,0 +1,1285 @@
+{
+  "circuitNumber": "09",
+  "circuitKey": "starting",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/09.Mạch khởi động.PNG",
+  "sourceImageSha256": "95a1baec841a0cad88f8206012eba45a24bc21dff2043ba82776fa9ad2be6a5a",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1311,
+    749
+  ],
+  "components": [
+    {
+      "id": "ecm",
+      "glyph": "module",
+      "observedText": "ECM",
+      "sourceBox": {
+        "x": 124,
+        "y": 375,
+        "width": 1133,
+        "height": 89
+      },
+      "ports": [
+        {
+          "id": "B6",
+          "x": 172,
+          "y": 375,
+          "label": "B6"
+        },
+        {
+          "id": "A31",
+          "x": 255,
+          "y": 375,
+          "label": "A31"
+        },
+        {
+          "id": "A15",
+          "x": 324,
+          "y": 375,
+          "label": "A15"
+        },
+        {
+          "id": "A4",
+          "x": 557,
+          "y": 375,
+          "label": "A4"
+        },
+        {
+          "id": "A3",
+          "x": 825,
+          "y": 375,
+          "label": "A3"
+        },
+        {
+          "id": "A32",
+          "x": 916,
+          "y": 375,
+          "label": "A32"
+        },
+        {
+          "id": "A28",
+          "x": 1156,
+          "y": 375,
+          "label": "A28"
+        },
+        {
+          "id": "B3",
+          "x": 1219,
+          "y": 375,
+          "label": "B3"
+        },
+        {
+          "id": "B1",
+          "x": 231,
+          "y": 464,
+          "label": "B1"
+        },
+        {
+          "id": "B5",
+          "x": 301,
+          "y": 464,
+          "label": "B5"
+        },
+        {
+          "id": "B2",
+          "x": 370,
+          "y": 464,
+          "label": "B2"
+        },
+        {
+          "id": "A20",
+          "x": 645,
+          "y": 464,
+          "label": "A20"
+        },
+        {
+          "id": "A21",
+          "x": 685,
+          "y": 464,
+          "label": "A21"
+        },
+        {
+          "id": "A34",
+          "x": 725,
+          "y": 464,
+          "label": "A34"
+        },
+        {
+          "id": "A22",
+          "x": 768,
+          "y": 464,
+          "label": "A22"
+        },
+        {
+          "id": "A2",
+          "x": 810,
+          "y": 464,
+          "label": "A2"
+        },
+        {
+          "id": "A39",
+          "x": 852,
+          "y": 464,
+          "label": "A39"
+        },
+        {
+          "id": "A26",
+          "x": 984,
+          "y": 464,
+          "label": "A26"
+        },
+        {
+          "id": "A25",
+          "x": 1023,
+          "y": 464,
+          "label": "A25"
+        }
+      ],
+      "proposedModel": "control.ecm"
+    },
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 115,
+        "y": 176,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 131,
+          "y": 182,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 179,
+          "y": 182,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 46,
+        "y": 204,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 61,
+          "y": 204,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 217,
+        "y": 118,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 217,
+          "y": 134,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 287,
+          "y": 134,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "key4",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 400,
+        "y": 238,
+        "width": 70,
+        "height": 86
+      },
+      "ports": [
+        {
+          "id": "in1",
+          "x": 400,
+          "y": 262,
+          "label": ""
+        },
+        {
+          "id": "out1",
+          "x": 470,
+          "y": 262,
+          "label": ""
+        },
+        {
+          "id": "in2",
+          "x": 400,
+          "y": 312,
+          "label": ""
+        },
+        {
+          "id": "out2",
+          "x": 470,
+          "y": 312,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.dpst4"
+    },
+    {
+      "id": "main-relay",
+      "glyph": "relay",
+      "observedText": "RƠ LE CHÍNH",
+      "sourceBox": {
+        "x": 400,
+        "y": 115,
+        "width": 70,
+        "height": 84
+      },
+      "ports": [
+        {
+          "id": "contact-left",
+          "x": 400,
+          "y": 134,
+          "label": ""
+        },
+        {
+          "id": "contact-right",
+          "x": 470,
+          "y": 134,
+          "label": ""
+        },
+        {
+          "id": "coil-left",
+          "x": 400,
+          "y": 184,
+          "label": ""
+        },
+        {
+          "id": "coil-right",
+          "x": 470,
+          "y": 184,
+          "label": ""
+        }
+      ],
+      "proposedModel": "relay.contact-coil4",
+      "reverseCoil": false
+    },
+    {
+      "id": "start-relay",
+      "glyph": "start-relay",
+      "observedText": "RƠ LE ĐỀ / SẠC",
+      "sourceBox": {
+        "x": 670,
+        "y": 38,
+        "width": 70,
+        "height": 89
+      },
+      "ports": [
+        {
+          "id": "throw1",
+          "x": 670,
+          "y": 49,
+          "label": ""
+        },
+        {
+          "id": "throw2",
+          "x": 670,
+          "y": 84,
+          "label": ""
+        },
+        {
+          "id": "common",
+          "x": 740,
+          "y": 69,
+          "label": ""
+        },
+        {
+          "id": "coil-left",
+          "x": 670,
+          "y": 112,
+          "label": ""
+        },
+        {
+          "id": "coil-right",
+          "x": 740,
+          "y": 112,
+          "label": ""
+        }
+      ],
+      "proposedModel": "relay.changeover-coil5"
+    },
+    {
+      "id": "ecu-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) ECU",
+      "sourceBox": {
+        "x": 670,
+        "y": 246,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 670,
+          "y": 262,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 740,
+          "y": 262,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "meter-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) METER / PO",
+      "sourceBox": {
+        "x": 670,
+        "y": 170,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 670,
+          "y": 186,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 740,
+          "y": 186,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "r-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 322,
+        "y": 260,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 324,
+          "y": 262,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "bl-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 555,
+        "y": 302,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 557,
+          "y": 304,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "key-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 595,
+        "y": 260,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 597,
+          "y": 262,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "brake-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 914,
+        "y": 184,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 916,
+          "y": 186,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "brake-out",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1098,
+        "y": 259,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 1100,
+          "y": 261,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "front-brake",
+      "glyph": "switch",
+      "observedText": "CÔNG TẮC PHANH TRƯỚC",
+      "sourceBox": {
+        "x": 978,
+        "y": 162,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 978,
+          "y": 186,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 1048,
+          "y": 186,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "rear-brake",
+      "glyph": "switch",
+      "observedText": "CÔNG TẮC PHANH SAU",
+      "sourceBox": {
+        "x": 978,
+        "y": 237,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 978,
+          "y": 261,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 1048,
+          "y": 261,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "start-switch",
+      "glyph": "push-switch",
+      "observedText": "CÔNG TẮC KHỞI ĐỘNG",
+      "sourceBox": {
+        "x": 978,
+        "y": 309,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 978,
+          "y": 333,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 1048,
+          "y": 333,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "generator",
+      "glyph": "generator",
+      "observedText": "MÁY PHÁT / KHỞI ĐỘNG",
+      "sourceBox": {
+        "x": 243,
+        "y": 564,
+        "width": 113,
+        "height": 113
+      },
+      "ports": [
+        {
+          "id": "V",
+          "x": 301,
+          "y": 564,
+          "label": "V"
+        },
+        {
+          "id": "W",
+          "x": 243,
+          "y": 648,
+          "label": "W"
+        },
+        {
+          "id": "U",
+          "x": 356,
+          "y": 648,
+          "label": "U"
+        }
+      ],
+      "proposedModel": "generator.star3"
+    },
+    {
+      "id": "ckp",
+      "glyph": "module",
+      "observedText": "CẢM BIẾN CKP 6 DÂY",
+      "sourceBox": {
+        "x": 399,
+        "y": 538,
+        "width": 44,
+        "height": 155
+      },
+      "ports": [
+        {
+          "id": "U",
+          "x": 443,
+          "y": 555,
+          "label": "U"
+        },
+        {
+          "id": "V",
+          "x": 443,
+          "y": 579,
+          "label": "V"
+        },
+        {
+          "id": "W",
+          "x": 443,
+          "y": 603,
+          "label": "W"
+        },
+        {
+          "id": "PUL",
+          "x": 443,
+          "y": 627,
+          "label": "PUL"
+        },
+        {
+          "id": "OUT",
+          "x": 443,
+          "y": 651,
+          "label": "OUT"
+        },
+        {
+          "id": "GND",
+          "x": 443,
+          "y": 675,
+          "label": "GND"
+        }
+      ],
+      "proposedModel": "sensor.ckp-module6"
+    },
+    {
+      "id": "ckp-connector",
+      "glyph": "paired",
+      "observedText": "6P",
+      "sourceBox": {
+        "x": 540,
+        "y": 545,
+        "width": 25,
+        "height": 140
+      },
+      "ports": [
+        {
+          "id": "U-a",
+          "x": 540,
+          "y": 555,
+          "label": ""
+        },
+        {
+          "id": "U-b",
+          "x": 565,
+          "y": 555,
+          "label": ""
+        },
+        {
+          "id": "V-a",
+          "x": 540,
+          "y": 579,
+          "label": ""
+        },
+        {
+          "id": "V-b",
+          "x": 565,
+          "y": 579,
+          "label": ""
+        },
+        {
+          "id": "W-a",
+          "x": 540,
+          "y": 603,
+          "label": ""
+        },
+        {
+          "id": "W-b",
+          "x": 565,
+          "y": 603,
+          "label": ""
+        },
+        {
+          "id": "PUL-a",
+          "x": 540,
+          "y": 627,
+          "label": ""
+        },
+        {
+          "id": "PUL-b",
+          "x": 565,
+          "y": 627,
+          "label": ""
+        },
+        {
+          "id": "OUT-a",
+          "x": 540,
+          "y": 651,
+          "label": ""
+        },
+        {
+          "id": "OUT-b",
+          "x": 565,
+          "y": 651,
+          "label": ""
+        },
+        {
+          "id": "GND-a",
+          "x": 540,
+          "y": 675,
+          "label": ""
+        },
+        {
+          "id": "GND-b",
+          "x": 565,
+          "y": 675,
+          "label": ""
+        }
+      ],
+      "proposedModel": "connector.paired6",
+      "cavities": 6
+    },
+    {
+      "id": "stand-switch",
+      "glyph": "stand",
+      "observedText": "CÔNG TẮC\nCHỐNG NGHIÊNG",
+      "sourceBox": {
+        "x": 967,
+        "y": 599,
+        "width": 63,
+        "height": 62
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 984,
+          "y": 599,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 1023,
+          "y": 599,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2",
+      "cavities": 2,
+      "contactStates": [
+        "UP",
+        "DOWN"
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          131,
+          84
+        ],
+        [
+          61,
+          84
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.negative",
+      "b": "ecm.B6",
+      "observedCode": "G",
+      "via": [
+        [
+          91,
+          130
+        ],
+        [
+          91,
+          313
+        ],
+        [
+          172,
+          313
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          179,
+          134
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "battery.positive",
+      "b": "start-relay.throw2",
+      "observedCode": "R",
+      "via": [
+        [
+          156,
+          135
+        ],
+        [
+          156,
+          84
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "main-fuse.b",
+      "b": "main-relay.contact-left",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "main-fuse.b",
+      "b": "r-bus.node",
+      "observedCode": "R/Bl",
+      "via": [
+        [
+          324,
+          160
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "r-bus.node",
+      "b": "key.in1",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "key.out1",
+      "b": "key-bus.node",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "key-bus.node",
+      "b": "ecu-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "ecu-fuse.b",
+      "b": "ecm.A3",
+      "observedCode": "Bl/G",
+      "via": [
+        [
+          825,
+          262
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "key-bus.node",
+      "b": "meter-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [
+        [
+          597,
+          186
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-012",
+      "a": "key.in2",
+      "b": "ecm.A15",
+      "observedCode": "Bl/G",
+      "via": [
+        [
+          324,
+          312
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-013",
+      "a": "key.out2",
+      "b": "bl-bus.node",
+      "observedCode": "Bl",
+      "via": [
+        [
+          557,
+          312
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-014",
+      "a": "bl-bus.node",
+      "b": "ecm.A4",
+      "observedCode": "Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-015",
+      "a": "bl-bus.node",
+      "b": "main-relay.coil-right",
+      "observedCode": "Bl",
+      "via": [
+        [
+          557,
+          184
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-016",
+      "a": "bl-bus.node",
+      "b": "start-relay.coil-left",
+      "observedCode": "Bl",
+      "via": [
+        [
+          557,
+          112
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-017",
+      "a": "main-relay.coil-left",
+      "b": "ecm.A31",
+      "observedCode": "G/W",
+      "via": [
+        [
+          255,
+          184
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-018",
+      "a": "main-relay.contact-right",
+      "b": "start-relay.throw1",
+      "observedCode": "Bl/Y",
+      "via": [
+        [
+          527,
+          134
+        ],
+        [
+          527,
+          49
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-019",
+      "a": "start-relay.common",
+      "b": "ecm.B3",
+      "observedCode": "R/Bl",
+      "via": [
+        [
+          1219,
+          69
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-020",
+      "a": "start-relay.coil-right",
+      "b": "ecm.A28",
+      "observedCode": "Y",
+      "via": [
+        [
+          1156,
+          112
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-021",
+      "a": "meter-fuse.b",
+      "b": "brake-bus.node",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-022",
+      "a": "brake-bus.node",
+      "b": "front-brake.a",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-023",
+      "a": "brake-bus.node",
+      "b": "rear-brake.a",
+      "observedCode": "Bl",
+      "via": [
+        [
+          916,
+          261
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-024",
+      "a": "front-brake.b",
+      "b": "brake-out.node",
+      "observedCode": "G/Y",
+      "via": [
+        [
+          1100,
+          186
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-025",
+      "a": "rear-brake.b",
+      "b": "brake-out.node",
+      "observedCode": "G/Y",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-026",
+      "a": "brake-out.node",
+      "b": "start-switch.b",
+      "observedCode": "G/Y",
+      "via": [
+        [
+          1100,
+          333
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-027",
+      "a": "start-switch.a",
+      "b": "ecm.A32",
+      "observedCode": "Y/G",
+      "via": [
+        [
+          916,
+          333
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-028",
+      "a": "ecm.B1",
+      "b": "generator.W",
+      "observedCode": "R/Bu",
+      "via": [
+        [
+          231,
+          648
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-029",
+      "a": "ecm.B5",
+      "b": "generator.V",
+      "observedCode": "R/W",
+      "via": [
+        [
+          301,
+          564
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-030",
+      "a": "ecm.B2",
+      "b": "generator.U",
+      "observedCode": "R/Y",
+      "via": [
+        [
+          370,
+          648
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-031",
+      "a": "ckp.U",
+      "b": "ckp-connector.U-a",
+      "observedCode": "W/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-032",
+      "a": "ckp-connector.U-b",
+      "b": "ecm.A20",
+      "observedCode": "W/R",
+      "via": [
+        [
+          645,
+          555
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-033",
+      "a": "ckp.V",
+      "b": "ckp-connector.V-a",
+      "observedCode": "W/Bu",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-034",
+      "a": "ckp-connector.V-b",
+      "b": "ecm.A21",
+      "observedCode": "W/Bu",
+      "via": [
+        [
+          685,
+          579
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-035",
+      "a": "ckp.W",
+      "b": "ckp-connector.W-a",
+      "observedCode": "W/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-036",
+      "a": "ckp-connector.W-b",
+      "b": "ecm.A34",
+      "observedCode": "W/Bl",
+      "via": [
+        [
+          725,
+          603
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-037",
+      "a": "ckp.PUL",
+      "b": "ckp-connector.PUL-a",
+      "observedCode": "Bu/Y",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-038",
+      "a": "ckp-connector.PUL-b",
+      "b": "ecm.A22",
+      "observedCode": "Bu/Y",
+      "via": [
+        [
+          768,
+          627
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-039",
+      "a": "ckp.OUT",
+      "b": "ckp-connector.OUT-a",
+      "observedCode": "Br/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-040",
+      "a": "ckp-connector.OUT-b",
+      "b": "ecm.A2",
+      "observedCode": "Br/Bl",
+      "via": [
+        [
+          810,
+          651
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-041",
+      "a": "ckp.GND",
+      "b": "ckp-connector.GND-a",
+      "observedCode": "G",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-042",
+      "a": "ckp-connector.GND-b",
+      "b": "ecm.A39",
+      "observedCode": "G",
+      "via": [
+        [
+          852,
+          675
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-043",
+      "a": "ecm.A26",
+      "b": "stand-switch.a",
+      "observedCode": "G/P",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-044",
+      "a": "ecm.A25",
+      "b": "stand-switch.b",
+      "observedCode": "G/W",
+      "via": [],
+      "labelAt": null
+    }
+  ],
+  "annotations": [],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

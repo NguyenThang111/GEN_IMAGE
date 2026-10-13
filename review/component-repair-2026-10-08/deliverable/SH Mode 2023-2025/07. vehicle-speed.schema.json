@@ -1,0 +1,6529 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "07.Mạch báo tốc độ xe.PNG",
+  "id": "sh-mode-2023-2025-vehicle-speed",
+  "vehicleId": "sh-mode-2023-2025",
+  "vehicleTitle": "SH Mode 2023 - 2025",
+  "vehicleModel": "Honda SH Mode 2023–2025",
+  "circuitTitle": "Mạch báo tốc độ xe",
+  "canvas": {
+    "width": 1272,
+    "height": 709,
+    "background": "#ffffff"
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 70,
+      "y": 214,
+      "width": 106,
+      "height": 78,
+      "label": "",
+      "terminals": [
+        {
+          "id": "neg",
+          "x": 91,
+          "y": 214
+        },
+        {
+          "id": "pos",
+          "x": 154,
+          "y": 214
+        }
+      ]
+    },
+    {
+      "id": "battery-ground",
+      "type": "ground",
+      "x": 26.0,
+      "y": 246,
+      "width": 32,
+      "height": 20,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 42,
+          "y": 246
+        }
+      ]
+    },
+    {
+      "id": "main-fuse",
+      "type": "fuse",
+      "x": 271,
+      "y": 145,
+      "width": 88,
+      "height": 40,
+      "label": "CẦU CHÌ (20A) MAIN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 271,
+          "y": 165
+        },
+        {
+          "id": "out",
+          "x": 359,
+          "y": 165
+        }
+      ]
+    },
+    {
+      "id": "key",
+      "type": "switch",
+      "x": 489,
+      "y": 141,
+      "width": 88,
+      "height": 48,
+      "label": "KHÓA ĐIỆN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 489,
+          "y": 165
+        },
+        {
+          "id": "out",
+          "x": 577,
+          "y": 165
+        }
+      ]
+    },
+    {
+      "id": "load-fuse",
+      "type": "fuse",
+      "x": 708,
+      "y": 145,
+      "width": 88,
+      "height": 40,
+      "label": "CẦU CHÌ (7,5A) METER,TAIL…",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 708,
+          "y": 165
+        },
+        {
+          "id": "out",
+          "x": 796,
+          "y": 165
+        }
+      ]
+    },
+    {
+      "id": "cluster",
+      "type": "device",
+      "x": 1079,
+      "y": 141,
+      "width": 162,
+      "height": 259,
+      "label": "CỤM ĐỒNG HỒ",
+      "terminals": [
+        {
+          "id": "power",
+          "x": 1079,
+          "y": 165,
+          "label": "6"
+        },
+        {
+          "id": "vs-in",
+          "x": 1079,
+          "y": 234,
+          "label": "2"
+        },
+        {
+          "id": "vs-return",
+          "x": 1079,
+          "y": 268,
+          "label": "4"
+        },
+        {
+          "id": "ecm-out",
+          "x": 1079,
+          "y": 321,
+          "label": "3"
+        },
+        {
+          "id": "ground",
+          "x": 1079,
+          "y": 374,
+          "label": "8"
+        }
+      ],
+      "symbolType": "cluster"
+    },
+    {
+      "id": "vs-rotor",
+      "type": "device",
+      "x": 625,
+      "y": 203,
+      "width": 100,
+      "height": 100,
+      "label": "",
+      "terminals": [],
+      "symbolType": "rotor"
+    },
+    {
+      "id": "vs",
+      "type": "sensor",
+      "x": 735,
+      "y": 205,
+      "width": 107,
+      "height": 92,
+      "label": "",
+      "terminals": [
+        {
+          "id": "signal",
+          "x": 842,
+          "y": 234
+        },
+        {
+          "id": "return",
+          "x": 842,
+          "y": 268
+        }
+      ]
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 1073,
+      "y": 460,
+      "width": 175,
+      "height": 144,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "speed",
+          "x": 1073,
+          "y": 533,
+          "label": "A19"
+        }
+      ]
+    },
+    {
+      "id": "cluster-ground",
+      "type": "ground",
+      "x": 993.0,
+      "y": 435,
+      "width": 32,
+      "height": 20,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1009,
+          "y": 435
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "battery-ground",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "neg"
+      },
+      "to": {
+        "componentId": "battery-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 91,
+          "y": 214
+        },
+        {
+          "x": 91,
+          "y": 165
+        },
+        {
+          "x": 42,
+          "y": 165
+        },
+        {
+          "x": 42,
+          "y": 246
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#0ebe5e",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "G",
+          "x": 65,
+          "y": 155,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ]
+    },
+    {
+      "id": "battery-main",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "pos"
+      },
+      "to": {
+        "componentId": "main-fuse",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 154,
+          "y": 214
+        },
+        {
+          "x": 154,
+          "y": 165
+        },
+        {
+          "x": 271,
+          "y": 165
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#db213b",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "R",
+          "x": 214,
+          "y": 155,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ]
+    },
+    {
+      "id": "main-key",
+      "from": {
+        "componentId": "main-fuse",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "key",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 359,
+          "y": 165
+        },
+        {
+          "x": 489,
+          "y": 165
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#db213b",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "R/W",
+          "x": 424.0,
+          "y": 156.0,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ],
+      "stripeColor": "#fefdfe"
+    },
+    {
+      "id": "key-load",
+      "from": {
+        "componentId": "key",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "load-fuse",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 577,
+          "y": 165
+        },
+        {
+          "x": 708,
+          "y": 165
+        }
+      ],
+      "code": "R/G",
+      "primaryColor": "#db213b",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "R/G",
+          "x": 642.5,
+          "y": 156.0,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ],
+      "stripeColor": "#0ebe5e"
+    },
+    {
+      "id": "cluster-power",
+      "from": {
+        "componentId": "load-fuse",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "cluster",
+        "terminalId": "power"
+      },
+      "points": [
+        {
+          "x": 796,
+          "y": 165
+        },
+        {
+          "x": 1079,
+          "y": 165
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#393739",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "Bl/Br",
+          "x": 937.5,
+          "y": 156.0,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ],
+      "stripeColor": "#a28b75"
+    },
+    {
+      "id": "vs-signal",
+      "from": {
+        "componentId": "vs",
+        "terminalId": "signal"
+      },
+      "to": {
+        "componentId": "cluster",
+        "terminalId": "vs-in"
+      },
+      "points": [
+        {
+          "x": 842,
+          "y": 234
+        },
+        {
+          "x": 1079,
+          "y": 234
+        }
+      ],
+      "code": "P/G",
+      "primaryColor": "#eda2af",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "P/G",
+          "x": 960.5,
+          "y": 225.0,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ],
+      "stripeColor": "#0ebe5e"
+    },
+    {
+      "id": "vs-return",
+      "from": {
+        "componentId": "vs",
+        "terminalId": "return"
+      },
+      "to": {
+        "componentId": "cluster",
+        "terminalId": "vs-return"
+      },
+      "points": [
+        {
+          "x": 842,
+          "y": 268
+        },
+        {
+          "x": 1079,
+          "y": 268
+        }
+      ],
+      "code": "Bu/G",
+      "primaryColor": "#47c5ed",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "Bu/G",
+          "x": 960.5,
+          "y": 259.0,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ],
+      "stripeColor": "#0ebe5e"
+    },
+    {
+      "id": "speed-ecm",
+      "from": {
+        "componentId": "cluster",
+        "terminalId": "ecm-out"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "speed"
+      },
+      "points": [
+        {
+          "x": 1079,
+          "y": 321
+        },
+        {
+          "x": 913,
+          "y": 321
+        },
+        {
+          "x": 913,
+          "y": 533
+        },
+        {
+          "x": 1073,
+          "y": 533
+        }
+      ],
+      "code": "P/G",
+      "primaryColor": "#eda2af",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "P/G",
+          "x": 1030,
+          "y": 522,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ],
+      "stripeColor": "#0ebe5e"
+    },
+    {
+      "id": "cluster-ground",
+      "from": {
+        "componentId": "cluster",
+        "terminalId": "ground"
+      },
+      "to": {
+        "componentId": "cluster-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1079,
+          "y": 374
+        },
+        {
+          "x": 1009,
+          "y": 374
+        },
+        {
+          "x": 1009,
+          "y": 435
+        }
+      ],
+      "code": "G/Bl",
+      "primaryColor": "#0ebe5e",
+      "state": "controlled",
+      "labels": [
+        {
+          "kind": "text",
+          "text": "G/Bl",
+          "x": 1048,
+          "y": 364,
+          "size": 14,
+          "anchor": "middle",
+          "rotate": 0,
+          "bold": true,
+          "fill": "#343434"
+        }
+      ],
+      "stripeColor": "#393739"
+    }
+  ],
+  "sourceCrop": {
+    "x": 0,
+    "y": 0,
+    "width": 1272,
+    "height": 709
+  },
+  "sourceTransform": {
+    "rotateClockwise": 0
+  },
+  "reviewMetadata": {
+    "vectorPreviewGenerated": true,
+    "targetAppVerified": false,
+    "electricalSimulationValidated": false,
+    "source": "supplied SH Mode screenshots",
+    "visualReview": "manual comparison; see review-report.json",
+    "sourceSha256": "cac094c5e5746036eaa3dc2ad55dde210d80f86b8c5ad313484636b6fce2d882",
+    "componentCompatibility": {
+      "contract": "Studio original 24 types",
+      "changes": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "vs-rotor",
+          "before": "rotor",
+          "after": "device"
+        }
+      ]
+    },
+    "sourceCircuitTitle": "Mạch báo tốc độ xe"
+  },
+  "renderContract": "Render drawing.version=1; PNG/SVG are generated from JSON without source-image embedding.",
+  "colorReference": {
+    "method": "median RGB of a 3x3 source-image patch; screenshot/watermark colors, not restoration of original wire paint",
+    "samples": {
+      "R": {
+        "sourceImage": "02.Mạch còi.PNG",
+        "x": 215,
+        "y": 345,
+        "patchSize": 3,
+        "rgb": [
+          219,
+          33,
+          59
+        ],
+        "hex": "#db213b"
+      },
+      "G": {
+        "sourceImage": "02.Mạch còi.PNG",
+        "x": 44,
+        "y": 366,
+        "patchSize": 3,
+        "rgb": [
+          14,
+          190,
+          94
+        ],
+        "hex": "#0ebe5e"
+      },
+      "Bl": {
+        "sourceImage": "02.Mạch còi.PNG",
+        "x": 870,
+        "y": 345,
+        "patchSize": 3,
+        "rgb": [
+          57,
+          55,
+          57
+        ],
+        "hex": "#393739"
+      },
+      "Br": {
+        "sourceImage": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+        "x": 800,
+        "y": 273,
+        "patchSize": 3,
+        "rgb": [
+          162,
+          139,
+          117
+        ],
+        "hex": "#a28b75"
+      },
+      "Y": {
+        "sourceImage": "03.Mạch xi nhan.PNG",
+        "x": 1102,
+        "y": 285,
+        "patchSize": 3,
+        "rgb": [
+          254,
+          252,
+          34
+        ],
+        "hex": "#fefc22"
+      },
+      "Lg": {
+        "sourceImage": "02.Mạch còi.PNG",
+        "x": 1048,
+        "y": 345,
+        "patchSize": 3,
+        "rgb": [
+          168,
+          217,
+          76
+        ],
+        "hex": "#a8d94c"
+      },
+      "Lb": {
+        "sourceImage": "03.Mạch xi nhan.PNG",
+        "x": 1102,
+        "y": 390,
+        "patchSize": 3,
+        "rgb": [
+          149,
+          220,
+          243
+        ],
+        "hex": "#95dcf3"
+      },
+      "Bu": {
+        "sourceImage": "07.Mạch báo tốc độ xe.PNG",
+        "x": 950,
+        "y": 268,
+        "patchSize": 3,
+        "rgb": [
+          71,
+          197,
+          237
+        ],
+        "hex": "#47c5ed"
+      },
+      "Gr": {
+        "sourceImage": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+        "x": 1010,
+        "y": 520,
+        "patchSize": 3,
+        "rgb": [
+          167,
+          168,
+          171
+        ],
+        "hex": "#a7a8ab"
+      },
+      "P": {
+        "sourceImage": "07.Mạch báo tốc độ xe.PNG",
+        "x": 940,
+        "y": 234,
+        "patchSize": 3,
+        "rgb": [
+          237,
+          162,
+          175
+        ],
+        "hex": "#eda2af"
+      },
+      "O": {
+        "sourceImage": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+        "x": 453,
+        "y": 257,
+        "patchSize": 3,
+        "rgb": [
+          237,
+          148,
+          97
+        ],
+        "hex": "#ed9461"
+      },
+      "W": {
+        "sourceImage": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+        "x": 900,
+        "y": 179,
+        "patchSize": 3,
+        "rgb": [
+          254,
+          253,
+          254
+        ],
+        "hex": "#fefdfe"
+      }
+    }
+  },
+  "drawing": {
+    "version": 1,
+    "background": "#ffffff",
+    "fontFamily": "Arial",
+    "symbols": {
+      "rotor": [
+        {
+          "kind": "path",
+          "points": [
+            [
+              96.0,
+              50.0
+            ],
+            [
+              95.77849742692106,
+              54.50878845515979
+            ],
+            [
+              95.1161228985486,
+              58.9741548127419
+            ],
+            [
+              94.0192554436816,
+              63.35309515370527
+            ],
+            [
+              92.49845849551919,
+              67.60343788879413
+            ],
+            [
+              90.56837816002434,
+              71.68424989399588
+            ],
+            [
+              88.24760216591707,
+              75.5562307189017
+            ],
+            [
+              85.55848085468591,
+              79.1820910715277
+            ],
+            [
+              82.5269119345812,
+              82.5269119345812
+            ],
+            [
+              79.1820910715277,
+              85.5584808546859
+            ],
+            [
+              75.5562307189017,
+              88.24760216591707
+            ],
+            [
+              71.6842498939959,
+              90.56837816002432
+            ],
+            [
+              67.60343788879413,
+              92.49845849551919
+            ],
+            [
+              63.35309515370527,
+              94.0192554436816
+            ],
+            [
+              58.9741548127419,
+              95.1161228985486
+            ],
+            [
+              54.508788455159795,
+              95.77849742692106
+            ],
+            [
+              50.0,
+              96.0
+            ],
+            [
+              45.49121154484021,
+              95.77849742692106
+            ],
+            [
+              41.0258451872581,
+              95.1161228985486
+            ],
+            [
+              36.64690484629474,
+              94.0192554436816
+            ],
+            [
+              32.396562111205874,
+              92.49845849551919
+            ],
+            [
+              28.315750106004106,
+              90.56837816002434
+            ],
+            [
+              24.44376928109831,
+              88.24760216591709
+            ],
+            [
+              20.817908928472313,
+              85.55848085468591
+            ],
+            [
+              17.473088065418814,
+              82.5269119345812
+            ],
+            [
+              14.441519145314096,
+              79.1820910715277
+            ],
+            [
+              11.752397834082913,
+              75.5562307189017
+            ],
+            [
+              9.431621839975676,
+              71.6842498939959
+            ],
+            [
+              7.501541504480812,
+              67.60343788879413
+            ],
+            [
+              5.980744556318392,
+              63.35309515370527
+            ],
+            [
+              4.883877101451404,
+              58.974154812741915
+            ],
+            [
+              4.2215025730789435,
+              54.508788455159795
+            ],
+            [
+              4.0,
+              50.00000000000001
+            ],
+            [
+              4.2215025730789435,
+              45.49121154484021
+            ],
+            [
+              4.883877101451404,
+              41.0258451872581
+            ],
+            [
+              5.980744556318392,
+              36.646904846294746
+            ],
+            [
+              7.501541504480805,
+              32.396562111205874
+            ],
+            [
+              9.43162183997567,
+              28.31575010600411
+            ],
+            [
+              11.752397834082906,
+              24.44376928109831
+            ],
+            [
+              14.441519145314096,
+              20.817908928472317
+            ],
+            [
+              17.473088065418807,
+              17.473088065418814
+            ],
+            [
+              20.81790892847229,
+              14.44151914531411
+            ],
+            [
+              24.443769281098298,
+              11.75239783408292
+            ],
+            [
+              28.3157501060041,
+              9.431621839975676
+            ],
+            [
+              32.396562111205846,
+              7.501541504480819
+            ],
+            [
+              36.64690484629473,
+              5.980744556318392
+            ],
+            [
+              41.025845187258085,
+              4.883877101451404
+            ],
+            [
+              45.49121154484022,
+              4.2215025730789435
+            ],
+            [
+              49.99999999999999,
+              4.0
+            ],
+            [
+              54.50878845515977,
+              4.2215025730789435
+            ],
+            [
+              58.9741548127419,
+              4.883877101451404
+            ],
+            [
+              63.353095153705254,
+              5.980744556318392
+            ],
+            [
+              67.60343788879413,
+              7.501541504480812
+            ],
+            [
+              71.68424989399588,
+              9.43162183997567
+            ],
+            [
+              75.55623071890169,
+              11.752397834082906
+            ],
+            [
+              79.1820910715277,
+              14.441519145314103
+            ],
+            [
+              82.52691193458118,
+              17.473088065418807
+            ],
+            [
+              85.55848085468588,
+              20.81790892847229
+            ],
+            [
+              88.24760216591707,
+              24.443769281098298
+            ],
+            [
+              90.56837816002432,
+              28.315750106004096
+            ],
+            [
+              92.49845849551917,
+              32.39656211120584
+            ],
+            [
+              94.0192554436816,
+              36.646904846294724
+            ],
+            [
+              95.1161228985486,
+              41.02584518725808
+            ],
+            [
+              95.77849742692106,
+              45.49121154484022
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              96.90074745255114,
+              46.94715077476522
+            ],
+            [
+              99.89441218356507,
+              46.75228805826087
+            ],
+            [
+              99.89441218356507,
+              53.24771194173913
+            ],
+            [
+              96.90074745255114,
+              53.05284922523478
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              89.73792149006691,
+              75.09776076962402
+            ],
+            [
+              92.27438456390097,
+              76.69974549960003
+            ],
+            [
+              88.45647019780415,
+              81.95465380700284
+            ],
+            [
+              86.14908198593591,
+              80.03737457858267
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              67.39656016065197,
+              93.66187919200016
+            ],
+            [
+              68.50697889431062,
+              96.448807651064
+            ],
+            [
+              62.32946368382945,
+              98.45600401672769
+            ],
+            [
+              61.58969586279969,
+              95.54864377572403
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              38.41030413720032,
+              95.54864377572403
+            ],
+            [
+              37.670536316170555,
+              98.45600401672769
+            ],
+            [
+              31.49302110568939,
+              96.448807651064
+            ],
+            [
+              32.60343983934803,
+              93.66187919200016
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              13.850918014064106,
+              80.03737457858267
+            ],
+            [
+              11.543529802195856,
+              81.95465380700284
+            ],
+            [
+              7.725615436099034,
+              76.69974549960003
+            ],
+            [
+              10.26207850993309,
+              75.09776076962402
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              3.099252547448849,
+              53.05284922523479
+            ],
+            [
+              0.10558781643494086,
+              53.247711941739134
+            ],
+            [
+              0.10558781643494086,
+              46.75228805826088
+            ],
+            [
+              3.099252547448849,
+              46.94715077476523
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              10.262078509933083,
+              24.902239230375987
+            ],
+            [
+              7.725615436099027,
+              23.300254500399987
+            ],
+            [
+              11.543529802195849,
+              18.045346192997165
+            ],
+            [
+              13.850918014064092,
+              19.962625421417332
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              32.603439839348,
+              6.33812080799985
+            ],
+            [
+              31.493021105689355,
+              3.551192348936013
+            ],
+            [
+              37.67053631617057,
+              1.5439959832723034
+            ],
+            [
+              38.41030413720033,
+              4.451356224275962
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              61.58969586279965,
+              4.451356224275955
+            ],
+            [
+              62.32946368382942,
+              1.5439959832722963
+            ],
+            [
+              68.50697889431062,
+              3.5511923489360058
+            ],
+            [
+              67.39656016065199,
+              6.338120807999843
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        },
+        {
+          "kind": "path",
+          "points": [
+            [
+              86.14908198593588,
+              19.962625421417304
+            ],
+            [
+              88.45647019780412,
+              18.04534619299713
+            ],
+            [
+              92.27438456390098,
+              23.30025450039999
+            ],
+            [
+              89.73792149006692,
+              24.902239230375994
+            ]
+          ],
+          "stroke": "#555555",
+          "width": 1.5,
+          "closed": true,
+          "fill": "#fbfca7"
+        }
+      ]
+    },
+    "elements": [
+      {
+        "kind": "path",
+        "points": [
+          [
+            91,
+            214
+          ],
+          [
+            91,
+            165
+          ],
+          [
+            42,
+            165
+          ],
+          [
+            42,
+            246
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 8,
+        "owner": "battery-ground",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            154,
+            214
+          ],
+          [
+            154,
+            165
+          ],
+          [
+            271,
+            165
+          ]
+        ],
+        "stroke": "#db213b",
+        "width": 8,
+        "owner": "battery-main",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            359,
+            165
+          ],
+          [
+            489,
+            165
+          ]
+        ],
+        "stroke": "#db213b",
+        "width": 8,
+        "owner": "main-key",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            359.0,
+            165.0
+          ],
+          [
+            370.0,
+            165.0
+          ]
+        ],
+        "stroke": "#fefdfe",
+        "width": 5.2,
+        "owner": "main-key",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            388.0,
+            165.0
+          ],
+          [
+            399.0,
+            165.0
+          ]
+        ],
+        "stroke": "#fefdfe",
+        "width": 5.2,
+        "owner": "main-key",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            417.0,
+            165.0
+          ],
+          [
+            428.0,
+            165.0
+          ]
+        ],
+        "stroke": "#fefdfe",
+        "width": 5.2,
+        "owner": "main-key",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            446.0,
+            165.0
+          ],
+          [
+            457.0,
+            165.0
+          ]
+        ],
+        "stroke": "#fefdfe",
+        "width": 5.2,
+        "owner": "main-key",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            475.0,
+            165.0
+          ],
+          [
+            486.0,
+            165.0
+          ]
+        ],
+        "stroke": "#fefdfe",
+        "width": 5.2,
+        "owner": "main-key",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            577,
+            165
+          ],
+          [
+            708,
+            165
+          ]
+        ],
+        "stroke": "#db213b",
+        "width": 8,
+        "owner": "key-load",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            577.0,
+            165.0
+          ],
+          [
+            588.0,
+            165.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "key-load",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            606.0,
+            165.0
+          ],
+          [
+            617.0,
+            165.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "key-load",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            635.0,
+            165.0
+          ],
+          [
+            646.0,
+            165.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "key-load",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            664.0,
+            165.0
+          ],
+          [
+            675.0,
+            165.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "key-load",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            693.0,
+            165.0
+          ],
+          [
+            704.0,
+            165.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "key-load",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            796,
+            165
+          ],
+          [
+            1079,
+            165
+          ]
+        ],
+        "stroke": "#393739",
+        "width": 8,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            796.0,
+            165.0
+          ],
+          [
+            807.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            825.0,
+            165.0
+          ],
+          [
+            836.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            854.0,
+            165.0
+          ],
+          [
+            865.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            883.0,
+            165.0
+          ],
+          [
+            894.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            912.0,
+            165.0
+          ],
+          [
+            923.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            941.0,
+            165.0
+          ],
+          [
+            952.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            970.0,
+            165.0
+          ],
+          [
+            981.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            999.0,
+            165.0
+          ],
+          [
+            1010.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1028.0,
+            165.0
+          ],
+          [
+            1039.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1057.0,
+            165.0
+          ],
+          [
+            1068.0,
+            165.0
+          ]
+        ],
+        "stroke": "#a28b75",
+        "width": 5.2,
+        "owner": "cluster-power",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            842,
+            234
+          ],
+          [
+            1079,
+            234
+          ]
+        ],
+        "stroke": "#eda2af",
+        "width": 8,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            842.0,
+            234.0
+          ],
+          [
+            853.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            871.0,
+            234.0
+          ],
+          [
+            882.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            900.0,
+            234.0
+          ],
+          [
+            911.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            929.0,
+            234.0
+          ],
+          [
+            940.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            958.0,
+            234.0
+          ],
+          [
+            969.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            987.0,
+            234.0
+          ],
+          [
+            998.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1016.0,
+            234.0
+          ],
+          [
+            1027.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1045.0,
+            234.0
+          ],
+          [
+            1056.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1074.0,
+            234.0
+          ],
+          [
+            1079.0,
+            234.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-signal",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            842,
+            268
+          ],
+          [
+            1079,
+            268
+          ]
+        ],
+        "stroke": "#47c5ed",
+        "width": 8,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            842.0,
+            268.0
+          ],
+          [
+            853.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            871.0,
+            268.0
+          ],
+          [
+            882.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            900.0,
+            268.0
+          ],
+          [
+            911.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            929.0,
+            268.0
+          ],
+          [
+            940.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            958.0,
+            268.0
+          ],
+          [
+            969.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            987.0,
+            268.0
+          ],
+          [
+            998.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1016.0,
+            268.0
+          ],
+          [
+            1027.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1045.0,
+            268.0
+          ],
+          [
+            1056.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1074.0,
+            268.0
+          ],
+          [
+            1079.0,
+            268.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "vs-return",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            321
+          ],
+          [
+            913,
+            321
+          ],
+          [
+            913,
+            533
+          ],
+          [
+            1073,
+            533
+          ]
+        ],
+        "stroke": "#eda2af",
+        "width": 8,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079.0,
+            321.0
+          ],
+          [
+            1068.0,
+            321.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1050.0,
+            321.0
+          ],
+          [
+            1039.0,
+            321.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1021.0,
+            321.0
+          ],
+          [
+            1010.0,
+            321.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            992.0,
+            321.0
+          ],
+          [
+            981.0,
+            321.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            963.0,
+            321.0
+          ],
+          [
+            952.0,
+            321.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            934.0,
+            321.0
+          ],
+          [
+            923.0,
+            321.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            329.0
+          ],
+          [
+            913.0,
+            340.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            358.0
+          ],
+          [
+            913.0,
+            369.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            387.0
+          ],
+          [
+            913.0,
+            398.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            416.0
+          ],
+          [
+            913.0,
+            427.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            445.0
+          ],
+          [
+            913.0,
+            456.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            474.0
+          ],
+          [
+            913.0,
+            485.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            503.0
+          ],
+          [
+            913.0,
+            514.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            532.0
+          ],
+          [
+            913.0,
+            533.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            913.0,
+            533.0
+          ],
+          [
+            923.0,
+            533.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            941.0,
+            533.0
+          ],
+          [
+            952.0,
+            533.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            970.0,
+            533.0
+          ],
+          [
+            981.0,
+            533.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            999.0,
+            533.0
+          ],
+          [
+            1010.0,
+            533.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1028.0,
+            533.0
+          ],
+          [
+            1039.0,
+            533.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1057.0,
+            533.0
+          ],
+          [
+            1068.0,
+            533.0
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5.2,
+        "owner": "speed-ecm",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            374
+          ],
+          [
+            1009,
+            374
+          ],
+          [
+            1009,
+            435
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 8,
+        "owner": "cluster-ground",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079.0,
+            374.0
+          ],
+          [
+            1068.0,
+            374.0
+          ]
+        ],
+        "stroke": "#393739",
+        "width": 5.2,
+        "owner": "cluster-ground",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1050.0,
+            374.0
+          ],
+          [
+            1039.0,
+            374.0
+          ]
+        ],
+        "stroke": "#393739",
+        "width": 5.2,
+        "owner": "cluster-ground",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1021.0,
+            374.0
+          ],
+          [
+            1010.0,
+            374.0
+          ]
+        ],
+        "stroke": "#393739",
+        "width": 5.2,
+        "owner": "cluster-ground",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1009.0,
+            391.0
+          ],
+          [
+            1009.0,
+            402.0
+          ]
+        ],
+        "stroke": "#393739",
+        "width": 5.2,
+        "owner": "cluster-ground",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1009.0,
+            420.0
+          ],
+          [
+            1009.0,
+            431.0
+          ]
+        ],
+        "stroke": "#393739",
+        "width": 5.2,
+        "owner": "cluster-ground",
+        "role": "wire"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            70,
+            223
+          ],
+          [
+            176,
+            223
+          ],
+          [
+            176,
+            292
+          ],
+          [
+            70,
+            292
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#d1d1d3",
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            84,
+            214
+          ],
+          [
+            98,
+            214
+          ],
+          [
+            98,
+            223
+          ],
+          [
+            84,
+            223
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "white",
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            100.0,
+            239.74
+          ],
+          [
+            99.95666254004978,
+            240.62215426296606
+          ],
+          [
+            99.82706752362907,
+            241.49581289814518
+          ],
+          [
+            99.61246302158987,
+            242.35256209529018
+          ],
+          [
+            99.31491579260158,
+            243.1841508912858
+          ],
+          [
+            98.93729137913519,
+            243.982570631434
+          ],
+          [
+            98.4832265107229,
+            244.74013209717643
+          ],
+          [
+            97.95709408026464,
+            245.44953955747283
+          ],
+          [
+            97.36396103067892,
+            246.10396103067893
+          ],
+          [
+            96.70953955747281,
+            246.69709408026463
+          ],
+          [
+            96.00013209717642,
+            247.22322651072292
+          ],
+          [
+            95.24257063143398,
+            247.6772913791352
+          ],
+          [
+            94.4441508912858,
+            248.05491579260158
+          ],
+          [
+            93.61256209529016,
+            248.3524630215899
+          ],
+          [
+            92.75581289814515,
+            248.56706752362908
+          ],
+          [
+            91.88215426296604,
+            248.69666254004977
+          ],
+          [
+            91.0,
+            248.74
+          ],
+          [
+            90.11784573703396,
+            248.69666254004977
+          ],
+          [
+            89.24418710185485,
+            248.56706752362908
+          ],
+          [
+            88.38743790470984,
+            248.3524630215899
+          ],
+          [
+            87.5558491087142,
+            248.05491579260158
+          ],
+          [
+            86.75742936856602,
+            247.6772913791352
+          ],
+          [
+            85.99986790282358,
+            247.22322651072292
+          ],
+          [
+            85.29046044252719,
+            246.69709408026463
+          ],
+          [
+            84.63603896932108,
+            246.10396103067893
+          ],
+          [
+            84.04290591973536,
+            245.44953955747283
+          ],
+          [
+            83.51677348927709,
+            244.74013209717643
+          ],
+          [
+            83.06270862086481,
+            243.982570631434
+          ],
+          [
+            82.68508420739842,
+            243.1841508912858
+          ],
+          [
+            82.38753697841013,
+            242.35256209529018
+          ],
+          [
+            82.17293247637093,
+            241.49581289814518
+          ],
+          [
+            82.04333745995022,
+            240.62215426296606
+          ],
+          [
+            82.0,
+            239.74
+          ],
+          [
+            82.04333745995022,
+            238.85784573703395
+          ],
+          [
+            82.17293247637093,
+            237.98418710185484
+          ],
+          [
+            82.38753697841013,
+            237.12743790470984
+          ],
+          [
+            82.68508420739842,
+            236.2958491087142
+          ],
+          [
+            83.06270862086481,
+            235.49742936856603
+          ],
+          [
+            83.51677348927709,
+            234.7398679028236
+          ],
+          [
+            84.04290591973536,
+            234.03046044252721
+          ],
+          [
+            84.63603896932108,
+            233.3760389693211
+          ],
+          [
+            85.29046044252719,
+            232.78290591973538
+          ],
+          [
+            85.99986790282358,
+            232.2567734892771
+          ],
+          [
+            86.75742936856602,
+            231.80270862086482
+          ],
+          [
+            87.55584910871418,
+            231.42508420739844
+          ],
+          [
+            88.38743790470984,
+            231.12753697841012
+          ],
+          [
+            89.24418710185485,
+            230.91293247637094
+          ],
+          [
+            90.11784573703396,
+            230.78333745995025
+          ],
+          [
+            91.0,
+            230.74
+          ],
+          [
+            91.88215426296604,
+            230.78333745995025
+          ],
+          [
+            92.75581289814515,
+            230.91293247637094
+          ],
+          [
+            93.61256209529016,
+            231.12753697841012
+          ],
+          [
+            94.44415089128582,
+            231.42508420739844
+          ],
+          [
+            95.24257063143398,
+            231.80270862086482
+          ],
+          [
+            96.00013209717642,
+            232.2567734892771
+          ],
+          [
+            96.70953955747281,
+            232.78290591973538
+          ],
+          [
+            97.36396103067892,
+            233.3760389693211
+          ],
+          [
+            97.95709408026462,
+            234.0304604425272
+          ],
+          [
+            98.4832265107229,
+            234.7398679028236
+          ],
+          [
+            98.93729137913519,
+            235.49742936856603
+          ],
+          [
+            99.31491579260158,
+            236.2958491087142
+          ],
+          [
+            99.61246302158987,
+            237.12743790470984
+          ],
+          [
+            99.82706752362907,
+            237.98418710185484
+          ],
+          [
+            99.95666254004978,
+            238.85784573703395
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            84,
+            239.74
+          ],
+          [
+            98,
+            239.74
+          ]
+        ],
+        "stroke": "#78a58d",
+        "width": 1,
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            147,
+            214
+          ],
+          [
+            161,
+            214
+          ],
+          [
+            161,
+            223
+          ],
+          [
+            147,
+            223
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "white",
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            163.0,
+            239.74
+          ],
+          [
+            162.95666254004976,
+            240.62215426296606
+          ],
+          [
+            162.82706752362907,
+            241.49581289814518
+          ],
+          [
+            162.6124630215899,
+            242.35256209529018
+          ],
+          [
+            162.31491579260157,
+            243.1841508912858
+          ],
+          [
+            161.9372913791352,
+            243.982570631434
+          ],
+          [
+            161.48322651072291,
+            244.74013209717643
+          ],
+          [
+            160.95709408026462,
+            245.44953955747283
+          ],
+          [
+            160.36396103067892,
+            246.10396103067893
+          ],
+          [
+            159.70953955747282,
+            246.69709408026463
+          ],
+          [
+            159.00013209717642,
+            247.22322651072292
+          ],
+          [
+            158.24257063143398,
+            247.6772913791352
+          ],
+          [
+            157.4441508912858,
+            248.05491579260158
+          ],
+          [
+            156.61256209529017,
+            248.3524630215899
+          ],
+          [
+            155.75581289814517,
+            248.56706752362908
+          ],
+          [
+            154.88215426296605,
+            248.69666254004977
+          ],
+          [
+            154.0,
+            248.74
+          ],
+          [
+            153.11784573703395,
+            248.69666254004977
+          ],
+          [
+            152.24418710185483,
+            248.56706752362908
+          ],
+          [
+            151.38743790470983,
+            248.3524630215899
+          ],
+          [
+            150.5558491087142,
+            248.05491579260158
+          ],
+          [
+            149.75742936856602,
+            247.6772913791352
+          ],
+          [
+            148.99986790282358,
+            247.22322651072292
+          ],
+          [
+            148.2904604425272,
+            246.69709408026463
+          ],
+          [
+            147.63603896932108,
+            246.10396103067893
+          ],
+          [
+            147.04290591973538,
+            245.44953955747283
+          ],
+          [
+            146.51677348927709,
+            244.74013209717643
+          ],
+          [
+            146.0627086208648,
+            243.982570631434
+          ],
+          [
+            145.68508420739843,
+            243.1841508912858
+          ],
+          [
+            145.3875369784101,
+            242.35256209529018
+          ],
+          [
+            145.17293247637093,
+            241.49581289814518
+          ],
+          [
+            145.04333745995024,
+            240.62215426296606
+          ],
+          [
+            145.0,
+            239.74
+          ],
+          [
+            145.04333745995024,
+            238.85784573703395
+          ],
+          [
+            145.17293247637093,
+            237.98418710185484
+          ],
+          [
+            145.3875369784101,
+            237.12743790470984
+          ],
+          [
+            145.6850842073984,
+            236.2958491087142
+          ],
+          [
+            146.0627086208648,
+            235.49742936856603
+          ],
+          [
+            146.51677348927709,
+            234.7398679028236
+          ],
+          [
+            147.04290591973538,
+            234.03046044252721
+          ],
+          [
+            147.63603896932108,
+            233.3760389693211
+          ],
+          [
+            148.29046044252718,
+            232.78290591973538
+          ],
+          [
+            148.99986790282358,
+            232.2567734892771
+          ],
+          [
+            149.75742936856602,
+            231.80270862086482
+          ],
+          [
+            150.5558491087142,
+            231.42508420739844
+          ],
+          [
+            151.38743790470983,
+            231.12753697841012
+          ],
+          [
+            152.24418710185483,
+            230.91293247637094
+          ],
+          [
+            153.11784573703395,
+            230.78333745995025
+          ],
+          [
+            154.0,
+            230.74
+          ],
+          [
+            154.88215426296605,
+            230.78333745995025
+          ],
+          [
+            155.75581289814517,
+            230.91293247637094
+          ],
+          [
+            156.61256209529017,
+            231.12753697841012
+          ],
+          [
+            157.4441508912858,
+            231.42508420739844
+          ],
+          [
+            158.24257063143398,
+            231.80270862086482
+          ],
+          [
+            159.00013209717642,
+            232.2567734892771
+          ],
+          [
+            159.70953955747282,
+            232.78290591973538
+          ],
+          [
+            160.36396103067892,
+            233.3760389693211
+          ],
+          [
+            160.95709408026462,
+            234.0304604425272
+          ],
+          [
+            161.48322651072291,
+            234.7398679028236
+          ],
+          [
+            161.9372913791352,
+            235.49742936856603
+          ],
+          [
+            162.31491579260157,
+            236.2958491087142
+          ],
+          [
+            162.6124630215899,
+            237.12743790470984
+          ],
+          [
+            162.82706752362907,
+            237.98418710185484
+          ],
+          [
+            162.95666254004976,
+            238.85784573703395
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            147,
+            239.74
+          ],
+          [
+            161,
+            239.74
+          ]
+        ],
+        "stroke": "#c46574",
+        "width": 1,
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            154,
+            232.74
+          ],
+          [
+            154,
+            246.74
+          ]
+        ],
+        "stroke": "#c46574",
+        "width": 1,
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "ẮC QUY",
+        "x": 123.0,
+        "y": 279.52,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "battery",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            26.0,
+            246
+          ],
+          [
+            58.0,
+            246
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5,
+        "owner": "battery-ground",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            31.6,
+            254
+          ],
+          [
+            52.4,
+            254
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5,
+        "owner": "battery-ground",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            37.2,
+            262
+          ],
+          [
+            46.8,
+            262
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5,
+        "owner": "battery-ground",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            271,
+            145
+          ],
+          [
+            359,
+            145
+          ],
+          [
+            359,
+            185
+          ],
+          [
+            271,
+            185
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "white",
+        "owner": "main-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            271,
+            165
+          ],
+          [
+            288.6,
+            165
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "main-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            341.4,
+            165
+          ],
+          [
+            359,
+            165
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "main-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            294.6,
+            165.0
+          ],
+          [
+            294.5711083600332,
+            165.58810284197736
+          ],
+          [
+            294.4847116824194,
+            166.17054193209677
+          ],
+          [
+            294.3416420143933,
+            166.74170806352677
+          ],
+          [
+            294.14327719506775,
+            167.29610059419053
+          ],
+          [
+            293.89152758609015,
+            167.828380420956
+          ],
+          [
+            293.5888176738153,
+            168.33342139811762
+          ],
+          [
+            293.23806272017646,
+            168.80635970498187
+          ],
+          [
+            292.8426406871193,
+            169.2426406871193
+          ],
+          [
+            292.4063597049819,
+            169.63806272017644
+          ],
+          [
+            291.9334213981176,
+            169.98881767381528
+          ],
+          [
+            291.428380420956,
+            170.29152758609013
+          ],
+          [
+            290.89610059419056,
+            170.54327719506773
+          ],
+          [
+            290.3417080635268,
+            170.74164201439325
+          ],
+          [
+            289.7705419320968,
+            170.88471168241938
+          ],
+          [
+            289.1881028419774,
+            170.97110836003318
+          ],
+          [
+            288.6,
+            171.0
+          ],
+          [
+            288.01189715802263,
+            170.97110836003318
+          ],
+          [
+            287.4294580679032,
+            170.88471168241938
+          ],
+          [
+            286.8582919364732,
+            170.74164201439325
+          ],
+          [
+            286.3038994058095,
+            170.54327719506773
+          ],
+          [
+            285.77161957904406,
+            170.29152758609013
+          ],
+          [
+            285.26657860188243,
+            169.98881767381528
+          ],
+          [
+            284.7936402950181,
+            169.63806272017644
+          ],
+          [
+            284.35735931288076,
+            169.2426406871193
+          ],
+          [
+            283.9619372798236,
+            168.80635970498187
+          ],
+          [
+            283.61118232618475,
+            168.33342139811762
+          ],
+          [
+            283.3084724139099,
+            167.828380420956
+          ],
+          [
+            283.0567228049323,
+            167.29610059419053
+          ],
+          [
+            282.85835798560674,
+            166.74170806352677
+          ],
+          [
+            282.71528831758064,
+            166.17054193209677
+          ],
+          [
+            282.62889163996687,
+            165.58810284197736
+          ],
+          [
+            282.6,
+            165.0
+          ],
+          [
+            282.62889163996687,
+            164.41189715802264
+          ],
+          [
+            282.71528831758064,
+            163.82945806790323
+          ],
+          [
+            282.85835798560674,
+            163.25829193647323
+          ],
+          [
+            283.0567228049323,
+            162.70389940580947
+          ],
+          [
+            283.3084724139099,
+            162.171619579044
+          ],
+          [
+            283.61118232618475,
+            161.66657860188238
+          ],
+          [
+            283.9619372798236,
+            161.19364029501813
+          ],
+          [
+            284.35735931288076,
+            160.7573593128807
+          ],
+          [
+            284.7936402950181,
+            160.3619372798236
+          ],
+          [
+            285.26657860188243,
+            160.01118232618472
+          ],
+          [
+            285.77161957904406,
+            159.70847241390987
+          ],
+          [
+            286.3038994058095,
+            159.45672280493227
+          ],
+          [
+            286.8582919364732,
+            159.25835798560675
+          ],
+          [
+            287.4294580679032,
+            159.11528831758062
+          ],
+          [
+            288.01189715802263,
+            159.02889163996682
+          ],
+          [
+            288.6,
+            159.0
+          ],
+          [
+            289.1881028419774,
+            159.02889163996682
+          ],
+          [
+            289.7705419320968,
+            159.11528831758062
+          ],
+          [
+            290.34170806352677,
+            159.25835798560675
+          ],
+          [
+            290.89610059419056,
+            159.45672280493227
+          ],
+          [
+            291.428380420956,
+            159.70847241390987
+          ],
+          [
+            291.9334213981176,
+            160.01118232618472
+          ],
+          [
+            292.4063597049819,
+            160.36193727982356
+          ],
+          [
+            292.8426406871193,
+            160.7573593128807
+          ],
+          [
+            293.23806272017646,
+            161.19364029501813
+          ],
+          [
+            293.5888176738153,
+            161.66657860188238
+          ],
+          [
+            293.89152758609015,
+            162.171619579044
+          ],
+          [
+            294.14327719506775,
+            162.70389940580947
+          ],
+          [
+            294.3416420143933,
+            163.25829193647323
+          ],
+          [
+            294.4847116824194,
+            163.82945806790323
+          ],
+          [
+            294.5711083600332,
+            164.41189715802264
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "main-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            347.4,
+            165.0
+          ],
+          [
+            347.37110836003313,
+            165.58810284197736
+          ],
+          [
+            347.28471168241936,
+            166.17054193209677
+          ],
+          [
+            347.14164201439326,
+            166.74170806352677
+          ],
+          [
+            346.9432771950677,
+            167.29610059419053
+          ],
+          [
+            346.6915275860901,
+            167.828380420956
+          ],
+          [
+            346.38881767381525,
+            168.33342139811762
+          ],
+          [
+            346.0380627201764,
+            168.80635970498187
+          ],
+          [
+            345.64264068711924,
+            169.2426406871193
+          ],
+          [
+            345.2063597049819,
+            169.63806272017644
+          ],
+          [
+            344.73342139811757,
+            169.98881767381528
+          ],
+          [
+            344.22838042095594,
+            170.29152758609013
+          ],
+          [
+            343.6961005941905,
+            170.54327719506773
+          ],
+          [
+            343.1417080635268,
+            170.74164201439325
+          ],
+          [
+            342.5705419320968,
+            170.88471168241938
+          ],
+          [
+            341.98810284197737,
+            170.97110836003318
+          ],
+          [
+            341.4,
+            171.0
+          ],
+          [
+            340.8118971580226,
+            170.97110836003318
+          ],
+          [
+            340.2294580679032,
+            170.88471168241938
+          ],
+          [
+            339.6582919364732,
+            170.74164201439325
+          ],
+          [
+            339.10389940580944,
+            170.54327719506773
+          ],
+          [
+            338.571619579044,
+            170.29152758609013
+          ],
+          [
+            338.0665786018824,
+            169.98881767381528
+          ],
+          [
+            337.5936402950181,
+            169.63806272017644
+          ],
+          [
+            337.1573593128807,
+            169.2426406871193
+          ],
+          [
+            336.76193727982354,
+            168.80635970498187
+          ],
+          [
+            336.4111823261847,
+            168.33342139811762
+          ],
+          [
+            336.10847241390985,
+            167.828380420956
+          ],
+          [
+            335.85672280493225,
+            167.29610059419053
+          ],
+          [
+            335.6583579856067,
+            166.74170806352677
+          ],
+          [
+            335.5152883175806,
+            166.17054193209677
+          ],
+          [
+            335.4288916399668,
+            165.58810284197736
+          ],
+          [
+            335.4,
+            165.0
+          ],
+          [
+            335.4288916399668,
+            164.41189715802264
+          ],
+          [
+            335.5152883175806,
+            163.82945806790323
+          ],
+          [
+            335.6583579856067,
+            163.25829193647323
+          ],
+          [
+            335.85672280493225,
+            162.70389940580947
+          ],
+          [
+            336.10847241390985,
+            162.171619579044
+          ],
+          [
+            336.4111823261847,
+            161.66657860188238
+          ],
+          [
+            336.76193727982354,
+            161.19364029501813
+          ],
+          [
+            337.1573593128807,
+            160.7573593128807
+          ],
+          [
+            337.5936402950181,
+            160.3619372798236
+          ],
+          [
+            338.0665786018824,
+            160.01118232618472
+          ],
+          [
+            338.571619579044,
+            159.70847241390987
+          ],
+          [
+            339.10389940580944,
+            159.45672280493227
+          ],
+          [
+            339.6582919364732,
+            159.25835798560675
+          ],
+          [
+            340.2294580679032,
+            159.11528831758062
+          ],
+          [
+            340.8118971580226,
+            159.02889163996682
+          ],
+          [
+            341.4,
+            159.0
+          ],
+          [
+            341.98810284197737,
+            159.02889163996682
+          ],
+          [
+            342.5705419320968,
+            159.11528831758062
+          ],
+          [
+            343.1417080635267,
+            159.25835798560675
+          ],
+          [
+            343.6961005941905,
+            159.45672280493227
+          ],
+          [
+            344.22838042095594,
+            159.70847241390987
+          ],
+          [
+            344.73342139811757,
+            160.01118232618472
+          ],
+          [
+            345.2063597049819,
+            160.36193727982356
+          ],
+          [
+            345.64264068711924,
+            160.7573593128807
+          ],
+          [
+            346.0380627201764,
+            161.19364029501813
+          ],
+          [
+            346.38881767381525,
+            161.66657860188238
+          ],
+          [
+            346.6915275860901,
+            162.171619579044
+          ],
+          [
+            346.9432771950677,
+            162.70389940580947
+          ],
+          [
+            347.14164201439326,
+            163.25829193647323
+          ],
+          [
+            347.28471168241936,
+            163.82945806790323
+          ],
+          [
+            347.37110836003313,
+            164.41189715802264
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "main-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            295.64,
+            165.0
+          ],
+          [
+            296.608,
+            164.94459753267813
+          ],
+          [
+            297.57599999999996,
+            164.77975432332818
+          ],
+          [
+            298.544,
+            164.50952935884766
+          ],
+          [
+            299.512,
+            164.14057647468726
+          ],
+          [
+            300.47999999999996,
+            163.68198051533946
+          ],
+          [
+            301.448,
+            163.14503363531614
+          ],
+          [
+            302.416,
+            162.54295724882797
+          ],
+          [
+            303.384,
+            161.89057647468726
+          ],
+          [
+            304.352,
+            161.20395509268104
+          ],
+          [
+            305.32,
+            160.5
+          ],
+          [
+            306.288,
+            159.79604490731896
+          ],
+          [
+            307.256,
+            159.10942352531274
+          ],
+          [
+            308.224,
+            158.45704275117203
+          ],
+          [
+            309.192,
+            157.85496636468386
+          ],
+          [
+            310.15999999999997,
+            157.31801948466054
+          ],
+          [
+            311.128,
+            156.85942352531274
+          ],
+          [
+            312.096,
+            156.49047064115234
+          ],
+          [
+            313.06399999999996,
+            156.22024567667182
+          ],
+          [
+            314.032,
+            156.05540246732187
+          ],
+          [
+            315.0,
+            156.0
+          ],
+          [
+            315.96799999999996,
+            156.05540246732187
+          ],
+          [
+            316.936,
+            156.22024567667182
+          ],
+          [
+            317.904,
+            156.49047064115234
+          ],
+          [
+            318.87199999999996,
+            156.85942352531274
+          ],
+          [
+            319.84,
+            157.31801948466054
+          ],
+          [
+            320.808,
+            157.85496636468386
+          ],
+          [
+            321.776,
+            158.45704275117203
+          ],
+          [
+            322.74399999999997,
+            159.10942352531274
+          ],
+          [
+            323.712,
+            159.79604490731896
+          ],
+          [
+            324.68,
+            160.5
+          ],
+          [
+            325.64799999999997,
+            161.20395509268104
+          ],
+          [
+            326.616,
+            161.89057647468726
+          ],
+          [
+            327.584,
+            162.54295724882797
+          ],
+          [
+            328.55199999999996,
+            163.14503363531614
+          ],
+          [
+            329.52,
+            163.68198051533946
+          ],
+          [
+            330.488,
+            164.14057647468726
+          ],
+          [
+            331.45599999999996,
+            164.50952935884766
+          ],
+          [
+            332.424,
+            164.77975432332818
+          ],
+          [
+            333.392,
+            164.94459753267813
+          ],
+          [
+            334.36,
+            165.0
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "main-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "CẦU CHÌ (20A) MAIN",
+        "x": 315.0,
+        "y": 137,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "main-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            489,
+            141
+          ],
+          [
+            577,
+            141
+          ],
+          [
+            577,
+            189
+          ],
+          [
+            489,
+            189
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffa0",
+        "owner": "key",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            489,
+            165
+          ],
+          [
+            511.0,
+            165
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "key",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            559.4,
+            165
+          ],
+          [
+            577,
+            165
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "key",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            517.0,
+            165.0
+          ],
+          [
+            516.9711083600332,
+            165.58810284197736
+          ],
+          [
+            516.8847116824194,
+            166.17054193209677
+          ],
+          [
+            516.7416420143933,
+            166.74170806352677
+          ],
+          [
+            516.5432771950677,
+            167.29610059419053
+          ],
+          [
+            516.2915275860902,
+            167.828380420956
+          ],
+          [
+            515.9888176738152,
+            168.33342139811762
+          ],
+          [
+            515.6380627201764,
+            168.80635970498187
+          ],
+          [
+            515.2426406871193,
+            169.2426406871193
+          ],
+          [
+            514.8063597049819,
+            169.63806272017644
+          ],
+          [
+            514.3334213981176,
+            169.98881767381528
+          ],
+          [
+            513.828380420956,
+            170.29152758609013
+          ],
+          [
+            513.2961005941905,
+            170.54327719506773
+          ],
+          [
+            512.7417080635267,
+            170.74164201439325
+          ],
+          [
+            512.1705419320967,
+            170.88471168241938
+          ],
+          [
+            511.5881028419774,
+            170.97110836003318
+          ],
+          [
+            511.0,
+            171.0
+          ],
+          [
+            510.4118971580226,
+            170.97110836003318
+          ],
+          [
+            509.8294580679032,
+            170.88471168241938
+          ],
+          [
+            509.2582919364732,
+            170.74164201439325
+          ],
+          [
+            508.70389940580947,
+            170.54327719506773
+          ],
+          [
+            508.17161957904403,
+            170.29152758609013
+          ],
+          [
+            507.6665786018824,
+            169.98881767381528
+          ],
+          [
+            507.1936402950181,
+            169.63806272017644
+          ],
+          [
+            506.75735931288074,
+            169.2426406871193
+          ],
+          [
+            506.36193727982356,
+            168.80635970498187
+          ],
+          [
+            506.0111823261847,
+            168.33342139811762
+          ],
+          [
+            505.7084724139099,
+            167.828380420956
+          ],
+          [
+            505.45672280493227,
+            167.29610059419053
+          ],
+          [
+            505.2583579856067,
+            166.74170806352677
+          ],
+          [
+            505.1152883175806,
+            166.17054193209677
+          ],
+          [
+            505.02889163996684,
+            165.58810284197736
+          ],
+          [
+            505.0,
+            165.0
+          ],
+          [
+            505.02889163996684,
+            164.41189715802264
+          ],
+          [
+            505.1152883175806,
+            163.82945806790323
+          ],
+          [
+            505.2583579856067,
+            163.25829193647323
+          ],
+          [
+            505.45672280493227,
+            162.70389940580947
+          ],
+          [
+            505.7084724139099,
+            162.171619579044
+          ],
+          [
+            506.0111823261847,
+            161.66657860188238
+          ],
+          [
+            506.36193727982356,
+            161.19364029501813
+          ],
+          [
+            506.75735931288074,
+            160.7573593128807
+          ],
+          [
+            507.1936402950181,
+            160.3619372798236
+          ],
+          [
+            507.6665786018824,
+            160.01118232618472
+          ],
+          [
+            508.17161957904403,
+            159.70847241390987
+          ],
+          [
+            508.70389940580947,
+            159.45672280493227
+          ],
+          [
+            509.2582919364732,
+            159.25835798560675
+          ],
+          [
+            509.8294580679032,
+            159.11528831758062
+          ],
+          [
+            510.4118971580226,
+            159.02889163996682
+          ],
+          [
+            511.0,
+            159.0
+          ],
+          [
+            511.5881028419774,
+            159.02889163996682
+          ],
+          [
+            512.1705419320967,
+            159.11528831758062
+          ],
+          [
+            512.7417080635267,
+            159.25835798560675
+          ],
+          [
+            513.2961005941905,
+            159.45672280493227
+          ],
+          [
+            513.828380420956,
+            159.70847241390987
+          ],
+          [
+            514.3334213981176,
+            160.01118232618472
+          ],
+          [
+            514.8063597049819,
+            160.36193727982356
+          ],
+          [
+            515.2426406871193,
+            160.7573593128807
+          ],
+          [
+            515.6380627201764,
+            161.19364029501813
+          ],
+          [
+            515.9888176738152,
+            161.66657860188238
+          ],
+          [
+            516.2915275860902,
+            162.171619579044
+          ],
+          [
+            516.5432771950677,
+            162.70389940580947
+          ],
+          [
+            516.7416420143933,
+            163.25829193647323
+          ],
+          [
+            516.8847116824194,
+            163.82945806790323
+          ],
+          [
+            516.9711083600332,
+            164.41189715802264
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "key",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            563.64,
+            165.0
+          ],
+          [
+            563.6111083600332,
+            165.58810284197736
+          ],
+          [
+            563.5247116824194,
+            166.17054193209677
+          ],
+          [
+            563.3816420143933,
+            166.74170806352677
+          ],
+          [
+            563.1832771950677,
+            167.29610059419053
+          ],
+          [
+            562.9315275860902,
+            167.828380420956
+          ],
+          [
+            562.6288176738152,
+            168.33342139811762
+          ],
+          [
+            562.2780627201764,
+            168.80635970498187
+          ],
+          [
+            561.8826406871193,
+            169.2426406871193
+          ],
+          [
+            561.4463597049819,
+            169.63806272017644
+          ],
+          [
+            560.9734213981176,
+            169.98881767381528
+          ],
+          [
+            560.468380420956,
+            170.29152758609013
+          ],
+          [
+            559.9361005941905,
+            170.54327719506773
+          ],
+          [
+            559.3817080635267,
+            170.74164201439325
+          ],
+          [
+            558.8105419320967,
+            170.88471168241938
+          ],
+          [
+            558.2281028419774,
+            170.97110836003318
+          ],
+          [
+            557.64,
+            171.0
+          ],
+          [
+            557.0518971580226,
+            170.97110836003318
+          ],
+          [
+            556.4694580679032,
+            170.88471168241938
+          ],
+          [
+            555.8982919364732,
+            170.74164201439325
+          ],
+          [
+            555.3438994058095,
+            170.54327719506773
+          ],
+          [
+            554.811619579044,
+            170.29152758609013
+          ],
+          [
+            554.3065786018824,
+            169.98881767381528
+          ],
+          [
+            553.8336402950181,
+            169.63806272017644
+          ],
+          [
+            553.3973593128807,
+            169.2426406871193
+          ],
+          [
+            553.0019372798236,
+            168.80635970498187
+          ],
+          [
+            552.6511823261848,
+            168.33342139811762
+          ],
+          [
+            552.3484724139098,
+            167.828380420956
+          ],
+          [
+            552.0967228049323,
+            167.29610059419053
+          ],
+          [
+            551.8983579856067,
+            166.74170806352677
+          ],
+          [
+            551.7552883175806,
+            166.17054193209677
+          ],
+          [
+            551.6688916399668,
+            165.58810284197736
+          ],
+          [
+            551.64,
+            165.0
+          ],
+          [
+            551.6688916399668,
+            164.41189715802264
+          ],
+          [
+            551.7552883175806,
+            163.82945806790323
+          ],
+          [
+            551.8983579856067,
+            163.25829193647323
+          ],
+          [
+            552.0967228049323,
+            162.70389940580947
+          ],
+          [
+            552.3484724139098,
+            162.171619579044
+          ],
+          [
+            552.6511823261848,
+            161.66657860188238
+          ],
+          [
+            553.0019372798236,
+            161.19364029501813
+          ],
+          [
+            553.3973593128807,
+            160.7573593128807
+          ],
+          [
+            553.8336402950181,
+            160.3619372798236
+          ],
+          [
+            554.3065786018824,
+            160.01118232618472
+          ],
+          [
+            554.811619579044,
+            159.70847241390987
+          ],
+          [
+            555.3438994058095,
+            159.45672280493227
+          ],
+          [
+            555.8982919364732,
+            159.25835798560675
+          ],
+          [
+            556.4694580679032,
+            159.11528831758062
+          ],
+          [
+            557.0518971580226,
+            159.02889163996682
+          ],
+          [
+            557.64,
+            159.0
+          ],
+          [
+            558.2281028419774,
+            159.02889163996682
+          ],
+          [
+            558.8105419320967,
+            159.11528831758062
+          ],
+          [
+            559.3817080635267,
+            159.25835798560675
+          ],
+          [
+            559.9361005941905,
+            159.45672280493227
+          ],
+          [
+            560.468380420956,
+            159.70847241390987
+          ],
+          [
+            560.9734213981176,
+            160.01118232618472
+          ],
+          [
+            561.4463597049819,
+            160.36193727982356
+          ],
+          [
+            561.8826406871193,
+            160.7573593128807
+          ],
+          [
+            562.2780627201764,
+            161.19364029501813
+          ],
+          [
+            562.6288176738152,
+            161.66657860188238
+          ],
+          [
+            562.9315275860902,
+            162.171619579044
+          ],
+          [
+            563.1832771950677,
+            162.70389940580947
+          ],
+          [
+            563.3816420143933,
+            163.25829193647323
+          ],
+          [
+            563.5247116824194,
+            163.82945806790323
+          ],
+          [
+            563.6111083600332,
+            164.41189715802264
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "key",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            514.0,
+            163
+          ],
+          [
+            559.4,
+            147
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 2,
+        "owner": "key",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "KHÓA ĐIỆN",
+        "x": 533.0,
+        "y": 133,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "key",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            708,
+            145
+          ],
+          [
+            796,
+            145
+          ],
+          [
+            796,
+            185
+          ],
+          [
+            708,
+            185
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "white",
+        "owner": "load-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            708,
+            165
+          ],
+          [
+            725.6,
+            165
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "load-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            778.4,
+            165
+          ],
+          [
+            796,
+            165
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "load-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            731.6,
+            165.0
+          ],
+          [
+            731.5711083600332,
+            165.58810284197736
+          ],
+          [
+            731.4847116824194,
+            166.17054193209677
+          ],
+          [
+            731.3416420143933,
+            166.74170806352677
+          ],
+          [
+            731.1432771950678,
+            167.29610059419053
+          ],
+          [
+            730.8915275860902,
+            167.828380420956
+          ],
+          [
+            730.5888176738152,
+            168.33342139811762
+          ],
+          [
+            730.2380627201765,
+            168.80635970498187
+          ],
+          [
+            729.8426406871193,
+            169.2426406871193
+          ],
+          [
+            729.4063597049819,
+            169.63806272017644
+          ],
+          [
+            728.9334213981176,
+            169.98881767381528
+          ],
+          [
+            728.428380420956,
+            170.29152758609013
+          ],
+          [
+            727.8961005941906,
+            170.54327719506773
+          ],
+          [
+            727.3417080635268,
+            170.74164201439325
+          ],
+          [
+            726.7705419320968,
+            170.88471168241938
+          ],
+          [
+            726.1881028419774,
+            170.97110836003318
+          ],
+          [
+            725.6,
+            171.0
+          ],
+          [
+            725.0118971580226,
+            170.97110836003318
+          ],
+          [
+            724.4294580679033,
+            170.88471168241938
+          ],
+          [
+            723.8582919364733,
+            170.74164201439325
+          ],
+          [
+            723.3038994058095,
+            170.54327719506773
+          ],
+          [
+            722.771619579044,
+            170.29152758609013
+          ],
+          [
+            722.2665786018824,
+            169.98881767381528
+          ],
+          [
+            721.7936402950181,
+            169.63806272017644
+          ],
+          [
+            721.3573593128807,
+            169.2426406871193
+          ],
+          [
+            720.9619372798236,
+            168.80635970498187
+          ],
+          [
+            720.6111823261848,
+            168.33342139811762
+          ],
+          [
+            720.3084724139098,
+            167.828380420956
+          ],
+          [
+            720.0567228049323,
+            167.29610059419053
+          ],
+          [
+            719.8583579856067,
+            166.74170806352677
+          ],
+          [
+            719.7152883175806,
+            166.17054193209677
+          ],
+          [
+            719.6288916399668,
+            165.58810284197736
+          ],
+          [
+            719.6,
+            165.0
+          ],
+          [
+            719.6288916399668,
+            164.41189715802264
+          ],
+          [
+            719.7152883175806,
+            163.82945806790323
+          ],
+          [
+            719.8583579856067,
+            163.25829193647323
+          ],
+          [
+            720.0567228049323,
+            162.70389940580947
+          ],
+          [
+            720.3084724139098,
+            162.171619579044
+          ],
+          [
+            720.6111823261848,
+            161.66657860188238
+          ],
+          [
+            720.9619372798236,
+            161.19364029501813
+          ],
+          [
+            721.3573593128807,
+            160.7573593128807
+          ],
+          [
+            721.7936402950181,
+            160.3619372798236
+          ],
+          [
+            722.2665786018824,
+            160.01118232618472
+          ],
+          [
+            722.771619579044,
+            159.70847241390987
+          ],
+          [
+            723.3038994058095,
+            159.45672280493227
+          ],
+          [
+            723.8582919364733,
+            159.25835798560675
+          ],
+          [
+            724.4294580679033,
+            159.11528831758062
+          ],
+          [
+            725.0118971580226,
+            159.02889163996682
+          ],
+          [
+            725.6,
+            159.0
+          ],
+          [
+            726.1881028419774,
+            159.02889163996682
+          ],
+          [
+            726.7705419320968,
+            159.11528831758062
+          ],
+          [
+            727.3417080635268,
+            159.25835798560675
+          ],
+          [
+            727.8961005941906,
+            159.45672280493227
+          ],
+          [
+            728.428380420956,
+            159.70847241390987
+          ],
+          [
+            728.9334213981176,
+            160.01118232618472
+          ],
+          [
+            729.4063597049819,
+            160.36193727982356
+          ],
+          [
+            729.8426406871193,
+            160.7573593128807
+          ],
+          [
+            730.2380627201765,
+            161.19364029501813
+          ],
+          [
+            730.5888176738152,
+            161.66657860188238
+          ],
+          [
+            730.8915275860902,
+            162.171619579044
+          ],
+          [
+            731.1432771950678,
+            162.70389940580947
+          ],
+          [
+            731.3416420143933,
+            163.25829193647323
+          ],
+          [
+            731.4847116824194,
+            163.82945806790323
+          ],
+          [
+            731.5711083600332,
+            164.41189715802264
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "load-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            784.4,
+            165.0
+          ],
+          [
+            784.3711083600332,
+            165.58810284197736
+          ],
+          [
+            784.2847116824194,
+            166.17054193209677
+          ],
+          [
+            784.1416420143933,
+            166.74170806352677
+          ],
+          [
+            783.9432771950677,
+            167.29610059419053
+          ],
+          [
+            783.6915275860902,
+            167.828380420956
+          ],
+          [
+            783.3888176738152,
+            168.33342139811762
+          ],
+          [
+            783.0380627201764,
+            168.80635970498187
+          ],
+          [
+            782.6426406871193,
+            169.2426406871193
+          ],
+          [
+            782.2063597049819,
+            169.63806272017644
+          ],
+          [
+            781.7334213981176,
+            169.98881767381528
+          ],
+          [
+            781.228380420956,
+            170.29152758609013
+          ],
+          [
+            780.6961005941905,
+            170.54327719506773
+          ],
+          [
+            780.1417080635267,
+            170.74164201439325
+          ],
+          [
+            779.5705419320967,
+            170.88471168241938
+          ],
+          [
+            778.9881028419774,
+            170.97110836003318
+          ],
+          [
+            778.4,
+            171.0
+          ],
+          [
+            777.8118971580226,
+            170.97110836003318
+          ],
+          [
+            777.2294580679032,
+            170.88471168241938
+          ],
+          [
+            776.6582919364732,
+            170.74164201439325
+          ],
+          [
+            776.1038994058094,
+            170.54327719506773
+          ],
+          [
+            775.571619579044,
+            170.29152758609013
+          ],
+          [
+            775.0665786018824,
+            169.98881767381528
+          ],
+          [
+            774.5936402950181,
+            169.63806272017644
+          ],
+          [
+            774.1573593128807,
+            169.2426406871193
+          ],
+          [
+            773.7619372798235,
+            168.80635970498187
+          ],
+          [
+            773.4111823261848,
+            168.33342139811762
+          ],
+          [
+            773.1084724139098,
+            167.828380420956
+          ],
+          [
+            772.8567228049322,
+            167.29610059419053
+          ],
+          [
+            772.6583579856067,
+            166.74170806352677
+          ],
+          [
+            772.5152883175806,
+            166.17054193209677
+          ],
+          [
+            772.4288916399668,
+            165.58810284197736
+          ],
+          [
+            772.4,
+            165.0
+          ],
+          [
+            772.4288916399668,
+            164.41189715802264
+          ],
+          [
+            772.5152883175806,
+            163.82945806790323
+          ],
+          [
+            772.6583579856067,
+            163.25829193647323
+          ],
+          [
+            772.8567228049322,
+            162.70389940580947
+          ],
+          [
+            773.1084724139098,
+            162.171619579044
+          ],
+          [
+            773.4111823261848,
+            161.66657860188238
+          ],
+          [
+            773.7619372798235,
+            161.19364029501813
+          ],
+          [
+            774.1573593128807,
+            160.7573593128807
+          ],
+          [
+            774.5936402950181,
+            160.3619372798236
+          ],
+          [
+            775.0665786018824,
+            160.01118232618472
+          ],
+          [
+            775.571619579044,
+            159.70847241390987
+          ],
+          [
+            776.1038994058094,
+            159.45672280493227
+          ],
+          [
+            776.6582919364732,
+            159.25835798560675
+          ],
+          [
+            777.2294580679032,
+            159.11528831758062
+          ],
+          [
+            777.8118971580226,
+            159.02889163996682
+          ],
+          [
+            778.4,
+            159.0
+          ],
+          [
+            778.9881028419774,
+            159.02889163996682
+          ],
+          [
+            779.5705419320967,
+            159.11528831758062
+          ],
+          [
+            780.1417080635267,
+            159.25835798560675
+          ],
+          [
+            780.6961005941905,
+            159.45672280493227
+          ],
+          [
+            781.228380420956,
+            159.70847241390987
+          ],
+          [
+            781.7334213981176,
+            160.01118232618472
+          ],
+          [
+            782.2063597049819,
+            160.36193727982356
+          ],
+          [
+            782.6426406871193,
+            160.7573593128807
+          ],
+          [
+            783.0380627201764,
+            161.19364029501813
+          ],
+          [
+            783.3888176738152,
+            161.66657860188238
+          ],
+          [
+            783.6915275860902,
+            162.171619579044
+          ],
+          [
+            783.9432771950677,
+            162.70389940580947
+          ],
+          [
+            784.1416420143933,
+            163.25829193647323
+          ],
+          [
+            784.2847116824194,
+            163.82945806790323
+          ],
+          [
+            784.3711083600332,
+            164.41189715802264
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff",
+        "owner": "load-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            732.64,
+            165.0
+          ],
+          [
+            733.608,
+            164.94459753267813
+          ],
+          [
+            734.576,
+            164.77975432332818
+          ],
+          [
+            735.544,
+            164.50952935884766
+          ],
+          [
+            736.512,
+            164.14057647468726
+          ],
+          [
+            737.48,
+            163.68198051533946
+          ],
+          [
+            738.448,
+            163.14503363531614
+          ],
+          [
+            739.4159999999999,
+            162.54295724882797
+          ],
+          [
+            740.384,
+            161.89057647468726
+          ],
+          [
+            741.352,
+            161.20395509268104
+          ],
+          [
+            742.3199999999999,
+            160.5
+          ],
+          [
+            743.288,
+            159.79604490731896
+          ],
+          [
+            744.256,
+            159.10942352531274
+          ],
+          [
+            745.2239999999999,
+            158.45704275117203
+          ],
+          [
+            746.192,
+            157.85496636468386
+          ],
+          [
+            747.16,
+            157.31801948466054
+          ],
+          [
+            748.1279999999999,
+            156.85942352531274
+          ],
+          [
+            749.096,
+            156.49047064115234
+          ],
+          [
+            750.064,
+            156.22024567667182
+          ],
+          [
+            751.032,
+            156.05540246732187
+          ],
+          [
+            752.0,
+            156.0
+          ],
+          [
+            752.968,
+            156.05540246732187
+          ],
+          [
+            753.936,
+            156.22024567667182
+          ],
+          [
+            754.904,
+            156.49047064115234
+          ],
+          [
+            755.872,
+            156.85942352531274
+          ],
+          [
+            756.84,
+            157.31801948466054
+          ],
+          [
+            757.808,
+            157.85496636468386
+          ],
+          [
+            758.776,
+            158.45704275117203
+          ],
+          [
+            759.744,
+            159.10942352531274
+          ],
+          [
+            760.712,
+            159.79604490731896
+          ],
+          [
+            761.68,
+            160.5
+          ],
+          [
+            762.648,
+            161.20395509268104
+          ],
+          [
+            763.616,
+            161.89057647468726
+          ],
+          [
+            764.584,
+            162.54295724882797
+          ],
+          [
+            765.552,
+            163.14503363531614
+          ],
+          [
+            766.52,
+            163.68198051533946
+          ],
+          [
+            767.4879999999999,
+            164.14057647468726
+          ],
+          [
+            768.456,
+            164.50952935884766
+          ],
+          [
+            769.424,
+            164.77975432332818
+          ],
+          [
+            770.3919999999999,
+            164.94459753267813
+          ],
+          [
+            771.36,
+            165.0
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "owner": "load-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "CẦU CHÌ (7,5A) METER,TAIL…",
+        "x": 752.0,
+        "y": 137,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "load-fuse",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            141
+          ],
+          [
+            1241,
+            141
+          ],
+          [
+            1241,
+            400
+          ],
+          [
+            1079,
+            400
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#d1d1d3",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            157
+          ],
+          [
+            1103,
+            157
+          ],
+          [
+            1103,
+            173
+          ],
+          [
+            1079,
+            173
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 0.8,
+        "closed": true,
+        "fill": "white",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "6",
+        "x": 1091.0,
+        "y": 169,
+        "size": 10,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            226
+          ],
+          [
+            1103,
+            226
+          ],
+          [
+            1103,
+            242
+          ],
+          [
+            1079,
+            242
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 0.8,
+        "closed": true,
+        "fill": "white",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "2",
+        "x": 1091.0,
+        "y": 238,
+        "size": 10,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            260
+          ],
+          [
+            1103,
+            260
+          ],
+          [
+            1103,
+            276
+          ],
+          [
+            1079,
+            276
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 0.8,
+        "closed": true,
+        "fill": "white",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "4",
+        "x": 1091.0,
+        "y": 272,
+        "size": 10,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            313
+          ],
+          [
+            1103,
+            313
+          ],
+          [
+            1103,
+            329
+          ],
+          [
+            1079,
+            329
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 0.8,
+        "closed": true,
+        "fill": "white",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "3",
+        "x": 1091.0,
+        "y": 325,
+        "size": 10,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1079,
+            366
+          ],
+          [
+            1103,
+            366
+          ],
+          [
+            1103,
+            382
+          ],
+          [
+            1079,
+            382
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 0.8,
+        "closed": true,
+        "fill": "white",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "8",
+        "x": 1091.0,
+        "y": 378,
+        "size": 10,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "CỤM ĐỒNG HỒ",
+        "x": 1160.0,
+        "y": 133,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster",
+        "role": "symbol"
+      },
+      {
+        "kind": "use",
+        "symbol": "rotor",
+        "matrix": [
+          1.0,
+          0,
+          0,
+          1.0,
+          625,
+          203
+        ],
+        "owner": "vs-rotor",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            735,
+            218.8
+          ],
+          [
+            775.66,
+            218.8
+          ],
+          [
+            775.66,
+            282.28000000000003
+          ],
+          [
+            735,
+            282.28000000000003
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffa0",
+        "owner": "vs",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            775.66,
+            205
+          ],
+          [
+            802.41,
+            205
+          ],
+          [
+            802.41,
+            297
+          ],
+          [
+            775.66,
+            297
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffa0",
+        "owner": "vs",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            802.41,
+            219.72
+          ],
+          [
+            817.39,
+            219.72
+          ],
+          [
+            817.39,
+            282.28
+          ],
+          [
+            802.41,
+            282.28
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffa0",
+        "owner": "vs",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            817.39,
+            223.4
+          ],
+          [
+            831.3,
+            223.4
+          ],
+          [
+            831.3,
+            278.6
+          ],
+          [
+            817.39,
+            278.6
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffa0",
+        "owner": "vs",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            831.3,
+            225.24
+          ],
+          [
+            842.0,
+            225.24
+          ],
+          [
+            842.0,
+            276.76
+          ],
+          [
+            831.3,
+            276.76
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffa0",
+        "owner": "vs",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1073,
+            460
+          ],
+          [
+            1248,
+            460
+          ],
+          [
+            1248,
+            604
+          ],
+          [
+            1073,
+            604
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffa0",
+        "owner": "ecm",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1073,
+            525
+          ],
+          [
+            1097,
+            525
+          ],
+          [
+            1097,
+            541
+          ],
+          [
+            1073,
+            541
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 0.8,
+        "closed": true,
+        "fill": "white",
+        "owner": "ecm",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "A19",
+        "x": 1085.0,
+        "y": 537,
+        "size": 10,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "ecm",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "ECM",
+        "x": 1160.5,
+        "y": 555.04,
+        "size": 42,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "ecm",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            993.0,
+            435
+          ],
+          [
+            1025.0,
+            435
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5,
+        "owner": "cluster-ground",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            998.6,
+            443
+          ],
+          [
+            1019.4,
+            443
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5,
+        "owner": "cluster-ground",
+        "role": "symbol"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1004.2,
+            451
+          ],
+          [
+            1013.8,
+            451
+          ]
+        ],
+        "stroke": "#0ebe5e",
+        "width": 5,
+        "owner": "cluster-ground",
+        "role": "symbol"
+      },
+      {
+        "kind": "text",
+        "text": "G",
+        "x": 65,
+        "y": 155,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "battery-ground",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "R",
+        "x": 214,
+        "y": 155,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "battery-main",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "R/W",
+        "x": 424.0,
+        "y": 156.0,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "main-key",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "R/G",
+        "x": 642.5,
+        "y": 156.0,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "key-load",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "Bl/Br",
+        "x": 937.5,
+        "y": 156.0,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster-power",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "P/G",
+        "x": 960.5,
+        "y": 225.0,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "vs-signal",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "Bu/G",
+        "x": 960.5,
+        "y": 259.0,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "vs-return",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "P/G",
+        "x": 1030,
+        "y": 522,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "speed-ecm",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "G/Bl",
+        "x": 1048,
+        "y": 364,
+        "size": 14,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "owner": "cluster-ground",
+        "role": "wire-label"
+      },
+      {
+        "kind": "text",
+        "text": "CẢM BIẾN VS",
+        "x": 790,
+        "y": 322,
+        "size": 18,
+        "anchor": "middle",
+        "rotate": 0,
+        "bold": true,
+        "fill": "#343434",
+        "role": "annotation",
+        "owner": "annotation"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1214.0,
+            265.0
+          ],
+          [
+            1213.7784974269211,
+            269.5087884551598
+          ],
+          [
+            1213.1161228985486,
+            273.9741548127419
+          ],
+          [
+            1212.0192554436817,
+            278.3530951537053
+          ],
+          [
+            1210.4984584955191,
+            282.60343788879413
+          ],
+          [
+            1208.5683781600244,
+            286.6842498939959
+          ],
+          [
+            1206.247602165917,
+            290.5562307189017
+          ],
+          [
+            1203.558480854686,
+            294.1820910715277
+          ],
+          [
+            1200.5269119345812,
+            297.52691193458116
+          ],
+          [
+            1197.1820910715278,
+            300.5584808546859
+          ],
+          [
+            1193.5562307189018,
+            303.2476021659171
+          ],
+          [
+            1189.684249893996,
+            305.56837816002434
+          ],
+          [
+            1185.6034378887941,
+            307.4984584955192
+          ],
+          [
+            1181.3530951537052,
+            309.01925544368163
+          ],
+          [
+            1176.974154812742,
+            310.1161228985486
+          ],
+          [
+            1172.50878845516,
+            310.77849742692104
+          ],
+          [
+            1168.0,
+            311.0
+          ],
+          [
+            1163.49121154484,
+            310.77849742692104
+          ],
+          [
+            1159.025845187258,
+            310.1161228985486
+          ],
+          [
+            1154.6469048462948,
+            309.01925544368163
+          ],
+          [
+            1150.3965621112059,
+            307.4984584955192
+          ],
+          [
+            1146.315750106004,
+            305.56837816002434
+          ],
+          [
+            1142.4437692810984,
+            303.2476021659171
+          ],
+          [
+            1138.8179089284722,
+            300.5584808546859
+          ],
+          [
+            1135.4730880654188,
+            297.52691193458116
+          ],
+          [
+            1132.441519145314,
+            294.1820910715277
+          ],
+          [
+            1129.752397834083,
+            290.5562307189017
+          ],
+          [
+            1127.4316218399756,
+            286.6842498939959
+          ],
+          [
+            1125.5015415044809,
+            282.60343788879413
+          ],
+          [
+            1123.9807445563183,
+            278.3530951537053
+          ],
+          [
+            1122.8838771014514,
+            273.9741548127419
+          ],
+          [
+            1122.2215025730789,
+            269.5087884551598
+          ],
+          [
+            1122.0,
+            265.0
+          ],
+          [
+            1122.2215025730789,
+            260.4912115448402
+          ],
+          [
+            1122.8838771014514,
+            256.0258451872581
+          ],
+          [
+            1123.9807445563183,
+            251.64690484629475
+          ],
+          [
+            1125.5015415044809,
+            247.39656211120587
+          ],
+          [
+            1127.4316218399756,
+            243.31575010600412
+          ],
+          [
+            1129.752397834083,
+            239.4437692810983
+          ],
+          [
+            1132.441519145314,
+            235.81790892847232
+          ],
+          [
+            1135.4730880654188,
+            232.4730880654188
+          ],
+          [
+            1138.8179089284722,
+            229.44151914531412
+          ],
+          [
+            1142.4437692810984,
+            226.75239783408293
+          ],
+          [
+            1146.315750106004,
+            224.43162183997566
+          ],
+          [
+            1150.3965621112059,
+            222.50154150448083
+          ],
+          [
+            1154.6469048462948,
+            220.9807445563184
+          ],
+          [
+            1159.025845187258,
+            219.8838771014514
+          ],
+          [
+            1163.4912115448403,
+            219.22150257307894
+          ],
+          [
+            1168.0,
+            219.0
+          ],
+          [
+            1172.5087884551597,
+            219.22150257307894
+          ],
+          [
+            1176.974154812742,
+            219.8838771014514
+          ],
+          [
+            1181.3530951537052,
+            220.9807445563184
+          ],
+          [
+            1185.6034378887941,
+            222.50154150448083
+          ],
+          [
+            1189.684249893996,
+            224.43162183997566
+          ],
+          [
+            1193.5562307189016,
+            226.7523978340829
+          ],
+          [
+            1197.1820910715278,
+            229.4415191453141
+          ],
+          [
+            1200.5269119345812,
+            232.4730880654188
+          ],
+          [
+            1203.558480854686,
+            235.8179089284723
+          ],
+          [
+            1206.247602165917,
+            239.4437692810983
+          ],
+          [
+            1208.5683781600244,
+            243.3157501060041
+          ],
+          [
+            1210.4984584955191,
+            247.39656211120584
+          ],
+          [
+            1212.0192554436817,
+            251.64690484629472
+          ],
+          [
+            1213.1161228985486,
+            256.0258451872581
+          ],
+          [
+            1213.7784974269211,
+            260.4912115448402
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5,
+        "closed": true,
+        "fill": "#ffffff"
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1140,
+            267
+          ],
+          [
+            1178,
+            267
+          ]
+        ],
+        "stroke": "#454545",
+        "width": 4
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1129.5924976325239,
+            258.22772107098973
+          ],
+          [
+            1123.6836511144506,
+            257.18583200498813
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1134.2250092524068,
+            245.5
+          ],
+          [
+            1129.0288568297003,
+            242.5
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1142.931283222225,
+            235.12426671835988
+          ],
+          [
+            1139.0745575641058,
+            230.528000059646
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1154.661214410299,
+            228.35198778934958
+          ],
+          [
+            1152.6090935503448,
+            222.71383206463412
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1168.0,
+            226.0
+          ],
+          [
+            1168.0,
+            220.0
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1181.338785589701,
+            228.35198778934958
+          ],
+          [
+            1183.3909064496552,
+            222.71383206463412
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1193.068716777775,
+            235.12426671835985
+          ],
+          [
+            1196.9254424358942,
+            230.528000059646
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1201.7749907475932,
+            245.49999999999997
+          ],
+          [
+            1206.9711431702997,
+            242.49999999999997
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            1206.4075023674761,
+            258.22772107098973
+          ],
+          [
+            1212.3163488855494,
+            257.18583200498813
+          ]
+        ],
+        "stroke": "#555555",
+        "width": 1.5
+      }
+    ]
+  }
+}

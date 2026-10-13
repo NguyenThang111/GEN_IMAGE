@@ -1,0 +1,1835 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "Screenshot from 2026-09-30 08-37-20.png",
+  "id": "thang-night-lighting",
+  "vehicleId": "thang",
+  "vehicleTitle": "thang",
+  "circuitTitle": "Mạch đèn đêm",
+  "canvas": {
+    "width": 1687,
+    "height": 952
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 184,
+      "y": 459,
+      "width": 75,
+      "height": 67,
+      "label": "ẮC QUY",
+      "terminals": [
+        {
+          "id": "negative",
+          "label": "-",
+          "x": 202,
+          "y": 459
+        },
+        {
+          "id": "positive",
+          "label": "+",
+          "x": 257,
+          "y": 459
+        }
+      ]
+    },
+    {
+      "id": "battery-ground",
+      "type": "ground",
+      "x": 144,
+      "y": 499,
+      "width": 35,
+      "height": 22,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 161,
+          "y": 499
+        }
+      ]
+    },
+    {
+      "id": "fuse-answer-back",
+      "type": "fuse",
+      "x": 350,
+      "y": 236,
+      "width": 75,
+      "height": 35,
+      "label": "CẦU CHÌ (10A) ANSWER BACK",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 350,
+          "y": 254
+        },
+        {
+          "id": "out",
+          "x": 425,
+          "y": 254
+        }
+      ]
+    },
+    {
+      "id": "fuse-main",
+      "type": "fuse",
+      "x": 350,
+      "y": 319,
+      "width": 75,
+      "height": 35,
+      "label": "CẦU CHÌ (20A) MAIN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 350,
+          "y": 336
+        },
+        {
+          "id": "out",
+          "x": 425,
+          "y": 336
+        }
+      ]
+    },
+    {
+      "id": "fuse-fi",
+      "type": "fuse",
+      "x": 350,
+      "y": 395,
+      "width": 75,
+      "height": 35,
+      "label": "CẦU CHÌ (10A) FI",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 350,
+          "y": 412
+        },
+        {
+          "id": "out",
+          "x": 425,
+          "y": 412
+        }
+      ]
+    },
+    {
+      "id": "fuse-headlight",
+      "type": "fuse",
+      "x": 1110,
+      "y": 231,
+      "width": 76,
+      "height": 35,
+      "label": "CẦU CHÌ (10A) HEAD LIGHT",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1110,
+          "y": 249
+        },
+        {
+          "id": "out",
+          "x": 1186,
+          "y": 249
+        }
+      ]
+    },
+    {
+      "id": "fuse-turn-horn",
+      "type": "fuse",
+      "x": 1110,
+      "y": 318,
+      "width": 76,
+      "height": 36,
+      "label": "CẦU CHÌ (10A) TURN,HORN...",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1110,
+          "y": 336
+        },
+        {
+          "id": "out",
+          "x": 1186,
+          "y": 336
+        }
+      ]
+    },
+    {
+      "id": "positive-main",
+      "type": "junction",
+      "x": 253,
+      "y": 332,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 257,
+          "y": 336
+        }
+      ]
+    },
+    {
+      "id": "positive-fi",
+      "type": "junction",
+      "x": 253,
+      "y": 408,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 257,
+          "y": 412
+        }
+      ]
+    },
+    {
+      "id": "main-node",
+      "type": "junction",
+      "x": 521,
+      "y": 328,
+      "width": 16,
+      "height": 16,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 529,
+          "y": 336
+        }
+      ]
+    },
+    {
+      "id": "fi-node",
+      "type": "junction",
+      "x": 668,
+      "y": 408,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 672,
+          "y": 412
+        }
+      ]
+    },
+    {
+      "id": "capacitor-splice",
+      "type": "junction",
+      "x": 665,
+      "y": 453,
+      "width": 14,
+      "height": 15,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 672,
+          "y": 460
+        }
+      ]
+    },
+    {
+      "id": "switched-node",
+      "type": "junction",
+      "x": 852,
+      "y": 408,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 856,
+          "y": 412
+        }
+      ]
+    },
+    {
+      "id": "relay-output-node",
+      "type": "junction",
+      "x": 1050,
+      "y": 332,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1054,
+          "y": 336
+        }
+      ]
+    },
+    {
+      "id": "regulator",
+      "type": "device",
+      "x": 470,
+      "y": 497,
+      "width": 111,
+      "height": 96,
+      "label": "TIẾT CHẾ\nCHỈNH LƯU",
+      "terminals": [
+        {
+          "id": "dc",
+          "label": "R/W",
+          "x": 529,
+          "y": 497
+        },
+        {
+          "id": "ac-upper",
+          "label": "Y",
+          "x": 470,
+          "y": 504
+        },
+        {
+          "id": "ac-middle",
+          "label": "Y",
+          "x": 470,
+          "y": 545
+        },
+        {
+          "id": "ac-lower",
+          "label": "Y",
+          "x": 470,
+          "y": 586
+        },
+        {
+          "id": "ground",
+          "label": "G",
+          "x": 527,
+          "y": 593
+        }
+      ]
+    },
+    {
+      "id": "acg",
+      "type": "acg",
+      "x": 317,
+      "y": 628,
+      "width": 113,
+      "height": 115,
+      "label": "MÁY PHÁT",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 326,
+          "y": 712
+        },
+        {
+          "id": "top",
+          "x": 373,
+          "y": 630
+        },
+        {
+          "id": "right",
+          "x": 422,
+          "y": 712
+        }
+      ]
+    },
+    {
+      "id": "regulator-ground",
+      "type": "ground",
+      "x": 509,
+      "y": 654,
+      "width": 37,
+      "height": 23,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 527,
+          "y": 654
+        }
+      ]
+    },
+    {
+      "id": "capacitor",
+      "type": "device",
+      "x": 656,
+      "y": 508,
+      "width": 32,
+      "height": 52,
+      "label": "TỤ ĐIỆN",
+      "terminals": [
+        {
+          "id": "positive",
+          "label": "+",
+          "x": 672,
+          "y": 508
+        },
+        {
+          "id": "ground",
+          "x": 672,
+          "y": 560
+        }
+      ]
+    },
+    {
+      "id": "capacitor-ground",
+      "type": "ground",
+      "x": 654,
+      "y": 623,
+      "width": 36,
+      "height": 22,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 672,
+          "y": 623
+        }
+      ]
+    },
+    {
+      "id": "ignition-switch",
+      "type": "switch",
+      "x": 719,
+      "y": 384,
+      "width": 77,
+      "height": 43,
+      "label": "CÔNG TẮC MÁY",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 719,
+          "y": 412
+        },
+        {
+          "id": "out",
+          "x": 796,
+          "y": 412
+        }
+      ]
+    },
+    {
+      "id": "main-relay",
+      "type": "relay",
+      "x": 917,
+      "y": 312,
+      "width": 77,
+      "height": 116,
+      "label": "RƠ LE CHÍNH",
+      "terminals": [
+        {
+          "id": "contact-in",
+          "x": 917,
+          "y": 336
+        },
+        {
+          "id": "contact-out",
+          "x": 994,
+          "y": 336
+        },
+        {
+          "id": "coil-left",
+          "x": 917,
+          "y": 412
+        },
+        {
+          "id": "coil-right",
+          "x": 994,
+          "y": 412
+        }
+      ]
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 1013,
+      "y": 491,
+      "width": 82,
+      "height": 54,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "relay-control",
+          "x": 1054,
+          "y": 491
+        }
+      ]
+    },
+    {
+      "id": "answer-back-output-1",
+      "type": "junction",
+      "x": 684,
+      "y": 214,
+      "width": 8,
+      "height": 8,
+      "label": "HỘP ĐỊNH VỊ XE",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 644,
+          "y": 254
+        }
+      ]
+    },
+    {
+      "id": "answer-back-output-2",
+      "type": "junction",
+      "x": 684,
+      "y": 236,
+      "width": 8,
+      "height": 8,
+      "label": "ĐÈN LED Ổ KHÓA ĐIỆN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 644,
+          "y": 276
+        }
+      ]
+    },
+    {
+      "id": "answer-back-output-3",
+      "type": "junction",
+      "x": 684,
+      "y": 258,
+      "width": 8,
+      "height": 8,
+      "label": "ĐÈN LED THÙNG YÊN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 644,
+          "y": 298
+        }
+      ]
+    },
+    {
+      "id": "night-light-switch",
+      "type": "device",
+      "x": 1325,
+      "y": 231,
+      "width": 175,
+      "height": 36,
+      "label": "CÔNG TẮC ĐÈN ĐÊM",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1325,
+          "y": 249
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-1",
+      "type": "junction",
+      "x": 1470,
+      "y": 332,
+      "width": 8,
+      "height": 8,
+      "label": "CÔNG TẮC PHANH TRƯỚC/SAU",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 336
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-2",
+      "type": "junction",
+      "x": 1470,
+      "y": 354,
+      "width": 8,
+      "height": 8,
+      "label": "CÔNG TẮC CÒI",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 358
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-3",
+      "type": "junction",
+      "x": 1470,
+      "y": 376,
+      "width": 8,
+      "height": 8,
+      "label": "RƠ LE XI NHAN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-4",
+      "type": "junction",
+      "x": 1470,
+      "y": 398,
+      "width": 8,
+      "height": 8,
+      "label": "ĐÈN NỀN ĐỒNG HỒ",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 402
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-5",
+      "type": "junction",
+      "x": 1470,
+      "y": 420,
+      "width": 8,
+      "height": 8,
+      "label": "ĐÈN BÁO LỖI",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 424
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-6",
+      "type": "junction",
+      "x": 1470,
+      "y": 442,
+      "width": 8,
+      "height": 8,
+      "label": "ĐÈN CẢNH BÁO NHIỆT ĐỘ NƯỚC LÀM MÁT",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 446
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-7",
+      "type": "junction",
+      "x": 1470,
+      "y": 464,
+      "width": 8,
+      "height": 8,
+      "label": "HỘP ĐỊNH VỊ XE",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 468
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-8",
+      "type": "junction",
+      "x": 1470,
+      "y": 486,
+      "width": 8,
+      "height": 8,
+      "label": "CÔNG TẮC ĐÈN ĐÊM",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 490
+        }
+      ]
+    },
+    {
+      "id": "turn-horn-bus-9",
+      "type": "junction",
+      "x": 1470,
+      "y": 508,
+      "width": 8,
+      "height": 8,
+      "label": "ĐỒNG HỒ BÁO XĂNG",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 512
+        }
+      ]
+    },
+    {
+      "id": "engine-bus-1",
+      "type": "junction",
+      "x": 1395,
+      "y": 598,
+      "width": 8,
+      "height": 8,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 602
+        }
+      ]
+    },
+    {
+      "id": "engine-bus-2",
+      "type": "junction",
+      "x": 1395,
+      "y": 620,
+      "width": 8,
+      "height": 8,
+      "label": "KIM PHUN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 624
+        }
+      ]
+    },
+    {
+      "id": "engine-bus-3",
+      "type": "junction",
+      "x": 1395,
+      "y": 642,
+      "width": 8,
+      "height": 8,
+      "label": "MÔ-BIN SƯỜN",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 646
+        }
+      ]
+    },
+    {
+      "id": "engine-bus-4",
+      "type": "junction",
+      "x": 1395,
+      "y": 664,
+      "width": 8,
+      "height": 8,
+      "label": "BƠM XĂNG",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 668
+        }
+      ]
+    },
+    {
+      "id": "engine-bus-5",
+      "type": "junction",
+      "x": 1395,
+      "y": 686,
+      "width": 8,
+      "height": 8,
+      "label": "DLC",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 690
+        }
+      ]
+    },
+    {
+      "id": "engine-bus-6",
+      "type": "junction",
+      "x": 1395,
+      "y": 708,
+      "width": 8,
+      "height": 8,
+      "label": "RƠ LE KHỞI ĐỘNG",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 712
+        }
+      ]
+    },
+    {
+      "id": "engine-bus-7",
+      "type": "junction",
+      "x": 1395,
+      "y": 730,
+      "width": 8,
+      "height": 8,
+      "label": "VAN CẦM CHỪNG NHANH",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1292,
+          "y": 734
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "battery-ground-wire",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "negative"
+      },
+      "to": {
+        "componentId": "battery-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 202,
+          "y": 459
+        },
+        {
+          "x": 161,
+          "y": 459
+        },
+        {
+          "x": 161,
+          "y": 499
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#17b55a",
+      "state": "controlled"
+    },
+    {
+      "id": "battery-positive-wire",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "positive"
+      },
+      "to": {
+        "componentId": "positive-fi",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 257,
+          "y": 459
+        },
+        {
+          "x": 257,
+          "y": 412
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e41d3d",
+      "state": "controlled"
+    },
+    {
+      "id": "positive-trunk",
+      "from": {
+        "componentId": "positive-fi",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "positive-main",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 257,
+          "y": 412
+        },
+        {
+          "x": 257,
+          "y": 336
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e41d3d",
+      "state": "controlled"
+    },
+    {
+      "id": "answer-back-feed",
+      "from": {
+        "componentId": "positive-main",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-answer-back",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 257,
+          "y": 336
+        },
+        {
+          "x": 257,
+          "y": 254
+        },
+        {
+          "x": 350,
+          "y": 254
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e41d3d",
+      "state": "controlled"
+    },
+    {
+      "id": "answer-back-output-wire",
+      "from": {
+        "componentId": "fuse-answer-back",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "answer-back-output-1",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 425,
+          "y": 254
+        },
+        {
+          "x": 644,
+          "y": 254
+        }
+      ],
+      "code": "P/Bl",
+      "primaryColor": "#f5b7c2",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "main-feed",
+      "from": {
+        "componentId": "positive-main",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-main",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 257,
+          "y": 336
+        },
+        {
+          "x": 350,
+          "y": 336
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e41d3d",
+      "state": "controlled"
+    },
+    {
+      "id": "fi-feed",
+      "from": {
+        "componentId": "positive-fi",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-fi",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 257,
+          "y": 412
+        },
+        {
+          "x": 350,
+          "y": 412
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#e41d3d",
+      "state": "controlled"
+    },
+    {
+      "id": "main-output",
+      "from": {
+        "componentId": "fuse-main",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "main-node",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 425,
+          "y": 336
+        },
+        {
+          "x": 529,
+          "y": 336
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "main-relay-feed",
+      "from": {
+        "componentId": "main-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "contact-in"
+      },
+      "points": [
+        {
+          "x": 529,
+          "y": 336
+        },
+        {
+          "x": 917,
+          "y": 336
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "regulator-dc",
+      "from": {
+        "componentId": "main-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "regulator",
+        "terminalId": "dc"
+      },
+      "points": [
+        {
+          "x": 529,
+          "y": 336
+        },
+        {
+          "x": 529,
+          "y": 497
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "acg-left-wire",
+      "from": {
+        "componentId": "acg",
+        "terminalId": "left"
+      },
+      "to": {
+        "componentId": "regulator",
+        "terminalId": "ac-upper"
+      },
+      "points": [
+        {
+          "x": 326,
+          "y": 712
+        },
+        {
+          "x": 326,
+          "y": 504
+        },
+        {
+          "x": 470,
+          "y": 504
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#f2ff00",
+      "state": "controlled"
+    },
+    {
+      "id": "acg-top-wire",
+      "from": {
+        "componentId": "acg",
+        "terminalId": "top"
+      },
+      "to": {
+        "componentId": "regulator",
+        "terminalId": "ac-middle"
+      },
+      "points": [
+        {
+          "x": 373,
+          "y": 630
+        },
+        {
+          "x": 373,
+          "y": 545
+        },
+        {
+          "x": 470,
+          "y": 545
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#f2ff00",
+      "state": "controlled"
+    },
+    {
+      "id": "acg-right-wire",
+      "from": {
+        "componentId": "acg",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "regulator",
+        "terminalId": "ac-lower"
+      },
+      "points": [
+        {
+          "x": 422,
+          "y": 712
+        },
+        {
+          "x": 422,
+          "y": 586
+        },
+        {
+          "x": 470,
+          "y": 586
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#f2ff00",
+      "state": "controlled"
+    },
+    {
+      "id": "regulator-ground-wire",
+      "from": {
+        "componentId": "regulator",
+        "terminalId": "ground"
+      },
+      "to": {
+        "componentId": "regulator-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 527,
+          "y": 593
+        },
+        {
+          "x": 527,
+          "y": 654
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#17b55a",
+      "state": "controlled"
+    },
+    {
+      "id": "fi-output",
+      "from": {
+        "componentId": "fuse-fi",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "fi-node",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 425,
+          "y": 412
+        },
+        {
+          "x": 672,
+          "y": 412
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "ignition-feed",
+      "from": {
+        "componentId": "fi-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "ignition-switch",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 672,
+          "y": 412
+        },
+        {
+          "x": 719,
+          "y": 412
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "capacitor-feed-upper",
+      "from": {
+        "componentId": "fi-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "capacitor-splice",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 672,
+          "y": 412
+        },
+        {
+          "x": 672,
+          "y": 460
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "capacitor-feed-lower",
+      "from": {
+        "componentId": "capacitor-splice",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "capacitor",
+        "terminalId": "positive"
+      },
+      "points": [
+        {
+          "x": 672,
+          "y": 460
+        },
+        {
+          "x": 672,
+          "y": 508
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "capacitor-ground-wire",
+      "from": {
+        "componentId": "capacitor",
+        "terminalId": "ground"
+      },
+      "to": {
+        "componentId": "capacitor-ground",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 672,
+          "y": 560
+        },
+        {
+          "x": 672,
+          "y": 623
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#17b55a",
+      "state": "controlled"
+    },
+    {
+      "id": "ignition-output",
+      "from": {
+        "componentId": "ignition-switch",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "switched-node",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 796,
+          "y": 412
+        },
+        {
+          "x": 856,
+          "y": 412
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-coil-feed",
+      "from": {
+        "componentId": "switched-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "coil-left"
+      },
+      "points": [
+        {
+          "x": 856,
+          "y": 412
+        },
+        {
+          "x": 917,
+          "y": 412
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "engine-bl-bus",
+      "from": {
+        "componentId": "switched-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "engine-bus-1",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 856,
+          "y": 412
+        },
+        {
+          "x": 856,
+          "y": 602
+        },
+        {
+          "x": 1292,
+          "y": 602
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-ecm",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "coil-right"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "relay-control"
+      },
+      "points": [
+        {
+          "x": 994,
+          "y": 412
+        },
+        {
+          "x": 1054,
+          "y": 412
+        },
+        {
+          "x": 1054,
+          "y": 491
+        }
+      ],
+      "code": "W/Bl",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-output",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "contact-out"
+      },
+      "to": {
+        "componentId": "relay-output-node",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 994,
+          "y": 336
+        },
+        {
+          "x": 1054,
+          "y": 336
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#f2ff00",
+      "state": "controlled"
+    },
+    {
+      "id": "headlight-feed",
+      "from": {
+        "componentId": "relay-output-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-headlight",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1054,
+          "y": 336
+        },
+        {
+          "x": 1054,
+          "y": 249
+        },
+        {
+          "x": 1110,
+          "y": 249
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#f2ff00",
+      "state": "controlled"
+    },
+    {
+      "id": "headlight-output",
+      "from": {
+        "componentId": "fuse-headlight",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "night-light-switch",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1186,
+          "y": 249
+        },
+        {
+          "x": 1325,
+          "y": 249
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#f2ff00",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-feed",
+      "from": {
+        "componentId": "relay-output-node",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-turn-horn",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1054,
+          "y": 336
+        },
+        {
+          "x": 1110,
+          "y": 336
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#e41d3d",
+      "stripeColor": "#f2ff00",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output",
+      "from": {
+        "componentId": "fuse-turn-horn",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-1",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1186,
+          "y": 336
+        },
+        {
+          "x": 1292,
+          "y": 336
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#111111",
+      "stripeColor": "#8b5a2b",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-1-2",
+      "from": {
+        "componentId": "turn-horn-bus-1",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-2",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 336
+        },
+        {
+          "x": 1292,
+          "y": 358
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-2-3",
+      "from": {
+        "componentId": "turn-horn-bus-2",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-3",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 358
+        },
+        {
+          "x": 1292,
+          "y": 380
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-3-4",
+      "from": {
+        "componentId": "turn-horn-bus-3",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-4",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 380
+        },
+        {
+          "x": 1292,
+          "y": 402
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-4-5",
+      "from": {
+        "componentId": "turn-horn-bus-4",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-5",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 402
+        },
+        {
+          "x": 1292,
+          "y": 424
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-5-6",
+      "from": {
+        "componentId": "turn-horn-bus-5",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-6",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 424
+        },
+        {
+          "x": 1292,
+          "y": 446
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-6-7",
+      "from": {
+        "componentId": "turn-horn-bus-6",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-7",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 446
+        },
+        {
+          "x": 1292,
+          "y": 468
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-7-8",
+      "from": {
+        "componentId": "turn-horn-bus-7",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-8",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 468
+        },
+        {
+          "x": 1292,
+          "y": 490
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-horn-output-bus-8-9",
+      "from": {
+        "componentId": "turn-horn-bus-8",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "turn-horn-bus-9",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 490
+        },
+        {
+          "x": 1292,
+          "y": 512
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "engine-output-bus-1-2",
+      "from": {
+        "componentId": "engine-bus-1",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "engine-bus-2",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 602
+        },
+        {
+          "x": 1292,
+          "y": 624
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "engine-output-bus-2-3",
+      "from": {
+        "componentId": "engine-bus-2",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "engine-bus-3",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 624
+        },
+        {
+          "x": 1292,
+          "y": 646
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "engine-output-bus-3-4",
+      "from": {
+        "componentId": "engine-bus-3",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "engine-bus-4",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 646
+        },
+        {
+          "x": 1292,
+          "y": 668
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "engine-output-bus-4-5",
+      "from": {
+        "componentId": "engine-bus-4",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "engine-bus-5",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 668
+        },
+        {
+          "x": 1292,
+          "y": 690
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "engine-output-bus-5-6",
+      "from": {
+        "componentId": "engine-bus-5",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "engine-bus-6",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 690
+        },
+        {
+          "x": 1292,
+          "y": 712
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    },
+    {
+      "id": "engine-output-bus-6-7",
+      "from": {
+        "componentId": "engine-bus-6",
+        "terminalId": "in"
+      },
+      "to": {
+        "componentId": "engine-bus-7",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1292,
+          "y": 712
+        },
+        {
+          "x": 1292,
+          "y": 734
+        }
+      ],
+      "code": "",
+      "primaryColor": "#111111",
+      "state": "controlled"
+    }
+  ]
+}

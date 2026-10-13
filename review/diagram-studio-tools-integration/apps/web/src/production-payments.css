@@ -1,0 +1,20 @@
+.paymentBrief{--pay-surface:#fff;--pay-muted:#596779;--pay-line:#d8e0e9;--pay-text:#253344;--pay-soft:#f4f7fa;--pay-green:#207046;--pay-green-bg:#e4f3e9;--pay-amber:#85540e;--pay-amber-bg:#fff0d1}
+:root[data-theme="dark"] .paymentBrief{--pay-surface:#1c232c;--pay-muted:#abb8c8;--pay-line:#3b4b5f;--pay-text:#e0e8f1;--pay-soft:#242f3c;--pay-green:#a4ddbb;--pay-green-bg:#234535;--pay-amber:#f3d18c;--pay-amber-bg:#493a22}
+.paymentBrief .productionSectionTitle{gap:10px;flex-wrap:wrap}
+.paymentBrief .productionSectionTitle>button{font-size:12px;white-space:nowrap}
+.paymentBrief .paymentBriefRow{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;margin-top:8px;padding:12px;border:1px solid var(--pay-line);border-radius:10px;background:var(--pay-surface);color:var(--pay-text);text-align:left}
+.paymentBrief .paymentBriefRow:hover{background:var(--pay-soft)}
+.paymentBriefPerson{display:flex;align-items:center;gap:9px;min-width:0}
+.paymentBriefPerson>.avatar{width:30px;height:30px;flex:0 0 30px;font-size:14px}
+.paymentBriefPerson>span:last-child{display:grid;gap:4px;min-width:0}
+.paymentBriefPerson b{font-size:14px}.paymentBriefPerson small{font-size:12px;color:var(--pay-muted);overflow-wrap:anywhere}
+.paymentBriefTotals{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}.paymentBriefTotals strong{font-size:17px;white-space:nowrap}
+.paymentBriefState{display:inline-block;padding:5px 8px;border-radius:99px;font-size:11px;font-weight:650;white-space:nowrap}
+.paymentBriefState.paid{color:var(--pay-green);background:var(--pay-green-bg)}.paymentBriefState.requested{color:var(--pay-amber);background:var(--pay-amber-bg)}
+.paymentHistoryDialog{width:min(900px,calc(100vw - 32px));max-width:none;max-height:88vh;padding:0;border:1px solid var(--pay-line);border-radius:16px;background:var(--pay-surface);color:var(--pay-text);overflow:auto;box-sizing:border-box}
+.paymentHistoryDialog::backdrop{background:#080d16b3}
+.paymentHistoryContent{padding:20px}.paymentHistoryHead{display:flex;align-items:center;justify-content:space-between;gap:16px}.paymentHistoryHead h2{margin:0;font-size:21px}.paymentHistoryHead p{margin:5px 0;color:var(--pay-muted);font-size:13px}.paymentHistoryHead>button{font-size:22px;width:36px;height:36px;padding:0}
+.paymentHistoryAll{margin:12px 0}.paymentHistoryList{display:grid;gap:14px;margin-top:16px}
+.paymentBrief .paymentHistoryCard{display:grid;gap:14px;padding:16px;border:1px solid var(--pay-line);border-radius:12px;background:var(--pay-soft)}
+.paymentHistoryCardHead{display:flex;justify-content:space-between;align-items:center;gap:12px}.paymentHistoryWork{display:grid;gap:9px}.paymentHistoryWork>div{display:grid;grid-template-columns:90px minmax(0,1fr);gap:12px}.paymentHistoryWork time,.paymentHistoryCard>small{font-size:12px;color:var(--pay-muted)}.paymentHistoryWork p{margin:0;font-size:14px;line-height:1.6;overflow-wrap:anywhere}.paymentHistoryCard>button{justify-self:end}
+@media(max-width:600px){.paymentBriefRow,.paymentHistoryCardHead{flex-wrap:wrap}.paymentHistoryWork>div{grid-template-columns:1fr;gap:3px}.paymentHistoryContent{padding:12px}.paymentHistoryDialog{width:calc(100vw - 16px)}}

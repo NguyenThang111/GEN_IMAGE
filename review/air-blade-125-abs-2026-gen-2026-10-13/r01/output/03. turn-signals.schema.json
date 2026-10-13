@@ -1,0 +1,1304 @@
+﻿{
+    "schemaVersion":  1,
+    "reviewStatus":  "draft",
+    "id":  "air-blade-125-abs-2026-turn-signals",
+    "vehicleId":  "air-blade-2026-125-abs",
+    "vehicleTitle":  "AIR BLADE 2026 (125 / ABS)",
+    "vehicleModel":  "Honda AIR BLADE 125 ABS 2026",
+    "circuitTitle":  "Mạch xi nhan",
+    "sourceImage":  "air-blade-2026-125-abs-turn-signals.source.jpg",
+    "canvas":  {
+                   "width":  1516,
+                   "height":  748,
+                   "background":  "#ffffff"
+               },
+    "sourceCrop":  {
+                       "x":  0,
+                       "y":  0,
+                       "width":  1516,
+                       "height":  748
+                   },
+    "sourceTransform":  {
+                            "rotateClockwise":  0
+                        },
+    "components":  [
+                       {
+                           "id":  "battery",
+                           "type":  "battery",
+                           "x":  60,
+                           "y":  370,
+                           "width":  80,
+                           "height":  58,
+                           "label":  "ẮC QUY",
+                           "terminals":  [
+                                             {
+                                                 "id":  "neg",
+                                                 "x":  76,
+                                                 "y":  370,
+                                                 "label":  "-"
+                                             },
+                                             {
+                                                 "id":  "pos",
+                                                 "x":  124,
+                                                 "y":  370,
+                                                 "label":  "+"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "battery@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "negative":  "neg",
+                                                           "positive":  "pos"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-battery",
+                           "type":  "ground",
+                           "x":  60,
+                           "y":  326,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  72,
+                                                 "y":  326
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-main",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  343,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (20A) MAIN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  358
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  358
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "relay-main",
+                           "type":  "relay",
+                           "x":  400,
+                           "y":  328,
+                           "width":  90,
+                           "height":  100,
+                           "label":  "RƠ LE CHÍNH",
+                           "terminals":  [
+                                             {
+                                                 "id":  "cl",
+                                                 "x":  400,
+                                                 "y":  356,
+                                                 "label":  "R/W"
+                                             },
+                                             {
+                                                 "id":  "cr",
+                                                 "x":  490,
+                                                 "y":  356,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "col",
+                                                 "x":  418,
+                                                 "y":  418,
+                                                 "label":  "G"
+                                             },
+                                             {
+                                                 "id":  "cor",
+                                                 "x":  472,
+                                                 "y":  418,
+                                                 "label":  "Bl/Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "relay.contact-coil4@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "contact-left":  "cl",
+                                                           "contact-right":  "cr",
+                                                           "coil-left":  "col",
+                                                           "coil-right":  "cor"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-relay",
+                           "type":  "ground",
+                           "x":  406,
+                           "y":  438,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  418,
+                                                 "y":  438
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ignition-switch",
+                           "type":  "switch",
+                           "x":  560,
+                           "y":  328,
+                           "width":  110,
+                           "height":  100,
+                           "label":  "KHÓA ĐIỆN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p1-in",
+                                                 "x":  560,
+                                                 "y":  356,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "p1-out",
+                                                 "x":  660,
+                                                 "y":  356,
+                                                 "label":  "R/Bl"
+                                             },
+                                             {
+                                                 "id":  "p2-in",
+                                                 "x":  560,
+                                                 "y":  418,
+                                                 "label":  "Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "p2-out",
+                                                 "x":  660,
+                                                 "y":  418,
+                                                 "label":  "R/Br"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.dpst4@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "pole1-in":  "p1-in",
+                                                           "pole1-out":  "p1-out",
+                                                           "pole2-in":  "p2-in",
+                                                           "pole2-out":  "p2-out"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-sub1",
+                           "type":  "fuse",
+                           "x":  756,
+                           "y":  343,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) SUB 1",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  756,
+                                                 "y":  358
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  836,
+                                                 "y":  358
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "flasher",
+                           "type":  "flasher",
+                           "x":  900,
+                           "y":  338,
+                           "width":  80,
+                           "height":  40,
+                           "label":  "CHỚP XI NHAN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "input",
+                                                 "x":  900,
+                                                 "y":  358,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "output",
+                                                 "x":  980,
+                                                 "y":  358,
+                                                 "label":  "Gr"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "flasher.two-terminal@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "input":  "input",
+                                                           "output":  "output"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "diode-flasher",
+                           "type":  "diode",
+                           "x":  1010,
+                           "y":  343,
+                           "width":  60,
+                           "height":  30,
+                           "label":  "ĐI-ỐT",
+                           "terminals":  [
+                                             {
+                                                 "id":  "anode",
+                                                 "x":  1010,
+                                                 "y":  358,
+                                                 "label":  "Gr"
+                                             },
+                                             {
+                                                 "id":  "cathode",
+                                                 "x":  1070,
+                                                 "y":  358,
+                                                 "label":  "G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "diode.rectifier2@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "anode":  "anode",
+                                                           "cathode":  "cathode"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "turn-switch",
+                           "type":  "selectorSwitch",
+                           "x":  1120,
+                           "y":  320,
+                           "width":  80,
+                           "height":  80,
+                           "label":  "CÔNG TẮC XI NHAN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "common",
+                                                 "x":  1120,
+                                                 "y":  358,
+                                                 "label":  "W"
+                                             },
+                                             {
+                                                 "id":  "throw1",
+                                                 "x":  1200,
+                                                 "y":  326,
+                                                 "label":  "L → O"
+                                             },
+                                             {
+                                                 "id":  "throw2",
+                                                 "x":  1200,
+                                                 "y":  390,
+                                                 "label":  "R → Lb"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.selector3@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "common":  "common",
+                                                           "throw1":  "throw1",
+                                                           "throw2":  "throw2"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "lamp-rear-left",
+                           "type":  "lamp",
+                           "x":  1380,
+                           "y":  68,
+                           "width":  60,
+                           "height":  60,
+                           "label":  "ĐÈN XI NHAN SAU TRÁI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1380,
+                                                 "y":  98,
+                                                 "label":  "O"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1440,
+                                                 "y":  98,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "feed":  "feed",
+                                                           "return":  "return"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-rl",
+                           "type":  "ground",
+                           "x":  1428,
+                           "y":  86,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1440,
+                                                 "y":  98
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "lamp-front-left",
+                           "type":  "lamp",
+                           "x":  1380,
+                           "y":  220,
+                           "width":  60,
+                           "height":  60,
+                           "label":  "ĐÈN XI NHAN TRƯỚC TRÁI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1380,
+                                                 "y":  250,
+                                                 "label":  "O"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1440,
+                                                 "y":  250,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "feed":  "feed",
+                                                           "return":  "return"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-fl",
+                           "type":  "ground",
+                           "x":  1428,
+                           "y":  238,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1440,
+                                                 "y":  250
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "lamp-front-right",
+                           "type":  "lamp",
+                           "x":  1380,
+                           "y":  450,
+                           "width":  60,
+                           "height":  60,
+                           "label":  "ĐÈN XI NHAN TRƯỚC PHẢI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1380,
+                                                 "y":  480,
+                                                 "label":  "Lb"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1440,
+                                                 "y":  480,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "feed":  "feed",
+                                                           "return":  "return"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-fr",
+                           "type":  "ground",
+                           "x":  1428,
+                           "y":  468,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1440,
+                                                 "y":  480
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "lamp-rear-right",
+                           "type":  "lamp",
+                           "x":  1380,
+                           "y":  600,
+                           "width":  60,
+                           "height":  60,
+                           "label":  "ĐÈN XI NHAN SAU PHẢI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1380,
+                                                 "y":  630,
+                                                 "label":  "Lb"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1440,
+                                                 "y":  630,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.filament2@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "feed":  "feed",
+                                                           "return":  "return"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-rr",
+                           "type":  "ground",
+                           "x":  1428,
+                           "y":  618,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1440,
+                                                 "y":  630
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-ecu",
+                           "type":  "fuse",
+                           "x":  390,
+                           "y":  516,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (15A) ECU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  390,
+                                                 "y":  531
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  470,
+                                                 "y":  531
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       }
+                   ],
+    "wires":  [
+                  {
+                      "id":  "w-bat-neg-mass",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "neg"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-battery",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  76,
+                                         "y":  370
+                                     },
+                                     {
+                                         "x":  76,
+                                         "y":  342
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-main",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-main",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  358
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  358
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-main-relay",
+                      "from":  {
+                                   "componentId":  "fuse-main",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "relay-main",
+                                 "terminalId":  "cl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  358
+                                     },
+                                     {
+                                         "x":  400,
+                                         "y":  356
+                                     }
+                                 ],
+                      "code":  "R/W",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/W",
+                                         "x":  340,
+                                         "y":  348,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-main-relay",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-ign1",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cr"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p1-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  490,
+                                         "y":  356
+                                     },
+                                     {
+                                         "x":  560,
+                                         "y":  356
+                                     }
+                                 ],
+                      "code":  "Bl/R",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/R",
+                                         "x":  522,
+                                         "y":  346,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-ign1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-coil-mass",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "col"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-relay",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  418,
+                                         "y":  418
+                                     },
+                                     {
+                                         "x":  418,
+                                         "y":  438
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-relay-coil-ign2",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cor"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  472,
+                                         "y":  418
+                                     },
+                                     {
+                                         "x":  472,
+                                         "y":  440
+                                     },
+                                     {
+                                         "x":  540,
+                                         "y":  440
+                                     },
+                                     {
+                                         "x":  540,
+                                         "y":  418
+                                     },
+                                     {
+                                         "x":  560,
+                                         "y":  418
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu",
+                                         "x":  500,
+                                         "y":  430,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-coil-ign2",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ign1-sub1",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p1-out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-sub1",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  660,
+                                         "y":  356
+                                     },
+                                     {
+                                         "x":  756,
+                                         "y":  358
+                                     }
+                                 ],
+                      "code":  "R/Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Bl",
+                                         "x":  706,
+                                         "y":  346,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign1-sub1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-flasher",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "flasher",
+                                 "terminalId":  "input"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  836,
+                                         "y":  358
+                                     },
+                                     {
+                                         "x":  900,
+                                         "y":  358
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl",
+                                         "x":  868,
+                                         "y":  348,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub1-flasher",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-flasher-diode",
+                      "from":  {
+                                   "componentId":  "flasher",
+                                   "terminalId":  "output"
+                               },
+                      "to":  {
+                                 "componentId":  "diode-flasher",
+                                 "terminalId":  "anode"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  980,
+                                         "y":  358
+                                     },
+                                     {
+                                         "x":  1010,
+                                         "y":  358
+                                     }
+                                 ],
+                      "code":  "Gr",
+                      "primaryColor":  "#888888",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Gr",
+                                         "x":  994,
+                                         "y":  348,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-flasher-diode",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-diode-switch",
+                      "from":  {
+                                   "componentId":  "diode-flasher",
+                                   "terminalId":  "cathode"
+                               },
+                      "to":  {
+                                 "componentId":  "turn-switch",
+                                 "terminalId":  "common"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1070,
+                                         "y":  358
+                                     },
+                                     {
+                                         "x":  1120,
+                                         "y":  358
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Bl",
+                                         "x":  1094,
+                                         "y":  348,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-diode-switch",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-switch-left-rl",
+                      "from":  {
+                                   "componentId":  "turn-switch",
+                                   "terminalId":  "throw1"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-rear-left",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  326
+                                     },
+                                     {
+                                         "x":  1310,
+                                         "y":  326
+                                     },
+                                     {
+                                         "x":  1310,
+                                         "y":  98
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  98
+                                     }
+                                 ],
+                      "code":  "O",
+                      "primaryColor":  "#ee8800",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "O",
+                                         "x":  1240,
+                                         "y":  316,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-switch-left-rl",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-switch-left-fl",
+                      "from":  {
+                                   "componentId":  "turn-switch",
+                                   "terminalId":  "throw1"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-front-left",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  326
+                                     },
+                                     {
+                                         "x":  1310,
+                                         "y":  326
+                                     },
+                                     {
+                                         "x":  1310,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  250
+                                     }
+                                 ],
+                      "code":  "O",
+                      "primaryColor":  "#ee8800",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-switch-right-fr",
+                      "from":  {
+                                   "componentId":  "turn-switch",
+                                   "terminalId":  "throw2"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-front-right",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  390
+                                     },
+                                     {
+                                         "x":  1320,
+                                         "y":  390
+                                     },
+                                     {
+                                         "x":  1320,
+                                         "y":  480
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  480
+                                     }
+                                 ],
+                      "code":  "Lb",
+                      "primaryColor":  "#66aaff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Lb",
+                                         "x":  1240,
+                                         "y":  400,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-switch-right-fr",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-switch-right-rr",
+                      "from":  {
+                                   "componentId":  "turn-switch",
+                                   "terminalId":  "throw2"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-rear-right",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  390
+                                     },
+                                     {
+                                         "x":  1320,
+                                         "y":  390
+                                     },
+                                     {
+                                         "x":  1320,
+                                         "y":  630
+                                     },
+                                     {
+                                         "x":  1380,
+                                         "y":  630
+                                     }
+                                 ],
+                      "code":  "Lb",
+                      "primaryColor":  "#66aaff",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-rl-mass",
+                      "from":  {
+                                   "componentId":  "lamp-rear-left",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-rl",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1440,
+                                         "y":  98
+                                     },
+                                     {
+                                         "x":  1440,
+                                         "y":  98
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-fl-mass",
+                      "from":  {
+                                   "componentId":  "lamp-front-left",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-fl",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1440,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  1440,
+                                         "y":  250
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-fr-mass",
+                      "from":  {
+                                   "componentId":  "lamp-front-right",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-fr",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1440,
+                                         "y":  480
+                                     },
+                                     {
+                                         "x":  1440,
+                                         "y":  480
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-rr-mass",
+                      "from":  {
+                                   "componentId":  "lamp-rear-right",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-rr",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1440,
+                                         "y":  630
+                                     },
+                                     {
+                                         "x":  1440,
+                                         "y":  630
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-ecu",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-ecu",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  358
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  531
+                                     },
+                                     {
+                                         "x":  390,
+                                         "y":  531
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R",
+                                         "x":  260,
+                                         "y":  521,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-bat-ecu",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecu-ign2out",
+                      "from":  {
+                                   "componentId":  "fuse-ecu",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-out"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  470,
+                                         "y":  531
+                                     },
+                                     {
+                                         "x":  660,
+                                         "y":  531
+                                     },
+                                     {
+                                         "x":  660,
+                                         "y":  418
+                                     }
+                                 ],
+                      "code":  "R/Br",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Br",
+                                         "x":  560,
+                                         "y":  521,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecu-ign2out",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  }
+              ],
+    "reviewIssues":  [
+
+                     ],
+    "genReview":  {
+                      "reviewer":  "kiro-agent",
+                      "date":  "2026-10-13",
+                      "verdict":  "PENDING",
+                      "notes":  "Draft. Flasher 2-terminal (Bl→Gr). Diode anode=Gr, cathode=G/Bl. Công tắc 3 vị trí W/L/R, throw1=O (trái: RL+FL), throw2=Lb (phải: FR+RR). 4 bóng sợi đốt độc lập. Thứ tự từ trên xuống: sau trái, trước trái, trước phải, sau phải."
+                  }
+}

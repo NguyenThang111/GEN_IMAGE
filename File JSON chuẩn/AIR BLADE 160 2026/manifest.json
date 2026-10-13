@@ -1,0 +1,182 @@
+{
+  "vehicle": "AIR BLADE 160 2026",
+  "vehicleId": "air-blade-160-2026",
+  "circuitCount": 13,
+  "alternateCount": 1,
+  "circuits": [
+    {
+      "number": 1,
+      "title": "Mạch cấp nguồn",
+      "id": "air-blade-160-2026-power-distribution",
+      "json": "01. power-distribution.schema.json",
+      "source": "source/01.Mạch cấp nguồn.PNG",
+      "png": "preview/01. power-distribution.png",
+      "svg": "preview/01. power-distribution.svg",
+      "alignedSource": "preview/01. power-distribution.source.png",
+      "alternate": false,
+      "sourceSha256": "c03a3ab6812afeb6f56697b7fa03382cac975221ffd747408813a9a54893f0e6"
+    },
+    {
+      "number": 2,
+      "title": "Mạch còi",
+      "id": "air-blade-160-2026-horn",
+      "json": "02. horn.schema.json",
+      "source": "source/02.Mạch còi.PNG",
+      "png": "preview/02. horn.png",
+      "svg": "preview/02. horn.svg",
+      "alignedSource": "preview/02. horn.source.png",
+      "alternate": false,
+      "sourceSha256": "f7f01e2ecb422635f5c6d0de10db8e45c4f96bb60f4227da8c77b9f98bcf2b4f"
+    },
+    {
+      "number": 3,
+      "title": "Mạch xi nhan",
+      "id": "air-blade-160-2026-turn-signals",
+      "json": "03. turn-signals.schema.json",
+      "source": "source/03.Mạch xi nhan.PNG",
+      "png": "preview/03. turn-signals.png",
+      "svg": "preview/03. turn-signals.svg",
+      "alignedSource": "preview/03. turn-signals.source.png",
+      "alternate": false,
+      "sourceSha256": "595d8b1984bd8d786182f3fb6a82542163ed41c184e8fbc92b09555a02fdfbf9"
+    },
+    {
+      "number": 4,
+      "title": "Mạch đèn phanh",
+      "id": "air-blade-160-2026-brake-light",
+      "json": "04. brake-light.schema.json",
+      "source": "source/04.Mạch đèn phanh.PNG",
+      "png": "preview/04. brake-light.png",
+      "svg": "preview/04. brake-light.svg",
+      "alignedSource": "preview/04. brake-light.source.png",
+      "alternate": false,
+      "sourceSha256": "f2365df58f1bd58b340b0f7df103d2fe8186210f8957caf96668d618d6267562"
+    },
+    {
+      "number": 5,
+      "title": "Mạch báo xăng",
+      "id": "air-blade-160-2026-fuel-indicator",
+      "json": "05. fuel-indicator.schema.json",
+      "source": "source/05.Mạch báo xăng.PNG",
+      "png": "preview/05. fuel-indicator.png",
+      "svg": "preview/05. fuel-indicator.svg",
+      "alignedSource": "preview/05. fuel-indicator.source.png",
+      "alternate": false,
+      "sourceSha256": "9f10586350839a1c61954665759ed78a2d0179d82bac28692d181945848382ed"
+    },
+    {
+      "number": 6,
+      "title": "Mạch đèn đêm và đèn pha LED",
+      "id": "air-blade-160-2026-night-lighting",
+      "json": "06. night-lighting.schema.json",
+      "source": "source/06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "png": "preview/06. night-lighting.png",
+      "svg": "preview/06. night-lighting.svg",
+      "alignedSource": "preview/06. night-lighting.source.png",
+      "alternate": false,
+      "sourceSha256": "1283ed8269bdbec3c2d77d1009d8e17d10955fa4541f3daf53ea33e55728a163"
+    },
+    {
+      "number": 7,
+      "title": "Mạch báo tốc độ xe",
+      "id": "air-blade-160-2026-vehicle-speed",
+      "json": "07. vehicle-speed.schema.json",
+      "source": "source/07.Mạch báo tốc độ xe.PNG",
+      "png": "preview/07. vehicle-speed.png",
+      "svg": "preview/07. vehicle-speed.svg",
+      "alignedSource": "preview/07. vehicle-speed.source.png",
+      "alternate": false,
+      "sourceSha256": "75e03b1a90669dd32d7e077088d87f3f84a7d36d630770ba22ce7c8eee13eaec"
+    },
+    {
+      "number": 8,
+      "title": "Mạch đánh lửa",
+      "id": "air-blade-160-2026-ignition",
+      "json": "08. ignition.schema.json",
+      "source": "source/08.Mạch đánh lửa.PNG",
+      "png": "preview/08. ignition.png",
+      "svg": "preview/08. ignition.svg",
+      "alignedSource": "preview/08. ignition.source.png",
+      "alternate": false,
+      "sourceSha256": "219f77aae8c53e39a881746745c270c1c9aa4750ce0f506672788ff6dc9367c3"
+    },
+    {
+      "number": 9,
+      "title": "Mạch khởi động",
+      "id": "air-blade-160-2026-starting",
+      "json": "09. starting.schema.json",
+      "source": "source/09.Mạch khởi động.PNG",
+      "png": "preview/09. starting.png",
+      "svg": "preview/09. starting.svg",
+      "alignedSource": "preview/09. starting.source.png",
+      "alternate": false,
+      "sourceSha256": "816b5cd697d3039b3575a53e9d4c3c39f6305f839517b4319eeb6ce5e0e79bbd"
+    },
+    {
+      "number": 10,
+      "title": "Mạch dừng động cơ tạm thời (Idling Stop)",
+      "id": "air-blade-160-2026-idling-stop",
+      "json": "10. idling-stop.schema.json",
+      "source": "source/10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "png": "preview/10. idling-stop.png",
+      "svg": "preview/10. idling-stop.svg",
+      "alignedSource": "preview/10. idling-stop.source.png",
+      "alternate": false,
+      "sourceSha256": "ff19d20c7320e1a4f7f12bf338bce33055ba8dac60b48418a83afefb89519a2f"
+    },
+    {
+      "number": 11,
+      "title": "Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey)",
+      "id": "air-blade-160-2026-smartkey-system",
+      "json": "11. smartkey-system.schema.json",
+      "source": "source/11.Sơ đồ nguyên lý hệ thống khóa thông minh ( Smartkey).PNG",
+      "png": "preview/11. smartkey-system.png",
+      "svg": "preview/11. smartkey-system.svg",
+      "alignedSource": "preview/11. smartkey-system.source.png",
+      "alternate": false,
+      "sourceSha256": "627a38b7821bffe8b75b8b000cc10bc4474daf478cd4c448f6d8082dc26b24ab"
+    },
+    {
+      "number": 12,
+      "title": "Sơ đồ nguyên lý hệ thống chống bó cứng phanh ABS",
+      "id": "air-blade-160-2026-abs",
+      "json": "12. abs.schema.json",
+      "source": "source/12.Sơ đồ bó cứng phanh ABS.PNG",
+      "png": "preview/12. abs.png",
+      "svg": "preview/12. abs.svg",
+      "alignedSource": "preview/12. abs.source.png",
+      "alternate": false,
+      "sourceSha256": "301e0e342af333914a7d7166db63e77462e3f8b7358fd9f5cd1fb609fc46c529"
+    },
+    {
+      "number": 13,
+      "title": "Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI)",
+      "id": "air-blade-160-2026-pgm-fi",
+      "json": "13. pgm-fi.schema.json",
+      "source": "source/13. Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "png": "preview/13. pgm-fi.png",
+      "svg": "preview/13. pgm-fi.svg",
+      "alignedSource": "preview/13. pgm-fi.source.png",
+      "alternate": false,
+      "sourceSha256": "b301e81b0ac02e97b123c4fec64bad1ef7521f16a59f5b9d2cb2282b0e6cfc47"
+    },
+    {
+      "number": 12,
+      "title": "Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI) - ảnh nguồn 12",
+      "id": "air-blade-160-2026-pgm-fi-source-12",
+      "json": "alternate/12. pgm-fi-source-12.schema.json",
+      "source": "source/12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "png": "preview/12. pgm-fi-source-12.png",
+      "svg": "preview/12. pgm-fi-source-12.svg",
+      "alignedSource": "preview/12. pgm-fi-source-12.source.png",
+      "alternate": true,
+      "sourceSha256": "d5c0d31851f7f4870d67c2729136e566dab1d4fb6d37cf38d7a1dc744a398987"
+    }
+  ],
+  "referenceImages": [
+    {
+      "file": "source/Capture.PNG",
+      "usage": "Supplementary Smartkey reference only; variant is not merged into source 11"
+    }
+  ]
+}

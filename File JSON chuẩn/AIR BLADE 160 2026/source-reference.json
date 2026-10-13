@@ -1,0 +1,20 @@
+{
+  "source": "Manually read from the supplied AIR BLADE 160 2026 PNGs, independent of rendered JSON",
+  "coverage": "Selected critical pin labels, fuse ratings and wire networks only; not a full certification",
+  "circuits": {
+    "01. power-distribution.schema.json": {"fuses": {"backup": 10, "abs-motor": 15, "main-fuse": 20, "ecu": 15, "usb-fuse": 5, "head-fuse": 5, "sub1": 10, "abs-main": 5, "sub2": 10}},
+    "02. horn.schema.json": {"fuses": {"main-fuse": 20, "ecu-fuse": 15, "sub1": 10}, "connections": [["horn-switch.out", "horn.in"], ["horn.out", "horn-ground.in"], ["horn.in", "horn-diode.in"]]},
+    "03. turn-signals.schema.json": {"connections": [["turn-switch.left", "left-0.in"], ["turn-switch.left", "left-1.in"], ["turn-switch.right", "right-0.in"], ["turn-switch.right", "right-1.in"]]},
+    "04. brake-light.schema.json": {"connections": [["front-brake.out", "brake-lamp.power"], ["rear-brake.out", "brake-lamp.power"]]},
+    "05. fuel-indicator.schema.json": {"pins": {"cluster": ["16 IGN", "13 FUEL", "6 GND"]}, "connections": [["cluster.fuel", "sender.signal"], ["cluster.ground", "sender.ground"]]},
+    "06. night-lighting.schema.json": {"fuses": {"sub1": 5, "tail-fuse": 10}, "pins": {"cluster": ["3 HIGH BEAM"], "headlamp": ["HI BEAM", "DIMMER SW", "VCC H/L", "VCC PO", "GND"]}},
+    "07. vehicle-speed.schema.json": {"pins": {"cluster": ["16 IGN", "9 SP ABS", "6 GND"], "ecm": ["A7 SP-SE"], "abs": ["6 RPO", "3 RVWS", "12 RVWB"]}, "connections": [["cluster.speed", "ecm.speed"], ["ecm.speed", "abs.speed"], ["abs.vws", "vs.vws"], ["abs.vwb", "vs.vwb"]]},
+    "08. ignition.schema.json": {"pins": {"ecm": ["A39", "A11", "B2", "A8", "A27", "A23", "A24", "A26", "A10", "A9", "A25"]}, "connections": [["ecm.ihu", "ckp.ihu"], ["ecm.ihv", "ckp.ihv"], ["ecm.ihw", "ckp.ihw"], ["ecm.pcb", "ckp.pcb"], ["ecm.ignition", "ignition-coil.control"]]},
+    "09. starting.schema.json": {"pins": {"ecm": ["B2", "A8", "A35", "A32", "B1", "C1", "C2", "C3", "A23", "A24", "A26", "A25", "A9", "A10", "A11", "A39"], "scu": ["15", "19"]}},
+    "10. idling-stop.schema.json": {"pins": {"ecm": ["A3", "A7", "A13", "A36", "A12", "A37", "A20"], "cluster": ["16 IGN", "9 SP ABS", "12 M-TXD", "6 GND"]}, "connections": [["cluster.speed", "ecm.speed"], ["ecm.speed", "abs.speed"], ["ecm.tp", "tp.signal"], ["ecm.ect", "ect.signal"]]},
+    "11. smartkey-system.schema.json": {"pins": {"scu": ["1 B+", "20 U-BOX LED", "7 SMART IND", "16 ALARM IND", "8 WINKER L", "9 WINKER R", "12 BUZZER+", "13 BUZZER-", "19 ENG START", "10 IMOID", "11 IMOAU", "15 START SW", "14 ENTRY MODE", "3 GND", "2 MAIN SW", "4 SOL +", "5 SOL -", "21 FACE LED", "6 KNOB SW"], "ecm": ["A35 ST-SW", "A34 IMOID", "A6 IMOAU"]}},
+    "12. abs.schema.json": {"pins": {"abs": ["7 IG", "15 BLS", "8 IND", "16 BAT", "6 RPO", "3 RVWS", "12 RVWB", "2 FVWS", "10 FVWB", "5 SCS", "13 DIAG", "11 GND"]}, "fuses": {"abs-main": 5, "abs-motor": 15}, "connections": [["abs.speed", "ecm.speed"], ["abs.speed", "cluster.speed"], ["abs.brake", "front-brake.out"], ["abs.brake", "rear-brake.out"]]},
+    "13. pgm-fi.schema.json": {"pins": {"ecm": ["B2 N(-)", "A23 IHU", "A24 IHV", "A26 IHW", "A25 PCB", "A9 VOUT", "A10 P-GND", "A13 VCC", "A36 THR", "A12 SG", "A37 TW", "A33 O₂", "A22 K-LINE", "A21 SCS", "A11 LG", "A39 SS-SW", "A20 ID-SW", "A7 SP-SE", "A35 ST-SW", "A34 IMOID", "A6 IMOAU", "A32 S/RELAY", "B1 P(+)", "A8 BATT", "A1 SOLV", "A4 F-PUMP", "A27 IGN", "A5 INJ", "A3 M-TXD", "C3 U-PHASE", "C2 V-PHASE", "C1 W-PHASE"]}},
+    "alternate/12. pgm-fi-source-12.schema.json": {"pins": {"ecm": ["B2 N(-)", "A22 PCB", "A2 VOUT", "A39 P-GND", "A20 IHU", "A21 IHV", "A34 IHW", "A13 VCC(5v)", "A36 THR", "A12 SG", "A24 TA", "A37 TW", "A38 O₂", "A29 K-LINE", "A30 SCS", "A26 LG", "A23 ID-SW", "A25 SS-SW", "A33 IMOAU", "A35 IMOID", "A32 ST-SW", "A28 S/RELAY", "B1 P(+)", "A4 BATT", "A1 PCS", "A5 F-PUMP", "A14 SOLV", "A8 INJ", "A27 IGN", "C3 U-PHASE", "C2 V-PHASE", "C1 W-PHASE", "A17 IS-IND", "A18 ENG CHECK", "A19 SP-SE", "A3 TW-IND"]}}
+  }
+}

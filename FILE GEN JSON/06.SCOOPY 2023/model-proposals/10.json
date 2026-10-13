@@ -1,0 +1,276 @@
+{
+  "library": "Master contract ID snapshot; NOT actual registry validation",
+  "masterContractSha256": "846d0b3dd08a5bcecdc37032481fa931d46ce37a9d8781a275087d58f91c4c65",
+  "bindings": [
+    {
+      "componentId": "battery",
+      "sourceItemId": "battery",
+      "proposedType": "battery",
+      "symbolRef": {
+        "id": "battery",
+        "version": 1,
+        "ports": {
+          "negative": "negative",
+          "positive": "positive"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "battery-ground",
+      "sourceItemId": "battery-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "main-fuse",
+      "sourceItemId": "main-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "backup-fuse",
+      "sourceItemId": "backup-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "key",
+      "sourceItemId": "key",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ecu-fuse",
+      "sourceItemId": "ecu-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "cluster",
+      "sourceItemId": "cluster",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "assembly.cluster-indicators",
+        "version": 1,
+        "ports": {
+          "3": "3",
+          "13": "13"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 16
+    },
+    {
+      "componentId": "alarm",
+      "sourceItemId": "alarm",
+      "proposedType": "device",
+      "symbolRef": {
+        "id": "assembly.functional-module",
+        "version": 1,
+        "ports": {
+          "10": "10",
+          "3": "3",
+          "7": "7",
+          "1": "1",
+          "6": "6",
+          "2": "2",
+          "4": "4",
+          "5": "5"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 10
+    },
+    {
+      "componentId": "left-lamp",
+      "sourceItemId": "left-lamp",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.filament2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "right-lamp",
+      "sourceItemId": "right-lamp",
+      "proposedType": "lamp",
+      "symbolRef": {
+        "id": "lamp.filament2",
+        "version": 1,
+        "ports": {
+          "feed": "feed",
+          "return": "return"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "left-ground",
+      "sourceItemId": "left-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "right-ground",
+      "sourceItemId": "right-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "alarm-ground",
+      "sourceItemId": "alarm-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "buzzer",
+      "sourceItemId": "buzzer",
+      "proposedType": "horn",
+      "symbolRef": {
+        "id": "buzzer.two-terminal",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "backup-bus",
+      "sourceItemId": "backup-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "alarm-pinout",
+      "sourceItemId": "alarm-pinout",
+      "proposedType": "connector",
+      "symbolRef": {
+        "id": "assembly.pinout",
+        "version": 1,
+        "ports": {}
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    }
+  ]
+}

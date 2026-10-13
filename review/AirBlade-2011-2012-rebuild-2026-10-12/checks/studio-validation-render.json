@@ -1,0 +1,153 @@
+{
+  "rendererRepo": "C:\\Users\\thang\\Desktop\\auto2techos",
+  "head": "165a4b0ba9207c39a846cf91376d02aecd932b39",
+  "workingTreeModified": true,
+  "sourceHashes": {
+    "contract": "9159075e4007da51a5a6a75b048113d0dd2ff532bb9d6c9837c6e84e436e8a3f",
+    "diagram-text": "e61f55e85681db73bd8868f8631ff808fcae7f00ecc9a805a018c1e5624cdfc0",
+    "vector-drawing": "5b1f796f3a977f3d0b8940fae836ac6325c818d26c07dd8659a830f410e8270e",
+    "VectorDiagramDrawing": "d9f62dbfee26a3f609362a3e641076d77612966bdc441ba59e8cf697dc6d022e",
+    "DiagramPreview": "28770086f8a10e4146c91a206219f37e4fb4065f76de00d429c001e821bdd96f",
+    "validate-diagram": "10239e6aa327c3cef11e707856328711827229bce3f15d3e1b7ef40c73d5a8e8",
+    "deterministic-json": "aebbd90072423f6a8f3ff9618221d5ee30b2fca990294d494c4b0b72227b59cd"
+  },
+  "runtime": {
+    "react": "18.3.1",
+    "typescript": "5.6.3"
+  },
+  "method": "React renderToStaticMarkup from actual current Studio source snapshot; SVG viewport attributes added for PNG transport",
+  "browserInteraction": "Live production browser tested separately; its renderer differs from this source snapshot",
+  "appRenderer": "NOT_RUN",
+  "circuits": [
+    {
+      "number": "01",
+      "file": "01. Mạch cấp nguồn.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "5f6d022b5e0161365ac3889418aad5e059c6ff7c63bf88d0cea1658db022176b",
+      "previewSvgSha256": "95917d1efa2584762266f3f43bc553998849dbef8a058b093362793576009235",
+      "previewPngSha256": "77856ae449365ecece4752d4f5f50d03a4fed2cfe5d2e4e6c9606cf308b8f271",
+      "svgTextCount": 56,
+      "renderedVectorPathCount": 338
+    },
+    {
+      "number": "02",
+      "file": "02. Mạch còi.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "4a6356041c57bd272aaa5b9fb33a012542f2a3368a2183dd5c9722e9061e43c8",
+      "previewSvgSha256": "ca2f5827311b06e2e2c6d892b6293104bea0f64530d30fdb075ca4eacb0fc0e9",
+      "previewPngSha256": "a2c6801d6fc26ee2d24e3f3188be4b8951ffaaf51e33f4a38bad458b9fe86ecc",
+      "svgTextCount": 20,
+      "renderedVectorPathCount": 180
+    },
+    {
+      "number": "03",
+      "file": "03. Mạch xi nhan.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "621b7f439d18ecbcedd7f76b81cbb77619b98c868af74846a21fdab2421ab719",
+      "previewSvgSha256": "fea58610e1ace625e131cf63d56477615fe367d9b6c0eec20185d7cab8f3fc42",
+      "previewPngSha256": "6145c3f1c1620c4e93f72f415fba739bab2a7b3b134afb9adcbadd05f6e928f1",
+      "svgTextCount": 28,
+      "renderedVectorPathCount": 183
+    },
+    {
+      "number": "04",
+      "file": "04. Mạch đèn phanh.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "e6f3651329c5dd13e60e304553ad7621a9307bc6c556409ee826bed5ff9606f1",
+      "previewSvgSha256": "c9e313bc270c16a1246af69715d569fcb0ac4da1409f7d65bb6c0579518b5f72",
+      "previewPngSha256": "963744bd26f4dc2990c6467d839134022c482f87ca5bd98a5514a7f3067c0ca2",
+      "svgTextCount": 28,
+      "renderedVectorPathCount": 249
+    },
+    {
+      "number": "05",
+      "file": "05. Mạch báo xăng.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "65b291a60e11dc16a98b0dd7124830b9844b978e5712ff78bea23758816c42a6",
+      "previewSvgSha256": "ee62a86ac0b7d6fd95ec35d66440255520de997259fd80aeac8f2a4a8958bd4f",
+      "previewPngSha256": "407d450ef741dff948308d0c8ee40b5a9159cb3e63429110b3f6dc1d462e2d6e",
+      "svgTextCount": 24,
+      "renderedVectorPathCount": 287
+    },
+    {
+      "number": "06",
+      "file": "06. Mạch đèn đêm.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "c476ee0c22547f552f4b6c838af79c726ca1c061ec95639108be23eecc9647a6",
+      "previewSvgSha256": "cd95fcaddf53f8a0083feda741a14ca0c023e632a83798561b77f4a6642ab680",
+      "previewPngSha256": "5f49000f0c23c6c448fd84524b7e1cf464d827b0b6f0758a80b248b98a43c51c",
+      "svgTextCount": 42,
+      "renderedVectorPathCount": 296
+    },
+    {
+      "number": "07",
+      "file": "07. Mạch đánh lửa.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "567208ab6d223b51ebe08084c86ffc74899f28e6707c11bf37923a0e0ca50242",
+      "previewSvgSha256": "ead2ed6f223cbb0dfdc5fb05d418abe3ea10e4d107b41cdb6bc167403c83e034",
+      "previewPngSha256": "8a2a4acac0ea2b0859337eb582e7e60397db3bf1927c5e47c0c742919d35b794",
+      "svgTextCount": 41,
+      "renderedVectorPathCount": 489
+    },
+    {
+      "number": "08",
+      "file": "08. Mạch khởi động.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "5d4cdd75598f4195ed4fbe8c7673bd60f285268529c5a2129feed6171362630a",
+      "previewSvgSha256": "801a5393e5e6f380a020579d054bec8a53b77744be7237414a5f4ad7f2ada7bc",
+      "previewPngSha256": "e379db9141e243a8516514579d5378c3090e240c6451ae8f9f4b70d5ef8b006e",
+      "svgTextCount": 52,
+      "renderedVectorPathCount": 512
+    },
+    {
+      "number": "09",
+      "file": "09. Mạch điện xác định vị trí xe.json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "16db3329a4909903ffe7e33c89ecb250313933e2ce4eeddf8f57b84346f7f209",
+      "previewSvgSha256": "4256ef06243a0276a77b7670e996cd955e8825798246447794d50f0cf3f25fd6",
+      "previewPngSha256": "68f547990724ac128e00a3a194826b67dd924fc9835185419efe3bf1e7549ed5",
+      "svgTextCount": 60,
+      "renderedVectorPathCount": 477
+    },
+    {
+      "number": "10",
+      "file": "10. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json",
+      "studioStructural": "PASS",
+      "editorExportRoundTrip": "PASS",
+      "deterministicExport": "PASS",
+      "studioStaticRender": "PASS",
+      "candidateSha256": "ab5bce1824bce202cdf681f6d25abcedb6fcc73cb3b5be340826807acd807797",
+      "previewSvgSha256": "7222ddaf0cf0c79295340f0326e2a9602121a563170be22b33b31b0ba5083f15",
+      "previewPngSha256": "53ae84fccf3ac0d1783905eac1a6b1388f934c00fb9b82462347f305d730d7bb",
+      "svgTextCount": 209,
+      "renderedVectorPathCount": 1446
+    }
+  ]
+}

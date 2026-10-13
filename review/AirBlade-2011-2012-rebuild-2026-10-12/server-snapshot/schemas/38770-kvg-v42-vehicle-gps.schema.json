@@ -1,0 +1,1188 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "Screenshot from 2026-09-30 08-38-12 (1).png",
+  "id": "38770-kvg-v42-vehicle-gps",
+  "vehicleId": "38770-kvg-v42",
+  "vehicleTitle": "AIR BLADE 2011 - 2012",
+  "circuitTitle": "Mạch điện xác định vị trí xe",
+  "canvas": {
+    "width": 1687,
+    "height": 952
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 193,
+      "y": 349,
+      "width": 101,
+      "height": 73,
+      "label": "Ắc quy",
+      "terminals": [
+        {
+          "id": "positive",
+          "label": "+",
+          "x": 273,
+          "y": 349
+        },
+        {
+          "id": "negative",
+          "label": "-",
+          "x": 213,
+          "y": 349
+        }
+      ]
+    },
+    {
+      "id": "fuse-main",
+      "type": "fuse",
+      "x": 378,
+      "y": 121,
+      "width": 87,
+      "height": 40,
+      "label": "Cầu chì MAIN 20A",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 378,
+          "y": 141
+        },
+        {
+          "id": "right",
+          "x": 465,
+          "y": 141
+        }
+      ]
+    },
+    {
+      "id": "fuse-fi",
+      "type": "fuse",
+      "x": 378,
+      "y": 199,
+      "width": 87,
+      "height": 40,
+      "label": "Cầu chì FI 10A",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 378,
+          "y": 219
+        },
+        {
+          "id": "right",
+          "x": 465,
+          "y": 219
+        }
+      ]
+    },
+    {
+      "id": "fuse-answer",
+      "type": "fuse",
+      "x": 379,
+      "y": 281,
+      "width": 85,
+      "height": 39,
+      "label": "Cầu chì ANSWER BACK 10A",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 379,
+          "y": 302
+        },
+        {
+          "id": "right",
+          "x": 464,
+          "y": 302
+        }
+      ]
+    },
+    {
+      "id": "fuse-turn",
+      "type": "fuse",
+      "x": 1020,
+      "y": 122,
+      "width": 83,
+      "height": 40,
+      "label": "Cầu chì TURN, HORN… 10A",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 1020,
+          "y": 142
+        },
+        {
+          "id": "right",
+          "x": 1103,
+          "y": 142
+        }
+      ]
+    },
+    {
+      "id": "relay-main",
+      "type": "relay",
+      "x": 774,
+      "y": 121,
+      "width": 75,
+      "height": 113,
+      "label": "Rơ le chính",
+      "terminals": [
+        {
+          "id": "contact-left",
+          "x": 774,
+          "y": 141
+        },
+        {
+          "id": "contact-right",
+          "x": 849,
+          "y": 142
+        },
+        {
+          "id": "coil-left",
+          "x": 774,
+          "y": 219
+        },
+        {
+          "id": "coil-right",
+          "x": 849,
+          "y": 219
+        }
+      ]
+    },
+    {
+      "id": "switch-ign",
+      "type": "switch",
+      "x": 581,
+      "y": 194,
+      "width": 76,
+      "height": 43,
+      "label": "Công tắc máy",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 581,
+          "y": 219
+        },
+        {
+          "id": "right",
+          "x": 657,
+          "y": 219
+        }
+      ]
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 879,
+      "y": 269,
+      "width": 92,
+      "height": 61,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 922,
+          "y": 269
+        }
+      ]
+    },
+    {
+      "id": "led-seat",
+      "type": "lamp",
+      "x": 385,
+      "y": 407,
+      "width": 69,
+      "height": 63,
+      "label": "Đèn LED thùng yên",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 454,
+          "y": 427
+        },
+        {
+          "id": "lower",
+          "x": 454,
+          "y": 456
+        }
+      ]
+    },
+    {
+      "id": "led-key",
+      "type": "lamp",
+      "x": 385,
+      "y": 533,
+      "width": 69,
+      "height": 64,
+      "label": "Đèn LED ổ khóa",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 454,
+          "y": 547
+        },
+        {
+          "id": "lower",
+          "x": 454,
+          "y": 578
+        }
+      ]
+    },
+    {
+      "id": "lamp-left",
+      "type": "lamp",
+      "x": 1378,
+      "y": 378,
+      "width": 119,
+      "height": 74,
+      "label": "Đèn xi nhan trái",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 1378,
+          "y": 405
+        },
+        {
+          "id": "lower",
+          "x": 1378,
+          "y": 425
+        }
+      ]
+    },
+    {
+      "id": "lamp-right",
+      "type": "lamp",
+      "x": 1373,
+      "y": 478,
+      "width": 118,
+      "height": 74,
+      "label": "Đèn xi nhan phải",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 1373,
+          "y": 505
+        },
+        {
+          "id": "lower",
+          "x": 1373,
+          "y": 525
+        }
+      ]
+    },
+    {
+      "id": "horn",
+      "type": "horn",
+      "x": 1428,
+      "y": 603,
+      "width": 43,
+      "height": 84,
+      "label": "Còi điện tử",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 1428,
+          "y": 634
+        },
+        {
+          "id": "lower",
+          "x": 1428,
+          "y": 656
+        }
+      ]
+    },
+    {
+      "id": "locator",
+      "type": "device",
+      "x": 737,
+      "y": 684,
+      "width": 423,
+      "height": 194,
+      "label": "Hộp định vị xe — đầu nối 10P/Bl",
+      "terminals": [
+        {
+          "id": "p10",
+          "label": "10",
+          "x": 774,
+          "y": 684
+        },
+        {
+          "id": "p8",
+          "label": "8",
+          "x": 817,
+          "y": 684
+        },
+        {
+          "id": "p7",
+          "label": "7",
+          "x": 858,
+          "y": 684
+        },
+        {
+          "id": "p1",
+          "label": "1",
+          "x": 899,
+          "y": 684
+        },
+        {
+          "id": "p6",
+          "label": "6",
+          "x": 940,
+          "y": 684
+        },
+        {
+          "id": "p3",
+          "label": "3",
+          "x": 986,
+          "y": 684
+        },
+        {
+          "id": "p2",
+          "label": "2",
+          "x": 1032,
+          "y": 684
+        },
+        {
+          "id": "p4",
+          "label": "4",
+          "x": 1078,
+          "y": 684
+        },
+        {
+          "id": "p5",
+          "label": "5",
+          "x": 1124,
+          "y": 684
+        }
+      ]
+    },
+    {
+      "id": "ground-battery",
+      "type": "ground",
+      "x": 147,
+      "y": 393,
+      "width": 40,
+      "height": 24,
+      "label": "Mass ắc quy",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 167,
+          "y": 393
+        }
+      ]
+    },
+    {
+      "id": "ground-left",
+      "type": "ground",
+      "x": 1321,
+      "y": 453,
+      "width": 40,
+      "height": 25,
+      "label": "Mass xi nhan trái",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1341,
+          "y": 453
+        }
+      ]
+    },
+    {
+      "id": "ground-right",
+      "type": "ground",
+      "x": 1318,
+      "y": 557,
+      "width": 40,
+      "height": 25,
+      "label": "Mass xi nhan phải",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1338,
+          "y": 557
+        }
+      ]
+    },
+    {
+      "id": "ground-locator",
+      "type": "ground",
+      "x": 669,
+      "y": 691,
+      "width": 41,
+      "height": 25,
+      "label": "Mass hộp định vị",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 689,
+          "y": 691
+        }
+      ]
+    },
+    {
+      "id": "j-r-fi",
+      "type": "junction",
+      "x": 269,
+      "y": 215,
+      "width": 8,
+      "height": 8,
+      "label": "Nhánh R cấp FI",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 273,
+          "y": 219
+        }
+      ]
+    },
+    {
+      "id": "j-r-answer",
+      "type": "junction",
+      "x": 269,
+      "y": 298,
+      "width": 8,
+      "height": 8,
+      "label": "Nhánh R cấp ANSWER BACK",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 273,
+          "y": 302
+        }
+      ]
+    },
+    {
+      "id": "j-p",
+      "type": "junction",
+      "x": 558,
+      "y": 415,
+      "width": 26,
+      "height": 25,
+      "label": "Điểm nối P/Bl",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 571,
+          "y": 427
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w-battery-r",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "positive"
+      },
+      "to": {
+        "componentId": "j-r-answer",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 273,
+          "y": 349
+        },
+        {
+          "x": 273,
+          "y": 302
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#ff0000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-bus",
+      "from": {
+        "componentId": "j-r-answer",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "j-r-fi",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 273,
+          "y": 302
+        },
+        {
+          "x": 273,
+          "y": 219
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#ff0000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-main",
+      "from": {
+        "componentId": "j-r-fi",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-main",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 273,
+          "y": 219
+        },
+        {
+          "x": 273,
+          "y": 141
+        },
+        {
+          "x": 378,
+          "y": 141
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#ff0000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-fi",
+      "from": {
+        "componentId": "j-r-fi",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-fi",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 273,
+          "y": 219
+        },
+        {
+          "x": 378,
+          "y": 219
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#ff0000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-answer",
+      "from": {
+        "componentId": "j-r-answer",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-answer",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 273,
+          "y": 302
+        },
+        {
+          "x": 379,
+          "y": 302
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#ff0000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-battery-ground",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "negative"
+      },
+      "to": {
+        "componentId": "ground-battery",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 213,
+          "y": 349
+        },
+        {
+          "x": 213,
+          "y": 302
+        },
+        {
+          "x": 167,
+          "y": 302
+        },
+        {
+          "x": 167,
+          "y": 393
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-main-relay",
+      "from": {
+        "componentId": "fuse-main",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "relay-main",
+        "terminalId": "contact-left"
+      },
+      "points": [
+        {
+          "x": 465,
+          "y": 141
+        },
+        {
+          "x": 774,
+          "y": 141
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#ff0000",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-fi-switch",
+      "from": {
+        "componentId": "fuse-fi",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "switch-ign",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 465,
+          "y": 219
+        },
+        {
+          "x": 581,
+          "y": 219
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#ff0000",
+      "stripeColor": "#000000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-switch-relay",
+      "from": {
+        "componentId": "switch-ign",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "relay-main",
+        "terminalId": "coil-left"
+      },
+      "points": [
+        {
+          "x": 657,
+          "y": 219
+        },
+        {
+          "x": 774,
+          "y": 219
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#000000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-ecm",
+      "from": {
+        "componentId": "relay-main",
+        "terminalId": "coil-right"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 849,
+          "y": 219
+        },
+        {
+          "x": 922,
+          "y": 219
+        },
+        {
+          "x": 922,
+          "y": 269
+        }
+      ],
+      "code": "W/Bl",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#000000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-turn",
+      "from": {
+        "componentId": "relay-main",
+        "terminalId": "contact-right"
+      },
+      "to": {
+        "componentId": "fuse-turn",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 849,
+          "y": 142
+        },
+        {
+          "x": 1020,
+          "y": 142
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#ff0000",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-turn-locator",
+      "from": {
+        "componentId": "fuse-turn",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "locator",
+        "terminalId": "p6"
+      },
+      "points": [
+        {
+          "x": 1103,
+          "y": 142
+        },
+        {
+          "x": 1319,
+          "y": 142
+        },
+        {
+          "x": 1319,
+          "y": 371
+        },
+        {
+          "x": 940,
+          "y": 371
+        },
+        {
+          "x": 940,
+          "y": 684
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#000000",
+      "stripeColor": "#a08460",
+      "state": "controlled"
+    },
+    {
+      "id": "w-answer-j",
+      "from": {
+        "componentId": "fuse-answer",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "j-p",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 464,
+          "y": 302
+        },
+        {
+          "x": 571,
+          "y": 302
+        },
+        {
+          "x": 571,
+          "y": 427
+        }
+      ],
+      "code": "P/Bl",
+      "primaryColor": "#f2a5bb",
+      "stripeColor": "#000000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-j-seat",
+      "from": {
+        "componentId": "j-p",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "led-seat",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 571,
+          "y": 427
+        },
+        {
+          "x": 454,
+          "y": 427
+        }
+      ],
+      "code": "P/Bl",
+      "primaryColor": "#f2a5bb",
+      "stripeColor": "#000000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-j-key",
+      "from": {
+        "componentId": "j-p",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "led-key",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 571,
+          "y": 427
+        },
+        {
+          "x": 571,
+          "y": 547
+        },
+        {
+          "x": 454,
+          "y": 547
+        }
+      ],
+      "code": "P/Bl",
+      "primaryColor": "#f2a5bb",
+      "stripeColor": "#000000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-j-locator",
+      "from": {
+        "componentId": "j-p",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "locator",
+        "terminalId": "p1"
+      },
+      "points": [
+        {
+          "x": 571,
+          "y": 427
+        },
+        {
+          "x": 899,
+          "y": 427
+        },
+        {
+          "x": 899,
+          "y": 684
+        }
+      ],
+      "code": "P/Bl",
+      "primaryColor": "#f2a5bb",
+      "stripeColor": "#000000",
+      "state": "controlled"
+    },
+    {
+      "id": "w-seat-locator",
+      "from": {
+        "componentId": "led-seat",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "locator",
+        "terminalId": "p7"
+      },
+      "points": [
+        {
+          "x": 454,
+          "y": 456
+        },
+        {
+          "x": 858,
+          "y": 456
+        },
+        {
+          "x": 858,
+          "y": 684
+        }
+      ],
+      "code": "Gr",
+      "primaryColor": "#a6a6a6",
+      "state": "controlled"
+    },
+    {
+      "id": "w-key-locator",
+      "from": {
+        "componentId": "led-key",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "locator",
+        "terminalId": "p8"
+      },
+      "points": [
+        {
+          "x": 454,
+          "y": 578
+        },
+        {
+          "x": 817,
+          "y": 578
+        },
+        {
+          "x": 817,
+          "y": 684
+        }
+      ],
+      "code": "Gr",
+      "primaryColor": "#a6a6a6",
+      "state": "controlled"
+    },
+    {
+      "id": "w-locator-ground",
+      "from": {
+        "componentId": "locator",
+        "terminalId": "p10"
+      },
+      "to": {
+        "componentId": "ground-locator",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 774,
+          "y": 684
+        },
+        {
+          "x": 774,
+          "y": 625
+        },
+        {
+          "x": 689,
+          "y": 625
+        },
+        {
+          "x": 689,
+          "y": 691
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-locator-left",
+      "from": {
+        "componentId": "locator",
+        "terminalId": "p3"
+      },
+      "to": {
+        "componentId": "lamp-left",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 986,
+          "y": 684
+        },
+        {
+          "x": 986,
+          "y": 405
+        },
+        {
+          "x": 1378,
+          "y": 405
+        }
+      ],
+      "code": "O",
+      "primaryColor": "#ff9933",
+      "state": "controlled"
+    },
+    {
+      "id": "w-left-ground",
+      "from": {
+        "componentId": "lamp-left",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "ground-left",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1378,
+          "y": 425
+        },
+        {
+          "x": 1341,
+          "y": 425
+        },
+        {
+          "x": 1341,
+          "y": 453
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-locator-right",
+      "from": {
+        "componentId": "locator",
+        "terminalId": "p2"
+      },
+      "to": {
+        "componentId": "lamp-right",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 1032,
+          "y": 684
+        },
+        {
+          "x": 1032,
+          "y": 505
+        },
+        {
+          "x": 1373,
+          "y": 505
+        }
+      ],
+      "code": "Lb",
+      "primaryColor": "#87ceeb",
+      "state": "controlled"
+    },
+    {
+      "id": "w-right-ground",
+      "from": {
+        "componentId": "lamp-right",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "ground-right",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1373,
+          "y": 525
+        },
+        {
+          "x": 1338,
+          "y": 525
+        },
+        {
+          "x": 1338,
+          "y": 557
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00a651",
+      "state": "controlled"
+    },
+    {
+      "id": "w-locator-horn-bu",
+      "from": {
+        "componentId": "locator",
+        "terminalId": "p4"
+      },
+      "to": {
+        "componentId": "horn",
+        "terminalId": "upper"
+      },
+      "points": [
+        {
+          "x": 1078,
+          "y": 684
+        },
+        {
+          "x": 1078,
+          "y": 634
+        },
+        {
+          "x": 1428,
+          "y": 634
+        }
+      ],
+      "code": "Bu",
+      "primaryColor": "#00b5e2",
+      "state": "controlled"
+    },
+    {
+      "id": "w-locator-horn-gp",
+      "from": {
+        "componentId": "locator",
+        "terminalId": "p5"
+      },
+      "to": {
+        "componentId": "horn",
+        "terminalId": "lower"
+      },
+      "points": [
+        {
+          "x": 1124,
+          "y": 684
+        },
+        {
+          "x": 1124,
+          "y": 656
+        },
+        {
+          "x": 1428,
+          "y": 656
+        }
+      ],
+      "code": "G/P",
+      "primaryColor": "#00a651",
+      "stripeColor": "#f2a5bb",
+      "state": "controlled"
+    }
+  ],
+  "exportMetadata": {
+    "version": 1,
+    "vehicle": {
+      "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+      "vehicleId": "38770-kvg-v42",
+      "vehicleTitle": "AIR BLADE 2011 - 2012",
+      "manufacturer": "HONDA",
+      "modelYear": "2011-2012",
+      "ecmId": "01 00 F9",
+      "scuId": null
+    },
+    "circuit": {
+      "id": "6665fbdc-88a2-46fc-a796-476fd9000ba1",
+      "key": "vehicle-gps",
+      "title": "Mạch điện xác định vị trí xe",
+      "progressStatus": "DONE",
+      "savedProgressStatus": "DONE",
+      "progressNote": "",
+      "technicalStatus": "NEEDS_REVIEW",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z"
+    },
+    "unsavedChanges": false
+  }
+}

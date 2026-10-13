@@ -1,0 +1,649 @@
+{
+  "checkedAt": "2026-10-13T13:53:35.210992+07:00",
+  "origin": "https://auto2tech-app-production.up.railway.app",
+  "projects": [
+    {
+      "vehicleId": "sh-125-2026-abs",
+      "vehicleTitle": "SH 2026 (125 / ABS)",
+      "projectId": "e4ae2fcf-26d6-41c9-9006-a4ffb71a8253",
+      "archive": "sh-125-2026-abs.diagram-project.zip",
+      "archiveSha256": "37edfff8c4f740f34df6d8a7ad152d27843ce611462b4bc146e936b87fb3e1e1",
+      "sourceImages": [
+        {
+          "circuitId": "8bd51cad-9983-40c5-8315-8ca043a6f54f",
+          "circuitKey": "power-distribution",
+          "circuitTitle": "Mạch cấp nguồn",
+          "originalFileName": "1 MACH CAP NGUON SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/power-distribution/sh-125-2026-abs-power-distribution.source.jpg",
+          "bytes": 646657,
+          "sha256": "cc0d558e20fad0a69f4222c9857b87427cedab203eec9c47580d06c4e72ca835"
+        },
+        {
+          "circuitId": "a7a14e98-0436-4886-9a18-a1841042c4f9",
+          "circuitKey": "horn",
+          "circuitTitle": "Mạch còi",
+          "originalFileName": "2 MACH COI SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/horn/sh-125-2026-abs-horn.source.jpg",
+          "bytes": 324413,
+          "sha256": "e75108474b5858361e48a584d009a5a7e999a137780b42df441880b24c8db13f"
+        },
+        {
+          "circuitId": "4453e91d-bdad-4af5-b71a-f06e85869185",
+          "circuitKey": "turn-signals",
+          "circuitTitle": "Mạch xi nhan",
+          "originalFileName": "3 MACH XI NHAN SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/turn-signals/sh-125-2026-abs-turn-signals.source.jpg",
+          "bytes": 357255,
+          "sha256": "79d3f9c80d90fe3d08f2fa302a95a61301cdb680b59799a148ccf9f5c2acf91c"
+        },
+        {
+          "circuitId": "5c1f9100-4390-44ee-b3f6-17523d0abdc2",
+          "circuitKey": "brake-light",
+          "circuitTitle": "Mạch đèn phanh",
+          "originalFileName": "4 MACH DEN PHANH SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/brake-light/sh-125-2026-abs-brake-light.source.jpg",
+          "bytes": 317664,
+          "sha256": "45efb23a185aec0741be9fa40ec04b03e7e4b5e2b7b2af77ec1b3a4e904571ed"
+        },
+        {
+          "circuitId": "87c59366-d419-4639-b8d0-7d10fb7a0627",
+          "circuitKey": "fuel-indicator",
+          "circuitTitle": "Mạch báo xăng",
+          "originalFileName": "5 MACH BAO XANG SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/fuel-indicator/sh-125-2026-abs-fuel-indicator.source.jpg",
+          "bytes": 374909,
+          "sha256": "90a24eefc12b9f643d731687889f10629f447743046856bd86a21b5ac69e89d6"
+        },
+        {
+          "circuitId": "f368b461-d54c-45ff-a519-2ee78cf8eeff",
+          "circuitKey": "night-lighting",
+          "circuitTitle": "Mạch đèn đêm",
+          "originalFileName": "6 MACH DEN DEM SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/night-lighting/sh-125-2026-abs-night-lighting.source.jpg",
+          "bytes": 446919,
+          "sha256": "24b79be3d4c8ea0bc4a6a5f65fc74cb4a6eb39b63485ad73cf08f0f149ccad68"
+        },
+        {
+          "circuitId": "17a560f3-dec2-41f9-9064-47e8c65cffac",
+          "circuitKey": "vehicle-speed",
+          "circuitTitle": "Mạch đồng hồ báo tốc độ xe",
+          "originalFileName": "8 MACH DONG HO CONG TO MET SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/vehicle-speed/sh-125-2026-abs-vehicle-speed.source.jpg",
+          "bytes": 450717,
+          "sha256": "c29f80d61b7fa5c2191d603f9f2388b92504e1263cb1116846435485ba9f282b"
+        },
+        {
+          "circuitId": "3a0a0cd2-52ff-4c57-a468-34895cd86171",
+          "circuitKey": "ignition",
+          "circuitTitle": "Mạch đánh lửa",
+          "originalFileName": "7 MACH DANH LUA SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/ignition/sh-125-2026-abs-ignition.source.jpg",
+          "bytes": 618300,
+          "sha256": "64ef05c36e647714830de3e7e7b6f7e2e05ed116238577a9fda934d2918434d6"
+        },
+        {
+          "circuitId": "327df710-4e20-45e6-84bb-b8056bd260cc",
+          "circuitKey": "starting",
+          "circuitTitle": "Mạch khởi động",
+          "originalFileName": "9 MACH KHOI DONG SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/starting/sh-125-2026-abs-starting.source.jpg",
+          "bytes": 586076,
+          "sha256": "95677a32bffc840311ef9ef4e39a07c2b99fb145c98d079a8086c3f2159c906f"
+        },
+        {
+          "circuitId": "00509cb2-d74e-461e-9a61-76582ea962eb",
+          "circuitKey": "idling-stop",
+          "circuitTitle": "Mạch dừng động cơ tạm thời (Idling Stop)",
+          "originalFileName": "10 MACH DUNG CAM CHUNG SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/idling-stop/sh-125-2026-abs-idling-stop.source.jpg",
+          "bytes": 702776,
+          "sha256": "ccd43179cab04b5cf86dc1e2987ef02f947799f553ad9576c387e47909da67c2"
+        },
+        {
+          "circuitId": "70d475d0-bd14-41e6-9e3d-d14262d01e5f",
+          "circuitKey": "smartkey-system",
+          "circuitTitle": "Sơ đồ hệ thống khóa thông minh (Smartkey)",
+          "originalFileName": "11 SO DO NGUYEN LY SMARTKEY SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/smartkey-system/sh-125-2026-abs-smartkey-system.source.jpg",
+          "bytes": 739230,
+          "sha256": "d089bf823e120b7c26b1e8b71811adfb6125076fef73a3aada17fa45da296742"
+        },
+        {
+          "circuitId": "b8a3f5ad-326d-4d4c-a676-751b3759fbe7",
+          "circuitKey": "abs",
+          "circuitTitle": "Sơ đồ hệ thống chống bó cứng phanh (ABS)",
+          "originalFileName": "12 SO DO NGUYEN LY ABS SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/abs/sh-125-2026-abs-abs.source.jpg",
+          "bytes": 784810,
+          "sha256": "42df349e4decaa0b8ea08b540edc2ebdab0f17418059476f79c2a7b6c4350ed7"
+        },
+        {
+          "circuitId": "0cb8d560-7066-419d-88f5-b0dd96f4fcf5",
+          "circuitKey": "pgm-fi",
+          "circuitTitle": "Sơ đồ hệ thống phun xăng điện tử (PGM-Fi)",
+          "originalFileName": "13 SO DO NGUYEN LY PGM-FI SH VN 125 ABS 2026.jpg",
+          "archivePath": "sh-125-2026-abs/pgm-fi/sh-125-2026-abs-pgm-fi.source.jpg",
+          "bytes": 1041455,
+          "sha256": "efffe988984fe421655575e3c637fabafbec05d5cbe43afa673eb2548cb1a529"
+        }
+      ],
+      "schemaFiles": [],
+      "imageCount": 13
+    },
+    {
+      "vehicleId": "sh-125-2026-cbs",
+      "vehicleTitle": "SH 2026 (125 / CBS)",
+      "projectId": "95ae0446-a26d-473d-8b90-4a4b3f83e347",
+      "archive": "sh-125-2026-cbs.diagram-project.zip",
+      "archiveSha256": "c12c2db3da9b3b870b8d1adece906bcd669c644fd22c4e93a5378a48ff7c262e",
+      "sourceImages": [
+        {
+          "circuitId": "fa4b1db4-f60d-4945-8af8-675f1fdad4e2",
+          "circuitKey": "power-distribution",
+          "circuitTitle": "Mạch cấp nguồn",
+          "originalFileName": "1 MACH CAP NGUON SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/power-distribution/sh-125-2026-cbs-power-distribution.source.jpg",
+          "bytes": 581650,
+          "sha256": "2c8981c6d3329de88fc25d8bf618061c10d16d75f69e7cd7fe5f456ffc21d225"
+        },
+        {
+          "circuitId": "6a39dc52-0243-497c-8860-060a1d4a0fe2",
+          "circuitKey": "horn",
+          "circuitTitle": "Mạch còi",
+          "originalFileName": "2 MACH COI SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/horn/sh-125-2026-cbs-horn.source.jpg",
+          "bytes": 324413,
+          "sha256": "e75108474b5858361e48a584d009a5a7e999a137780b42df441880b24c8db13f"
+        },
+        {
+          "circuitId": "41ab7dd8-65dd-45f4-9a85-9496f776b006",
+          "circuitKey": "turn-signals",
+          "circuitTitle": "Mạch xi nhan",
+          "originalFileName": "3 MACH XI NHAN SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/turn-signals/sh-125-2026-cbs-turn-signals.source.jpg",
+          "bytes": 357255,
+          "sha256": "79d3f9c80d90fe3d08f2fa302a95a61301cdb680b59799a148ccf9f5c2acf91c"
+        },
+        {
+          "circuitId": "5c9091de-32ba-4c59-8da3-5cc5f433e85b",
+          "circuitKey": "brake-light",
+          "circuitTitle": "Mạch đèn phanh",
+          "originalFileName": "4 MACH DEN PHANH SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/brake-light/sh-125-2026-cbs-brake-light.source.jpg",
+          "bytes": 317664,
+          "sha256": "45efb23a185aec0741be9fa40ec04b03e7e4b5e2b7b2af77ec1b3a4e904571ed"
+        },
+        {
+          "circuitId": "67416033-ca96-4b0c-807c-354a7f0562b5",
+          "circuitKey": "fuel-indicator",
+          "circuitTitle": "Mạch báo xăng",
+          "originalFileName": "5 MACH BAO XANG SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/fuel-indicator/sh-125-2026-cbs-fuel-indicator.source.jpg",
+          "bytes": 374909,
+          "sha256": "90a24eefc12b9f643d731687889f10629f447743046856bd86a21b5ac69e89d6"
+        },
+        {
+          "circuitId": "dbb237cf-fccb-4db3-b672-d8fcbb345b46",
+          "circuitKey": "night-lighting",
+          "circuitTitle": "Mạch đèn đêm",
+          "originalFileName": "6 MACH DEN DEM SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/night-lighting/sh-125-2026-cbs-night-lighting.source.jpg",
+          "bytes": 446919,
+          "sha256": "24b79be3d4c8ea0bc4a6a5f65fc74cb4a6eb39b63485ad73cf08f0f149ccad68"
+        },
+        {
+          "circuitId": "cd1dca3d-5ee7-41fe-b9d9-23fcef534d09",
+          "circuitKey": "vehicle-speed",
+          "circuitTitle": "Mạch đồng hồ báo tốc độ xe",
+          "originalFileName": "8 MACH DONG HO CONG TO MET SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/vehicle-speed/sh-125-2026-cbs-vehicle-speed.source.jpg",
+          "bytes": 396395,
+          "sha256": "21cae82b84459823066c717f126888b6cf737dafbd0dbf8867e523e451b619e6"
+        },
+        {
+          "circuitId": "dd54b064-b35e-4edd-af81-fc037e9c03de",
+          "circuitKey": "ignition",
+          "circuitTitle": "Mạch đánh lửa",
+          "originalFileName": "7 MACH DANH LUA SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/ignition/sh-125-2026-cbs-ignition.source.jpg",
+          "bytes": 618300,
+          "sha256": "64ef05c36e647714830de3e7e7b6f7e2e05ed116238577a9fda934d2918434d6"
+        },
+        {
+          "circuitId": "a318fd68-23e3-41eb-8c5a-6fc7c3a1f976",
+          "circuitKey": "starting",
+          "circuitTitle": "Mạch khởi động",
+          "originalFileName": "9 MACH KHOI DONG SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/starting/sh-125-2026-cbs-starting.source.jpg",
+          "bytes": 586076,
+          "sha256": "95677a32bffc840311ef9ef4e39a07c2b99fb145c98d079a8086c3f2159c906f"
+        },
+        {
+          "circuitId": "290a412e-4b50-402f-aadd-5c1f2f2614b0",
+          "circuitKey": "idling-stop",
+          "circuitTitle": "Mạch dừng động cơ tạm thời (Idling Stop)",
+          "originalFileName": "10 MACH DUNG CAM CHUNG SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/idling-stop/sh-125-2026-cbs-idling-stop.source.jpg",
+          "bytes": 677149,
+          "sha256": "1e4f1c855ed88ff4608df672a1f1364540908f5882dd428ca5acfac27fc38206"
+        },
+        {
+          "circuitId": "f821dc65-9ea5-473d-ac8a-fa03ec0ab539",
+          "circuitKey": "smartkey-system",
+          "circuitTitle": "Sơ đồ hệ thống khóa thông minh (Smartkey)",
+          "originalFileName": "11 SO DO NGUYEN LY SMARTKEY SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/smartkey-system/sh-125-2026-cbs-smartkey-system.source.jpg",
+          "bytes": 739230,
+          "sha256": "d089bf823e120b7c26b1e8b71811adfb6125076fef73a3aada17fa45da296742"
+        },
+        {
+          "circuitId": "52ba0259-7a03-4c92-b36e-af1e4a3fb751",
+          "circuitKey": "pgm-fi",
+          "circuitTitle": "Sơ đồ hệ thống phun xăng điện tử (PGM-Fi)",
+          "originalFileName": "12 SO DO NGUYEN LY PGM-FI SH VN 125 CBS 2026.jpg",
+          "archivePath": "sh-125-2026-cbs/pgm-fi/sh-125-2026-cbs-pgm-fi.source.jpg",
+          "bytes": 1019860,
+          "sha256": "6e4cec6ef5c87ca21c65fa7b26423fd5aa3b0f7a1cbbaa15107103071cdf4ef3"
+        }
+      ],
+      "schemaFiles": [],
+      "imageCount": 12
+    },
+    {
+      "vehicleId": "sh-160-2026-abs",
+      "vehicleTitle": "SH 2026 (160 / ABS)",
+      "projectId": "8f72eef0-f9c3-45c6-a5f0-80b9219bc09c",
+      "archive": "sh-160-2026-abs.diagram-project.zip",
+      "archiveSha256": "3e6157242fa1881a922a75f423c5619da57a8a6e509b41e01888ad5ab4799192",
+      "sourceImages": [
+        {
+          "circuitId": "1c85a3fa-b91f-4c06-b061-9d21349b817d",
+          "circuitKey": "power-distribution",
+          "circuitTitle": "Mạch cấp nguồn",
+          "originalFileName": "1 MACH CAP NGUON SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/power-distribution/sh-160-2026-abs-power-distribution.source.jpg",
+          "bytes": 648609,
+          "sha256": "7f5fbc304706cf7a26df2597f3f0dce5710557f76e050fce17b4466eabdaafdf"
+        },
+        {
+          "circuitId": "99cf5520-e9d3-462b-908a-f8fc499f9700",
+          "circuitKey": "horn",
+          "circuitTitle": "Mạch còi",
+          "originalFileName": "2 MACH COI SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/horn/sh-160-2026-abs-horn.source.jpg",
+          "bytes": 324413,
+          "sha256": "e75108474b5858361e48a584d009a5a7e999a137780b42df441880b24c8db13f"
+        },
+        {
+          "circuitId": "3dad3932-fb4a-4c7c-b406-a15102df94b0",
+          "circuitKey": "turn-signals",
+          "circuitTitle": "Mạch xi nhan",
+          "originalFileName": "3 MACH XI NHAN SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/turn-signals/sh-160-2026-abs-turn-signals.source.jpg",
+          "bytes": 357255,
+          "sha256": "79d3f9c80d90fe3d08f2fa302a95a61301cdb680b59799a148ccf9f5c2acf91c"
+        },
+        {
+          "circuitId": "afac27cb-5557-4a9b-b239-770f07a5c8cd",
+          "circuitKey": "brake-light",
+          "circuitTitle": "Mạch đèn phanh",
+          "originalFileName": "4 MACH DEN PHANH SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/brake-light/sh-160-2026-abs-brake-light.source.jpg",
+          "bytes": 317664,
+          "sha256": "45efb23a185aec0741be9fa40ec04b03e7e4b5e2b7b2af77ec1b3a4e904571ed"
+        },
+        {
+          "circuitId": "ad1a59c8-bc99-433f-9394-93e4e3c5ca2b",
+          "circuitKey": "fuel-indicator",
+          "circuitTitle": "Mạch báo xăng",
+          "originalFileName": "5 MACH BAO XANG SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/fuel-indicator/sh-160-2026-abs-fuel-indicator.source.jpg",
+          "bytes": 374909,
+          "sha256": "90a24eefc12b9f643d731687889f10629f447743046856bd86a21b5ac69e89d6"
+        },
+        {
+          "circuitId": "196f2f24-4c41-4ff9-8731-f0e034276c55",
+          "circuitKey": "night-lighting",
+          "circuitTitle": "Mạch đèn đêm",
+          "originalFileName": "6 MACH DEN DEM SH VN  160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/night-lighting/sh-160-2026-abs-night-lighting.source.jpg",
+          "bytes": 446919,
+          "sha256": "24b79be3d4c8ea0bc4a6a5f65fc74cb4a6eb39b63485ad73cf08f0f149ccad68"
+        },
+        {
+          "circuitId": "2e447928-b984-4419-91d1-2cbdcdf1b09c",
+          "circuitKey": "vehicle-speed",
+          "circuitTitle": "Mạch đồng hồ báo tốc độ xe",
+          "originalFileName": "8 MACH DONG HO CONG TO MET SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/vehicle-speed/sh-160-2026-abs-vehicle-speed.source.jpg",
+          "bytes": 450717,
+          "sha256": "c29f80d61b7fa5c2191d603f9f2388b92504e1263cb1116846435485ba9f282b"
+        },
+        {
+          "circuitId": "75e05058-a431-4f74-b1e5-7f595a6a1396",
+          "circuitKey": "bluetooth",
+          "circuitTitle": "Mạch điện hệ thống Bluetooth",
+          "originalFileName": "7 MACH DIEN BLUETOOTH SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/bluetooth/sh-160-2026-abs-bluetooth.source.jpg",
+          "bytes": 472795,
+          "sha256": "88790936577a2b88ab8a46c6f083893b6d9e7fc77ef24a1d2bedd31f19d8f88a"
+        },
+        {
+          "circuitId": "44a66620-f56f-4428-b0ff-14e40c75523c",
+          "circuitKey": "ignition",
+          "circuitTitle": "Mạch đánh lửa",
+          "originalFileName": "9 MACH DANH LUA SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/ignition/sh-160-2026-abs-ignition.source.jpg",
+          "bytes": 614526,
+          "sha256": "58b638d76017c4309b2af38ab7269e71ccbff3a749ea3d154cdaf0c69db2bda6"
+        },
+        {
+          "circuitId": "ba7c7bac-a455-46b9-b3a5-aeee47929147",
+          "circuitKey": "starting",
+          "circuitTitle": "Mạch khởi động",
+          "originalFileName": "10 MACH KHOI DONG SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/starting/sh-160-2026-abs-starting.source.jpg",
+          "bytes": 584678,
+          "sha256": "360f1e4a3b5d56dbd4dd0f7a5f6e51985821ca0c7ef6e462b61183e561cf0931"
+        },
+        {
+          "circuitId": "490bd846-86e2-451c-a868-cf586f137f77",
+          "circuitKey": "idling-stop",
+          "circuitTitle": "Mạch dừng động cơ tạm thời (Idling Stop)",
+          "originalFileName": "11 MACH DUNG CAM CHUNG SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/idling-stop/sh-160-2026-abs-idling-stop.source.jpg",
+          "bytes": 701896,
+          "sha256": "13301f39513a8bc0bf64eea6d381aad66f1e747e5a68ce1ca403f8b3745d1627"
+        },
+        {
+          "circuitId": "68949599-0725-479f-9eaf-62c16fb6c4e7",
+          "circuitKey": "smartkey-system",
+          "circuitTitle": "Sơ đồ hệ thống khóa thông minh (Smartkey)",
+          "originalFileName": "12 SO DO NGUYEN LY SMARTKEY SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/smartkey-system/sh-160-2026-abs-smartkey-system.source.jpg",
+          "bytes": 739230,
+          "sha256": "d089bf823e120b7c26b1e8b71811adfb6125076fef73a3aada17fa45da296742"
+        },
+        {
+          "circuitId": "73870b8b-c0a7-4b54-8300-ebe1162ed68c",
+          "circuitKey": "abs",
+          "circuitTitle": "Sơ đồ hệ thống chống bó cứng phanh (ABS)",
+          "originalFileName": "13 SO DO NGUYEN LY ABS SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/abs/sh-160-2026-abs-abs.source.jpg",
+          "bytes": 783351,
+          "sha256": "03d1564c08914a4c94563be6ad65134c6ff2be7ab2133168cf2dd3fb4dcd35a7"
+        },
+        {
+          "circuitId": "0a7a9d53-75c4-4c6d-b9db-7ce4506f27e5",
+          "circuitKey": "pgm-fi",
+          "circuitTitle": "Sơ đồ hệ thống phun xăng điện tử (PGM-Fi)",
+          "originalFileName": "14 SO DO NGUYEN LY PGM-FI SH VN 160 ABS 2026.jpg",
+          "archivePath": "sh-160-2026-abs/pgm-fi/sh-160-2026-abs-pgm-fi.source.jpg",
+          "bytes": 1037993,
+          "sha256": "0f601a1c0a7eb8cd9dc3a46580fd2bd4f6e22490b7e752be1f972606d86fc0cc"
+        }
+      ],
+      "schemaFiles": [],
+      "imageCount": 14
+    },
+    {
+      "vehicleId": "sh-160-2026-cbs",
+      "vehicleTitle": "SH 2026 (160 / CBS)",
+      "projectId": "ce96a87a-2797-46ce-b91f-be90829f4428",
+      "archive": "sh-160-2026-cbs.diagram-project.zip",
+      "archiveSha256": "7aed750a4dede8dc4216ff1a2dcf63c6840e76c6e47d136bf9a87638a4afb08b",
+      "sourceImages": [
+        {
+          "circuitId": "93424a9b-b307-4b43-9dc5-c94202d79a42",
+          "circuitKey": "power-distribution",
+          "circuitTitle": "Mạch cấp nguồn",
+          "originalFileName": "1 MACH CAP NGUON SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/power-distribution/sh-160-2026-cbs-power-distribution.source.jpg",
+          "bytes": 585017,
+          "sha256": "4b816525cc1f89d9ad910cfd3b3b63d7248c4e69998904b360a0c4ae8fce46e2"
+        },
+        {
+          "circuitId": "3c75a4b8-9db2-4aad-83f7-430a7936243f",
+          "circuitKey": "horn",
+          "circuitTitle": "Mạch còi",
+          "originalFileName": "2 MACH COI SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/horn/sh-160-2026-cbs-horn.source.jpg",
+          "bytes": 324413,
+          "sha256": "e75108474b5858361e48a584d009a5a7e999a137780b42df441880b24c8db13f"
+        },
+        {
+          "circuitId": "800991e1-97b0-4aac-a984-c9dc8e0f5dbd",
+          "circuitKey": "turn-signals",
+          "circuitTitle": "Mạch xi nhan",
+          "originalFileName": "3 MACH XI NHAN SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/turn-signals/sh-160-2026-cbs-turn-signals.source.jpg",
+          "bytes": 357255,
+          "sha256": "79d3f9c80d90fe3d08f2fa302a95a61301cdb680b59799a148ccf9f5c2acf91c"
+        },
+        {
+          "circuitId": "f269de15-40c5-403d-9588-a96f619232ce",
+          "circuitKey": "brake-light",
+          "circuitTitle": "Mạch đèn phanh",
+          "originalFileName": "4 MACH DEN PHANH SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/brake-light/sh-160-2026-cbs-brake-light.source.jpg",
+          "bytes": 317664,
+          "sha256": "45efb23a185aec0741be9fa40ec04b03e7e4b5e2b7b2af77ec1b3a4e904571ed"
+        },
+        {
+          "circuitId": "176aabbc-c164-4954-8dd1-0b89c5914950",
+          "circuitKey": "fuel-indicator",
+          "circuitTitle": "Mạch báo xăng",
+          "originalFileName": "5 MACH BAO XANG SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/fuel-indicator/sh-160-2026-cbs-fuel-indicator.source.jpg",
+          "bytes": 374909,
+          "sha256": "90a24eefc12b9f643d731687889f10629f447743046856bd86a21b5ac69e89d6"
+        },
+        {
+          "circuitId": "842cd6b3-77ba-4896-8436-22c4b46ccf11",
+          "circuitKey": "night-lighting",
+          "circuitTitle": "Mạch đèn đêm",
+          "originalFileName": "6 MACH DEN DEM SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/night-lighting/sh-160-2026-cbs-night-lighting.source.jpg",
+          "bytes": 446919,
+          "sha256": "24b79be3d4c8ea0bc4a6a5f65fc74cb4a6eb39b63485ad73cf08f0f149ccad68"
+        },
+        {
+          "circuitId": "d96dd733-39bf-4f13-964f-141714023899",
+          "circuitKey": "vehicle-speed",
+          "circuitTitle": "Mạch đồng hồ báo tốc độ xe",
+          "originalFileName": "8 MACH DONG HO CONG TO MET SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/vehicle-speed/sh-160-2026-cbs-vehicle-speed.source.jpg",
+          "bytes": 396395,
+          "sha256": "21cae82b84459823066c717f126888b6cf737dafbd0dbf8867e523e451b619e6"
+        },
+        {
+          "circuitId": "88df885d-7969-42ec-ab74-d4c3f4c33d2a",
+          "circuitKey": "bluetooth",
+          "circuitTitle": "Mạch điện hệ thống Bluetooth",
+          "originalFileName": "7 MACH DIEN BLUETOOTH SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/bluetooth/sh-160-2026-cbs-bluetooth.source.jpg",
+          "bytes": 472795,
+          "sha256": "88790936577a2b88ab8a46c6f083893b6d9e7fc77ef24a1d2bedd31f19d8f88a"
+        },
+        {
+          "circuitId": "7031b47d-923d-4e04-8404-698fdbc1e23d",
+          "circuitKey": "ignition",
+          "circuitTitle": "Mạch đánh lửa",
+          "originalFileName": "9 MACH DANH LUA SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/ignition/sh-160-2026-cbs-ignition.source.jpg",
+          "bytes": 614526,
+          "sha256": "58b638d76017c4309b2af38ab7269e71ccbff3a749ea3d154cdaf0c69db2bda6"
+        },
+        {
+          "circuitId": "b5f4e18a-9162-4479-ac4f-7ec7a10c64b9",
+          "circuitKey": "starting",
+          "circuitTitle": "Mạch khởi động",
+          "originalFileName": "10 MACH KHOI DONG SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/starting/sh-160-2026-cbs-starting.source.jpg",
+          "bytes": 584678,
+          "sha256": "360f1e4a3b5d56dbd4dd0f7a5f6e51985821ca0c7ef6e462b61183e561cf0931"
+        },
+        {
+          "circuitId": "1088b0fa-570c-4ef7-9324-f4495f92eec6",
+          "circuitKey": "idling-stop",
+          "circuitTitle": "Mạch dừng động cơ tạm thời (Idling Stop)",
+          "originalFileName": "11 MACH DUNG CAM CHUNG SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/idling-stop/sh-160-2026-cbs-idling-stop.source.jpg",
+          "bytes": 685250,
+          "sha256": "1fcd4bbd6e039da049f5c7aa683ec2a5e87248c9c3ce0ccebf8ebb6dd4c8609e"
+        },
+        {
+          "circuitId": "22fc3542-a4aa-4de1-b17d-c0a7d85cab0f",
+          "circuitKey": "smartkey-system",
+          "circuitTitle": "Sơ đồ hệ thống khóa thông minh (Smartkey)",
+          "originalFileName": "12 SO DO NGUYEN LY SMARTKEY SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/smartkey-system/sh-160-2026-cbs-smartkey-system.source.jpg",
+          "bytes": 739230,
+          "sha256": "d089bf823e120b7c26b1e8b71811adfb6125076fef73a3aada17fa45da296742"
+        },
+        {
+          "circuitId": "9a45000c-e50c-49a5-aa13-e3070246d785",
+          "circuitKey": "pgm-fi",
+          "circuitTitle": "Sơ đồ hệ thống phun xăng điện tử (PGM-Fi)",
+          "originalFileName": "13 SO DO NGUYEN LY PGM-FI SH VN 160 CBS 2026.jpg",
+          "archivePath": "sh-160-2026-cbs/pgm-fi/sh-160-2026-cbs-pgm-fi.source.jpg",
+          "bytes": 1013254,
+          "sha256": "cba789730f8e06c633cff836c9429270a4bd6d1b4091a66aef32e37cc1b4c8a3"
+        }
+      ],
+      "schemaFiles": [],
+      "imageCount": 13
+    },
+    {
+      "vehicleId": "air-blade-2026-125-abs",
+      "vehicleTitle": "AIR BLADE 2026 (125 / ABS)",
+      "projectId": "60be8ca5-c326-4c55-a952-3b1295995574",
+      "archive": "air-blade-2026-125-abs.diagram-project.zip",
+      "archiveSha256": "6b83a9c7ef6d50703915863e1a969171a5d488239bedd717e01586bf7b69e069",
+      "sourceImages": [
+        {
+          "circuitId": "7970805d-824d-49f5-9a7f-c52d570637f6",
+          "circuitKey": "power-distribution",
+          "circuitTitle": "Mạch cấp nguồn",
+          "originalFileName": "1 MACH CAP NGUON.jpg",
+          "archivePath": "air-blade-2026-125-abs/power-distribution/air-blade-2026-125-abs-power-distribution.source.jpg",
+          "bytes": 594180,
+          "sha256": "08bad170bb335ea68fa4667b1b9a71e9d7e767e976b597a77f74c8450c74ebe1"
+        },
+        {
+          "circuitId": "74da9684-87af-4d1b-8206-0b84dea9bbb1",
+          "circuitKey": "horn",
+          "circuitTitle": "Mạch còi",
+          "originalFileName": "2 MACH COI.jpg",
+          "archivePath": "air-blade-2026-125-abs/horn/air-blade-2026-125-abs-horn.source.jpg",
+          "bytes": 333274,
+          "sha256": "7af82f726c143d67c3af0611d251014295c0fb734402bee5857d633ce5073527"
+        },
+        {
+          "circuitId": "d09033be-3b0f-4382-91b0-5275c7a50d9f",
+          "circuitKey": "turn-signals",
+          "circuitTitle": "Mạch xi nhan",
+          "originalFileName": "3 MACH XI NHAN.jpg",
+          "archivePath": "air-blade-2026-125-abs/turn-signals/air-blade-2026-125-abs-turn-signals.source.jpg",
+          "bytes": 397650,
+          "sha256": "d88141f38ecf64524ed610d7d361d5065c54f48e89d89da1158501d72bfdb50c"
+        },
+        {
+          "circuitId": "9bb1c6f7-072b-49c7-8925-ff6d8e0b9dd9",
+          "circuitKey": "brake-light",
+          "circuitTitle": "Mạch đèn phanh",
+          "originalFileName": "4 MACH DEN PHANH.jpg",
+          "archivePath": "air-blade-2026-125-abs/brake-light/air-blade-2026-125-abs-brake-light.source.jpg",
+          "bytes": 352747,
+          "sha256": "8bce8fa4ad4ea50cac66168332cc45ec990d84b5fd91680bd8a3035c7c766578"
+        },
+        {
+          "circuitId": "4b08a891-5b80-4942-8702-3ccdb1fe78f4",
+          "circuitKey": "fuel-indicator",
+          "circuitTitle": "Mạch báo xăng",
+          "originalFileName": "5 MACH BAO XANG.jpg",
+          "archivePath": "air-blade-2026-125-abs/fuel-indicator/air-blade-2026-125-abs-fuel-indicator.source.jpg",
+          "bytes": 930056,
+          "sha256": "648ee4e9bce1495cc5eef9d2ce8d392caa1da8302f89cd0b13e0a59c68f3e7ee"
+        },
+        {
+          "circuitId": "abd3a0d4-1de9-4946-bdce-c4571223d1f8",
+          "circuitKey": "night-lighting",
+          "circuitTitle": "Mạch đèn đêm",
+          "originalFileName": "7 MACH DEN DEM_4.jpg",
+          "archivePath": "air-blade-2026-125-abs/night-lighting/air-blade-2026-125-abs-night-lighting.source.jpg",
+          "bytes": 472961,
+          "sha256": "6aab8cfb602d00c234d6d274fcc76ae55ac43e6b488345266465b144068ef52a"
+        },
+        {
+          "circuitId": "e7924fdc-8781-4d07-9c76-47bf853d8f5a",
+          "circuitKey": "vehicle-speed",
+          "circuitTitle": "Mạch đồng hồ tốc độ",
+          "originalFileName": "6 MACH DONG HO CONG TO MET.jpg",
+          "archivePath": "air-blade-2026-125-abs/vehicle-speed/air-blade-2026-125-abs-vehicle-speed.source.jpg",
+          "bytes": 436975,
+          "sha256": "9e46f3613616796c3f930211d226380c1283b93986dc8564a34d44a7061cb6a8"
+        },
+        {
+          "circuitId": "79b10e0a-2e20-4a4c-861b-669ece6f2948",
+          "circuitKey": "ignition",
+          "circuitTitle": "Mạch đánh lửa",
+          "originalFileName": "9 MACH DANH LUA.jpg",
+          "archivePath": "air-blade-2026-125-abs/ignition/air-blade-2026-125-abs-ignition.source.jpg",
+          "bytes": 616066,
+          "sha256": "a7c3e4dd68955f8404330d9f1c08e2e63248cb59fb5d414ccbeb717af00bedf5"
+        },
+        {
+          "circuitId": "e02fc83c-de8d-41b7-943c-29a766c1a299",
+          "circuitKey": "starting",
+          "circuitTitle": "Mạch khởi động",
+          "originalFileName": "8 MACH KHOI DONG.jpg",
+          "archivePath": "air-blade-2026-125-abs/starting/air-blade-2026-125-abs-starting.source.jpg",
+          "bytes": 633777,
+          "sha256": "34500d94c75bf6531310cd6d0abb07a686754e0e81fe829263d37cfda74fb5c3"
+        },
+        {
+          "circuitId": "48a9554b-91c9-48e3-b423-4743f8da6fdf",
+          "circuitKey": "idling-stop",
+          "circuitTitle": "Mạch dừng cầm chừng",
+          "originalFileName": "10 MACH DUNG CAM CHUNG_2.jpg",
+          "archivePath": "air-blade-2026-125-abs/idling-stop/air-blade-2026-125-abs-idling-stop.source.jpg",
+          "bytes": 1501040,
+          "sha256": "742c7d1d89a30de50c117261a1d883dcec0d44d56b199aa601fdfd5ac1250991"
+        },
+        {
+          "circuitId": "70279603-9079-43fb-afe8-e0e3e227b98d",
+          "circuitKey": "smartkey-system",
+          "circuitTitle": "Sơ đồ hệ thống khóa thông minh",
+          "originalFileName": "11 SO DO NGUYEN LY SMARTKEY.jpg",
+          "archivePath": "air-blade-2026-125-abs/smartkey-system/air-blade-2026-125-abs-smartkey-system.source.jpg",
+          "bytes": 877123,
+          "sha256": "c30e06ac31e9dc2d6589052b23a825f342f85e0cb9b8d9aff6eff4fc30c09fe6"
+        },
+        {
+          "circuitId": "ed733934-7376-4e4a-b7bc-3f14688793c8",
+          "circuitKey": "abs",
+          "circuitTitle": "Sơ đồ hệ thống chống bó cứng phanh ABS",
+          "originalFileName": "12 SO DO NGUYEN LY ABS.jpg",
+          "archivePath": "air-blade-2026-125-abs/abs/air-blade-2026-125-abs-abs.source.jpg",
+          "bytes": 794342,
+          "sha256": "41d5e12de006764d000c5d15466829dbd1dd6d0b02b3a3c93e72bbba66cdd899"
+        },
+        {
+          "circuitId": "b4898a8d-c670-4fb8-9a29-e40f81312a11",
+          "circuitKey": "pgm-fi",
+          "circuitTitle": "Sơ đồ hệ thống phun xăng điện tử PGM-FI",
+          "originalFileName": "13 SO DO NGUYEN LY PGM-FI.jpg",
+          "archivePath": "air-blade-2026-125-abs/pgm-fi/air-blade-2026-125-abs-pgm-fi.source.jpg",
+          "bytes": 1985544,
+          "sha256": "d102a7a8e3933842ba5ea6868d97fc8c84277048a7e0acd94e4c21b36b5a7e12"
+        }
+      ],
+      "schemaFiles": [],
+      "imageCount": 13
+    }
+  ],
+  "totalSourceImages": 65,
+  "totalGeneratedSchemas": 0,
+  "checks": "ZIP CRC, source presence, byte size against API record, schema absence, SHA-256"
+}

@@ -1,0 +1,722 @@
+{
+  "circuitNumber": "06",
+  "circuitKey": "night-lighting",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+  "sourceImageSha256": "cd541b87363b18f64de278d921a7397be942f2ff4488c044ed0c27f9b35f6ef1",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1302,
+    747
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 98,
+        "y": 341,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 114,
+          "y": 347,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 162,
+          "y": 347,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 61,
+        "y": 371,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 76,
+          "y": 371,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 236,
+        "y": 291,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 236,
+          "y": 307,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 306,
+          "y": 307,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "switch",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 429,
+        "y": 283,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 429,
+          "y": 307,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 499,
+          "y": 307,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "meter-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) METER / PO",
+      "sourceBox": {
+        "x": 670,
+        "y": 352,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 670,
+          "y": 367,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 740,
+          "y": 367,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "hl-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) H/L",
+      "sourceBox": {
+        "x": 670,
+        "y": 291,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 670,
+          "y": 307,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 740,
+          "y": 307,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "cluster",
+      "glyph": "module",
+      "observedText": "CỤM ĐỒNG HỒ",
+      "sourceBox": {
+        "x": 981,
+        "y": 58,
+        "width": 205,
+        "height": 77
+      },
+      "ports": [
+        {
+          "id": "6",
+          "x": 959,
+          "y": 97,
+          "label": "6 HI BEAM"
+        }
+      ],
+      "proposedModel": "assembly.cluster-indicators",
+      "cavities": 16,
+      "indicatorLabels": [
+        "ĐÈN BÁO PHA"
+      ]
+    },
+    {
+      "id": "head-led",
+      "glyph": "head-led",
+      "observedText": "CỤM ĐÈN PHA LED",
+      "sourceBox": {
+        "x": 982,
+        "y": 175,
+        "width": 262,
+        "height": 266
+      },
+      "ports": [
+        {
+          "id": "hi",
+          "x": 960,
+          "y": 206,
+          "label": "HI BEAM"
+        },
+        {
+          "id": "dimmer",
+          "x": 960,
+          "y": 257,
+          "label": "DIMMER SW"
+        },
+        {
+          "id": "hl",
+          "x": 960,
+          "y": 307,
+          "label": "VCC H/L"
+        },
+        {
+          "id": "po",
+          "x": 960,
+          "y": 367,
+          "label": "VCC PO"
+        },
+        {
+          "id": "gnd",
+          "x": 960,
+          "y": 408,
+          "label": "GND"
+        }
+      ],
+      "proposedModel": "lamp.led-assembly5",
+      "cavities": 6,
+      "unresolved": "Nguồn không đánh số chân; phải giữ các channel HI/LO/PO và xác minh model assembly5."
+    },
+    {
+      "id": "dimmer",
+      "glyph": "selector",
+      "observedText": "CÔNG TẮC PHA CỐT",
+      "sourceBox": {
+        "x": 665,
+        "y": 163,
+        "width": 65,
+        "height": 66
+      },
+      "ports": [
+        {
+          "id": "common",
+          "x": 746,
+          "y": 196,
+          "label": ""
+        },
+        {
+          "id": "throw1",
+          "x": 730,
+          "y": 176,
+          "label": "HI"
+        },
+        {
+          "id": "throw2",
+          "x": 730,
+          "y": 215,
+          "label": "LO"
+        }
+      ],
+      "proposedModel": "switch.selector3"
+    },
+    {
+      "id": "dimmer-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 780,
+        "y": 220,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 795,
+          "y": 220,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "led-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 888,
+        "y": 433,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 903,
+          "y": 433,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "hi-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 877,
+        "y": 204,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 879,
+          "y": 206,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "meter-load-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 835,
+        "y": 365,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 837,
+          "y": 367,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "tail",
+      "glyph": "bulb",
+      "observedText": "ĐÈN PHANH/\nĐÈN HẬU",
+      "sourceBox": {
+        "x": 1138,
+        "y": 497,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1138,
+          "y": 523,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1138,
+          "y": 543,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.dual-filament-module2"
+    },
+    {
+      "id": "tail-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1130,
+        "y": 585,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1145,
+          "y": 585,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "plate",
+      "glyph": "bulb",
+      "observedText": "ĐÈN SOI BIỂN SỐ",
+      "sourceBox": {
+        "x": 1136,
+        "y": 635,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1136,
+          "y": 661,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1136,
+          "y": 681,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.filament2"
+    },
+    {
+      "id": "plate-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1001,
+        "y": 696,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1016,
+          "y": 696,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "plate-connector",
+      "glyph": "paired",
+      "observedText": "3P",
+      "sourceBox": {
+        "x": 1067,
+        "y": 650,
+        "width": 24,
+        "height": 39
+      },
+      "ports": [
+        {
+          "id": "feed-a",
+          "x": 1067,
+          "y": 661,
+          "label": ""
+        },
+        {
+          "id": "feed-b",
+          "x": 1091,
+          "y": 661,
+          "label": ""
+        },
+        {
+          "id": "return-a",
+          "x": 1067,
+          "y": 680,
+          "label": ""
+        },
+        {
+          "id": "return-b",
+          "x": 1091,
+          "y": 680,
+          "label": ""
+        }
+      ],
+      "proposedModel": "connector.paired2",
+      "cavities": 3
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          114,
+          307
+        ],
+        [
+          76,
+          307
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          162,
+          307
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "main-fuse.b",
+      "b": "key.a",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "key.b",
+      "b": "meter-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [
+        [
+          595,
+          307
+        ],
+        [
+          595,
+          367
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "key.b",
+      "b": "hl-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "hl-fuse.b",
+      "b": "head-led.hl",
+      "observedCode": "Bl/Bu",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "meter-fuse.b",
+      "b": "meter-load-bus.node",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "meter-load-bus.node",
+      "b": "head-led.po",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "meter-load-bus.node",
+      "b": "tail.feed",
+      "observedCode": "Bl/Br",
+      "via": [
+        [
+          837,
+          523
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "meter-load-bus.node",
+      "b": "plate-connector.feed-a",
+      "observedCode": "Bl/Br",
+      "via": [
+        [
+          837,
+          661
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "plate-connector.feed-b",
+      "b": "plate.feed",
+      "observedCode": "Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-012",
+      "a": "plate.return",
+      "b": "plate-connector.return-b",
+      "observedCode": "G/Bu",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-013",
+      "a": "plate-connector.return-a",
+      "b": "plate-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1016,
+          680
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-014",
+      "a": "tail.return",
+      "b": "tail-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1145,
+          543
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-015",
+      "a": "head-led.gnd",
+      "b": "led-ground.in",
+      "observedCode": "G/W",
+      "via": [
+        [
+          903,
+          408
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-016",
+      "a": "head-led.dimmer",
+      "b": "dimmer.throw1",
+      "observedCode": "Bu",
+      "via": [
+        [
+          833,
+          257
+        ],
+        [
+          833,
+          176
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-017",
+      "a": "head-led.hi",
+      "b": "hi-bus.node",
+      "observedCode": "Bu/W",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-018",
+      "a": "hi-bus.node",
+      "b": "cluster.6",
+      "observedCode": "Bu/W",
+      "via": [
+        [
+          879,
+          97
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-019",
+      "a": "dimmer.common",
+      "b": "dimmer-ground.in",
+      "observedCode": "G/W",
+      "via": [
+        [
+          795,
+          196
+        ]
+      ],
+      "labelAt": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "led-internal",
+      "observedText": "HI / LO / PO: ba kênh LED, nút nối và đường nội bộ quan sát trong hộp nguồn.",
+      "sourceBox": {
+        "x": 1083,
+        "y": 202,
+        "width": 138,
+        "height": 211
+      },
+      "kind": "source-internal-channels",
+      "channels": [
+        "HI",
+        "LO",
+        "PO"
+      ]
+    }
+  ],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "head-led: Nguồn không đánh số chân; phải giữ các channel HI/LO/PO và xác minh model assembly5.",
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

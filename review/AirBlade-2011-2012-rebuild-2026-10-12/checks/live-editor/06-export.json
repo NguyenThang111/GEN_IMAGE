@@ -1,0 +1,1303 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "Screenshot from 2026-09-30 08-37-20.png",
+  "id": "38770-kvg-v42-night-lighting",
+  "vehicleId": "38770-kvg-v42",
+  "vehicleTitle": "AIR BLADE 2011 - 2012",
+  "circuitTitle": "Mạch đèn đêm",
+  "canvas": {
+    "width": 1499,
+    "height": 844
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 72,
+      "y": 373,
+      "width": 98,
+      "height": 71,
+      "label": "ẮC QUY",
+      "terminals": [
+        {
+          "id": "negative",
+          "label": "−",
+          "x": 91,
+          "y": 373
+        },
+        {
+          "id": "positive",
+          "label": "+",
+          "x": 149,
+          "y": 373
+        }
+      ]
+    },
+    {
+      "id": "ground-battery",
+      "type": "ground",
+      "x": 27,
+      "y": 418,
+      "width": 40,
+      "height": 25,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 47,
+          "y": 418
+        }
+      ]
+    },
+    {
+      "id": "j-r",
+      "type": "junction",
+      "x": 201,
+      "y": 314,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 205,
+          "y": 318
+        }
+      ]
+    },
+    {
+      "id": "fuse-main",
+      "type": "fuse",
+      "x": 266,
+      "y": 299,
+      "width": 80,
+      "height": 37,
+      "label": "CẦU CHÌ (20A) MAIN",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 266,
+          "y": 318
+        },
+        {
+          "id": "right",
+          "x": 346,
+          "y": 318
+        }
+      ]
+    },
+    {
+      "id": "fuse-fi",
+      "type": "fuse",
+      "x": 266,
+      "y": 374,
+      "width": 80,
+      "height": 37,
+      "label": "CẦU CHÌ (10A) FI",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 266,
+          "y": 392
+        },
+        {
+          "id": "right",
+          "x": 346,
+          "y": 392
+        }
+      ]
+    },
+    {
+      "id": "ignition-switch",
+      "type": "switch",
+      "x": 428,
+      "y": 366,
+      "width": 77,
+      "height": 44,
+      "label": "CÔNG TẮC MÁY",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 428,
+          "y": 392
+        },
+        {
+          "id": "right",
+          "x": 505,
+          "y": 392
+        }
+      ]
+    },
+    {
+      "id": "main-relay",
+      "type": "relay",
+      "x": 580,
+      "y": 298,
+      "width": 76,
+      "height": 116,
+      "label": "RƠ LE CHÍNH",
+      "terminals": [
+        {
+          "id": "contact-left",
+          "x": 580,
+          "y": 318
+        },
+        {
+          "id": "contact-right",
+          "x": 656,
+          "y": 318
+        },
+        {
+          "id": "coil-left",
+          "x": 580,
+          "y": 392
+        },
+        {
+          "id": "coil-right",
+          "x": 656,
+          "y": 392
+        }
+      ]
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 680,
+      "y": 483,
+      "width": 80,
+      "height": 53,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 720,
+          "y": 483
+        }
+      ]
+    },
+    {
+      "id": "j-ry",
+      "type": "junction",
+      "x": 702,
+      "y": 314,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 706,
+          "y": 318
+        }
+      ]
+    },
+    {
+      "id": "fuse-head",
+      "type": "fuse",
+      "x": 768,
+      "y": 230,
+      "width": 75,
+      "height": 36,
+      "label": "CẦU CHÌ (10A) HEAD LIGHT",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 768,
+          "y": 248
+        },
+        {
+          "id": "right",
+          "x": 843,
+          "y": 248
+        }
+      ]
+    },
+    {
+      "id": "fuse-turn",
+      "type": "fuse",
+      "x": 768,
+      "y": 301,
+      "width": 75,
+      "height": 35,
+      "label": "CẦU CHÌ (10A) TURN...",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 768,
+          "y": 318
+        },
+        {
+          "id": "right",
+          "x": 843,
+          "y": 318
+        }
+      ]
+    },
+    {
+      "id": "night-switch",
+      "type": "switch",
+      "x": 947,
+      "y": 246,
+      "width": 76,
+      "height": 86,
+      "label": "CÔNG TẮC\nĐÈN ĐÊM",
+      "terminals": [
+        {
+          "id": "in1",
+          "x": 947,
+          "y": 274
+        },
+        {
+          "id": "out1",
+          "x": 1023,
+          "y": 274
+        },
+        {
+          "id": "in2",
+          "x": 947,
+          "y": 318
+        },
+        {
+          "id": "out2",
+          "x": 1023,
+          "y": 318
+        }
+      ]
+    },
+    {
+      "id": "dimmer",
+      "type": "selectorSwitch",
+      "x": 1100,
+      "y": 238,
+      "width": 79,
+      "height": 71,
+      "label": "CÔNG TẮC\nPHA CỐT",
+      "terminals": [
+        {
+          "id": "common",
+          "x": 1100,
+          "y": 274
+        },
+        {
+          "id": "upper",
+          "x": 1179,
+          "y": 256
+        },
+        {
+          "id": "lower",
+          "x": 1179,
+          "y": 290
+        }
+      ]
+    },
+    {
+      "id": "j-bu",
+      "type": "junction",
+      "x": 1212,
+      "y": 252,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1216,
+          "y": 256
+        }
+      ]
+    },
+    {
+      "id": "high-indicator",
+      "type": "lamp",
+      "x": 1295,
+      "y": 107,
+      "width": 102,
+      "height": 64,
+      "label": "ĐÈN BÁO PHA",
+      "terminals": [
+        {
+          "id": "feed",
+          "x": 1295,
+          "y": 131
+        },
+        {
+          "id": "return",
+          "x": 1295,
+          "y": 148
+        }
+      ]
+    },
+    {
+      "id": "ground-high",
+      "type": "ground",
+      "x": 1243,
+      "y": 181,
+      "width": 39,
+      "height": 24,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1262,
+          "y": 181
+        }
+      ]
+    },
+    {
+      "id": "headlamp",
+      "type": "lamp",
+      "x": 1295,
+      "y": 242,
+      "width": 178,
+      "height": 71,
+      "label": "ĐÈN PHA COS",
+      "terminals": [
+        {
+          "id": "high",
+          "x": 1295,
+          "y": 256
+        },
+        {
+          "id": "low",
+          "x": 1295,
+          "y": 290
+        },
+        {
+          "id": "return",
+          "x": 1295,
+          "y": 307
+        }
+      ]
+    },
+    {
+      "id": "ground-head",
+      "type": "ground",
+      "x": 1233,
+      "y": 341,
+      "width": 39,
+      "height": 24,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1252,
+          "y": 341
+        }
+      ]
+    },
+    {
+      "id": "j-br",
+      "type": "junction",
+      "x": 1055,
+      "y": 410,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1059,
+          "y": 414
+        }
+      ]
+    },
+    {
+      "id": "j-br2",
+      "type": "junction",
+      "x": 1055,
+      "y": 533,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1059,
+          "y": 537
+        }
+      ]
+    },
+    {
+      "id": "position",
+      "type": "lamp",
+      "x": 1301,
+      "y": 391,
+      "width": 102,
+      "height": 64,
+      "label": "ĐÈN VỊ TRÍ",
+      "terminals": [
+        {
+          "id": "feed",
+          "x": 1301,
+          "y": 414
+        },
+        {
+          "id": "return",
+          "x": 1301,
+          "y": 431
+        }
+      ]
+    },
+    {
+      "id": "ground-position",
+      "type": "ground",
+      "x": 1233,
+      "y": 466,
+      "width": 39,
+      "height": 24,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1252,
+          "y": 466
+        }
+      ]
+    },
+    {
+      "id": "license",
+      "type": "lamp",
+      "x": 1301,
+      "y": 514,
+      "width": 102,
+      "height": 64,
+      "label": "ĐÈN BIỂN SỐ",
+      "terminals": [
+        {
+          "id": "feed",
+          "x": 1301,
+          "y": 537
+        },
+        {
+          "id": "return",
+          "x": 1301,
+          "y": 554
+        }
+      ]
+    },
+    {
+      "id": "ground-license",
+      "type": "ground",
+      "x": 1233,
+      "y": 589,
+      "width": 39,
+      "height": 24,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1252,
+          "y": 589
+        }
+      ]
+    },
+    {
+      "id": "tail",
+      "type": "lamp",
+      "x": 1324,
+      "y": 635,
+      "width": 43,
+      "height": 90,
+      "label": "ĐÈN PHANH/\nĐÈN HẬU",
+      "terminals": [
+        {
+          "id": "feed",
+          "x": 1324,
+          "y": 656
+        },
+        {
+          "id": "return",
+          "x": 1324,
+          "y": 705
+        }
+      ]
+    },
+    {
+      "id": "ground-tail",
+      "type": "ground",
+      "x": 1271,
+      "y": 749,
+      "width": 39,
+      "height": 24,
+      "label": "",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1290,
+          "y": 749
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "battery-ground",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "negative"
+      },
+      "to": {
+        "componentId": "ground-battery",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 91,
+          "y": 373
+        },
+        {
+          "x": 91,
+          "y": 318
+        },
+        {
+          "x": 47,
+          "y": 318
+        },
+        {
+          "x": 47,
+          "y": 418
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#0ec05b",
+      "state": "controlled"
+    },
+    {
+      "id": "battery-feed",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "positive"
+      },
+      "to": {
+        "componentId": "j-r",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 149,
+          "y": 373
+        },
+        {
+          "x": 149,
+          "y": 318
+        },
+        {
+          "x": 205,
+          "y": 318
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc1d39",
+      "state": "controlled"
+    },
+    {
+      "id": "main-feed",
+      "from": {
+        "componentId": "j-r",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-main",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 205,
+          "y": 318
+        },
+        {
+          "x": 266,
+          "y": 318
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc1d39",
+      "state": "controlled"
+    },
+    {
+      "id": "fi-feed",
+      "from": {
+        "componentId": "j-r",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-fi",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 205,
+          "y": 318
+        },
+        {
+          "x": 205,
+          "y": 392
+        },
+        {
+          "x": 266,
+          "y": 392
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc1d39",
+      "state": "controlled"
+    },
+    {
+      "id": "main-relay",
+      "from": {
+        "componentId": "fuse-main",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "contact-left"
+      },
+      "points": [
+        {
+          "x": 346,
+          "y": 318
+        },
+        {
+          "x": 580,
+          "y": 318
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#dc1d39",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "fi-switch",
+      "from": {
+        "componentId": "fuse-fi",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "ignition-switch",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 346,
+          "y": 392
+        },
+        {
+          "x": 428,
+          "y": 392
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#dc1d39",
+      "stripeColor": "#444444",
+      "state": "controlled"
+    },
+    {
+      "id": "switch-relay",
+      "from": {
+        "componentId": "ignition-switch",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "coil-left"
+      },
+      "points": [
+        {
+          "x": 505,
+          "y": 392
+        },
+        {
+          "x": 580,
+          "y": 392
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#444444",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-ecm",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "coil-right"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 656,
+          "y": 392
+        },
+        {
+          "x": 720,
+          "y": 392
+        },
+        {
+          "x": 720,
+          "y": 483
+        }
+      ],
+      "code": "W/Bl",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#444444",
+      "state": "controlled"
+    },
+    {
+      "id": "relay-j",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "contact-right"
+      },
+      "to": {
+        "componentId": "j-ry",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 656,
+          "y": 318
+        },
+        {
+          "x": 706,
+          "y": 318
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#dc1d39",
+      "stripeColor": "#fbfe18",
+      "state": "controlled"
+    },
+    {
+      "id": "j-head",
+      "from": {
+        "componentId": "j-ry",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-head",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 706,
+          "y": 318
+        },
+        {
+          "x": 706,
+          "y": 248
+        },
+        {
+          "x": 768,
+          "y": 248
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#dc1d39",
+      "stripeColor": "#fbfe18",
+      "state": "controlled"
+    },
+    {
+      "id": "j-turn",
+      "from": {
+        "componentId": "j-ry",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-turn",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 706,
+          "y": 318
+        },
+        {
+          "x": 768,
+          "y": 318
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#dc1d39",
+      "stripeColor": "#fbfe18",
+      "state": "controlled"
+    },
+    {
+      "id": "head-switch",
+      "from": {
+        "componentId": "fuse-head",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "night-switch",
+        "terminalId": "in1"
+      },
+      "points": [
+        {
+          "x": 843,
+          "y": 248
+        },
+        {
+          "x": 898,
+          "y": 248
+        },
+        {
+          "x": 898,
+          "y": 274
+        },
+        {
+          "x": 947,
+          "y": 274
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#fbfe18",
+      "state": "controlled"
+    },
+    {
+      "id": "turn-switch",
+      "from": {
+        "componentId": "fuse-turn",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "night-switch",
+        "terminalId": "in2"
+      },
+      "points": [
+        {
+          "x": 843,
+          "y": 318
+        },
+        {
+          "x": 947,
+          "y": 318
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#444444",
+      "stripeColor": "#a58e72",
+      "state": "controlled"
+    },
+    {
+      "id": "switch-dimmer",
+      "from": {
+        "componentId": "night-switch",
+        "terminalId": "out1"
+      },
+      "to": {
+        "componentId": "dimmer",
+        "terminalId": "common"
+      },
+      "points": [
+        {
+          "x": 1023,
+          "y": 274
+        },
+        {
+          "x": 1100,
+          "y": 274
+        }
+      ],
+      "code": "Bu/W",
+      "primaryColor": "#12bee7",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "dimmer-high",
+      "from": {
+        "componentId": "dimmer",
+        "terminalId": "upper"
+      },
+      "to": {
+        "componentId": "j-bu",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1179,
+          "y": 256
+        },
+        {
+          "x": 1216,
+          "y": 256
+        }
+      ],
+      "code": "Bu",
+      "primaryColor": "#12bee7",
+      "state": "controlled"
+    },
+    {
+      "id": "high-indicator-feed",
+      "from": {
+        "componentId": "j-bu",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "high-indicator",
+        "terminalId": "feed"
+      },
+      "points": [
+        {
+          "x": 1216,
+          "y": 256
+        },
+        {
+          "x": 1216,
+          "y": 131
+        },
+        {
+          "x": 1295,
+          "y": 131
+        }
+      ],
+      "code": "Bu",
+      "primaryColor": "#12bee7",
+      "state": "controlled"
+    },
+    {
+      "id": "head-high",
+      "from": {
+        "componentId": "j-bu",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "headlamp",
+        "terminalId": "high"
+      },
+      "points": [
+        {
+          "x": 1216,
+          "y": 256
+        },
+        {
+          "x": 1295,
+          "y": 256
+        }
+      ],
+      "code": "Bu",
+      "primaryColor": "#12bee7",
+      "state": "controlled"
+    },
+    {
+      "id": "head-low",
+      "from": {
+        "componentId": "dimmer",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "headlamp",
+        "terminalId": "low"
+      },
+      "points": [
+        {
+          "x": 1179,
+          "y": 290
+        },
+        {
+          "x": 1295,
+          "y": 290
+        }
+      ],
+      "code": "W",
+      "primaryColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "high-ground",
+      "from": {
+        "componentId": "high-indicator",
+        "terminalId": "return"
+      },
+      "to": {
+        "componentId": "ground-high",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1295,
+          "y": 148
+        },
+        {
+          "x": 1262,
+          "y": 148
+        },
+        {
+          "x": 1262,
+          "y": 181
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#0ec05b",
+      "state": "controlled"
+    },
+    {
+      "id": "head-ground",
+      "from": {
+        "componentId": "headlamp",
+        "terminalId": "return"
+      },
+      "to": {
+        "componentId": "ground-head",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1295,
+          "y": 307
+        },
+        {
+          "x": 1252,
+          "y": 307
+        },
+        {
+          "x": 1252,
+          "y": 341
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#0ec05b",
+      "state": "controlled"
+    },
+    {
+      "id": "switch-brown",
+      "from": {
+        "componentId": "night-switch",
+        "terminalId": "out2"
+      },
+      "to": {
+        "componentId": "j-br",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1023,
+          "y": 318
+        },
+        {
+          "x": 1059,
+          "y": 318
+        },
+        {
+          "x": 1059,
+          "y": 414
+        }
+      ],
+      "code": "Br",
+      "primaryColor": "#a58e72",
+      "state": "controlled"
+    },
+    {
+      "id": "position-feed",
+      "from": {
+        "componentId": "j-br",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "position",
+        "terminalId": "feed"
+      },
+      "points": [
+        {
+          "x": 1059,
+          "y": 414
+        },
+        {
+          "x": 1301,
+          "y": 414
+        }
+      ],
+      "code": "Br",
+      "primaryColor": "#a58e72",
+      "state": "controlled"
+    },
+    {
+      "id": "position-ground",
+      "from": {
+        "componentId": "position",
+        "terminalId": "return"
+      },
+      "to": {
+        "componentId": "ground-position",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1301,
+          "y": 431
+        },
+        {
+          "x": 1252,
+          "y": 431
+        },
+        {
+          "x": 1252,
+          "y": 466
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#0ec05b",
+      "state": "controlled"
+    },
+    {
+      "id": "brown-trunk",
+      "from": {
+        "componentId": "j-br",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "j-br2",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1059,
+          "y": 414
+        },
+        {
+          "x": 1059,
+          "y": 537
+        }
+      ],
+      "code": "Br",
+      "primaryColor": "#a58e72",
+      "state": "controlled"
+    },
+    {
+      "id": "license-feed",
+      "from": {
+        "componentId": "j-br2",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "license",
+        "terminalId": "feed"
+      },
+      "points": [
+        {
+          "x": 1059,
+          "y": 537
+        },
+        {
+          "x": 1301,
+          "y": 537
+        }
+      ],
+      "code": "Br",
+      "primaryColor": "#a58e72",
+      "state": "controlled"
+    },
+    {
+      "id": "license-ground",
+      "from": {
+        "componentId": "license",
+        "terminalId": "return"
+      },
+      "to": {
+        "componentId": "ground-license",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1301,
+          "y": 554
+        },
+        {
+          "x": 1252,
+          "y": 554
+        },
+        {
+          "x": 1252,
+          "y": 589
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#0ec05b",
+      "state": "controlled"
+    },
+    {
+      "id": "tail-feed",
+      "from": {
+        "componentId": "j-br2",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "tail",
+        "terminalId": "feed"
+      },
+      "points": [
+        {
+          "x": 1059,
+          "y": 537
+        },
+        {
+          "x": 1059,
+          "y": 656
+        },
+        {
+          "x": 1324,
+          "y": 656
+        }
+      ],
+      "code": "Br",
+      "primaryColor": "#a58e72",
+      "state": "controlled"
+    },
+    {
+      "id": "tail-ground",
+      "from": {
+        "componentId": "tail",
+        "terminalId": "return"
+      },
+      "to": {
+        "componentId": "ground-tail",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1324,
+          "y": 705
+        },
+        {
+          "x": 1290,
+          "y": 705
+        },
+        {
+          "x": 1290,
+          "y": 749
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#0ec05b",
+      "state": "controlled"
+    }
+  ],
+  "exportMetadata": {
+    "version": 1,
+    "vehicle": {
+      "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+      "vehicleId": "38770-kvg-v42",
+      "vehicleTitle": "AIR BLADE 2011 - 2012",
+      "manufacturer": "HONDA",
+      "modelYear": "2011-2012",
+      "ecmId": "01 00 F9",
+      "scuId": null
+    },
+    "circuit": {
+      "id": "b2a83700-2149-4763-8289-0c5333db0720",
+      "key": "night-lighting",
+      "title": "Mạch đèn đêm",
+      "progressStatus": "DOING",
+      "savedProgressStatus": "DONE",
+      "progressNote": "",
+      "technicalStatus": "NEEDS_REVIEW",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z"
+    },
+    "unsavedChanges": true
+  }
+}

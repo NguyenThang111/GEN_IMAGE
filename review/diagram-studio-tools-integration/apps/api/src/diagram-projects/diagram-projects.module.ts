@@ -1,0 +1,2 @@
+import { Module } from '@nestjs/common'; import { TypeOrmModule } from '@nestjs/typeorm'; import { DiagramProject } from './diagram-project.entity'; import { DiagramCircuit } from './diagram-circuit.entity'; import { DiagramProjectsController } from './diagram-projects.controller'; import { DiagramProjectsService } from './diagram-projects.service';
+@Module({ imports: [TypeOrmModule.forFeature([DiagramProject, DiagramCircuit])], controllers: [DiagramProjectsController], providers: [DiagramProjectsService] }) export class DiagramProjectsModule {}

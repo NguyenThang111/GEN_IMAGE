@@ -1,0 +1,27 @@
+.digitalInventory .materialGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,245px),1fr));gap:16px;padding:16px;background:#f4f6f9}
+.digitalInventory:has(.materialGrid) .inventorySignals{flex-wrap:wrap}
+.digitalInventory .materialCard{display:flex;flex-direction:column;min-width:0;width:100%;padding:0;text-align:left;border:1px solid #d9e1eb;border-radius:14px;overflow:hidden;background:#fff;color:#263449;box-shadow:0 2px 5px #20304708;cursor:pointer}
+.digitalInventory .materialCard:hover{border-color:#7fadd5;background:#f9fbff;box-shadow:0 4px 14px #20304712}
+.digitalInventory .materialCard:focus-visible{outline:3px solid #528ec5;outline-offset:2px}
+.digitalInventory .materialCardThumbnail{height:144px;width:100%;flex:none;border-bottom:1px solid #e1e7ef;border-radius:0;background:#edf1f5}
+.digitalInventory .materialCardThumbnail img{object-fit:contain;height:144px;max-height:100%;padding:10px;box-sizing:border-box;min-height:0}
+.digitalInventory .materialCardThumbnail>span{font-size:13px;color:#637287}
+.digitalInventory .materialCardBody{display:flex;flex:1;flex-direction:column;gap:10px;padding:16px;min-width:0;width:100%;box-sizing:border-box}
+.digitalInventory .materialCardIdentity b{display:block;font-size:16px;font-weight:700;line-height:1.4;white-space:normal;overflow-wrap:anywhere}
+.digitalInventory .materialCardIdentity small{display:block;margin-top:5px;font-size:11px;font-weight:400;line-height:1.5;color:#64748b;overflow-wrap:anywhere}
+.digitalInventory .materialCardLocation{margin:0;font-size:12px;font-weight:400;line-height:1.5;color:#53657b;overflow-wrap:anywhere}
+.digitalInventory .materialCard .itemSignals{align-items:flex-start;min-height:23px}
+.digitalInventory .materialCard .stockSignal{font-size:10px;line-height:1.4;white-space:normal;overflow-wrap:anywhere}
+.digitalInventory .materialCardStock{display:flex;align-items:baseline;gap:5px;flex-wrap:wrap;padding-top:12px;margin-top:auto;border-top:1px solid #e1e7ef}
+.digitalInventory .materialCardStock>span{font-size:12px;font-weight:400;margin-right:auto;color:#64748b}
+.digitalInventory .materialCardStock strong{font-size:24px;font-weight:750;line-height:1.2;overflow-wrap:anywhere}
+.digitalInventory .materialCardStock small{font-size:11px;color:#64748b;font-weight:400}
+.digitalInventory .materialCardAction{font-size:12px;font-weight:600;color:#376895;text-align:right}
+:root[data-theme="dark"] .digitalInventory .materialGrid{background:#151b23}
+:root[data-theme="dark"] .digitalInventory .materialCard{background:#202833;border-color:#354354;color:#e5edf5}
+:root[data-theme="dark"] .digitalInventory .materialCard:hover{background:#253243;border-color:#739dc6}
+:root[data-theme="dark"] .digitalInventory .materialCardThumbnail{background:#18212b;border-color:#354354}
+:root[data-theme="dark"] .digitalInventory .materialCardStock{border-color:#354354}
+:root[data-theme="dark"] .digitalInventory :is(.materialCardIdentity small,.materialCardLocation,.materialCardStock>span,.materialCardStock small,.materialCardThumbnail>span){color:#aebed0}
+:root[data-theme="dark"] .digitalInventory .materialCardAction{color:#9cc7f1}
+@media(max-width:600px){.digitalInventory .materialGrid{gap:12px;padding:12px}.digitalInventory .materialCardThumbnail,.digitalInventory .materialCardThumbnail img{height:128px}}

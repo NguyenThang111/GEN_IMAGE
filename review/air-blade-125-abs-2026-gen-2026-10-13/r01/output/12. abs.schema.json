@@ -1,0 +1,1964 @@
+﻿{
+    "schemaVersion":  1,
+    "reviewStatus":  "draft",
+    "id":  "air-blade-125-abs-2026-abs",
+    "vehicleId":  "air-blade-2026-125-abs",
+    "vehicleTitle":  "AIR BLADE 2026 (125 / ABS)",
+    "vehicleModel":  "Honda AIR BLADE 125 ABS 2026",
+    "circuitTitle":  "Sơ đồ bó cứng phanh ABS",
+    "sourceImage":  "air-blade-2026-125-abs-abs.source.jpg",
+    "canvas":  {
+                   "width":  1800,
+                   "height":  900,
+                   "background":  "#ffffff"
+               },
+    "sourceCrop":  {
+                       "x":  0,
+                       "y":  0,
+                       "width":  1800,
+                       "height":  900
+                   },
+    "sourceTransform":  {
+                            "rotateClockwise":  0
+                        },
+    "components":  [
+                       {
+                           "id":  "battery",
+                           "type":  "battery",
+                           "x":  60,
+                           "y":  350,
+                           "width":  80,
+                           "height":  58,
+                           "label":  "ẮC QUY",
+                           "terminals":  [
+                                             {
+                                                 "id":  "neg",
+                                                 "x":  76,
+                                                 "y":  350,
+                                                 "label":  "-"
+                                             },
+                                             {
+                                                 "id":  "pos",
+                                                 "x":  124,
+                                                 "y":  350,
+                                                 "label":  "+"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "battery@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "negative":  "neg",
+                                                           "positive":  "pos"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-battery",
+                           "type":  "ground",
+                           "x":  64,
+                           "y":  306,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  76,
+                                                 "y":  318
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-main",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  335,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (20A) MAIN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  350
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  350
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-abs-motor",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  235,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (15A) ABS MOTOR",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  250
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  250
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-abs-main",
+                           "type":  "fuse",
+                           "x":  440,
+                           "y":  235,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (5A) ABS MAIN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  440,
+                                                 "y":  250
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  520,
+                                                 "y":  250
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-sub1",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  435,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) SUB 1",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  450
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  450
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-ecu",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  535,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (15A) ECU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  550
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  550
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "relay-main",
+                           "type":  "relay",
+                           "x":  360,
+                           "y":  295,
+                           "width":  120,
+                           "height":  110,
+                           "label":  "RƠ LE CHÍNH",
+                           "terminals":  [
+                                             {
+                                                 "id":  "cl",
+                                                 "x":  360,
+                                                 "y":  350,
+                                                 "label":  "R/W"
+                                             },
+                                             {
+                                                 "id":  "cr",
+                                                 "x":  480,
+                                                 "y":  350,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "col",
+                                                 "x":  396,
+                                                 "y":  405,
+                                                 "label":  "G"
+                                             },
+                                             {
+                                                 "id":  "cor",
+                                                 "x":  444,
+                                                 "y":  405,
+                                                 "label":  "Bl/Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "relay.contact-coil4@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-relay",
+                           "type":  "ground",
+                           "x":  384,
+                           "y":  415,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  396,
+                                                 "y":  427
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ignition-switch",
+                           "type":  "switch",
+                           "x":  530,
+                           "y":  290,
+                           "width":  110,
+                           "height":  120,
+                           "label":  "KHÓA ĐIỆN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p1-in",
+                                                 "x":  530,
+                                                 "y":  350,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "p1-out",
+                                                 "x":  640,
+                                                 "y":  350,
+                                                 "label":  "R/Bl"
+                                             },
+                                             {
+                                                 "id":  "p2-in",
+                                                 "x":  530,
+                                                 "y":  410,
+                                                 "label":  "Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "p2-out",
+                                                 "x":  640,
+                                                 "y":  410,
+                                                 "label":  "R/Br"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.dpst4@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "abs-module",
+                           "type":  "connector",
+                           "x":  740,
+                           "y":  140,
+                           "width":  200,
+                           "height":  560,
+                           "label":  "BỘ ĐIỀU KHIỂN ABS (16P)",
+                           "connectorType":  "16P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p7-ig",
+                                                 "x":  740,
+                                                 "y":  190,
+                                                 "label":  "7 IG Bl/Y"
+                                             },
+                                             {
+                                                 "id":  "p16-bat",
+                                                 "x":  740,
+                                                 "y":  240,
+                                                 "label":  "16 BAT R"
+                                             },
+                                             {
+                                                 "id":  "p15-bls",
+                                                 "x":  740,
+                                                 "y":  290,
+                                                 "label":  "15 BLS G/Y"
+                                             },
+                                             {
+                                                 "id":  "p8-ind",
+                                                 "x":  740,
+                                                 "y":  340,
+                                                 "label":  "8 IND R/Bl"
+                                             },
+                                             {
+                                                 "id":  "p6-rpo",
+                                                 "x":  740,
+                                                 "y":  390,
+                                                 "label":  "6 RPO P/G"
+                                             },
+                                             {
+                                                 "id":  "p3-rvws",
+                                                 "x":  740,
+                                                 "y":  440,
+                                                 "label":  "3 RVWS P/W"
+                                             },
+                                             {
+                                                 "id":  "p12-rvwb",
+                                                 "x":  740,
+                                                 "y":  490,
+                                                 "label":  "12 RVWB P"
+                                             },
+                                             {
+                                                 "id":  "p2-fvws",
+                                                 "x":  740,
+                                                 "y":  540,
+                                                 "label":  "2 FVWS W"
+                                             },
+                                             {
+                                                 "id":  "p10-fvwb",
+                                                 "x":  740,
+                                                 "y":  590,
+                                                 "label":  "10 FVWB Bu"
+                                             },
+                                             {
+                                                 "id":  "p5-scs",
+                                                 "x":  740,
+                                                 "y":  640,
+                                                 "label":  "5 SCS Br"
+                                             },
+                                             {
+                                                 "id":  "p13-diag",
+                                                 "x":  740,
+                                                 "y":  690,
+                                                 "label":  "13 DIAG O/W"
+                                             },
+                                             {
+                                                 "id":  "p11-gnd",
+                                                 "x":  740,
+                                                 "y":  740,
+                                                 "label":  "11 GND G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         },
+                           "note":  "ABS 16P hai hàng dọc 1..8 / 9..16 phía bộ điều khiển."
+                       },
+                       {
+                           "id":  "mass-abs",
+                           "type":  "ground",
+                           "x":  728,
+                           "y":  752,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G/Bl",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  740,
+                                                 "y":  764
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "meter-cluster",
+                           "type":  "connector",
+                           "x":  1020,
+                           "y":  260,
+                           "width":  180,
+                           "height":  180,
+                           "label":  "CỤM ĐỒNG HỒ (16P)",
+                           "connectorType":  "16P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p16-ign",
+                                                 "x":  1020,
+                                                 "y":  300,
+                                                 "label":  "16 IGN Bl"
+                                             },
+                                             {
+                                                 "id":  "p7-rbl",
+                                                 "x":  1020,
+                                                 "y":  350,
+                                                 "label":  "7 R/Bl ← ABS8"
+                                             },
+                                             {
+                                                 "id":  "p9-sp",
+                                                 "x":  1020,
+                                                 "y":  400,
+                                                 "label":  "9 P/G mạng ABS6/ECM A7"
+                                             },
+                                             {
+                                                 "id":  "p6-gnd",
+                                                 "x":  1020,
+                                                 "y":  450,
+                                                 "label":  "6 G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-meter",
+                           "type":  "ground",
+                           "x":  1008,
+                           "y":  462,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1020,
+                                                 "y":  474
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ecm",
+                           "type":  "connector",
+                           "x":  1020,
+                           "y":  520,
+                           "width":  180,
+                           "height":  100,
+                           "label":  "ECM 39P",
+                           "connectorType":  "39P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a7-sp",
+                                                 "x":  1020,
+                                                 "y":  560,
+                                                 "label":  "A7 SP-SE P/G"
+                                             },
+                                             {
+                                                 "id":  "a11-lg",
+                                                 "x":  1020,
+                                                 "y":  600,
+                                                 "label":  "A11 LG G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "dlc",
+                           "type":  "connector",
+                           "x":  1020,
+                           "y":  660,
+                           "width":  180,
+                           "height":  120,
+                           "label":  "DLC (4 đường)",
+                           "connectorType":  "4P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "blw",
+                                                 "x":  1020,
+                                                 "y":  690,
+                                                 "label":  "Bl/W"
+                                             },
+                                             {
+                                                 "id":  "gbl",
+                                                 "x":  1020,
+                                                 "y":  720,
+                                                 "label":  "G/Bl → ECM A11"
+                                             },
+                                             {
+                                                 "id":  "br",
+                                                 "x":  1020,
+                                                 "y":  750,
+                                                 "label":  "Br"
+                                             },
+                                             {
+                                                 "id":  "ow",
+                                                 "x":  1020,
+                                                 "y":  780,
+                                                 "label":  "O/W → ABS DIAG"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         },
+                           "note":  "DLC đầu nối SCS minh họa ngắn mạch chỉ ở annotation chẩn đoán, không áp thành đường nối thường trực."
+                       },
+                       {
+                           "id":  "fuse-sub2-dlc",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  635,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) SUB 2 (DLC Bl/W)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  650
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  650
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "vs-sensor-rear",
+                           "type":  "sensor",
+                           "x":  1260,
+                           "y":  420,
+                           "width":  120,
+                           "height":  100,
+                           "label":  "CẢM BIẾN VS SAU (2P)",
+                           "connectorType":  "2P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "pw",
+                                                 "x":  1260,
+                                                 "y":  450,
+                                                 "label":  "P/W → ABS3"
+                                             },
+                                             {
+                                                 "id":  "p",
+                                                 "x":  1260,
+                                                 "y":  490,
+                                                 "label":  "P → ABS12"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "sensor.speed@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "vs-sensor-front",
+                           "type":  "sensor",
+                           "x":  1260,
+                           "y":  540,
+                           "width":  120,
+                           "height":  100,
+                           "label":  "CẢM BIẾN VS TRƯỚC (2P)",
+                           "connectorType":  "2P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "w",
+                                                 "x":  1260,
+                                                 "y":  570,
+                                                 "label":  "W → ABS2"
+                                             },
+                                             {
+                                                 "id":  "bu",
+                                                 "x":  1260,
+                                                 "y":  610,
+                                                 "label":  "Bu → ABS10"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "sensor.speed@1",
+                                             "version":  1
+                                         },
+                           "note":  "Vòng phát xung riêng cho bánh trước."
+                       },
+                       {
+                           "id":  "brake-sw-front",
+                           "type":  "switch",
+                           "x":  440,
+                           "y":  470,
+                           "width":  100,
+                           "height":  50,
+                           "label":  "CT PHANH TRƯỚC",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  440,
+                                                 "y":  495,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  540,
+                                                 "y":  495,
+                                                 "label":  "G/Y"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "brake-sw-rear",
+                           "type":  "switch",
+                           "x":  440,
+                           "y":  570,
+                           "width":  100,
+                           "height":  50,
+                           "label":  "CT PHANH SAU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  440,
+                                                 "y":  595,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  540,
+                                                 "y":  595,
+                                                 "label":  "G/Y"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.normally_open@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "brake-light",
+                           "type":  "lamp",
+                           "x":  620,
+                           "y":  500,
+                           "width":  100,
+                           "height":  60,
+                           "label":  "ĐÈN PHANH / HẬU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  620,
+                                                 "y":  530,
+                                                 "label":  "G/Y"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  720,
+                                                 "y":  530,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.led_cluster@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "mass-brake-light",
+                           "type":  "ground",
+                           "x":  708,
+                           "y":  518,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  720,
+                                                 "y":  530
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       }
+                   ],
+    "wires":  [
+                  {
+                      "id":  "w-bat-neg-mass",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "neg"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-battery",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  76,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  76,
+                                         "y":  330
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-main",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-main",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-abs-motor",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-abs-motor",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  250
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-abs-motor-p16-bat",
+                      "from":  {
+                                   "componentId":  "fuse-abs-motor",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "abs-module",
+                                 "terminalId":  "p16-bat"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  740,
+                                         "y":  240
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R→ABS16 BAT",
+                                         "x":  510,
+                                         "y":  240,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-abs-motor-p16-bat",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-main-relay-cl",
+                      "from":  {
+                                   "componentId":  "fuse-main",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "relay-main",
+                                 "terminalId":  "cl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  360,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "R/W",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/W",
+                                         "x":  318,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-main-relay-cl",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-ign1",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cr"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p1-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  480,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "Bl/R",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/R",
+                                         "x":  504,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-ign1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-coil-mass",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "col"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-relay",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  396,
+                                         "y":  405
+                                     },
+                                     {
+                                         "x":  396,
+                                         "y":  427
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-relay-coil-ign2",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cor"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  444,
+                                         "y":  405
+                                     },
+                                     {
+                                         "x":  444,
+                                         "y":  430
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  430
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  410
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu",
+                                         "x":  480,
+                                         "y":  420,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-coil-ign2",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ign2-abs-main-ig",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p2-out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-abs-main",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  680,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  680,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  440,
+                                         "y":  250
+                                     }
+                                 ],
+                      "code":  "Bl/Bu→Bl/Y",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu→Bl/Y",
+                                         "x":  560,
+                                         "y":  240,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign2-abs-main-ig",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-abs-main-p7-ig",
+                      "from":  {
+                                   "componentId":  "fuse-abs-main",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "abs-module",
+                                 "terminalId":  "p7-ig"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  520,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  740,
+                                         "y":  190
+                                     }
+                                 ],
+                      "code":  "Bl/Y",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Y→ABS7",
+                                         "x":  630,
+                                         "y":  215,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-abs-main-p7-ig",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-brake-sw",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-sw-front",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  450
+                                     },
+                                     {
+                                         "x":  440,
+                                         "y":  495
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl",
+                                         "x":  350,
+                                         "y":  465,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub1-brake-sw",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-brake-rear",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-sw-rear",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  450
+                                     },
+                                     {
+                                         "x":  280,
+                                         "y":  595
+                                     },
+                                     {
+                                         "x":  440,
+                                         "y":  595
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-front-gy",
+                      "from":  {
+                                   "componentId":  "brake-sw-front",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-light",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  540,
+                                         "y":  495
+                                     },
+                                     {
+                                         "x":  580,
+                                         "y":  495
+                                     },
+                                     {
+                                         "x":  580,
+                                         "y":  530
+                                     },
+                                     {
+                                         "x":  620,
+                                         "y":  530
+                                     }
+                                 ],
+                      "code":  "G/Y",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Y",
+                                         "x":  560,
+                                         "y":  485,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-front-gy",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-rear-gy",
+                      "from":  {
+                                   "componentId":  "brake-sw-rear",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "brake-light",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  540,
+                                         "y":  595
+                                     },
+                                     {
+                                         "x":  580,
+                                         "y":  595
+                                     },
+                                     {
+                                         "x":  580,
+                                         "y":  530
+                                     }
+                                 ],
+                      "code":  "G/Y",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-gy-abs15",
+                      "from":  {
+                                   "componentId":  "brake-light",
+                                   "terminalId":  "feed"
+                               },
+                      "to":  {
+                                 "componentId":  "abs-module",
+                                 "terminalId":  "p15-bls"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  580,
+                                         "y":  530
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  530
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  290
+                                     },
+                                     {
+                                         "x":  740,
+                                         "y":  290
+                                     }
+                                 ],
+                      "code":  "G/Y",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Y→ABS15",
+                                         "x":  720,
+                                         "y":  285,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-gy-abs15",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-brake-mass",
+                      "from":  {
+                                   "componentId":  "brake-light",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-brake-light",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  720,
+                                         "y":  530
+                                     },
+                                     {
+                                         "x":  720,
+                                         "y":  542
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ign1-sub1-meter",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p1-out"
+                               },
+                      "to":  {
+                                 "componentId":  "meter-cluster",
+                                 "terminalId":  "p16-ign"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  300
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl",
+                                         "x":  850,
+                                         "y":  290,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign1-sub1-meter",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-abs8-ind-meter7",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p8-ind"
+                               },
+                      "to":  {
+                                 "componentId":  "meter-cluster",
+                                 "terminalId":  "p7-rbl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  340
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  350
+                                     }
+                                 ],
+                      "code":  "R/Bl",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Bl",
+                                         "x":  980,
+                                         "y":  340,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-abs8-ind-meter7",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sp-net",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p6-rpo"
+                               },
+                      "to":  {
+                                 "componentId":  "meter-cluster",
+                                 "terminalId":  "p9-sp"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  390
+                                     },
+                                     {
+                                         "x":  980,
+                                         "y":  390
+                                     },
+                                     {
+                                         "x":  980,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  400
+                                     }
+                                 ],
+                      "code":  "P/G",
+                      "primaryColor":  "#ff88ff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "P/G",
+                                         "x":  960,
+                                         "y":  380,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sp-net",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sp-ecm-a7",
+                      "from":  {
+                                   "componentId":  "meter-cluster",
+                                   "terminalId":  "p9-sp"
+                               },
+                      "to":  {
+                                 "componentId":  "ecm",
+                                 "terminalId":  "a7-sp"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  980,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  980,
+                                         "y":  560
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  560
+                                     }
+                                 ],
+                      "code":  "P/G",
+                      "primaryColor":  "#ff88ff",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecm-a11-dlc",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a11-lg"
+                               },
+                      "to":  {
+                                 "componentId":  "dlc",
+                                 "terminalId":  "gbl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1200,
+                                         "y":  600
+                                     },
+                                     {
+                                         "x":  1240,
+                                         "y":  600
+                                     },
+                                     {
+                                         "x":  1240,
+                                         "y":  720
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  720
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Bl",
+                                         "x":  1220,
+                                         "y":  610,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecm-a11-dlc",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-abs-diag-dlc",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p13-diag"
+                               },
+                      "to":  {
+                                 "componentId":  "dlc",
+                                 "terminalId":  "ow"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  690
+                                     },
+                                     {
+                                         "x":  960,
+                                         "y":  690
+                                     },
+                                     {
+                                         "x":  960,
+                                         "y":  780
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  780
+                                     }
+                                 ],
+                      "code":  "O/W",
+                      "primaryColor":  "#ffaa00",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "O/W",
+                                         "x":  950,
+                                         "y":  700,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-abs-diag-dlc",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-abs-gnd-mass",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p11-gnd"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-abs",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  740,
+                                         "y":  740
+                                     },
+                                     {
+                                         "x":  740,
+                                         "y":  764
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-meter-gnd-mass",
+                      "from":  {
+                                   "componentId":  "meter-cluster",
+                                   "terminalId":  "p6-gnd"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-meter",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1020,
+                                         "y":  450
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  474
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-vs-rear-rvws",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p3-rvws"
+                               },
+                      "to":  {
+                                 "componentId":  "vs-sensor-rear",
+                                 "terminalId":  "pw"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  440
+                                     },
+                                     {
+                                         "x":  1260,
+                                         "y":  450
+                                     }
+                                 ],
+                      "code":  "P/W",
+                      "primaryColor":  "#ff88ff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "P/W",
+                                         "x":  1100,
+                                         "y":  430,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-vs-rear-rvws",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-vs-rear-rvwb",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p12-rvwb"
+                               },
+                      "to":  {
+                                 "componentId":  "vs-sensor-rear",
+                                 "terminalId":  "p"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  490
+                                     },
+                                     {
+                                         "x":  1260,
+                                         "y":  490
+                                     }
+                                 ],
+                      "code":  "P",
+                      "primaryColor":  "#ff44ff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "P",
+                                         "x":  1100,
+                                         "y":  480,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-vs-rear-rvwb",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-vs-front-fvws",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p2-fvws"
+                               },
+                      "to":  {
+                                 "componentId":  "vs-sensor-front",
+                                 "terminalId":  "w"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  540
+                                     },
+                                     {
+                                         "x":  1260,
+                                         "y":  570
+                                     }
+                                 ],
+                      "code":  "W",
+                      "primaryColor":  "#ffffff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "W",
+                                         "x":  1100,
+                                         "y":  550,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-vs-front-fvws",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-vs-front-fvwb",
+                      "from":  {
+                                   "componentId":  "abs-module",
+                                   "terminalId":  "p10-fvwb"
+                               },
+                      "to":  {
+                                 "componentId":  "vs-sensor-front",
+                                 "terminalId":  "bu"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  590
+                                     },
+                                     {
+                                         "x":  1260,
+                                         "y":  610
+                                     }
+                                 ],
+                      "code":  "Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bu",
+                                         "x":  1100,
+                                         "y":  595,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-vs-front-fvwb",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-bat-ecu",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-ecu",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  350
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  550
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecu-ign2out",
+                      "from":  {
+                                   "componentId":  "fuse-ecu",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-out"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  410
+                                     }
+                                 ],
+                      "code":  "R/Br",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Br",
+                                         "x":  460,
+                                         "y":  540,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecu-ign2out",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-bat-sub2-dlc",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p2-out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-sub2-dlc",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  410
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  650
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  650
+                                     }
+                                 ],
+                      "code":  "Bl/Bu→Bl/W",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu→Bl/W",
+                                         "x":  420,
+                                         "y":  640,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-bat-sub2-dlc",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub2-dlc-blw",
+                      "from":  {
+                                   "componentId":  "fuse-sub2-dlc",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "dlc",
+                                 "terminalId":  "blw"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  650
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  690
+                                     }
+                                 ],
+                      "code":  "Bl/W",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/W",
+                                         "x":  650,
+                                         "y":  665,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub2-dlc-blw",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  }
+              ],
+    "reviewIssues":  [
+                         {
+                             "id":  "ri-abs-01",
+                             "severity":  "info",
+                             "description":  "Hộp cầu chì/relay là khung nhóm, không nối chung các phần bên trong. Mỗi cầu chì độc lập."
+                         },
+                         {
+                             "id":  "ri-abs-02",
+                             "severity":  "info",
+                             "description":  "DLC SCS minh họa ngắn mạch chỉ ở annotation chẩn đoán. Không áp thành đường nối thường trực."
+                         },
+                         {
+                             "id":  "ri-abs-03",
+                             "severity":  "info",
+                             "description":  "DTC danh sách từ inventory: ECU ABS 8-1; IG/BAT 6-1,6-2; motor5-1,5-2,5-3; relay5-4; solenoid3-3,3-4; RVWS1-3,1-4; FVWS1-1,1-2; front sensor1-2,4-1,4-2; rotor2-1; tyre7-1. Giữ ghi chú, không vẽ thành component."
+                         }
+                     ],
+    "genReview":  {
+                      "reviewer":  "kiro-agent",
+                      "date":  "2026-10-13",
+                      "verdict":  "PENDING",
+                      "notes":  "Draft. ABS 16P: chân 7 IG Bl/Y, 15 BLS G/Y, 8 IND R/Bl, 16 BAT R, 6 RPO P/G, 3 RVWS P/W, 12 RVWB P, 2 FVWS W, 10 FVWB Bu, 5 SCS Br, 13 DIAG O/W, 11 GND G/Bl. Hai cảm biến VS (trước/sau). P/G mạng: đồng hồ9↔ABS6↔ECM A7."
+                  }
+}

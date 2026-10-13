@@ -1,0 +1,7 @@
+{
+  "sameSourceSnapshot": true,
+  "candidatesCompared": 10,
+  "changedFiles": [],
+  "verdict": "PASS",
+  "scope": "repeat deterministic local generation; APP sync is NOT_RUN"
+}

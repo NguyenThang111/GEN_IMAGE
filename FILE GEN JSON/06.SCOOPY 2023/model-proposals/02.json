@@ -1,0 +1,229 @@
+{
+  "library": "Master contract ID snapshot; NOT actual registry validation",
+  "masterContractSha256": "846d0b3dd08a5bcecdc37032481fa931d46ce37a9d8781a275087d58f91c4c65",
+  "bindings": [
+    {
+      "componentId": "battery",
+      "sourceItemId": "battery",
+      "proposedType": "battery",
+      "symbolRef": {
+        "id": "battery",
+        "version": 1,
+        "ports": {
+          "negative": "negative",
+          "positive": "positive"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "battery-ground",
+      "sourceItemId": "battery-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "horn-ground",
+      "sourceItemId": "horn-ground",
+      "proposedType": "ground",
+      "symbolRef": {
+        "id": "ground",
+        "version": 1,
+        "ports": {
+          "in": "in"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "main-fuse",
+      "sourceItemId": "main-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "key",
+      "sourceItemId": "key",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.dpst4",
+        "version": 1,
+        "ports": {
+          "pole1-in": "in1",
+          "pole1-out": "out1",
+          "pole2-in": "in2",
+          "pole2-out": "out2"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "main-relay",
+      "sourceItemId": "main-relay",
+      "proposedType": "relay",
+      "symbolRef": {
+        "id": "relay.contact-coil4",
+        "version": 1,
+        "ports": {
+          "contact-left": "contact-left",
+          "contact-right": "contact-right",
+          "coil-left": "coil-left",
+          "coil-right": "coil-right"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "horn-fuse",
+      "sourceItemId": "horn-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ecu-fuse",
+      "sourceItemId": "ecu-fuse",
+      "proposedType": "fuse",
+      "symbolRef": {
+        "id": "fuse",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "horn-switch",
+      "sourceItemId": "horn-switch",
+      "proposedType": "switch",
+      "symbolRef": {
+        "id": "switch.spst2",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "horn",
+      "sourceItemId": "horn",
+      "proposedType": "horn",
+      "symbolRef": {
+        "id": "horn.two-terminal",
+        "version": 1,
+        "ports": {
+          "a": "a",
+          "b": "b"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "ecm",
+      "sourceItemId": "ecm",
+      "proposedType": "ecm",
+      "symbolRef": {
+        "id": "control.ecm",
+        "version": 1,
+        "ports": {
+          "A31": "A31",
+          "A4": "A4",
+          "A15": "A15",
+          "A3": "A3"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": 39
+    },
+    {
+      "componentId": "r-bus",
+      "sourceItemId": "r-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    },
+    {
+      "componentId": "bl-bus",
+      "sourceItemId": "bl-bus",
+      "proposedType": "junction",
+      "symbolRef": {
+        "id": "junction",
+        "version": 1,
+        "ports": {
+          "node": "node"
+        }
+      },
+      "status": "PROPOSED_ONLY",
+      "consumerSupport": "NOT_VERIFIED; APP manifest and shared Studio dispatch unavailable",
+      "requiresReview": false,
+      "sourceCavityCount": null
+    }
+  ]
+}

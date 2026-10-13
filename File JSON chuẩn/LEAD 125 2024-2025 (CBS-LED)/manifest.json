@@ -1,0 +1,140 @@
+{
+  "vehicle": "LEAD 125 2024-2025 (CBS-LED)",
+  "vehicleId": "lead-125-2024-2025-cbs-led",
+  "circuitCount": 12,
+  "alternateCount": 0,
+  "circuits": [
+    {
+      "number": 1,
+      "title": "Mạch cấp nguồn",
+      "id": "lead-125-2024-2025-cbs-led-power-distribution",
+      "json": "01. power-distribution.schema.json",
+      "source": "source/01.Mạch cấp nguồn.PNG",
+      "png": "preview/01. power-distribution.png",
+      "svg": "preview/01. power-distribution.svg",
+      "alignedSource": "preview/01. power-distribution.source.png",
+      "sourceSha256": "533093f49d0fddd887e65b016ec78226852a86b946164ce4b887966cd4859726"
+    },
+    {
+      "number": 2,
+      "title": "Mạch còi",
+      "id": "lead-125-2024-2025-cbs-led-horn",
+      "json": "02. horn.schema.json",
+      "source": "source/02.Mạch còi.PNG",
+      "png": "preview/02. horn.png",
+      "svg": "preview/02. horn.svg",
+      "alignedSource": "preview/02. horn.source.png",
+      "sourceSha256": "9522ee0f496abf4029b1ab44f69d649275e16e4acf20a39dc8724acd2c950516"
+    },
+    {
+      "number": 3,
+      "title": "Mạch xi nhan",
+      "id": "lead-125-2024-2025-cbs-led-turn-signals",
+      "json": "03. turn-signals.schema.json",
+      "source": "source/03.Mạch xi nhan.PNG",
+      "png": "preview/03. turn-signals.png",
+      "svg": "preview/03. turn-signals.svg",
+      "alignedSource": "preview/03. turn-signals.source.png",
+      "sourceSha256": "455fa4b3241fc983e1ccd7d5b1638fcfa3e07f0f5ad8bc750a74f4ce43e2a21a"
+    },
+    {
+      "number": 4,
+      "title": "Mạch đèn phanh",
+      "id": "lead-125-2024-2025-cbs-led-brake-light",
+      "json": "04. brake-light.schema.json",
+      "source": "source/04.Mạch đèn phanh.PNG",
+      "png": "preview/04. brake-light.png",
+      "svg": "preview/04. brake-light.svg",
+      "alignedSource": "preview/04. brake-light.source.png",
+      "sourceSha256": "92c11cd9515e0905b27ddd2cc69c7b9d7b40d7b7dcbe207007622a6d0d2d9714"
+    },
+    {
+      "number": 5,
+      "title": "Mạch báo xăng",
+      "id": "lead-125-2024-2025-cbs-led-fuel-gauge",
+      "json": "05. fuel-gauge.schema.json",
+      "source": "source/05.Mạch báo xăng.PNG",
+      "png": "preview/05. fuel-gauge.png",
+      "svg": "preview/05. fuel-gauge.svg",
+      "alignedSource": "preview/05. fuel-gauge.source.png",
+      "sourceSha256": "7125e16f152433dfda6a9860eb476a4d6d7d7564bea1f520215f654052656651"
+    },
+    {
+      "number": 6,
+      "title": "Mạch báo đèn đêm - Mạch báo đèn LED",
+      "id": "lead-125-2024-2025-cbs-led-lighting",
+      "json": "06. lighting.schema.json",
+      "source": "source/06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "png": "preview/06. lighting.png",
+      "svg": "preview/06. lighting.svg",
+      "alignedSource": "preview/06. lighting.source.png",
+      "sourceSha256": "24465546e061d19157b2e2863b138ce0f5350fbce658400bc862887300057124"
+    },
+    {
+      "number": 7,
+      "title": "Mạch báo tốc độ xe",
+      "id": "lead-125-2024-2025-cbs-led-vehicle-speed",
+      "json": "07. vehicle-speed.schema.json",
+      "source": "source/07.Mạch báo tốc độ xe.PNG",
+      "png": "preview/07. vehicle-speed.png",
+      "svg": "preview/07. vehicle-speed.svg",
+      "alignedSource": "preview/07. vehicle-speed.source.png",
+      "sourceSha256": "927815bce9dedaaee5bf52524ff46da4ab4eadd0618117ed8b383918d92f22ff"
+    },
+    {
+      "number": 8,
+      "title": "Mạch đánh lửa",
+      "id": "lead-125-2024-2025-cbs-led-ignition",
+      "json": "08. ignition.schema.json",
+      "source": "source/08.Mạch đánh lửa.PNG",
+      "png": "preview/08. ignition.png",
+      "svg": "preview/08. ignition.svg",
+      "alignedSource": "preview/08. ignition.source.png",
+      "sourceSha256": "38eafef27b47fadb5806eebdf10fe8eb16d2a9fe26a59f645079eb5db25d5780"
+    },
+    {
+      "number": 9,
+      "title": "Mạch khởi động",
+      "id": "lead-125-2024-2025-cbs-led-starting",
+      "json": "09. starting.schema.json",
+      "source": "source/09.Mạch khởi động.PNG",
+      "png": "preview/09. starting.png",
+      "svg": "preview/09. starting.svg",
+      "alignedSource": "preview/09. starting.source.png",
+      "sourceSha256": "47486e15415e5a78ad7451bba50676dd694d08dcafdbf7222cd601f98ed19a2f"
+    },
+    {
+      "number": 10,
+      "title": "Mạch dừng cầm chừng",
+      "id": "lead-125-2024-2025-cbs-led-idle-stop",
+      "json": "10. idle-stop.schema.json",
+      "source": "source/10.Mạch dừng cầm chừng.PNG",
+      "png": "preview/10. idle-stop.png",
+      "svg": "preview/10. idle-stop.svg",
+      "alignedSource": "preview/10. idle-stop.source.png",
+      "sourceSha256": "ab0dbd91dede72a13dfd54d886e1f9672c06c8e2b49b2ee90591979c80590cb2"
+    },
+    {
+      "number": 11,
+      "title": "Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey)",
+      "id": "lead-125-2024-2025-cbs-led-smartkey",
+      "json": "11. smartkey.schema.json",
+      "source": "source/11.Sơ đồ nguyên lý hệ thống khóa thông minh ( Smartkey).PNG",
+      "png": "preview/11. smartkey.png",
+      "svg": "preview/11. smartkey.svg",
+      "alignedSource": "preview/11. smartkey.source.png",
+      "sourceSha256": "2e066ba6ffd3237aab261ea58ff87c1f02de55275a10dc97d22e47319d0c7ea2"
+    },
+    {
+      "number": 12,
+      "title": "Sơ đồ nguyên lý hệ thống phun xăng điện tử",
+      "id": "lead-125-2024-2025-cbs-led-pgm-fi",
+      "json": "12. pgm-fi.schema.json",
+      "source": "source/12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "png": "preview/12. pgm-fi.png",
+      "svg": "preview/12. pgm-fi.svg",
+      "alignedSource": "preview/12. pgm-fi.source.png",
+      "sourceSha256": "d5c0d31851f7f4870d67c2729136e566dab1d4fb6d37cf38d7a1dc744a398987"
+    }
+  ]
+}

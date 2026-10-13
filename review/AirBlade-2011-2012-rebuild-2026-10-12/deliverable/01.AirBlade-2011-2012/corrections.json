@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "circuits": [
+    {
+      "number": "01",
+      "file": "01. Mạch cấp nguồn.json",
+      "sourceSha256": "cdd7c9ffe0bebf68c6ed07895bfddce9e9aa11f570f94e72f1f6fbd84ab5a456",
+      "candidateSha256": "5f6d022b5e0161365ac3889418aad5e059c6ff7c63bf88d0cea1658db022176b",
+      "baselineSha256": "5f9cdc9d2481ed21eaa1d56d69efa14da7d2c77880b58f1c260b75bdf363a7da",
+      "components": 26,
+      "wires": 28,
+      "modelProposals": 26,
+      "changes": [
+        "Giữ 20 đích tải thành targets và label semantic, gồm nhánh HEAD LIGHT; không chỉ giữ chữ trong drawing.",
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "02",
+      "file": "02. Mạch còi.json",
+      "sourceSha256": "a7713d513350e3e0bde3177f23a4427197ae920785dac7dffe761d389367f4e8",
+      "candidateSha256": "4a6356041c57bd272aaa5b9fb33a012542f2a3368a2183dd5c9722e9061e43c8",
+      "baselineSha256": "583d0d72f60980363c1cab4d4d84ba8c1e131e12affc70cea580190d4af37180",
+      "components": 12,
+      "wires": 12,
+      "modelProposals": 12,
+      "changes": [
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "03",
+      "file": "03. Mạch xi nhan.json",
+      "sourceSha256": "206915931e1f623dc91d0797f2fb7d070366df43ea9fee81bd97cb766a31354e",
+      "candidateSha256": "621b7f439d18ecbcedd7f76b81cbb77619b98c868af74846a21fdab2421ab719",
+      "baselineSha256": "107fe82f887063b8a6474a7ef8cfd0d12f638be017e746b325150c15b7bccd96",
+      "components": 16,
+      "wires": 16,
+      "modelProposals": 16,
+      "changes": [
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "04",
+      "file": "04. Mạch đèn phanh.json",
+      "sourceSha256": "c80397755c0ab5600d17c0876ff4eb50527e549c19ad85ac3dfb3b5cb1cdef4f",
+      "candidateSha256": "e6f3651329c5dd13e60e304553ad7621a9307bc6c556409ee826bed5ff9606f1",
+      "baselineSha256": "c29ef4e94f255b60cf7254a0ff6a6e60cda6f287e3f100d8a1a9810b0d2c95b9",
+      "components": 18,
+      "wires": 19,
+      "modelProposals": 18,
+      "changes": [
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "05",
+      "file": "05. Mạch báo xăng.json",
+      "sourceSha256": "b327b47f8f88a5e065b320adf6a349852d6beb70ce8d023ac9e3c11a762e3078",
+      "candidateSha256": "65b291a60e11dc16a98b0dd7124830b9844b978e5712ff78bea23758816c42a6",
+      "baselineSha256": "fd0bde55ee1170fbde9278e3302ea67022b79f1b74b613197bef1c0a053c8134",
+      "components": 13,
+      "wires": 14,
+      "modelProposals": 13,
+      "changes": [
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "06",
+      "file": "06. Mạch đèn đêm.json",
+      "sourceSha256": "5cc063d88fee78e2b8d6c0587f9986e5b520f2e35a6b45c8f88db0aa93ea8967",
+      "candidateSha256": "c476ee0c22547f552f4b6c838af79c726ca1c061ec95639108be23eecc9647a6",
+      "baselineSha256": "8d9d552e331cca51c7c1e6a8c95fa4e6af4233f7928fb156cdc9ea78a5e65ad5",
+      "components": 26,
+      "wires": 28,
+      "modelProposals": 26,
+      "changes": [
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "07",
+      "file": "07. Mạch đánh lửa.json",
+      "sourceSha256": "336da75e7184bf01d7d292fb850a358fb8eaacf207b769a4bb03f47208bbb374",
+      "candidateSha256": "567208ab6d223b51ebe08084c86ffc74899f28e6707c11bf37923a0e0ca50242",
+      "baselineSha256": "01a0dfd5804b3d0cde7c986bb179e0a438e7d7f8ac8a239f497d790364f26b97",
+      "components": 17,
+      "wires": 20,
+      "modelProposals": 17,
+      "changes": [
+        "Ghi điểm tiếp xúc thứ ba không có dây của ký hiệu chống nghiêng; không thêm cạnh điện nội bộ.",
+        "Dựng mô-bin/bugi từ chân thật theo cùng hình học có tham số; giữ edge cao áp, khe hở và mass minh họa.",
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "08",
+      "file": "08. Mạch khởi động.json",
+      "sourceSha256": "af1a8bfbb9832ac3eacde136a1fff56e765c732f5b8112d343b1bb927f5c7f81",
+      "candidateSha256": "5d4cdd75598f4195ed4fbe8c7673bd60f285268529c5a2129feed6171362630a",
+      "baselineSha256": "8a8a7e753688d22fc41c4163fb72fd019408aeb3e120978c4a9395bad6263dd8",
+      "components": 26,
+      "wires": 32,
+      "modelProposals": 26,
+      "changes": [
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "09",
+      "file": "09. Mạch điện xác định vị trí xe.json",
+      "sourceSha256": "97b518cd3edb50f32fb46d95cecdbdb2a165b8c23a2d7fa635b8a501e1a6ee94",
+      "candidateSha256": "16db3329a4909903ffe7e33c89ecb250313933e2ce4eeddf8f57b84346f7f209",
+      "baselineSha256": "d5aba5b7526fab77a9877220214cd0ca610054d0f0003e1f5cfd06cfe8d72d4e",
+      "components": 22,
+      "wires": 25,
+      "modelProposals": 22,
+      "changes": [
+        "Lưu cấu trúc đủ 10 khoang 2×5 và nhãn 1–10; giữ 9 chân locator có dây.",
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    },
+    {
+      "number": "10",
+      "file": "10. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json",
+      "sourceSha256": "c359bc27818b8a46dd642d64e4a92329fcac37b1866f39cdcb1ea1b1246b0608",
+      "candidateSha256": "ab5bce1824bce202cdf681f6d25abcedb6fcc73cb3b5be340826807acd807797",
+      "baselineSha256": "edbae4fbda18db12a616d4c4bbab4294ebe462537d09e4e3d85f3dbe8e2325c3",
+      "components": 39,
+      "wires": 60,
+      "modelProposals": 39,
+      "changes": [
+        "Giữ bảng khoang 33P theo hướng ảnh; sửa IGPLS, dấu : và ghi chú điện trở theo nguồn.",
+        "Dựng mô-bin/bugi từ chân thật theo cùng hình học có tham số; giữ edge cao áp, khe hở và mass minh họa.",
+        "Giữ ID/vehicleId/vehicleTitle của record server đã xác minh; identity thang cũ được lưu riêng để trace."
+      ],
+      "wireEndpointsChanged": [],
+      "deliveryVerdict": "REVIEW_REQUIRED"
+    }
+  ]
+}

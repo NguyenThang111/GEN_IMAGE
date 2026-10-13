@@ -1,0 +1,23 @@
+{
+  "12": {
+    "operation": "clockwise 90 degrees, render only",
+    "originalSize": [
+      1308,
+      741
+    ],
+    "canvasSize": [
+      741,
+      1308
+    ],
+    "coordinateConvention": "continuous pixel-edge coordinates",
+    "forward": {
+      "x": "741 - sourceY",
+      "y": "sourceX"
+    },
+    "inverse": {
+      "sourceX": "canvasY",
+      "sourceY": "741 - canvasX"
+    },
+    "originalBytesUnchanged": true
+  }
+}

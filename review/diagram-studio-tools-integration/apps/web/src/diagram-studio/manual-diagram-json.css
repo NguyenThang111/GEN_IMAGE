@@ -1,0 +1,16 @@
+.diagramManualJson{grid-column:1/-1;min-width:0;padding:14px;border:1px solid var(--line,#d9dedb);border-radius:9px;background:var(--surface,#fff);color:var(--text,#202622)}
+.diagramManualJson>header,.diagramJsonActions{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.diagramManualJson>header{justify-content:space-between;margin-bottom:10px}
+.diagramManualJson>header span,.diagramManualJson>p{color:var(--muted,#69716c);font-size:13px}
+.diagramManualWorkspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:16px;align-items:start}
+.diagramManualCode,.diagramManualPreview{min-width:0}
+.diagramManualCode>label,.diagramJsonLabel{display:block;margin:12px 0 6px;font-weight:600}
+.diagramManualJson textarea,.diagramConverterView .diagramManualJson .diagramJsonReadOnly{box-sizing:border-box;display:block;width:100%;height:clamp(360px,60vh,640px);min-height:360px;overflow:auto;resize:vertical;padding:12px;margin:0 0 10px;font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;tab-size:2;border:1px solid var(--line,#d9dedb);border-radius:6px;background:var(--surface,#fff);color:var(--text,#202622);white-space:pre;overflow-wrap:normal}
+.diagramManualPreview{position:sticky;top:12px}
+.diagramPreviewStatus,.diagramJsonHint{font-size:12px;line-height:1.5;color:var(--muted,#69716c)}
+.diagramPreviewStatus.invalid{color:#bd3d26;font-weight:600}
+[data-theme="dark"] .diagramPreviewStatus.invalid{color:#ffb4a5}
+.diagramConverterView .diagramManualPreview .diagramCanvas{height:clamp(360px,60vh,640px);min-height:0;margin:0}
+.diagramConverterView .diagramManualPreview .diagramCanvas svg{width:100%;height:100%;min-height:0}
+.diagramManualJson .diagramValidationError{margin-top:10px;max-height:240px;overflow:auto}
+@media(max-width:1050px){.diagramManualWorkspace{grid-template-columns:1fr}.diagramManualPreview{position:static}}

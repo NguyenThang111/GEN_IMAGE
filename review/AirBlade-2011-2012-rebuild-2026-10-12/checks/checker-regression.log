@@ -1,0 +1,34 @@
+test_actual_text_pixels_cross_wire (__main__.FaultInjection) ... ok
+test_duplicate_terminal (__main__.FaultInjection) ... ok
+test_duplicate_wire (__main__.FaultInjection) ... ok
+test_empty_path_fails_closed (__main__.FaultInjection) ... ok
+test_extra_battery_short (__main__.FaultInjection) ... ok
+test_later_fill_hides_existing_text (__main__.FaultInjection) ... ok
+test_malformed_terminal_object_fails_closed (__main__.FaultInjection) ... ok
+test_mirror_relay_glyph_roles_only (__main__.FaultInjection) ... ok
+test_missing_ecm_pin_label_in_drawing (__main__.FaultInjection) ... ok
+test_missing_stripe_only_on_drawing (__main__.FaultInjection) ... ok
+test_modified_source_hash_rejected (__main__.FaultInjection) ... ok
+test_named_pin_mapping_for_new_battery (__main__.FaultInjection) ... ok
+test_nan_coordinate_fails_closed (__main__.FaultInjection) ... ok
+test_new_relay_ports_are_exact (__main__.FaultInjection) ... ok
+test_old_incorrect_thl_pin_is_rejected (__main__.FaultInjection) ... ok
+test_partial_coverage_never_passes (__main__.FaultInjection) ... ok
+test_recursive_symbol_fails_closed (__main__.FaultInjection) ... ok
+test_reference_consistency (__main__.FaultInjection) ... ok
+test_removed_graphics_for_existing_wire (__main__.FaultInjection) ... ok
+test_removed_wire_leaves_ghost_drawing (__main__.FaultInjection) ... ok
+test_reordering_battery_terminals_does_not_swap_polarity (__main__.FaultInjection) ... ok
+test_rotated_text_clips_canvas (__main__.FaultInjection) ... ok
+test_shift_route_but_keep_drawing (__main__.FaultInjection) ... ok
+test_swap_battery_connections_even_with_matching_endpoints (__main__.FaultInjection) ... ok
+test_swap_battery_glyph_without_changing_data (__main__.FaultInjection) ... ok
+test_swapped_relay_semantic_roles (__main__.FaultInjection) ... ok
+test_unsupported_shape_is_not_silently_ignored (__main__.FaultInjection) ... ok
+test_white_wire_outline_is_not_reported_as_wrong_color (__main__.FaultInjection) ... ok
+test_wrong_stripe_in_both_data_and_drawing (__main__.FaultInjection) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 1.628s
+
+OK

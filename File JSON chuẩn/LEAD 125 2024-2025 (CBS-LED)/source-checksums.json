@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01.Mạch cấp nguồn.PNG",
+    "sha256": "533093f49d0fddd887e65b016ec78226852a86b946164ce4b887966cd4859726"
+  },
+  {
+    "file": "02.Mạch còi.PNG",
+    "sha256": "9522ee0f496abf4029b1ab44f69d649275e16e4acf20a39dc8724acd2c950516"
+  },
+  {
+    "file": "03.Mạch xi nhan.PNG",
+    "sha256": "455fa4b3241fc983e1ccd7d5b1638fcfa3e07f0f5ad8bc750a74f4ce43e2a21a"
+  },
+  {
+    "file": "04.Mạch đèn phanh.PNG",
+    "sha256": "92c11cd9515e0905b27ddd2cc69c7b9d7b40d7b7dcbe207007622a6d0d2d9714"
+  },
+  {
+    "file": "05.Mạch báo xăng.PNG",
+    "sha256": "7125e16f152433dfda6a9860eb476a4d6d7d7564bea1f520215f654052656651"
+  },
+  {
+    "file": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+    "sha256": "24465546e061d19157b2e2863b138ce0f5350fbce658400bc862887300057124"
+  },
+  {
+    "file": "07.Mạch báo tốc độ xe.PNG",
+    "sha256": "927815bce9dedaaee5bf52524ff46da4ab4eadd0618117ed8b383918d92f22ff"
+  },
+  {
+    "file": "08.Mạch đánh lửa.PNG",
+    "sha256": "38eafef27b47fadb5806eebdf10fe8eb16d2a9fe26a59f645079eb5db25d5780"
+  },
+  {
+    "file": "09.Mạch khởi động.PNG",
+    "sha256": "47486e15415e5a78ad7451bba50676dd694d08dcafdbf7222cd601f98ed19a2f"
+  },
+  {
+    "file": "10.Mạch dừng cầm chừng.PNG",
+    "sha256": "ab0dbd91dede72a13dfd54d886e1f9672c06c8e2b49b2ee90591979c80590cb2"
+  },
+  {
+    "file": "11.Sơ đồ nguyên lý hệ thống khóa thông minh ( Smartkey).PNG",
+    "sha256": "2e066ba6ffd3237aab261ea58ff87c1f02de55275a10dc97d22e47319d0c7ea2"
+  },
+  {
+    "file": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+    "sha256": "d5c0d31851f7f4870d67c2729136e566dab1d4fb6d37cf38d7a1dc744a398987"
+  }
+]

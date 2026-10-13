@@ -1,0 +1,86 @@
+[
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\01.Mạch cấp nguồn.PNG",
+    "sha256": "91144a6041388817b593b6edcd79edd0cdd4ad0bd6dcbc862cdc1e271883429f",
+    "width": 1598,
+    "height": 899,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\02.Mạch còi.PNG",
+    "sha256": "3df708af981ab127a2d47395e33b45a41b7344c4c8392ebc8841043ee8fbaf14",
+    "width": 1279,
+    "height": 723,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\03.Mạch xi nhan.PNG",
+    "sha256": "56c352c429867374901c130009d19ba3a6e4206a9d87e31069f8143b80161d41",
+    "width": 1266,
+    "height": 710,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\04.Mạch đèn phanh.PNG",
+    "sha256": "5ec3993d23d31a65940d8a6d9c41d8ed82a05e285f7ffa0a4c86f414faf0a12e",
+    "width": 1274,
+    "height": 707,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\05.Mạch báo xăng.PNG",
+    "sha256": "cb0cd9ecdf5cfe58f40dde3d596f9d6f87e4ba280a0bcfa2dda25d56efba97a1",
+    "width": 1274,
+    "height": 713,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+    "sha256": "2e1ecadd6c668560a5c09290bedb02ea5fdbdec9b5d7d1c088eec627d3a04023",
+    "width": 1272,
+    "height": 715,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\07.Mạch báo tốc độ xe.PNG",
+    "sha256": "b650bbf8b5a09b7dff5df00335d8dced6ac3c46a57c40ae694ec8cdccdb71b7b",
+    "width": 1275,
+    "height": 720,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\08.Mạch đánh lửa.PNG",
+    "sha256": "f1c18a35901efba52bf2b9f4bcc01dc9dbad291f07ed03cd5fa9c0a8308f0732",
+    "width": 1274,
+    "height": 719,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\09.Mạch khởi động.PNG",
+    "sha256": "f0950a0a50e4b763dc252a818c97dae3f6314d965ac9368d0c6d476309b8179c",
+    "width": 1288,
+    "height": 734,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+    "sha256": "225741794213ddc6c2b5643d9e5cddc0e8ba19fa22bd53491439a330fb6929a4",
+    "width": 1297,
+    "height": 729,
+    "reviewRotationClockwise": 0
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\11.Sơ đồ nguyên lý hệ thống khóa thông minh ( Smartkey).PNG",
+    "sha256": "64b68ad463ec47eb32d2fb268ef1de792a153981d3b11ef7dd4748b2fd15f4a0",
+    "width": 1299,
+    "height": 750,
+    "reviewRotationClockwise": 90
+  },
+  {
+    "file": "FILE ANH\\Vario 2023 - 2025\\12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+    "sha256": "af7596c0948b84e893cb5b29b7e86e5e4cfdd41a2bc164bda443165bc81a5ad6",
+    "width": 1299,
+    "height": 738,
+    "reviewRotationClockwise": 90
+  }
+]

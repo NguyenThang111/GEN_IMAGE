@@ -1,0 +1,59 @@
+{
+  "vehicleId": "scoopy-2023",
+  "circuitId": "scoopy-2023-brake-light",
+  "source": {
+    "recordId": null,
+    "identity": "LOCAL_ONLY",
+    "originalPath": "FILE ANH/06.SCOOPY 2023/04.Mạch đèn phanh.PNG",
+    "imageSha256": "e91ff565b653986a72d409423596803f46762b343cf4d903e9751af13fdddccc"
+  },
+  "schemaSha256": "c3149b10b71668e01fdb284c20e8275dea5fcb00f0708751692be2ccff5436aa",
+  "library": {
+    "revision": "APP_REGISTRY_NOT_AVAILABLE",
+    "actualManifestSha256": null,
+    "contractModelSnapshotSha256": "846d0b3dd08a5bcecdc37032481fa931d46ce37a9d8781a275087d58f91c4c65",
+    "legacyGeometrySha256": "b60eb4ffbac76ba26d02c81dc98daa91d6ea389ae8e18adabf597d051abb8b75",
+    "legacyGeometryHelpersSha256": "93386e9f425bd706cc17dc560b6020b970045463434d367e56e4da90a42adf85"
+  },
+  "inventoryArtifact": "inventory/04.json",
+  "coverage": {
+    "transcriptionCarry": "PASS",
+    "sourceInterpretation": "REVIEW_REQUIRED",
+    "unresolved": [
+      "brake-tail: Hai sợi đốt vẽ trong ảnh; chỉ hai đường dây ngoài. Không suy liên kết nội bộ.",
+      "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+    ]
+  },
+  "genReview": {
+    "reviewer": "Codex author",
+    "verdict": "REVIEW_REQUIRED",
+    "date": "2026-10-12",
+    "checklist": [
+      "Original image viewed before candidate",
+      "Component and terminal inventory transcribed",
+      "Load continuations preserved",
+      "Selected CKP/lamp/coil/sensor-return nets checked",
+      "Local Studio preview viewed; exact contour/text completeness remains pending"
+    ]
+  },
+  "appReview": {
+    "reviewer": null,
+    "verdict": "PENDING",
+    "rendererRevision": null
+  },
+  "validation": {
+    "studioStructural": "PASS",
+    "editorExportRoundTrip": "PASS",
+    "deterministicExport": "PASS",
+    "repeatLocalGenerationNoDiff": "PASS",
+    "apiRoundTrip": "NOT_RUN",
+    "appImport": "NOT_RUN",
+    "appRender": "NOT_RUN",
+    "repeatAppSyncNoDiff": "NOT_RUN",
+    "independentReview": "PENDING",
+    "productionBundleValidator": "PASS",
+    "productionBundleSha256": "70324367feba63cbace628fc423a497e71653d98cb9fa4d30db38ad9bd9b50b2",
+    "componentCompatibilityRevision": "r02"
+  },
+  "deliveryVerdict": "REVIEW_REQUIRED"
+}

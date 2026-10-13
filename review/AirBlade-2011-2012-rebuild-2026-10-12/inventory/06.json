@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "06",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-37-50.png",
+    "imageSha256": "5cc063d88fee78e2b8d6c0587f9986e5b520f2e35a6b45c8f88db0aa93ea8967",
+    "width": 1687,
+    "height": 952,
+    "recordId": "b2a83700-2149-4763-8289-0c5333db0720",
+    "identityStatus": "SERVER_SOURCE_REPLACEMENT_REQUIRED",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "night-lighting",
+    "serverImageSha256": "cdd7c9ffe0bebf68c6ed07895bfddce9e9aa11f570f94e72f1f6fbd84ab5a456"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "06:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm trái, dương phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 199,
+        "y": 438,
+        "width": 98,
+        "height": 69
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:fuse-main",
+      "candidateComponentId": "fuse-main",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 393,
+        "y": 363,
+        "width": 80,
+        "height": 40
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 393,
+        "y": 437,
+        "width": 80,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:ignition-switch",
+      "candidateComponentId": "ignition-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 555,
+        "y": 433,
+        "width": 77,
+        "height": 44
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:main-relay",
+      "candidateComponentId": "main-relay",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 707,
+        "y": 362,
+        "width": 76,
+        "height": 111
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; W/Bl vào",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 807,
+        "y": 547,
+        "width": 81,
+        "height": 55
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:fuse-head",
+      "candidateComponentId": "fuse-head",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) HEAD LIGHT",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 895,
+        "y": 294,
+        "width": 75,
+        "height": 35
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:fuse-turn",
+      "candidateComponentId": "fuse-turn",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) TURN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 895,
+        "y": 364,
+        "width": 75,
+        "height": 35
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:night-switch",
+      "candidateComponentId": "night-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC ĐÈN ĐÊM; hai pole Y/Bu/W và Bl/Br/Br độc lập",
+      "proposedModelId": "switch.dpst4",
+      "sourceBox": {
+        "x": 1074,
+        "y": 310,
+        "width": 76,
+        "height": 89
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:dimmer",
+      "candidateComponentId": "dimmer",
+      "kind": "component",
+      "observation": "CÔNG TẮC PHA CỐT; common Bu/W, high Bu, low W",
+      "proposedModelId": "switch.selector3",
+      "sourceBox": {
+        "x": 1227,
+        "y": 302,
+        "width": 79,
+        "height": 72
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:high-indicator",
+      "candidateComponentId": "high-indicator",
+      "kind": "component",
+      "observation": "ĐÈN BÁO PHA; sợi đốt; Bu/G",
+      "proposedModelId": "lamp.filament2",
+      "sourceBox": {
+        "x": 1422,
+        "y": 178,
+        "width": 105,
+        "height": 58
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:headlamp",
+      "candidateComponentId": "headlamp",
+      "kind": "component",
+      "observation": "ĐÈN PHA COS; high trên, low giữa, common dưới theo ảnh",
+      "proposedModelId": "lamp.dual-filament3",
+      "sourceBox": {
+        "x": 1422,
+        "y": 283,
+        "width": 180,
+        "height": 119
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:position",
+      "candidateComponentId": "position",
+      "kind": "component",
+      "observation": "ĐÈN VỊ TRÍ; sợi đốt; Br/G",
+      "proposedModelId": "lamp.filament2",
+      "sourceBox": {
+        "x": 1428,
+        "y": 457,
+        "width": 106,
+        "height": 64
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:license",
+      "candidateComponentId": "license",
+      "kind": "component",
+      "observation": "ĐÈN BIỂN SỐ; sợi đốt; Br/G",
+      "proposedModelId": "lamp.filament2",
+      "sourceBox": {
+        "x": 1428,
+        "y": 581,
+        "width": 106,
+        "height": 61
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "06:tail",
+      "candidateComponentId": "tail",
+      "kind": "component",
+      "observation": "ĐÈN PHANH/ĐÈN HẬU; panel LED; Br/G",
+      "proposedModelId": "lamp.led-panel2",
+      "sourceBox": {
+        "x": 1451,
+        "y": 700,
+        "width": 47,
+        "height": 90
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "ground-battery.in"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "fuse-fi.left"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left"
+      ],
+      [
+        "fuse-fi.right",
+        "ignition-switch.left"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn.left",
+        "fuse-head.left"
+      ],
+      [
+        "fuse-head.right",
+        "night-switch.in1"
+      ],
+      [
+        "fuse-turn.right",
+        "night-switch.in2"
+      ],
+      [
+        "night-switch.out1",
+        "dimmer.common"
+      ],
+      [
+        "dimmer.upper",
+        "high-indicator.feed",
+        "headlamp.high"
+      ],
+      [
+        "dimmer.lower",
+        "headlamp.low"
+      ],
+      [
+        "high-indicator.return",
+        "ground-high.in"
+      ],
+      [
+        "headlamp.return",
+        "ground-head.in"
+      ],
+      [
+        "night-switch.out2",
+        "position.feed",
+        "license.feed",
+        "tail.feed"
+      ],
+      [
+        "position.return",
+        "ground-position.in"
+      ],
+      [
+        "license.return",
+        "ground-license.in"
+      ],
+      [
+        "tail.return",
+        "ground-tail.in"
+      ]
+    ],
+    "edges": [
+      [
+        "battery.negative",
+        "ground-battery.in",
+        "G"
+      ],
+      [
+        "battery.positive",
+        "fuse-main.left",
+        "R"
+      ],
+      [
+        "battery.positive",
+        "fuse-fi.left",
+        "R"
+      ],
+      [
+        "fuse-main.right",
+        "main-relay.contact-left",
+        "R/W"
+      ],
+      [
+        "fuse-fi.right",
+        "ignition-switch.left",
+        "R/Bl"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left",
+        "Bl"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top",
+        "W/Bl"
+      ],
+      [
+        "main-relay.contact-right",
+        "fuse-turn.left",
+        "R/Y"
+      ],
+      [
+        "fuse-head.right",
+        "night-switch.in1",
+        "Y"
+      ],
+      [
+        "fuse-turn.right",
+        "night-switch.in2",
+        "Bl/Br"
+      ],
+      [
+        "night-switch.out1",
+        "dimmer.common",
+        "Bu/W"
+      ],
+      [
+        "dimmer.upper",
+        "headlamp.high",
+        "Bu"
+      ],
+      [
+        "dimmer.lower",
+        "headlamp.low",
+        "W"
+      ],
+      [
+        "night-switch.out2",
+        "position.feed",
+        "Br"
+      ],
+      [
+        "night-switch.out2",
+        "license.feed",
+        "Br"
+      ],
+      [
+        "night-switch.out2",
+        "tail.feed",
+        "Br"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          218,
+          437
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          276,
+          437
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-left",
+        "xy": [
+          707,
+          382
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-right",
+        "xy": [
+          783,
+          382
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-left",
+        "xy": [
+          707,
+          456
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-right",
+        "xy": [
+          783,
+          456
+        ],
+        "label": null
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": [
+    "Server source is a derived render (01/02) or the wrong circuit (06); use the original local screenshot and replace the record source through a reviewed workflow.",
+    "LED panel external channels are visible; manufacturer internal topology is not established by this screenshot.",
+    "Headlamp source role order is high/low/common; contract v1 documents a common/high/low layout restriction. Do not swap electrical roles to bypass it."
+  ]
+}

@@ -1,0 +1,71 @@
+--- a/apps/web/src/diagram-studio/validate-diagram.ts
++++ b/apps/web/src/diagram-studio/validate-diagram.ts
+@@ -76,6 +76,11 @@
+ 
+ export function validateDiagram(diagram: ElectricalDiagram): string[] {
+   const errors: string[] = diagram.drawing ? validateVectorDrawing(diagram.drawing) : [];
++  // Source-traced drawings may contain diagonal wires. Their routes still have
++  // to meet real terminals; an image hash is provenance, not electrical approval.
++  const sourceTracedLayout = !!diagram.drawing?.elements.length && !!diagram.sourceCrop &&
++    typeof diagram.reviewMetadata?.sourceSha256 === "string" &&
++    /^[a-f0-9]{64}$/i.test(diagram.reviewMetadata.sourceSha256);
+   const componentIds = new Set<string>();
+   const terminalKeys = new Set<string>();
+   const terminalPoints = new Map<string, { x: number; y: number }>();
+@@ -117,7 +122,10 @@
+     if (!lastPoint || (toPoint && (lastPoint.x !== toPoint.x || lastPoint.y !== toPoint.y))) errors.push("Wire end does not meet terminal: " + wire.id);
+     wire.points.slice(1).forEach((point, pointIndex) => {
+       const previous = wire.points[pointIndex];
+-      if (point.x !== previous.x && point.y !== previous.y) { errors.push("Non-orthogonal wire segment: " + wire.id); return; }
++      if (point.x !== previous.x && point.y !== previous.y) {
++        if (!sourceTracedLayout) errors.push("Non-orthogonal wire segment: " + wire.id);
++        return;
++      }
+       const horizontal = point.y === previous.y;
+       routedSegments.push({ wireId: wire.id, orientation: horizontal ? "horizontal" : "vertical", fixed: horizontal ? point.y : point.x, min: horizontal ? Math.min(previous.x, point.x) : Math.min(previous.y, point.y), max: horizontal ? Math.max(previous.x, point.x) : Math.max(previous.y, point.y) });
+     });
+--- a/apps/web/src/diagram-studio/validate-diagram.test.ts
++++ b/apps/web/src/diagram-studio/validate-diagram.test.ts
+@@ -41,6 +41,42 @@
+     expect(validateDiagram(diagram)).toContain("Non-orthogonal wire segment: battery-ground");
+   });
+ 
++  const sourceTracedFixture = () => {
++    const diagram = cloneFixture();
++    diagram.wires[0].points[1].x += 1;
++    diagram.sourceCrop = { x: 0, y: 0, width: diagram.canvas.width, height: diagram.canvas.height };
++    diagram.reviewMetadata = { sourceSha256: "a".repeat(64) };
++    diagram.drawing = { version: 1, elements: [{ kind: "path", owner: diagram.wires[0].id, role: "wire", points: diagram.wires[0].points.map(point => [point.x, point.y]), stroke: diagram.wires[0].primaryColor, width: 3.5 }] };
++    return diagram;
++  };
++
++  it("keeps a diagonal route from a source-traced vector drawing", () => {
++    expect(validateDiagramInput(sourceTracedFixture()).errors).toEqual([]);
++  });
++
++  it("does not relax manual routing without complete source provenance", () => {
++    for (const field of ["drawing", "sourceCrop", "reviewMetadata"] as const) {
++      const diagram = sourceTracedFixture();
++      delete diagram[field];
++      expect(validateDiagram(diagram)).toContain("Non-orthogonal wire segment: battery-ground");
++    }
++    const diagram = sourceTracedFixture();
++    diagram.reviewMetadata = { sourceSha256: "not-a-sha256" };
++    expect(validateDiagram(diagram)).toContain("Non-orthogonal wire segment: battery-ground");
++  });
++
++  it("still rejects missing terminals in source-traced drawings", () => {
++    const diagram = sourceTracedFixture();
++    diagram.wires[0].to.terminalId = "missing";
++    expect(validateDiagramInput(diagram).errors).toContain("Missing endpoint: battery-ground -> battery-ground.missing");
++  });
++
++  it("still rejects detached endpoints in source-traced drawings", () => {
++    const diagram = sourceTracedFixture();
++    diagram.wires[0].points[0].x += 1;
++    expect(validateDiagramInput(diagram).errors).toContain("Wire start does not meet terminal: battery-ground");
++  });
++
+   it("rejects an invalid physical wire color", () => {
+     const diagram = cloneFixture();
+     diagram.wires[0].primaryColor = "green";

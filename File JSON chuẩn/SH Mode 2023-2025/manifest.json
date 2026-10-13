@@ -1,0 +1,101 @@
+{
+  "vehicle": "Honda SH Mode 2023–2025",
+  "circuits": [
+    {
+      "number": 1,
+      "title": "Mạch cấp nguồn",
+      "json": "01. Mạch cấp nguồn.json",
+      "png": "preview/01. Mạch cấp nguồn.png",
+      "svg": "preview/01. Mạch cấp nguồn.svg",
+      "source": "source/01. Mạch cấp nguồn.png"
+    },
+    {
+      "number": 2,
+      "title": "Mạch còi",
+      "json": "02. Mạch còi.json",
+      "png": "preview/02. Mạch còi.png",
+      "svg": "preview/02. Mạch còi.svg",
+      "source": "source/02. Mạch còi.png"
+    },
+    {
+      "number": 3,
+      "title": "Mạch xi nhan",
+      "json": "03. Mạch xi nhan.json",
+      "png": "preview/03. Mạch xi nhan.png",
+      "svg": "preview/03. Mạch xi nhan.svg",
+      "source": "source/03. Mạch xi nhan.png"
+    },
+    {
+      "number": 4,
+      "title": "Mạch đèn phanh",
+      "json": "04. Mạch đèn phanh.json",
+      "png": "preview/04. Mạch đèn phanh.png",
+      "svg": "preview/04. Mạch đèn phanh.svg",
+      "source": "source/04. Mạch đèn phanh.png"
+    },
+    {
+      "number": 5,
+      "title": "Mạch báo xăng",
+      "json": "05. Mạch báo xăng.json",
+      "png": "preview/05. Mạch báo xăng.png",
+      "svg": "preview/05. Mạch báo xăng.svg",
+      "source": "source/05. Mạch báo xăng.png"
+    },
+    {
+      "number": 6,
+      "title": "Mạch đèn đêm và đèn pha LED",
+      "json": "06. Mạch đèn đêm và đèn pha LED.json",
+      "png": "preview/06. Mạch đèn đêm và đèn pha LED.png",
+      "svg": "preview/06. Mạch đèn đêm và đèn pha LED.svg",
+      "source": "source/06. Mạch đèn đêm và đèn pha LED.png"
+    },
+    {
+      "number": 7,
+      "title": "Mạch báo tốc độ xe",
+      "json": "07. Mạch báo tốc độ xe.json",
+      "png": "preview/07. Mạch báo tốc độ xe.png",
+      "svg": "preview/07. Mạch báo tốc độ xe.svg",
+      "source": "source/07. Mạch báo tốc độ xe.png"
+    },
+    {
+      "number": 8,
+      "title": "Mạch đánh lửa",
+      "json": "08. Mạch đánh lửa.json",
+      "png": "preview/08. Mạch đánh lửa.png",
+      "svg": "preview/08. Mạch đánh lửa.svg",
+      "source": "source/08. Mạch đánh lửa.png"
+    },
+    {
+      "number": 9,
+      "title": "Mạch khởi động",
+      "json": "09. Mạch khởi động.json",
+      "png": "preview/09. Mạch khởi động.png",
+      "svg": "preview/09. Mạch khởi động.svg",
+      "source": "source/09. Mạch khởi động.png"
+    },
+    {
+      "number": 10,
+      "title": "Mạch dừng động cơ tạm thời (Idling Stop)",
+      "json": "10. Mạch dừng động cơ tạm thời (Idling Stop).json",
+      "png": "preview/10. Mạch dừng động cơ tạm thời (Idling Stop).png",
+      "svg": "preview/10. Mạch dừng động cơ tạm thời (Idling Stop).svg",
+      "source": "source/10. Mạch dừng động cơ tạm thời (Idling Stop).png"
+    },
+    {
+      "number": 11,
+      "title": "Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey)",
+      "json": "11. Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey).json",
+      "png": "preview/11. Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey).png",
+      "svg": "preview/11. Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey).svg",
+      "source": "source/11. Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey).png"
+    },
+    {
+      "number": 12,
+      "title": "Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI)",
+      "json": "12. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json",
+      "png": "preview/12. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).png",
+      "svg": "preview/12. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).svg",
+      "source": "source/12. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).png"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "circuits": [
+    {
+      "file": "01. power-distribution.schema.json",
+      "schemaSha256": "7dddbbcdef38cbd6c38336e11068f1f7e72689e2036ec217dee2f22e476b422f",
+      "typeChanges": [
+        {
+          "id": "start-contact-feed",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "usb-out",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "fi-loads",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "horn-out",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "start-coil-feed",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "backup-loads",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "battery-start-contact",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "ecu-loads",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "head-led-feed",
+          "from": "loadGroup",
+          "to": "device"
+        },
+        {
+          "id": "meter-loads",
+          "from": "loadGroup",
+          "to": "device"
+        }
+      ],
+      "orthogonalizedWires": [
+        "wire-004",
+        "wire-006",
+        "wire-009"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "02. horn.schema.json",
+      "schemaSha256": "28ba567e20380eb0763ac87dad543806231233cebead8af4c77453e9e3c361b8",
+      "typeChanges": [],
+      "orthogonalizedWires": [
+        "wire-004",
+        "wire-005",
+        "wire-006"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "03. turn-signals.schema.json",
+      "schemaSha256": "1c1353f15f7c72521b26c1b587348a3f8fe02ab268b59726538239cc07e43e36",
+      "typeChanges": [],
+      "orthogonalizedWires": [],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "04. brake-light.schema.json",
+      "schemaSha256": "c3149b10b71668e01fdb284c20e8275dea5fcb00f0708751692be2ccff5436aa",
+      "typeChanges": [],
+      "orthogonalizedWires": [],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "05. fuel-gauge.schema.json",
+      "schemaSha256": "25b60859da8cc3706aae0f6f6f4c33861cb010d4ad7bab33a9d55fc85cd41aa3",
+      "typeChanges": [
+        {
+          "id": "cluster-pinout",
+          "from": "pinout",
+          "to": "connector"
+        }
+      ],
+      "orthogonalizedWires": [],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "06. night-lighting.schema.json",
+      "schemaSha256": "6e9fc358986a5022c325b7f7561743c2e1b37ba4d6372b5b859c34e6f8b02205",
+      "typeChanges": [],
+      "orthogonalizedWires": [
+        "wire-012"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "07. vehicle-speed.schema.json",
+      "schemaSha256": "4acb02ab17b921c3426bfe4bc6465367b5234ebe37a51a47e0fff9f2ec77686c",
+      "typeChanges": [
+        {
+          "id": "cluster-pinout",
+          "from": "pinout",
+          "to": "connector"
+        }
+      ],
+      "orthogonalizedWires": [],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "08. ignition.schema.json",
+      "schemaSha256": "6f1a94e643899e7dad22d9d2701a5dce9901962b3c195a27adf2b81e28acbf28",
+      "typeChanges": [
+        {
+          "id": "ecm-pinout7",
+          "from": "pinout",
+          "to": "connector"
+        },
+        {
+          "id": "ecm-pinout39",
+          "from": "pinout",
+          "to": "connector"
+        }
+      ],
+      "orthogonalizedWires": [
+        "wire-002",
+        "wire-011"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "09. starting.schema.json",
+      "schemaSha256": "c0a8c7627659452e25759b2898bfac577103f8f64f528b0a0e62188163445602",
+      "typeChanges": [],
+      "orthogonalizedWires": [
+        "wire-002",
+        "wire-004",
+        "wire-006"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "10. vehicle-locator-alarm.schema.json",
+      "schemaSha256": "dd6de1c6012a6f0fb8ed715956319a8328f0957b4655ac581ba0a571a66546b7",
+      "typeChanges": [
+        {
+          "id": "alarm-pinout",
+          "from": "pinout",
+          "to": "connector"
+        }
+      ],
+      "orthogonalizedWires": [
+        "wire-002",
+        "wire-003"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "11. idling-stop.schema.json",
+      "schemaSha256": "37e9d8caf426c1938f9fee6be45a94282a2ef6490ab5a3f7cf41fae9adb1ef0b",
+      "typeChanges": [],
+      "orthogonalizedWires": [
+        "wire-002",
+        "wire-004",
+        "wire-006"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "12. pgm-fi.schema.json",
+      "schemaSha256": "7b44fcf6f57f1641e96ef7b2741986da8537965fccd72116d84498be080b7f7d",
+      "typeChanges": [
+        {
+          "id": "ecm-pinout39",
+          "from": "pinout",
+          "to": "connector"
+        },
+        {
+          "id": "ecm-pinout7",
+          "from": "pinout",
+          "to": "connector"
+        }
+      ],
+      "orthogonalizedWires": [
+        "wire-002",
+        "wire-003",
+        "wire-004",
+        "wire-006",
+        "wire-045"
+      ],
+      "allOriginalComponentFieldsExceptTypePreserved": true,
+      "idsAndTerminalsPreserved": true,
+      "wireEndpointsCodesColorsAndStatesPreserved": true,
+      "targetsPinoutDataAndReviewIssuesPreserved": true,
+      "annotationPreserved": true,
+      "verdict": "PASS"
+    }
+  ],
+  "typeChanges": 17,
+  "orthogonalizedWires": 22
+}

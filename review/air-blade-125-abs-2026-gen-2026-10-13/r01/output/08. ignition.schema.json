@@ -1,0 +1,1155 @@
+﻿{
+    "schemaVersion":  1,
+    "reviewStatus":  "draft",
+    "id":  "air-blade-125-abs-2026-ignition",
+    "vehicleId":  "air-blade-2026-125-abs",
+    "vehicleTitle":  "AIR BLADE 2026 (125 / ABS)",
+    "vehicleModel":  "Honda AIR BLADE 125 ABS 2026",
+    "circuitTitle":  "Mạch đánh lửa",
+    "sourceImage":  "air-blade-2026-125-abs-ignition.source.jpg",
+    "canvas":  {
+                   "width":  1600,
+                   "height":  800,
+                   "background":  "#ffffff"
+               },
+    "sourceCrop":  {
+                       "x":  0,
+                       "y":  0,
+                       "width":  1600,
+                       "height":  800
+                   },
+    "sourceTransform":  {
+                            "rotateClockwise":  0
+                        },
+    "components":  [
+                       {
+                           "id":  "battery",
+                           "type":  "battery",
+                           "x":  60,
+                           "y":  200,
+                           "width":  80,
+                           "height":  58,
+                           "label":  "ẮC QUY",
+                           "terminals":  [
+                                             {
+                                                 "id":  "neg",
+                                                 "x":  76,
+                                                 "y":  200,
+                                                 "label":  "-"
+                                             },
+                                             {
+                                                 "id":  "pos",
+                                                 "x":  124,
+                                                 "y":  200,
+                                                 "label":  "+"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "battery@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "negative":  "neg",
+                                                           "positive":  "pos"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-battery",
+                           "type":  "ground",
+                           "x":  64,
+                           "y":  156,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  76,
+                                                 "y":  168
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-ecu",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  185,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (15A) ECU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  200
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  200
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ignition-switch-p2",
+                           "type":  "switch",
+                           "x":  340,
+                           "y":  180,
+                           "width":  110,
+                           "height":  60,
+                           "label":  "KHÓA ĐIỆN (tiếp điểm 2)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  340,
+                                                 "y":  210,
+                                                 "label":  "R/Br"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  450,
+                                                 "y":  210,
+                                                 "label":  "Bl/Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.spst@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in",
+                                                           "out":  "out"
+                                                       }
+                                         },
+                           "note":  "Tiếp điểm 2 của khóa điện (Bl/Bu sau khi bật). Tiếp điểm 1 cho mạch nguồn khác."
+                       },
+                       {
+                           "id":  "ecm",
+                           "type":  "connector",
+                           "x":  530,
+                           "y":  100,
+                           "width":  200,
+                           "height":  500,
+                           "label":  "ECM 39P",
+                           "connectorType":  "39P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a8-batt",
+                                                 "x":  530,
+                                                 "y":  160,
+                                                 "label":  "A8 BATT Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "a27-ign",
+                                                 "x":  530,
+                                                 "y":  220,
+                                                 "label":  "A27 IGN Y/Bu"
+                                             },
+                                             {
+                                                 "id":  "a23-ihu",
+                                                 "x":  530,
+                                                 "y":  280,
+                                                 "label":  "A23 IHU W/R"
+                                             },
+                                             {
+                                                 "id":  "a24-ihv",
+                                                 "x":  530,
+                                                 "y":  320,
+                                                 "label":  "A24 IHV W/Bu"
+                                             },
+                                             {
+                                                 "id":  "a26-ihw",
+                                                 "x":  530,
+                                                 "y":  360,
+                                                 "label":  "A26 IHW W/Bl"
+                                             },
+                                             {
+                                                 "id":  "a25-pcb",
+                                                 "x":  530,
+                                                 "y":  400,
+                                                 "label":  "A25 PCB Bu/Y"
+                                             },
+                                             {
+                                                 "id":  "a9-vout",
+                                                 "x":  530,
+                                                 "y":  440,
+                                                 "label":  "A9 VOUT Br/Bl"
+                                             },
+                                             {
+                                                 "id":  "a10-pgnd",
+                                                 "x":  530,
+                                                 "y":  480,
+                                                 "label":  "A10 P-GND G"
+                                             },
+                                             {
+                                                 "id":  "b2-n",
+                                                 "x":  530,
+                                                 "y":  540,
+                                                 "label":  "B2 N(-) G"
+                                             },
+                                             {
+                                                 "id":  "a39-ss",
+                                                 "x":  530,
+                                                 "y":  580,
+                                                 "label":  "A39 SS-SW G/W"
+                                             },
+                                             {
+                                                 "id":  "a11-lg",
+                                                 "x":  530,
+                                                 "y":  620,
+                                                 "label":  "A11 LG G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         },
+                           "note":  "ECM 39P: hàng A 1→13, B 14→26, C 27→39. Bảng chân B/C có giắc 5P/3P riêng."
+                       },
+                       {
+                           "id":  "fuse-sub2",
+                           "type":  "fuse",
+                           "x":  760,
+                           "y":  185,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) SUB 2",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  760,
+                                                 "y":  200
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  840,
+                                                 "y":  200
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "coil",
+                           "type":  "ignition_coil",
+                           "x":  960,
+                           "y":  160,
+                           "width":  120,
+                           "height":  100,
+                           "label":  "MÔ BIN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "primary-a",
+                                                 "x":  960,
+                                                 "y":  200,
+                                                 "label":  "Bl/W"
+                                             },
+                                             {
+                                                 "id":  "primary-b",
+                                                 "x":  1080,
+                                                 "y":  200,
+                                                 "label":  "Y/Bu"
+                                             },
+                                             {
+                                                 "id":  "secondary",
+                                                 "x":  1020,
+                                                 "y":  260,
+                                                 "label":  "Cao áp"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ignition_coil@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "primary_a":  "primary-a",
+                                                           "primary_b":  "primary-b",
+                                                           "secondary_out":  "secondary"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "spark-plug",
+                           "type":  "spark_plug",
+                           "x":  1020,
+                           "y":  360,
+                           "width":  60,
+                           "height":  80,
+                           "label":  "BUGI",
+                           "terminals":  [
+                                             {
+                                                 "id":  "ht",
+                                                 "x":  1020,
+                                                 "y":  360,
+                                                 "label":  "HT"
+                                             },
+                                             {
+                                                 "id":  "gnd",
+                                                 "x":  1020,
+                                                 "y":  440,
+                                                 "label":  "G"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "spark_plug@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "ht":  "ht",
+                                                           "gnd":  "gnd"
+                                                       }
+                                         },
+                           "note":  "Khe đánh lửa không nối kín."
+                       },
+                       {
+                           "id":  "mass-spark",
+                           "type":  "ground",
+                           "x":  1008,
+                           "y":  452,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1020,
+                                                 "y":  464
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ckp-connector",
+                           "type":  "connector",
+                           "x":  800,
+                           "y":  350,
+                           "width":  160,
+                           "height":  200,
+                           "label":  "CẢM BIẾN CKP (6P)",
+                           "connectorType":  "6P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "u",
+                                                 "x":  800,
+                                                 "y":  390,
+                                                 "label":  "A23 W/R → U"
+                                             },
+                                             {
+                                                 "id":  "v",
+                                                 "x":  800,
+                                                 "y":  430,
+                                                 "label":  "A24 W/Bu → V"
+                                             },
+                                             {
+                                                 "id":  "w",
+                                                 "x":  800,
+                                                 "y":  470,
+                                                 "label":  "A26 W/Bl → W"
+                                             },
+                                             {
+                                                 "id":  "gnd",
+                                                 "x":  800,
+                                                 "y":  510,
+                                                 "label":  "A10 G → GND"
+                                             },
+                                             {
+                                                 "id":  "out",
+                                                 "x":  800,
+                                                 "y":  550,
+                                                 "label":  "A9 Br/Bl → OUT"
+                                             },
+                                             {
+                                                 "id":  "pul",
+                                                 "x":  800,
+                                                 "y":  590,
+                                                 "label":  "A25 Bu/Y → PUL"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "tilt-switch",
+                           "type":  "switch",
+                           "x":  800,
+                           "y":  630,
+                           "width":  140,
+                           "height":  80,
+                           "label":  "CT CHỐNG NGHIÊNG (2P)",
+                           "connectorType":  "2P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a39",
+                                                 "x":  800,
+                                                 "y":  660,
+                                                 "label":  "A39 G/W"
+                                             },
+                                             {
+                                                 "id":  "a11",
+                                                 "x":  800,
+                                                 "y":  700,
+                                                 "label":  "A11 G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.tilt@1",
+                                             "version":  1
+                                         },
+                           "note":  "Hình UP/DOWN với 2 đường thực. Nội bộ/biến thể cần review."
+                       },
+                       {
+                           "id":  "mass-ecm-b2",
+                           "type":  "ground",
+                           "x":  518,
+                           "y":  552,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G (B2)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  530,
+                                                 "y":  564
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       }
+                   ],
+    "wires":  [
+                  {
+                      "id":  "w-bat-neg-mass",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "neg"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-battery",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  76,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  76,
+                                         "y":  180
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-ecu-fuse",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-ecu",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  200
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecu-fuse-ign",
+                      "from":  {
+                                   "componentId":  "fuse-ecu",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch-p2",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  340,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  340,
+                                         "y":  210
+                                     }
+                                 ],
+                      "code":  "R/Br",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Br",
+                                         "x":  310,
+                                         "y":  190,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecu-fuse-ign",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ign-blbu",
+                      "from":  {
+                                   "componentId":  "ignition-switch-p2",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "ecm",
+                                 "terminalId":  "a8-batt"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  450,
+                                         "y":  210
+                                     },
+                                     {
+                                         "x":  490,
+                                         "y":  210
+                                     },
+                                     {
+                                         "x":  490,
+                                         "y":  160
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  160
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu",
+                                         "x":  470,
+                                         "y":  200,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign-blbu",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-blbu-sub2",
+                      "from":  {
+                                   "componentId":  "ignition-switch-p2",
+                                   "terminalId":  "out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-sub2",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  490,
+                                         "y":  210
+                                     },
+                                     {
+                                         "x":  490,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  760,
+                                         "y":  200
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-sub2-coil-a",
+                      "from":  {
+                                   "componentId":  "fuse-sub2",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "coil",
+                                 "terminalId":  "primary-a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  840,
+                                         "y":  200
+                                     },
+                                     {
+                                         "x":  960,
+                                         "y":  200
+                                     }
+                                 ],
+                      "code":  "Bl/W",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/W",
+                                         "x":  900,
+                                         "y":  190,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub2-coil-a",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecm-ign-coil-b",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a27-ign"
+                               },
+                      "to":  {
+                                 "componentId":  "coil",
+                                 "terminalId":  "primary-b"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  220
+                                     },
+                                     {
+                                         "x":  730,
+                                         "y":  170
+                                     },
+                                     {
+                                         "x":  1080,
+                                         "y":  170
+                                     },
+                                     {
+                                         "x":  1080,
+                                         "y":  200
+                                     }
+                                 ],
+                      "code":  "Y/Bu",
+                      "primaryColor":  "#ffdd00",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Y/Bu",
+                                         "x":  900,
+                                         "y":  160,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecm-ign-coil-b",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-coil-ht-spark",
+                      "from":  {
+                                   "componentId":  "coil",
+                                   "terminalId":  "secondary"
+                               },
+                      "to":  {
+                                 "componentId":  "spark-plug",
+                                 "terminalId":  "ht"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1020,
+                                         "y":  260
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  360
+                                     }
+                                 ],
+                      "code":  "HT",
+                      "primaryColor":  "#888888",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-spark-mass",
+                      "from":  {
+                                   "componentId":  "spark-plug",
+                                   "terminalId":  "gnd"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-spark",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1020,
+                                         "y":  440
+                                     },
+                                     {
+                                         "x":  1020,
+                                         "y":  464
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecm-ckp-u",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a23-ihu"
+                               },
+                      "to":  {
+                                 "componentId":  "ckp-connector",
+                                 "terminalId":  "u"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  280
+                                     },
+                                     {
+                                         "x":  760,
+                                         "y":  280
+                                     },
+                                     {
+                                         "x":  760,
+                                         "y":  390
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  390
+                                     }
+                                 ],
+                      "code":  "W/R",
+                      "primaryColor":  "#ffaaaa",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "W/R",
+                                         "x":  770,
+                                         "y":  370,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecm-ckp-u",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecm-ckp-v",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a24-ihv"
+                               },
+                      "to":  {
+                                 "componentId":  "ckp-connector",
+                                 "terminalId":  "v"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  320
+                                     },
+                                     {
+                                         "x":  755,
+                                         "y":  320
+                                     },
+                                     {
+                                         "x":  755,
+                                         "y":  430
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  430
+                                     }
+                                 ],
+                      "code":  "W/Bu",
+                      "primaryColor":  "#ffaaaa",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "W/Bu",
+                                         "x":  765,
+                                         "y":  410,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecm-ckp-v",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecm-ckp-w",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a26-ihw"
+                               },
+                      "to":  {
+                                 "componentId":  "ckp-connector",
+                                 "terminalId":  "w"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  360
+                                     },
+                                     {
+                                         "x":  753,
+                                         "y":  360
+                                     },
+                                     {
+                                         "x":  753,
+                                         "y":  470
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  470
+                                     }
+                                 ],
+                      "code":  "W/Bl",
+                      "primaryColor":  "#ffaaaa",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "W/Bl",
+                                         "x":  760,
+                                         "y":  450,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecm-ckp-w",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecm-ckp-gnd",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a10-pgnd"
+                               },
+                      "to":  {
+                                 "componentId":  "ckp-connector",
+                                 "terminalId":  "gnd"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  480
+                                     },
+                                     {
+                                         "x":  780,
+                                         "y":  480
+                                     },
+                                     {
+                                         "x":  780,
+                                         "y":  510
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  510
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecm-ckp-out",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a9-vout"
+                               },
+                      "to":  {
+                                 "componentId":  "ckp-connector",
+                                 "terminalId":  "out"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  440
+                                     },
+                                     {
+                                         "x":  782,
+                                         "y":  440
+                                     },
+                                     {
+                                         "x":  782,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  550
+                                     }
+                                 ],
+                      "code":  "Br/Bl",
+                      "primaryColor":  "#aa6600",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Br/Bl",
+                                         "x":  783,
+                                         "y":  530,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecm-ckp-out",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecm-ckp-pul",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a25-pcb"
+                               },
+                      "to":  {
+                                 "componentId":  "ckp-connector",
+                                 "terminalId":  "pul"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  784,
+                                         "y":  400
+                                     },
+                                     {
+                                         "x":  784,
+                                         "y":  590
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  590
+                                     }
+                                 ],
+                      "code":  "Bu/Y",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bu/Y",
+                                         "x":  785,
+                                         "y":  570,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecm-ckp-pul",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-tilt-a39",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a39-ss"
+                               },
+                      "to":  {
+                                 "componentId":  "tilt-switch",
+                                 "terminalId":  "a39"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  580
+                                     },
+                                     {
+                                         "x":  786,
+                                         "y":  580
+                                     },
+                                     {
+                                         "x":  786,
+                                         "y":  660
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  660
+                                     }
+                                 ],
+                      "code":  "G/W",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/W",
+                                         "x":  787,
+                                         "y":  640,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-tilt-a39",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-tilt-a11",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "a11-lg"
+                               },
+                      "to":  {
+                                 "componentId":  "tilt-switch",
+                                 "terminalId":  "a11"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  730,
+                                         "y":  620
+                                     },
+                                     {
+                                         "x":  788,
+                                         "y":  620
+                                     },
+                                     {
+                                         "x":  788,
+                                         "y":  700
+                                     },
+                                     {
+                                         "x":  800,
+                                         "y":  700
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "G/Bl",
+                                         "x":  789,
+                                         "y":  680,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-tilt-a11",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ecm-b2-mass",
+                      "from":  {
+                                   "componentId":  "ecm",
+                                   "terminalId":  "b2-n"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-ecm-b2",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  530,
+                                         "y":  540
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  564
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  }
+              ],
+    "reviewIssues":  [
+                         {
+                             "id":  "ri-ign-01",
+                             "severity":  "info",
+                             "description":  "Khe đánh lửa giữa điện cực bugi không nối kín trong sơ đồ. Không vẽ dây qua khe."
+                         },
+                         {
+                             "id":  "ri-ign-02",
+                             "severity":  "info",
+                             "description":  "Công tắc chống nghiêng hình UP/DOWN với 2 đường thực (A39 G/W và A11 G/Bl). Nội bộ/biến thể cần review."
+                         }
+                     ],
+    "genReview":  {
+                      "reviewer":  "kiro-agent",
+                      "date":  "2026-10-13",
+                      "verdict":  "PENDING",
+                      "notes":  "Draft. ECU15A→R/Br→khóa tiếp điểm 2→Bl/Bu→ECM A8 và SUB2 10A→Bl/W→mô bin. ECM A27 Y/Bu điều khiển cuộn sơ cấp mô bin. CKP 6P: A23/U W/R, A24/V W/Bu, A26/W W/Bl, A10/GND G, A9/OUT Br/Bl, A25/PUL Bu/Y."
+                  }
+}

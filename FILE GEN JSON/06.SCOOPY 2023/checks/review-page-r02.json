@@ -1,0 +1,68 @@
+{
+  "revision": "r02",
+  "method": "Actual Edge headless review viewer; not authenticated production import",
+  "circuits": [
+    {
+      "number": "01",
+      "imagesLoaded": true,
+      "jsonLink": "01. power-distribution.schema.json"
+    },
+    {
+      "number": "02",
+      "imagesLoaded": true,
+      "jsonLink": "02. horn.schema.json"
+    },
+    {
+      "number": "03",
+      "imagesLoaded": true,
+      "jsonLink": "03. turn-signals.schema.json"
+    },
+    {
+      "number": "04",
+      "imagesLoaded": true,
+      "jsonLink": "04. brake-light.schema.json"
+    },
+    {
+      "number": "05",
+      "imagesLoaded": true,
+      "jsonLink": "05. fuel-gauge.schema.json"
+    },
+    {
+      "number": "06",
+      "imagesLoaded": true,
+      "jsonLink": "06. night-lighting.schema.json"
+    },
+    {
+      "number": "07",
+      "imagesLoaded": true,
+      "jsonLink": "07. vehicle-speed.schema.json"
+    },
+    {
+      "number": "08",
+      "imagesLoaded": true,
+      "jsonLink": "08. ignition.schema.json"
+    },
+    {
+      "number": "09",
+      "imagesLoaded": true,
+      "jsonLink": "09. starting.schema.json"
+    },
+    {
+      "number": "10",
+      "imagesLoaded": true,
+      "jsonLink": "10. vehicle-locator-alarm.schema.json"
+    },
+    {
+      "number": "11",
+      "imagesLoaded": true,
+      "jsonLink": "11. idling-stop.schema.json"
+    },
+    {
+      "number": "12",
+      "imagesLoaded": true,
+      "jsonLink": "12. pgm-fi.schema.json"
+    }
+  ],
+  "zoom150": "150%",
+  "classes": "overlap dark"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "options": 10,
+  "imageChecks": [
+    {
+      "index": 0,
+      "source": 1499,
+      "render": 1499
+    },
+    {
+      "index": 5,
+      "source": 1499,
+      "render": 1499
+    },
+    {
+      "index": 6,
+      "source": 1499,
+      "render": 1499
+    },
+    {
+      "index": 8,
+      "source": 1499,
+      "render": 1499
+    },
+    {
+      "index": 9,
+      "source": 1499,
+      "render": 1499
+    }
+  ],
+  "overlay": true,
+  "theme": "dark",
+  "zoom": "150%",
+  "liveComparison": true,
+  "errors": []
+}

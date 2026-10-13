@@ -1,0 +1,596 @@
+{
+  "version": 1,
+  "scope": "SH Mode and Vario component compatibility repair",
+  "files": [
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/01. Mạch cấp nguồn.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/01. power-distribution.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/01.Mạch cấp nguồn.PNG",
+      "componentChanges": [
+        {
+          "id": "starter-feed",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "backup-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "fi-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "starter-supply",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "usb-output",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "engine-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "horn-load",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "head-load",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "meter-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "flasher-load",
+          "before": "loadGroup",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "3f18856495b3214d082a3d33a781941868ff6f43d2e140a05a7fd96b7dc3ac5e"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/02. Mạch còi.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/02. horn.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/02.Mạch còi.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "1a0f29ac27f28b3e63eaf2c4d4ef183ed57cc54f64d771856c547d49c38e5750"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/03. Mạch xi nhan.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/03. turn-signals.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/03.Mạch xi nhan.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "ceb89577f06cdadc29ee4ae3be2f03e811015fd13fb9aed9304bf4b5adf22445"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/04. Mạch đèn phanh.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/04. brake-light.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/04.Mạch đèn phanh.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "f4f1d040dc31902bd5ec6e21d60718edc2589e31d163d88e3951e100b3b9a3a5"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/05. Mạch báo xăng.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/05. fuel-indicator.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/05.Mạch báo xăng.PNG",
+      "componentChanges": [
+        {
+          "id": "fuel-sender",
+          "before": "sender",
+          "after": "sensor"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "c4d0c14d471970ecda79137b2ff96ffc54910e7c39084b8e5f920868f8ddbaf4"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/06. Mạch đèn đêm và đèn pha LED.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/06. night-lighting.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "componentChanges": [
+        {
+          "id": "head-led",
+          "before": "connectorBox",
+          "after": "connector"
+        },
+        {
+          "id": "cluster",
+          "before": "connectorBox",
+          "after": "connector"
+        },
+        {
+          "id": "led-pinout",
+          "before": "pinout",
+          "after": "connector"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "fa7290874fc70318535fcf574a1d2045b4e00791d81fba11146915ac0c02eed4"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/07. Mạch báo tốc độ xe.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/07. vehicle-speed.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/07.Mạch báo tốc độ xe.PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "vs-rotor",
+          "before": "rotor",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "cac094c5e5746036eaa3dc2ad55dde210d80f86b8c5ad313484636b6fce2d882"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/08. Mạch đánh lửa.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/08. ignition.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/08.Mạch đánh lửa.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "ceb12ef245ce1b4165f0ac883f501f8d49bc79744302a7eb780cfd8511282c6b"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/09. Mạch khởi động.json",
+      "readyFile": "web-ready/SH Mode 2023-2025/09. starting.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/09.Mạch khởi động.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "6de0895c09ae893d16dbee2be0947a24e013c902e1c8d6038bfe225a8ead5015"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/10. Mạch dừng động cơ tạm thời (Idling Stop).json",
+      "readyFile": "web-ready/SH Mode 2023-2025/10. idling-stop.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "vs-rotor",
+          "before": "rotor",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "8cccd596761bc9a76185bd67fcee563e2d2535ded7ada2f6ce75fcbd4f136660"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/11. Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey).json",
+      "readyFile": "web-ready/SH Mode 2023-2025/11. smartkey-system.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/11.Sơ đồ nguyên lý hệ thống khóa thông minh ( Smartkey).PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "buzzer",
+          "before": "speaker",
+          "after": "horn"
+        },
+        {
+          "id": "key-assembly",
+          "before": "assembly",
+          "after": "device"
+        },
+        {
+          "id": "key-solenoid",
+          "before": "coil",
+          "after": "device"
+        },
+        {
+          "id": "alarm-led",
+          "before": "led",
+          "after": "lamp"
+        },
+        {
+          "id": "face-led",
+          "before": "led",
+          "after": "lamp"
+        },
+        {
+          "id": "fob",
+          "before": "remote",
+          "after": "device"
+        },
+        {
+          "id": "scu-pinout",
+          "before": "pinout",
+          "after": "connector"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "5b5cb48bfefa8f887fd69ddcc37f3d02b0e8837edbdca46b194f86c257df329d"
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "file": "File JSON chuẩn/SH Mode 2023-2025/12. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json",
+      "readyFile": "web-ready/SH Mode 2023-2025/12. pgm-fi.schema.json",
+      "sourceFile": "web-ready/SH Mode 2023-2025/source/12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "vs-rotor",
+          "before": "rotor",
+          "after": "device"
+        },
+        {
+          "id": "ecm-39p",
+          "before": "pinout",
+          "after": "connector"
+        },
+        {
+          "id": "ecm-bc",
+          "before": "pinout",
+          "after": "connector"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "d5c0d31851f7f4870d67c2729136e566dab1d4fb6d37cf38d7a1dc744a398987"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/01. Mạch cấp nguồn.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/01. power-distribution.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/01.Mạch cấp nguồn.PNG",
+      "componentChanges": [
+        {
+          "id": "backup-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "usb-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "pump-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "fi-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "meter-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "lt-loads",
+          "before": "loadGroup",
+          "after": "device"
+        },
+        {
+          "id": "hl-loads",
+          "before": "loadGroup",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "91144a6041388817b593b6edcd79edd0cdd4ad0bd6dcbc862cdc1e271883429f"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/02. Mạch còi.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/02. horn.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/02.Mạch còi.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "3df708af981ab127a2d47395e33b45a41b7344c4c8392ebc8841043ee8fbaf14"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/03. Mạch xi nhan.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/03. turn-signals.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/03.Mạch xi nhan.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "56c352c429867374901c130009d19ba3a6e4206a9d87e31069f8143b80161d41"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/04. Mạch đèn phanh.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/04. brake-light.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/04.Mạch đèn phanh.PNG",
+      "componentChanges": [
+        {
+          "id": "legend",
+          "before": "annotationBox",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "5ec3993d23d31a65940d8a6d9c41d8ed82a05e285f7ffa0a4c86f414faf0a12e"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/05. Mạch báo xăng.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/05. fuel-indicator.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/05.Mạch báo xăng.PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "fuel-sender",
+          "before": "sender",
+          "after": "sensor"
+        },
+        {
+          "id": "legend",
+          "before": "annotationBox",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "cb0cd9ecdf5cfe58f40dde3d596f9d6f87e4ba280a0bcfa2dda25d56efba97a1"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/06. Mạch đèn đêm và đèn pha LED.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/06. night-lighting.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "componentChanges": [
+        {
+          "id": "headlamp",
+          "before": "connectorBox",
+          "after": "connector"
+        },
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "legend",
+          "before": "annotationBox",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "2e1ecadd6c668560a5c09290bedb02ea5fdbdec9b5d7d1c088eec627d3a04023"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/07. Mạch báo tốc độ xe.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/07. vehicle-speed.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/07.Mạch báo tốc độ xe.PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "vs-rotor",
+          "before": "rotor",
+          "after": "device"
+        },
+        {
+          "id": "legend",
+          "before": "annotationBox",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "b650bbf8b5a09b7dff5df00335d8dced6ac3c46a57c40ae694ec8cdccdb71b7b"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/08. Mạch đánh lửa.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/08. ignition.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/08.Mạch đánh lửa.PNG",
+      "componentChanges": [],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "f1c18a35901efba52bf2b9f4bcc01dc9dbad291f07ed03cd5fa9c0a8308f0732"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/09. Mạch khởi động.json",
+      "readyFile": "web-ready/Vario 2023 - 2025/09. starting.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/09.Mạch khởi động.PNG",
+      "componentChanges": [
+        {
+          "id": "legend",
+          "before": "annotationBox",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "f0950a0a50e4b763dc252a818c97dae3f6314d965ac9368d0c6d476309b8179c"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/10. Mạch dừng động cơ tạm thời (Idling Stop).json",
+      "readyFile": "web-ready/Vario 2023 - 2025/10. idling-stop.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "vs-rotor",
+          "before": "rotor",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "225741794213ddc6c2b5643d9e5cddc0e8ba19fa22bd53491439a330fb6929a4"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/11. Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey).json",
+      "readyFile": "web-ready/Vario 2023 - 2025/11. smartkey-system.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/11.Sơ đồ nguyên lý hệ thống khóa thông minh ( Smartkey).PNG",
+      "componentChanges": [
+        {
+          "id": "lock",
+          "before": "assembly",
+          "after": "device"
+        },
+        {
+          "id": "solenoid",
+          "before": "solenoid",
+          "after": "device"
+        },
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "front-lamps",
+          "before": "connectorBox",
+          "after": "connector"
+        },
+        {
+          "id": "buzzer",
+          "before": "buzzer",
+          "after": "horn"
+        },
+        {
+          "id": "fob",
+          "before": "remote",
+          "after": "device"
+        },
+        {
+          "id": "scu-21p",
+          "before": "pinout",
+          "after": "connector"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "64b68ad463ec47eb32d2fb268ef1de792a153981d3b11ef7dd4748b2fd15f4a0"
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "file": "File JSON chuẩn/Vario 2023 - 2025/12. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json",
+      "readyFile": "web-ready/Vario 2023 - 2025/12. pgm-fi.schema.json",
+      "sourceFile": "web-ready/Vario 2023 - 2025/source/12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "componentChanges": [
+        {
+          "id": "cluster",
+          "before": "cluster",
+          "after": "device"
+        },
+        {
+          "id": "vs-rotor",
+          "before": "rotor",
+          "after": "device"
+        },
+        {
+          "id": "ecm-39p",
+          "before": "pinout",
+          "after": "connector"
+        },
+        {
+          "id": "ecm-bc",
+          "before": "pinout",
+          "after": "connector"
+        },
+        {
+          "id": "legend",
+          "before": "annotationBox",
+          "after": "device"
+        }
+      ],
+      "drawingUnchanged": true,
+      "terminalsUnchanged": true,
+      "wiresUnchanged": true,
+      "sourceSha256": "af7596c0948b84e893cb5b29b7e86e5e4cfdd41a2bc164bda443165bc81a5ad6"
+    }
+  ]
+}

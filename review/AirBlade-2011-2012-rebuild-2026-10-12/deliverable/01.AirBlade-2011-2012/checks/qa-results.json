@@ -1,0 +1,22 @@
+{
+  "validatorExportTests": {
+    "cases": 15,
+    "exitCode": 0,
+    "status": "PASS"
+  },
+  "checkerFaultInjection": {
+    "cases": 29,
+    "status": "PASS",
+    "log": "checker-regression.log"
+  },
+  "typescriptSnapshot": {
+    "status": "PASS",
+    "exitCode": 0
+  },
+  "diffWhitespaceCheck": {
+    "status": "PASS"
+  },
+  "productionRoundTrip": "FAIL",
+  "appNative": "NOT_RUN",
+  "independentAppReview": "PENDING"
+}

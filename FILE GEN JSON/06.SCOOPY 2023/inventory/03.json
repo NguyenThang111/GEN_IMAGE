@@ -1,0 +1,644 @@
+{
+  "circuitNumber": "03",
+  "circuitKey": "turn-signals",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/03.Mạch xi nhan.PNG",
+  "sourceImageSha256": "505e8f60e91036faff0ccfcb1e81406dddb5d4f1e909ee8fa699f0f0d091c411",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1303,
+    747
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 60,
+        "y": 405,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 76,
+          "y": 411,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 124,
+          "y": 411,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 23,
+        "y": 435,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 38,
+          "y": 435,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 170,
+        "y": 359,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 170,
+          "y": 375,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 240,
+          "y": 375,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "switch",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 340,
+        "y": 351,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 340,
+          "y": 375,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 410,
+          "y": 375,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "meter-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) METER / PO",
+      "sourceBox": {
+        "x": 503,
+        "y": 359,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 503,
+          "y": 375,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 573,
+          "y": 375,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "flasher",
+      "glyph": "flasher",
+      "observedText": "CHỚP XI NHAN",
+      "sourceBox": {
+        "x": 673,
+        "y": 348,
+        "width": 78,
+        "height": 46
+      },
+      "ports": [
+        {
+          "id": "input",
+          "x": 673,
+          "y": 375,
+          "label": ""
+        },
+        {
+          "id": "output",
+          "x": 751,
+          "y": 375,
+          "label": ""
+        }
+      ],
+      "proposedModel": "flasher.two-terminal"
+    },
+    {
+      "id": "diode",
+      "glyph": "diode",
+      "observedText": "ĐI-ỐT",
+      "sourceBox": {
+        "x": 830,
+        "y": 357,
+        "width": 40,
+        "height": 37
+      },
+      "ports": [
+        {
+          "id": "anode",
+          "x": 830,
+          "y": 375,
+          "label": ""
+        },
+        {
+          "id": "cathode",
+          "x": 870,
+          "y": 375,
+          "label": ""
+        }
+      ],
+      "proposedModel": "diode.rectifier2"
+    },
+    {
+      "id": "turn-switch",
+      "glyph": "selector",
+      "observedText": "CÔNG TẮC\nXI NHAN",
+      "sourceBox": {
+        "x": 949,
+        "y": 341,
+        "width": 76,
+        "height": 68
+      },
+      "ports": [
+        {
+          "id": "common",
+          "x": 949,
+          "y": 375,
+          "label": "W"
+        },
+        {
+          "id": "throw1",
+          "x": 1025,
+          "y": 359,
+          "label": "L"
+        },
+        {
+          "id": "throw2",
+          "x": 1025,
+          "y": 392,
+          "label": "R"
+        }
+      ],
+      "proposedModel": "switch.selector3"
+    },
+    {
+      "id": "left-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1089,
+        "y": 282,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 1091,
+          "y": 284,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "right-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1089,
+        "y": 465,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 1091,
+          "y": 467,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "rear-left",
+      "glyph": "bulb",
+      "observedText": "ĐÈN XI NHAN\nSAU TRÁI",
+      "sourceBox": {
+        "x": 1177,
+        "y": 131,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1177,
+          "y": 157,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1177,
+          "y": 177,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.filament2"
+    },
+    {
+      "id": "rear-left-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1113,
+        "y": 201,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1128,
+          "y": 201,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "front-left",
+      "glyph": "bulb",
+      "observedText": "ĐÈN XI NHAN\nTRƯỚC TRÁI",
+      "sourceBox": {
+        "x": 1177,
+        "y": 258,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1177,
+          "y": 284,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1177,
+          "y": 304,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.filament2"
+    },
+    {
+      "id": "front-left-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1113,
+        "y": 328,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1128,
+          "y": 328,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "front-right",
+      "glyph": "bulb",
+      "observedText": "ĐÈN XI NHAN\nTRƯỚC PHẢI",
+      "sourceBox": {
+        "x": 1177,
+        "y": 441,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1177,
+          "y": 467,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1177,
+          "y": 487,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.filament2"
+    },
+    {
+      "id": "front-right-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1113,
+        "y": 511,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1128,
+          "y": 511,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "rear-right",
+      "glyph": "bulb",
+      "observedText": "ĐÈN XI NHAN\nSAU PHẢI",
+      "sourceBox": {
+        "x": 1177,
+        "y": 566,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1177,
+          "y": 592,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1177,
+          "y": 612,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.filament2"
+    },
+    {
+      "id": "rear-right-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1113,
+        "y": 636,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1128,
+          "y": 636,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          76,
+          375
+        ],
+        [
+          38,
+          375
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          124,
+          375
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "main-fuse.b",
+      "b": "key.a",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "key.b",
+      "b": "meter-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "rear-left.return",
+      "b": "rear-left-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1128,
+          177
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "front-left.return",
+      "b": "front-left-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1128,
+          304
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "front-right.return",
+      "b": "front-right-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1128,
+          487
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "rear-right.return",
+      "b": "rear-right-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1128,
+          612
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "meter-fuse.b",
+      "b": "flasher.input",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "flasher.output",
+      "b": "diode.anode",
+      "observedCode": "Gr",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "diode.cathode",
+      "b": "turn-switch.common",
+      "observedCode": "Bu/Y",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-012",
+      "a": "turn-switch.throw1",
+      "b": "left-bus.node",
+      "observedCode": "O",
+      "via": [
+        [
+          1091,
+          359
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-013",
+      "a": "left-bus.node",
+      "b": "front-left.feed",
+      "observedCode": "O",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-014",
+      "a": "left-bus.node",
+      "b": "rear-left.feed",
+      "observedCode": "O",
+      "via": [
+        [
+          1091,
+          157
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-015",
+      "a": "turn-switch.throw2",
+      "b": "right-bus.node",
+      "observedCode": "Lb",
+      "via": [
+        [
+          1091,
+          392
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-016",
+      "a": "right-bus.node",
+      "b": "front-right.feed",
+      "observedCode": "Lb",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-017",
+      "a": "right-bus.node",
+      "b": "rear-right.feed",
+      "observedCode": "Lb",
+      "via": [
+        [
+          1091,
+          592
+        ]
+      ],
+      "labelAt": null
+    }
+  ],
+  "annotations": [],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

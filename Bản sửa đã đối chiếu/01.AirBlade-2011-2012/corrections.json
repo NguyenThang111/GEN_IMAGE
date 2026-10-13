@@ -1,0 +1,48 @@
+{
+  "01": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại main-relay bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "02": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại main-relay bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "03": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại main-relay bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "04": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại main-relay bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "05": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại main-relay bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "06": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại main-relay bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "07": [
+    "Đưa đầu chân battery.negative về tọa độ đọc từ ảnh nguồn.",
+    "Đưa đầu chân battery.positive về tọa độ đọc từ ảnh nguồn.",
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "08": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại relay-main bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại relay-starter bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "09": [
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại relay-main bằng mẫu có chân định danh, khớp mốc nguồn."
+  ],
+  "10": [
+    "Đưa đầu chân battery.pos về tọa độ đọc từ ảnh nguồn.",
+    "Đưa đầu chân battery.neg về tọa độ đọc từ ảnh nguồn.",
+    "Vẽ lại battery bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại main-relay bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Vẽ lại starter-relay bằng mẫu có chân định danh, khớp mốc nguồn.",
+    "Chỉnh 4 nhãn chân ECM và khung ghi chú để không cắt nét chữ; chép lại nguyên văn dòng đọc mã lỗi theo ảnh."
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "id": "air-blade-125-abs-2026-power-distribution",
+  "vehicleId": "air-blade-2026-125-abs",
+  "vehicleTitle": "AIR BLADE 2026 (125 / ABS)",
+  "vehicleModel": "Honda AIR BLADE 125 ABS 2026",
+  "circuitTitle": "Mạch cấp nguồn",
+  "sourceImage": "air-blade-2026-125-abs-power-distribution.source.jpg",
+  "canvas": { "width": 1500, "height": 820, "background": "#ffffff" },
+  "sourceCrop": { "x": 0, "y": 0, "width": 1500, "height": 820 },
+  "sourceTransform": { "rotateClockwise": 0 },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 55, "y": 590,
+      "width": 88, "height": 56,
+      "label": "ẮC QUY",
+      "terminals": [
+        { "id": "neg", "x": 72, "y": 618, "label": "-" },
+        { "id": "pos", "x": 125, "y": 618, "label": "+" }
+      ],
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "ẮC QUY", "x": 99, "y": 658, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "battery", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[55,598],[143,598],[143,646],[55,646]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "#d1d1d3", "owner": "battery", "role": "symbol" },
+          { "kind": "path", "points": [[66,590],[80,590],[80,598],[66,598]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "battery", "role": "symbol" },
+          { "kind": "path", "points": [[112,590],[126,590],[126,598],[112,598]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "battery", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "battery-ground",
+      "type": "ground",
+      "x": 22, "y": 618,
+      "width": 32, "height": 20,
+      "label": "",
+      "terminals": [{ "id": "in", "x": 38, "y": 618 }],
+      "textLayout": {
+        "kind": "component",
+        "texts": [],
+        "paths": [
+          { "kind": "path", "points": [[22,618],[54,618]], "stroke": "#16ba5e", "width": 5, "owner": "battery-ground", "role": "symbol" },
+          { "kind": "path", "points": [[27,626],[49,626]], "stroke": "#16ba5e", "width": 5, "owner": "battery-ground", "role": "symbol" },
+          { "kind": "path", "points": [[33,634],[43,634]], "stroke": "#16ba5e", "width": 5, "owner": "battery-ground", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "bus-main",
+      "type": "junction",
+      "x": 125, "y": 320,
+      "width": 0, "height": 0,
+      "label": "",
+      "terminals": [{ "id": "n", "x": 125, "y": 320 }],
+      "textLayout": { "kind": "component", "texts": [], "paths": [] }
+    },
+    {
+      "id": "fuse-backup",
+      "type": "fuse",
+      "x": 196, "y": 84,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (10A) BACKUP",
+      "terminals": [
+        { "id": "in", "x": 196, "y": 100 },
+        { "id": "out", "x": 268, "y": 100 }
+      ],
+      "ratingAmps": 10,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (10A) BACKUP", "x": 232, "y": 76, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-backup", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[196,84],[268,84],[268,116],[196,116]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-backup", "role": "symbol" },
+          { "kind": "path", "points": [[196,100],[210,100]], "stroke": "#555555", "width": 2, "owner": "fuse-backup", "role": "symbol" },
+          { "kind": "path", "points": [[254,100],[268,100]], "stroke": "#555555", "width": 2, "owner": "fuse-backup", "role": "symbol" },
+          { "kind": "path", "points": [[210,100],[232,86],[254,100]], "stroke": "#555555", "width": 1.5, "owner": "fuse-backup", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-abs-motor",
+      "type": "fuse",
+      "x": 196, "y": 172,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (15A) ABS MOTOR",
+      "terminals": [
+        { "id": "in", "x": 196, "y": 188 },
+        { "id": "out", "x": 268, "y": 188 }
+      ],
+      "ratingAmps": 15,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (15A) ABS MOTOR", "x": 232, "y": 164, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-abs-motor", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[196,172],[268,172],[268,204],[196,204]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-abs-motor", "role": "symbol" },
+          { "kind": "path", "points": [[196,188],[210,188]], "stroke": "#555555", "width": 2, "owner": "fuse-abs-motor", "role": "symbol" },
+          { "kind": "path", "points": [[254,188],[268,188]], "stroke": "#555555", "width": 2, "owner": "fuse-abs-motor", "role": "symbol" },
+          { "kind": "path", "points": [[210,188],[232,174],[254,188]], "stroke": "#555555", "width": 1.5, "owner": "fuse-abs-motor", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-main",
+      "type": "fuse",
+      "x": 196, "y": 272,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (20A) MAIN",
+      "terminals": [
+        { "id": "in", "x": 196, "y": 288 },
+        { "id": "out", "x": 268, "y": 288 }
+      ],
+      "ratingAmps": 20,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (20A) MAIN", "x": 232, "y": 264, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-main", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[196,272],[268,272],[268,304],[196,304]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-main", "role": "symbol" },
+          { "kind": "path", "points": [[196,288],[210,288]], "stroke": "#555555", "width": 2, "owner": "fuse-main", "role": "symbol" },
+          { "kind": "path", "points": [[254,288],[268,288]], "stroke": "#555555", "width": 2, "owner": "fuse-main", "role": "symbol" },
+          { "kind": "path", "points": [[210,288],[232,274],[254,288]], "stroke": "#555555", "width": 1.5, "owner": "fuse-main", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-ecu",
+      "type": "fuse",
+      "x": 196, "y": 372,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (15A) ECU",
+      "terminals": [
+        { "id": "in", "x": 196, "y": 388 },
+        { "id": "out", "x": 268, "y": 388 }
+      ],
+      "ratingAmps": 15,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (15A) ECU", "x": 232, "y": 364, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-ecu", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[196,372],[268,372],[268,404],[196,404]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-ecu", "role": "symbol" },
+          { "kind": "path", "points": [[196,388],[210,388]], "stroke": "#555555", "width": 2, "owner": "fuse-ecu", "role": "symbol" },
+          { "kind": "path", "points": [[254,388],[268,388]], "stroke": "#555555", "width": 2, "owner": "fuse-ecu", "role": "symbol" },
+          { "kind": "path", "points": [[210,388],[232,374],[254,388]], "stroke": "#555555", "width": 1.5, "owner": "fuse-ecu", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "relay-main",
+      "type": "relay",
+      "x": 380, "y": 256,
+      "width": 80, "height": 96,
+      "label": "RƠ LE CHÍNH",
+      "terminals": [
+        { "id": "cl",  "x": 380, "y": 288, "label": "R/W" },
+        { "id": "cr",  "x": 460, "y": 288, "label": "Bl/R" },
+        { "id": "col", "x": 396, "y": 352, "label": "G" },
+        { "id": "cor", "x": 444, "y": 352, "label": "Bl/Bu" }
+      ],
+      "symbolRef": {
+        "id": "relay.contact-coil4@1", "version": 1,
+        "ports": { "contact-left": "cl", "contact-right": "cr", "coil-left": "col", "coil-right": "cor" }
+      },
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "RƠ LE CHÍNH", "x": 420, "y": 248, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "relay-main", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[380,256],[460,256],[460,352],[380,352]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "#ffffa0", "owner": "relay-main", "role": "symbol" },
+          { "kind": "path", "points": [[380,288],[404,288],[404,320],[456,320],[456,288],[460,288]], "stroke": "#555555", "width": 1.5, "owner": "relay-main", "role": "symbol" },
+          { "kind": "path", "points": [[396,352],[396,336],[444,336],[444,352]], "stroke": "#555555", "width": 1.5, "owner": "relay-main", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "relay-main-ground",
+      "type": "ground",
+      "x": 378, "y": 352,
+      "width": 32, "height": 20,
+      "label": "",
+      "terminals": [{ "id": "in", "x": 394, "y": 352 }],
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "G", "x": 368, "y": 356, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "relay-main-ground", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[378,352],[410,352]], "stroke": "#16ba5e", "width": 5, "owner": "relay-main-ground", "role": "symbol" },
+          { "kind": "path", "points": [[382,360],[406,360]], "stroke": "#16ba5e", "width": 5, "owner": "relay-main-ground", "role": "symbol" },
+          { "kind": "path", "points": [[386,368],[402,368]], "stroke": "#16ba5e", "width": 5, "owner": "relay-main-ground", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "ignition-switch",
+      "type": "switch",
+      "x": 580, "y": 252,
+      "width": 80, "height": 96,
+      "label": "KHÓA ĐIỆN",
+      "terminals": [
+        { "id": "p1-in",  "x": 580, "y": 284, "label": "Bl/R" },
+        { "id": "p1-out", "x": 660, "y": 284, "label": "R/Bl" },
+        { "id": "p2-in",  "x": 580, "y": 344, "label": "Bl/Bu" },
+        { "id": "p2-out", "x": 660, "y": 344, "label": "R/Br" }
+      ],
+      "symbolRef": {
+        "id": "switch.dpst4@1", "version": 1,
+        "ports": { "pole1-in": "p1-in", "pole1-out": "p1-out", "pole2-in": "p2-in", "pole2-out": "p2-out" }
+      },
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "KHÓA ĐIỆN", "x": 620, "y": 244, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "ignition-switch", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[580,252],[660,252],[660,348],[580,348]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "#ffffa0", "owner": "ignition-switch", "role": "symbol" },
+          { "kind": "path", "points": [[580,284],[604,284],[620,268],[636,284],[660,284]], "stroke": "#555555", "width": 1.5, "owner": "ignition-switch", "role": "symbol" },
+          { "kind": "path", "points": [[580,344],[604,344],[620,328],[636,344],[660,344]], "stroke": "#555555", "width": 1.5, "owner": "ignition-switch", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-sub3",
+      "type": "fuse",
+      "x": 690, "y": 172,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (5A) SUB 3",
+      "terminals": [
+        { "id": "in", "x": 690, "y": 188 },
+        { "id": "out", "x": 762, "y": 188 }
+      ],
+      "ratingAmps": 5,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (5A) SUB 3", "x": 726, "y": 164, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-sub3", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[690,172],[762,172],[762,204],[690,204]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-sub3", "role": "symbol" },
+          { "kind": "path", "points": [[690,188],[704,188]], "stroke": "#555555", "width": 2, "owner": "fuse-sub3", "role": "symbol" },
+          { "kind": "path", "points": [[748,188],[762,188]], "stroke": "#555555", "width": 2, "owner": "fuse-sub3", "role": "symbol" },
+          { "kind": "path", "points": [[704,188],[726,174],[748,188]], "stroke": "#555555", "width": 1.5, "owner": "fuse-sub3", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-head",
+      "type": "fuse",
+      "x": 830, "y": 256,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (5A) HEAD LIGHT",
+      "terminals": [
+        { "id": "in", "x": 830, "y": 272 },
+        { "id": "out", "x": 902, "y": 272 }
+      ],
+      "ratingAmps": 5,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (5A) HEAD LIGHT", "x": 866, "y": 248, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-head", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[830,256],[902,256],[902,288],[830,288]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-head", "role": "symbol" },
+          { "kind": "path", "points": [[830,272],[844,272]], "stroke": "#555555", "width": 2, "owner": "fuse-head", "role": "symbol" },
+          { "kind": "path", "points": [[888,272],[902,272]], "stroke": "#555555", "width": 2, "owner": "fuse-head", "role": "symbol" },
+          { "kind": "path", "points": [[844,272],[866,258],[888,272]], "stroke": "#555555", "width": 1.5, "owner": "fuse-head", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-sub1",
+      "type": "fuse",
+      "x": 830, "y": 316,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (10A) SUB 1",
+      "terminals": [
+        { "id": "in", "x": 830, "y": 332 },
+        { "id": "out", "x": 902, "y": 332 }
+      ],
+      "ratingAmps": 10,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (10A) SUB 1", "x": 866, "y": 308, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-sub1", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[830,316],[902,316],[902,348],[830,348]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-sub1", "role": "symbol" },
+          { "kind": "path", "points": [[830,332],[844,332]], "stroke": "#555555", "width": 2, "owner": "fuse-sub1", "role": "symbol" },
+          { "kind": "path", "points": [[888,332],[902,332]], "stroke": "#555555", "width": 2, "owner": "fuse-sub1", "role": "symbol" },
+          { "kind": "path", "points": [[844,332],[866,318],[888,332]], "stroke": "#555555", "width": 1.5, "owner": "fuse-sub1", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-abs-main",
+      "type": "fuse",
+      "x": 690, "y": 536,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (5A) ABS MAIN",
+      "terminals": [
+        { "id": "in", "x": 690, "y": 552 },
+        { "id": "out", "x": 762, "y": 552 }
+      ],
+      "ratingAmps": 5,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (5A) ABS MAIN", "x": 726, "y": 528, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-abs-main", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[690,536],[762,536],[762,568],[690,568]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-abs-main", "role": "symbol" },
+          { "kind": "path", "points": [[690,552],[704,552]], "stroke": "#555555", "width": 2, "owner": "fuse-abs-main", "role": "symbol" },
+          { "kind": "path", "points": [[748,552],[762,552]], "stroke": "#555555", "width": 2, "owner": "fuse-abs-main", "role": "symbol" },
+          { "kind": "path", "points": [[704,552],[726,538],[748,552]], "stroke": "#555555", "width": 1.5, "owner": "fuse-abs-main", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "fuse-sub2",
+      "type": "fuse",
+      "x": 690, "y": 636,
+      "width": 72, "height": 32,
+      "label": "CẦU CHÌ (10A) SUB 2",
+      "terminals": [
+        { "id": "in", "x": 690, "y": 652 },
+        { "id": "out", "x": 762, "y": 652 }
+      ],
+      "ratingAmps": 10,
+      "textLayout": {
+        "kind": "component",
+        "texts": [
+          { "kind": "text", "text": "CẦU CHÌ (10A) SUB 2", "x": 726, "y": 628, "size": 12, "anchor": "middle", "rotate": 0, "bold": true, "fill": "#343434", "owner": "fuse-sub2", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[690,636],[762,636],[762,668],[690,668]], "stroke": "#555555", "width": 1.5, "closed": true, "fill": "white", "owner": "fuse-sub2", "role": "symbol" },
+          { "kind": "path", "points": [[690,652],[704,652]], "stroke": "#555555", "width": 2, "owner": "fuse-sub2", "role": "symbol" },
+          { "kind": "path", "points": [[748,652],[762,652]], "stroke": "#555555", "width": 2, "owner": "fuse-sub2", "role": "symbol" },
+          { "kind": "path", "points": [[704,652],[726,638],[748,652]], "stroke": "#555555", "width": 1.5, "owner": "fuse-sub2", "role": "symbol" }
+        ]
+      }
+    },
+    {
+      "id": "load-backup",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 302, "y": 60,
+      "width": 28, "height": 1,
+      "label": "BỘ ĐIỀU KHIỂN THÔNG MINH (SCU)",
+      "terminals": [{ "id": "in", "x": 302, "y": 100 }],
+      "combLabels": ["BỘ ĐIỀU KHIỂN THÔNG MINH (SCU)", "ĐÈN LED MẶT CỤM KHÓA ĐIỆN", "ĐÈN LED THÙNG YÊN", "CỤM ĐỒNG HỒ"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "P/Bl → BỘ ĐIỀU KHIỂN THÔNG MINH (SCU)", "x": 326, "y": 52, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-backup", "role": "symbol" },
+          { "kind": "text", "text": "Bl → ĐÈN LED MẶT CỤM KHÓA ĐIỆN", "x": 326, "y": 68, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-backup", "role": "symbol" },
+          { "kind": "text", "text": "P/Bl → ĐÈN LED THÙNG YÊN", "x": 326, "y": 84, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-backup", "role": "symbol" },
+          { "kind": "text", "text": "P/Bl → CỤM ĐỒNG HỒ", "x": 326, "y": 100, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-backup", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[302,100],[302,100]], "stroke": "#555555", "width": 1.5, "owner": "load-backup", "role": "symbol" },
+          { "kind": "path", "points": [[302,100],[326,100]], "stroke": "#555555", "width": 1.5, "owner": "load-backup", "role": "symbol" }
+        ]
+      },
+      "targets": ["P/Bl → SCU", "Bl → ĐÈN LED MẶT KHÓA", "P/Bl → ĐÈN LED THÙNG YÊN", "P/Bl → CỤM ĐỒNG HỒ"]
+    },
+    {
+      "id": "load-abs-motor",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 302, "y": 188,
+      "width": 28, "height": 1,
+      "label": "BỘ ĐIỀU KHIỂN ABS",
+      "terminals": [{ "id": "in", "x": 302, "y": 188 }],
+      "combLabels": ["BỘ ĐIỀU KHIỂN ABS"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "BỘ ĐIỀU KHIỂN ABS", "x": 330, "y": 192, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-abs-motor", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[302,188],[302,188]], "stroke": "#555555", "width": 1.5, "owner": "load-abs-motor", "role": "symbol" },
+          { "kind": "path", "points": [[302,188],[326,188]], "stroke": "#555555", "width": 1.5, "owner": "load-abs-motor", "role": "symbol" }
+        ]
+      },
+      "targets": ["BỘ ĐIỀU KHIỂN ABS"]
+    },
+    {
+      "id": "load-starter-contact",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 500, "y": 132,
+      "width": 28, "height": 1,
+      "label": "TIẾP ĐIỂM RƠ LE ĐỀ / SẠC",
+      "terminals": [{ "id": "in", "x": 500, "y": 132 }],
+      "combLabels": ["TIẾP ĐIỂM RƠ LE ĐỀ / SẠC"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "TIẾP ĐIỂM RƠ LE ĐỀ / SẠC", "x": 526, "y": 136, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-starter-contact", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[500,132],[500,132]], "stroke": "#555555", "width": 1.5, "owner": "load-starter-contact", "role": "symbol" },
+          { "kind": "path", "points": [[500,132],[524,132]], "stroke": "#555555", "width": 1.5, "owner": "load-starter-contact", "role": "symbol" }
+        ]
+      },
+      "targets": ["TIẾP ĐIỂM RƠ LE ĐỀ / SẠC"]
+    },
+    {
+      "id": "load-usb",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 800, "y": 188,
+      "width": 28, "height": 1,
+      "label": "BỘ SẠC USB",
+      "terminals": [{ "id": "in", "x": 800, "y": 188 }],
+      "combLabels": ["BỘ SẠC USB"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "BỘ SẠC USB", "x": 826, "y": 192, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-usb", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[800,188],[800,188]], "stroke": "#555555", "width": 1.5, "owner": "load-usb", "role": "symbol" },
+          { "kind": "path", "points": [[800,188],[824,188]], "stroke": "#555555", "width": 1.5, "owner": "load-usb", "role": "symbol" }
+        ]
+      },
+      "targets": ["BỘ SẠC USB"]
+    },
+    {
+      "id": "load-head-led",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 938, "y": 272,
+      "width": 28, "height": 1,
+      "label": "CỤM ĐÈN PHA LED",
+      "terminals": [{ "id": "in", "x": 938, "y": 272 }],
+      "combLabels": ["CỤM ĐÈN PHA LED"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "CỤM ĐÈN PHA LED", "x": 964, "y": 276, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-head-led", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[938,272],[938,272]], "stroke": "#555555", "width": 1.5, "owner": "load-head-led", "role": "symbol" },
+          { "kind": "path", "points": [[938,272],[962,272]], "stroke": "#555555", "width": 1.5, "owner": "load-head-led", "role": "symbol" }
+        ]
+      },
+      "targets": ["CỤM ĐÈN PHA LED"]
+    },
+    {
+      "id": "load-sub1",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 938, "y": 320,
+      "width": 28, "height": 1,
+      "label": "BỘ ĐIỀU KHIỂN THÔNG MINH (SCU)",
+      "terminals": [{ "id": "in", "x": 938, "y": 332 }],
+      "combLabels": ["BỘ ĐIỀU KHIỂN THÔNG MINH (SCU)", "CÔNG TẮC PHANH TRƯỚC / SAU", "CỤM ĐÈN PHA LED (ĐÈN VỊ TRÍ)", "ĐÈN SOI BIỂN SỐ", "CÔNG TẮC CÒI", "RƠ LE XI NHAN", "CỤM ĐỒNG HỒ", "ĐÈN HẬU"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "Bl → BỘ ĐIỀU KHIỂN THÔNG MINH (SCU)", "x": 964, "y": 316, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-sub1", "role": "symbol" },
+          { "kind": "text", "text": "Bl → CÔNG TẮC PHANH TRƯỚC / SAU", "x": 964, "y": 332, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub1", "role": "symbol" },
+          { "kind": "text", "text": "Bl → CỤM ĐÈN PHA LED (ĐÈN VỊ TRÍ)", "x": 964, "y": 348, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub1", "role": "symbol" },
+          { "kind": "text", "text": "Bl → ĐÈN SOI BIỂN SỐ", "x": 964, "y": 364, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub1", "role": "symbol" },
+          { "kind": "text", "text": "Bl → CÔNG TẮC CÒI", "x": 964, "y": 380, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub1", "role": "symbol" },
+          { "kind": "text", "text": "Bl → RƠ LE XI NHAN", "x": 964, "y": 396, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub1", "role": "symbol" },
+          { "kind": "text", "text": "Bl → CỤM ĐỒNG HỒ", "x": 964, "y": 412, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub1", "role": "symbol" },
+          { "kind": "text", "text": "Bl → ĐÈN HẬU", "x": 964, "y": 428, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub1", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[938,332],[938,332]], "stroke": "#555555", "width": 1.5, "owner": "load-sub1", "role": "symbol" },
+          { "kind": "path", "points": [[938,332],[962,332]], "stroke": "#555555", "width": 1.5, "owner": "load-sub1", "role": "symbol" }
+        ]
+      },
+      "targets": ["SCU", "CT phanh trước/sau", "Đèn pha LED vị trí", "Đèn soi biển số", "CT còi", "Rơ le xi nhan", "Cụm đồng hồ", "Đèn hậu"]
+    },
+    {
+      "id": "load-blbu",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 690, "y": 460,
+      "width": 28, "height": 1,
+      "label": "CUỘN HÚT RƠ LE ĐỀ / SẠC",
+      "terminals": [{ "id": "in", "x": 690, "y": 470 }],
+      "combLabels": ["CUỘN HÚT RƠ LE ĐỀ / SẠC", "ECM"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "Bl/Bu → CUỘN HÚT RƠ LE ĐỀ / SẠC", "x": 716, "y": 466, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-blbu", "role": "symbol" },
+          { "kind": "text", "text": "Bl/Bu → ECM", "x": 716, "y": 482, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-blbu", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[690,470],[690,470]], "stroke": "#555555", "width": 1.5, "owner": "load-blbu", "role": "symbol" },
+          { "kind": "path", "points": [[690,470],[714,470]], "stroke": "#555555", "width": 1.5, "owner": "load-blbu", "role": "symbol" }
+        ]
+      },
+      "targets": ["CUỘN HÚT RƠ LE ĐỀ/SẠC", "ECM"]
+    },
+    {
+      "id": "load-abs-ctrl",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 800, "y": 552,
+      "width": 28, "height": 1,
+      "label": "BỘ ĐIỀU KHIỂN ABS",
+      "terminals": [{ "id": "in", "x": 800, "y": 552 }],
+      "combLabels": ["BỘ ĐIỀU KHIỂN ABS"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "BỘ ĐIỀU KHIỂN ABS", "x": 826, "y": 556, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-abs-ctrl", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[800,552],[800,552]], "stroke": "#555555", "width": 1.5, "owner": "load-abs-ctrl", "role": "symbol" },
+          { "kind": "path", "points": [[800,552],[824,552]], "stroke": "#555555", "width": 1.5, "owner": "load-abs-ctrl", "role": "symbol" }
+        ]
+      },
+      "targets": ["BỘ ĐIỀU KHIỂN ABS"]
+    },
+    {
+      "id": "load-sub2",
+      "type": "device",
+      "symbolType": "loadGroup",
+      "semanticKind": "continuation.loads",
+      "x": 800, "y": 636,
+      "width": 28, "height": 1,
+      "label": "VAN CẦM CHỪNG NHANH",
+      "terminals": [{ "id": "in", "x": 800, "y": 652 }],
+      "combLabels": ["VAN CẦM CHỪNG NHANH", "GIẮC CHẨN ĐOÁN (DLC)", "MÔ TƠ BƠM XĂNG", "MÔ BIN SƯỜN", "KIM PHUN"],
+      "textLayout": {
+        "kind": "load-list",
+        "texts": [
+          { "kind": "text", "text": "Bl/W → VAN CẦM CHỪNG NHANH", "x": 826, "y": 636, "size": 11, "anchor": "start", "rotate": 0, "bold": true, "fill": "#343434", "owner": "load-sub2", "role": "symbol" },
+          { "kind": "text", "text": "Bl/W → GIẮC CHẨN ĐOÁN (DLC)", "x": 826, "y": 652, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub2", "role": "symbol" },
+          { "kind": "text", "text": "Bl/W → MÔ TƠ BƠM XĂNG", "x": 826, "y": 668, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub2", "role": "symbol" },
+          { "kind": "text", "text": "Bl/W → MÔ BIN SƯỜN", "x": 826, "y": 684, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub2", "role": "symbol" },
+          { "kind": "text", "text": "Bl/W → KIM PHUN", "x": 826, "y": 700, "size": 11, "anchor": "start", "rotate": 0, "bold": false, "fill": "#343434", "owner": "load-sub2", "role": "symbol" }
+        ],
+        "paths": [
+          { "kind": "path", "points": [[800,652],[800,652]], "stroke": "#555555", "width": 1.5, "owner": "load-sub2", "role": "symbol" },
+          { "kind": "path", "points": [[800,652],[824,652]], "stroke": "#555555", "width": 1.5, "owner": "load-sub2", "role": "symbol" }
+        ]
+      },
+      "targets": ["Van cầm chừng nhanh", "DLC", "Mô tơ bơm xăng", "Mô bin sườn", "Kim phun"]
+    }
+  ],
+  "wires": [
+    {
+      "id": "bat-neg-gnd",
+      "from": { "componentId": "battery", "terminalId": "neg" },
+      "to": { "componentId": "battery-ground", "terminalId": "in" },
+      "points": [ {"x":72,"y":618}, {"x":38,"y":618} ],
+      "code": "G", "primaryColor": "#16ba5e", "state": "controlled",
+      "labels": [{ "kind":"text","text":"G","x":55,"y":610,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"bat-neg-gnd","role":"wire-label" }]
+    },
+    {
+      "id": "bat-pos-to-bus",
+      "from": { "componentId": "battery", "terminalId": "pos" },
+      "to": { "componentId": "bus-main", "terminalId": "n" },
+      "points": [ {"x":125,"y":618}, {"x":125,"y":320} ],
+      "code": "R", "primaryColor": "#da203a", "state": "controlled",
+      "labels": [{ "kind":"text","text":"R","x":110,"y":470,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"bat-pos-to-bus","role":"wire-label" }]
+    },
+    {
+      "id": "bus-to-backup",
+      "from": { "componentId": "bus-main", "terminalId": "n" },
+      "to": { "componentId": "fuse-backup", "terminalId": "in" },
+      "points": [ {"x":125,"y":320}, {"x":125,"y":100}, {"x":196,"y":100} ],
+      "code": "R", "primaryColor": "#da203a", "state": "controlled"
+    },
+    {
+      "id": "bus-to-abs-motor",
+      "from": { "componentId": "bus-main", "terminalId": "n" },
+      "to": { "componentId": "fuse-abs-motor", "terminalId": "in" },
+      "points": [ {"x":125,"y":320}, {"x":125,"y":188}, {"x":196,"y":188} ],
+      "code": "R", "primaryColor": "#da203a", "state": "controlled"
+    },
+    {
+      "id": "bus-to-main",
+      "from": { "componentId": "bus-main", "terminalId": "n" },
+      "to": { "componentId": "fuse-main", "terminalId": "in" },
+      "points": [ {"x":125,"y":320}, {"x":125,"y":288}, {"x":196,"y":288} ],
+      "code": "R", "primaryColor": "#da203a", "state": "controlled"
+    },
+    {
+      "id": "bus-to-ecu",
+      "from": { "componentId": "bus-main", "terminalId": "n" },
+      "to": { "componentId": "fuse-ecu", "terminalId": "in" },
+      "points": [ {"x":125,"y":320}, {"x":125,"y":388}, {"x":196,"y":388} ],
+      "code": "R", "primaryColor": "#da203a", "state": "controlled"
+    },
+    {
+      "id": "bat-to-starter-r",
+      "from": { "componentId": "bus-main", "terminalId": "n" },
+      "to": { "componentId": "load-starter-contact", "terminalId": "in" },
+      "points": [ {"x":125,"y":320}, {"x":125,"y":460}, {"x":460,"y":460}, {"x":460,"y":132}, {"x":500,"y":132} ],
+      "code": "R", "primaryColor": "#da203a", "state": "controlled",
+      "labels": [{ "kind":"text","text":"R","x":340,"y":452,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"bat-to-starter-r","role":"wire-label" }]
+    },
+    {
+      "id": "backup-to-load",
+      "from": { "componentId": "fuse-backup", "terminalId": "out" },
+      "to": { "componentId": "load-backup", "terminalId": "in" },
+      "points": [ {"x":268,"y":100}, {"x":302,"y":100} ],
+      "code": "P/Bl", "primaryColor": "#ff88ee", "state": "controlled",
+      "labels": [{ "kind":"text","text":"P/Bl","x":284,"y":92,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"backup-to-load","role":"wire-label" }]
+    },
+    {
+      "id": "abs-motor-to-load",
+      "from": { "componentId": "fuse-abs-motor", "terminalId": "out" },
+      "to": { "componentId": "load-abs-motor", "terminalId": "in" },
+      "points": [ {"x":268,"y":188}, {"x":302,"y":188} ],
+      "code": "R", "primaryColor": "#da203a", "state": "controlled",
+      "labels": [{ "kind":"text","text":"R","x":284,"y":180,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"abs-motor-to-load","role":"wire-label" }]
+    },
+    {
+      "id": "main-to-relay-cl",
+      "from": { "componentId": "fuse-main", "terminalId": "out" },
+      "to": { "componentId": "relay-main", "terminalId": "cl" },
+      "points": [ {"x":268,"y":288}, {"x":380,"y":288} ],
+      "code": "R/W", "primaryColor": "#da203a", "state": "controlled",
+      "labels": [{ "kind":"text","text":"R/W","x":322,"y":280,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"main-to-relay-cl","role":"wire-label" }]
+    },
+    {
+      "id": "relay-col-to-gnd",
+      "from": { "componentId": "relay-main", "terminalId": "col" },
+      "to": { "componentId": "relay-main-ground", "terminalId": "in" },
+      "points": [ {"x":396,"y":352}, {"x":394,"y":352} ],
+      "code": "G", "primaryColor": "#16ba5e", "state": "controlled"
+    },
+    {
+      "id": "ecu-to-ign-p2out",
+      "from": { "componentId": "fuse-ecu", "terminalId": "out" },
+      "to": { "componentId": "ignition-switch", "terminalId": "p2-out" },
+      "points": [ {"x":268,"y":388}, {"x":660,"y":388}, {"x":660,"y":344} ],
+      "code": "R/Br", "primaryColor": "#da203a", "state": "controlled",
+      "labels": [{ "kind":"text","text":"R/Br","x":464,"y":380,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"ecu-to-ign-p2out","role":"wire-label" }]
+    },
+    {
+      "id": "relay-cr-to-ign-p1in",
+      "from": { "componentId": "relay-main", "terminalId": "cr" },
+      "to": { "componentId": "ignition-switch", "terminalId": "p1-in" },
+      "points": [ {"x":460,"y":288}, {"x":580,"y":288} ],
+      "code": "Bl/R", "primaryColor": "#000099", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bl/R","x":518,"y":280,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"relay-cr-to-ign-p1in","role":"wire-label" }]
+    },
+    {
+      "id": "relay-cor-to-ign-p2in",
+      "from": { "componentId": "relay-main", "terminalId": "cor" },
+      "to": { "componentId": "ignition-switch", "terminalId": "p2-in" },
+      "points": [ {"x":444,"y":352}, {"x":444,"y":380}, {"x":560,"y":380}, {"x":560,"y":344} ],
+      "code": "Bl/Bu", "primaryColor": "#0044cc", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bl/Bu","x":502,"y":388,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"relay-cor-to-ign-p2in","role":"wire-label" }]
+    },
+    {
+      "id": "ign-p1out-to-sub3",
+      "from": { "componentId": "ignition-switch", "terminalId": "p1-out" },
+      "to": { "componentId": "fuse-sub3", "terminalId": "in" },
+      "points": [ {"x":660,"y":284}, {"x":680,"y":284}, {"x":680,"y":188}, {"x":690,"y":188} ],
+      "code": "Bl/R", "primaryColor": "#000099", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bl/R","x":668,"y":236,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"ign-p1out-to-sub3","role":"wire-label" }]
+    },
+    {
+      "id": "ign-p1out-to-head",
+      "from": { "componentId": "ignition-switch", "terminalId": "p1-out" },
+      "to": { "componentId": "fuse-head", "terminalId": "in" },
+      "points": [ {"x":660,"y":284}, {"x":820,"y":284}, {"x":820,"y":272}, {"x":830,"y":272} ],
+      "code": "R/Bl", "primaryColor": "#da203a", "state": "controlled",
+      "labels": [{ "kind":"text","text":"R/Bl","x":744,"y":276,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"ign-p1out-to-head","role":"wire-label" }]
+    },
+    {
+      "id": "ign-p1out-to-sub1",
+      "from": { "componentId": "ignition-switch", "terminalId": "p1-out" },
+      "to": { "componentId": "fuse-sub1", "terminalId": "in" },
+      "points": [ {"x":660,"y":284}, {"x":820,"y":284}, {"x":820,"y":332}, {"x":830,"y":332} ],
+      "code": "R/Bl", "primaryColor": "#da203a", "state": "controlled"
+    },
+    {
+      "id": "sub3-to-usb",
+      "from": { "componentId": "fuse-sub3", "terminalId": "out" },
+      "to": { "componentId": "load-usb", "terminalId": "in" },
+      "points": [ {"x":762,"y":188}, {"x":800,"y":188} ],
+      "code": "Bu", "primaryColor": "#0099ff", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bu","x":780,"y":180,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"sub3-to-usb","role":"wire-label" }]
+    },
+    {
+      "id": "head-to-load",
+      "from": { "componentId": "fuse-head", "terminalId": "out" },
+      "to": { "componentId": "load-head-led", "terminalId": "in" },
+      "points": [ {"x":902,"y":272}, {"x":938,"y":272} ],
+      "code": "W/G", "primaryColor": "#88cc88", "state": "controlled",
+      "labels": [{ "kind":"text","text":"W/G","x":919,"y":264,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"head-to-load","role":"wire-label" }]
+    },
+    {
+      "id": "sub1-to-load",
+      "from": { "componentId": "fuse-sub1", "terminalId": "out" },
+      "to": { "componentId": "load-sub1", "terminalId": "in" },
+      "points": [ {"x":902,"y":332}, {"x":938,"y":332} ],
+      "code": "Bl", "primaryColor": "#000099", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bl","x":919,"y":324,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"sub1-to-load","role":"wire-label" }]
+    },
+    {
+      "id": "ign-p2out-bus",
+      "from": { "componentId": "ignition-switch", "terminalId": "p2-out" },
+      "to": { "componentId": "load-blbu", "terminalId": "in" },
+      "points": [ {"x":660,"y":344}, {"x":680,"y":344}, {"x":680,"y":470}, {"x":690,"y":470} ],
+      "code": "Bl/Bu", "primaryColor": "#0044cc", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bl/Bu","x":668,"y":406,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"ign-p2out-bus","role":"wire-label" }]
+    },
+    {
+      "id": "ign-p2out-to-abs-main",
+      "from": { "componentId": "ignition-switch", "terminalId": "p2-out" },
+      "to": { "componentId": "fuse-abs-main", "terminalId": "in" },
+      "points": [ {"x":680,"y":344}, {"x":680,"y":552}, {"x":690,"y":552} ],
+      "code": "Bl/Bu", "primaryColor": "#0044cc", "state": "controlled"
+    },
+    {
+      "id": "ign-p2out-to-sub2",
+      "from": { "componentId": "ignition-switch", "terminalId": "p2-out" },
+      "to": { "componentId": "fuse-sub2", "terminalId": "in" },
+      "points": [ {"x":680,"y":344}, {"x":680,"y":652}, {"x":690,"y":652} ],
+      "code": "Bl/Bu", "primaryColor": "#0044cc", "state": "controlled"
+    },
+    {
+      "id": "abs-main-to-ctrl",
+      "from": { "componentId": "fuse-abs-main", "terminalId": "out" },
+      "to": { "componentId": "load-abs-ctrl", "terminalId": "in" },
+      "points": [ {"x":762,"y":552}, {"x":800,"y":552} ],
+      "code": "Bl/Y", "primaryColor": "#0044cc", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bl/Y","x":780,"y":544,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"abs-main-to-ctrl","role":"wire-label" }]
+    },
+    {
+      "id": "sub2-to-loads",
+      "from": { "componentId": "fuse-sub2", "terminalId": "out" },
+      "to": { "componentId": "load-sub2", "terminalId": "in" },
+      "points": [ {"x":762,"y":652}, {"x":800,"y":652} ],
+      "code": "Bl/W", "primaryColor": "#000099", "state": "controlled",
+      "labels": [{ "kind":"text","text":"Bl/W","x":780,"y":644,"size":13,"anchor":"middle","rotate":0,"bold":true,"fill":"#343434","owner":"sub2-to-loads","role":"wire-label" }]
+    }
+  ],
+  "reviewIssues": [
+    {
+      "id": "ri-pd-01",
+      "severity": "warning",
+      "description": "Tọa độ dựa trên ảnh nguồn JPG thực tế (1500×820). Cần review lại tọa độ terminal của từng cụm sau khi render."
+    },
+    {
+      "id": "ri-pd-02",
+      "severity": "info",
+      "description": "Dây R/Bl từ ign p1-out đi cùng đường đến fuse-head và fuse-sub1 (bus trung gian tại x=820). Có thể cần thêm junction node."
+    },
+    {
+      "id": "ri-pd-03",
+      "severity": "info",
+      "description": "Nhánh Bl/Bu từ ign p2-out đi đến 3 đích (load-blbu, fuse-abs-main, fuse-sub2) qua bus tại x=680. Topology đúng theo ảnh."
+    }
+  ],
+  "genReview": {
+    "reviewer": "kiro-agent",
+    "date": "2026-10-13",
+    "verdict": "PENDING",
+    "notes": "Gen r05: rebuild từ ảnh nguồn thực tế + format chuẩn AB160. textLayout/paths cho mọi component. Wire format object/points-object/primaryColor/code/state. Load groups dùng type=device+symbolType=loadGroup+textLayout kind=load-list. Canvas 1500x820 bám layout ảnh gốc."
+  }
+}

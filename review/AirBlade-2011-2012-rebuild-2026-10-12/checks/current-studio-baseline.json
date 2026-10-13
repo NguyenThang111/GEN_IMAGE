@@ -1,0 +1,54 @@
+[
+  {
+    "number": "01",
+    "errors": []
+  },
+  {
+    "number": "02",
+    "errors": []
+  },
+  {
+    "number": "03",
+    "errors": []
+  },
+  {
+    "number": "04",
+    "errors": []
+  },
+  {
+    "number": "05",
+    "errors": []
+  },
+  {
+    "number": "06",
+    "errors": []
+  },
+  {
+    "number": "07",
+    "errors": [
+      "Non-orthogonal wire segment: w-green-ground",
+      "Non-orthogonal wire segment: w-ecm-10-ground"
+    ]
+  },
+  {
+    "number": "08",
+    "errors": [
+      "Non-orthogonal wire segment: w-starter-feed",
+      "Non-orthogonal wire segment: w-battery-motor",
+      "Non-orthogonal wire segment: w-battery-motor",
+      "Non-orthogonal wire segment: w-motor-lug-ground"
+    ]
+  },
+  {
+    "number": "09",
+    "errors": []
+  },
+  {
+    "number": "10",
+    "errors": [
+      "Non-orthogonal wire segment: w-battery-starter",
+      "Non-orthogonal wire segment: w-pg2-ground",
+      "Non-orthogonal wire segment: w-pg1-ground"
+    ]
+  }
+]

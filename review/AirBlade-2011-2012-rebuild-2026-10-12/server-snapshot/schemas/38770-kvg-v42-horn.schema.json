@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "02-render.png",
+  "id": "38770-kvg-v42-horn",
+  "vehicleId": "38770-kvg-v42",
+  "vehicleTitle": "AIR BLADE 2011 - 2012",
+  "circuitTitle": "Mạch còi",
+  "canvas": {
+    "width": 2998,
+    "height": 1688
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 144,
+      "y": 824,
+      "width": 199,
+      "height": 145,
+      "label": "ẮC QUY",
+      "terminals": [
+        {
+          "id": "negative",
+          "label": "−",
+          "x": 184,
+          "y": 824
+        },
+        {
+          "id": "positive",
+          "label": "+",
+          "x": 302,
+          "y": 824
+        }
+      ]
+    },
+    {
+      "id": "ground-battery",
+      "type": "ground",
+      "x": 54,
+      "y": 900,
+      "width": 81,
+      "height": 46,
+      "label": "Mass ắc quy",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 94,
+          "y": 906
+        }
+      ]
+    },
+    {
+      "id": "junction-power",
+      "type": "junction",
+      "x": 441,
+      "y": 707,
+      "width": 10,
+      "height": 10,
+      "label": "Nhánh nguồn R",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 446,
+          "y": 712
+        }
+      ]
+    },
+    {
+      "id": "fuse-main",
+      "type": "fuse",
+      "x": 596,
+      "y": 670,
+      "width": 164,
+      "height": 79,
+      "label": "CẦU CHÌ (20A) MAIN",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 596,
+          "y": 712
+        },
+        {
+          "id": "right",
+          "x": 760,
+          "y": 712
+        }
+      ]
+    },
+    {
+      "id": "fuse-fi",
+      "type": "fuse",
+      "x": 596,
+      "y": 820,
+      "width": 164,
+      "height": 79,
+      "label": "CẦU CHÌ (10A) FI",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 596,
+          "y": 861
+        },
+        {
+          "id": "right",
+          "x": 760,
+          "y": 861
+        }
+      ]
+    },
+    {
+      "id": "ignition-switch",
+      "type": "switch",
+      "x": 1044,
+      "y": 807,
+      "width": 158,
+      "height": 90,
+      "label": "CÔNG TẮC MÁY",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 1044,
+          "y": 861
+        },
+        {
+          "id": "right",
+          "x": 1202,
+          "y": 861
+        }
+      ]
+    },
+    {
+      "id": "main-relay",
+      "type": "relay",
+      "x": 1595,
+      "y": 670,
+      "width": 154,
+      "height": 222,
+      "label": "RƠ LE CHÍNH",
+      "terminals": [
+        {
+          "id": "contact-left",
+          "x": 1595,
+          "y": 712
+        },
+        {
+          "id": "contact-right",
+          "x": 1749,
+          "y": 712
+        },
+        {
+          "id": "coil-left",
+          "x": 1595,
+          "y": 861
+        },
+        {
+          "id": "coil-right",
+          "x": 1749,
+          "y": 861
+        }
+      ]
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 1800,
+      "y": 1060,
+      "width": 177,
+      "height": 119,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1888,
+          "y": 1060
+        }
+      ]
+    },
+    {
+      "id": "fuse-turn-horn",
+      "type": "fuse",
+      "x": 2004,
+      "y": 671,
+      "width": 167,
+      "height": 80,
+      "label": "CẦU CHÌ (10A) TURN,HORN...",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 2004,
+          "y": 712
+        },
+        {
+          "id": "right",
+          "x": 2171,
+          "y": 712
+        }
+      ]
+    },
+    {
+      "id": "horn-switch",
+      "type": "switch",
+      "x": 2395,
+      "y": 621,
+      "width": 168,
+      "height": 120,
+      "label": "CÔNG TẮC CÒI",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 2395,
+          "y": 712
+        },
+        {
+          "id": "right",
+          "x": 2563,
+          "y": 712
+        }
+      ]
+    },
+    {
+      "id": "horn",
+      "type": "horn",
+      "x": 2723,
+      "y": 555,
+      "width": 116,
+      "height": 168,
+      "label": "CÒI",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 2741,
+          "y": 712
+        },
+        {
+          "id": "right",
+          "x": 2825,
+          "y": 712
+        }
+      ]
+    },
+    {
+      "id": "ground-horn",
+      "type": "ground",
+      "x": 2863,
+      "y": 833,
+      "width": 81,
+      "height": 45,
+      "label": "Mass còi",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 2906,
+          "y": 839
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w-battery-ground",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "negative"
+      },
+      "to": {
+        "componentId": "ground-battery",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 184,
+          "y": 824
+        },
+        {
+          "x": 184,
+          "y": 712
+        },
+        {
+          "x": 94,
+          "y": 712
+        },
+        {
+          "x": 94,
+          "y": 906
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00bf63",
+      "state": "controlled"
+    },
+    {
+      "id": "w-battery-power",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "positive"
+      },
+      "to": {
+        "componentId": "junction-power",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 302,
+          "y": 824
+        },
+        {
+          "x": 302,
+          "y": 712
+        },
+        {
+          "x": 446,
+          "y": 712
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-power-main",
+      "from": {
+        "componentId": "junction-power",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-main",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 446,
+          "y": 712
+        },
+        {
+          "x": 596,
+          "y": 712
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-power-fi",
+      "from": {
+        "componentId": "junction-power",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "fuse-fi",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 446,
+          "y": 712
+        },
+        {
+          "x": 446,
+          "y": 861
+        },
+        {
+          "x": 596,
+          "y": 861
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-main-relay",
+      "from": {
+        "componentId": "fuse-main",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "contact-left"
+      },
+      "points": [
+        {
+          "x": 760,
+          "y": 712
+        },
+        {
+          "x": 1595,
+          "y": 712
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-fi-ignition",
+      "from": {
+        "componentId": "fuse-fi",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "ignition-switch",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 760,
+          "y": 861
+        },
+        {
+          "x": 1044,
+          "y": 861
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#404040",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ignition-relay",
+      "from": {
+        "componentId": "ignition-switch",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "coil-left"
+      },
+      "points": [
+        {
+          "x": 1202,
+          "y": 861
+        },
+        {
+          "x": 1595,
+          "y": 861
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#404040",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-ecm",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "coil-right"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1749,
+          "y": 861
+        },
+        {
+          "x": 1888,
+          "y": 861
+        },
+        {
+          "x": 1888,
+          "y": 1060
+        }
+      ],
+      "code": "W/Bl",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#404040",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-turn-horn",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "contact-right"
+      },
+      "to": {
+        "componentId": "fuse-turn-horn",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 1749,
+          "y": 712
+        },
+        {
+          "x": 2004,
+          "y": 712
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-fuse-horn-switch",
+      "from": {
+        "componentId": "fuse-turn-horn",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "horn-switch",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 2171,
+          "y": 712
+        },
+        {
+          "x": 2395,
+          "y": 712
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#404040",
+      "stripeColor": "#a38c70",
+      "state": "controlled"
+    },
+    {
+      "id": "w-switch-horn",
+      "from": {
+        "componentId": "horn-switch",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "horn",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 2563,
+          "y": 712
+        },
+        {
+          "x": 2741,
+          "y": 712
+        }
+      ],
+      "code": "Lg",
+      "primaryColor": "#a6d94f",
+      "state": "controlled"
+    },
+    {
+      "id": "w-horn-ground",
+      "from": {
+        "componentId": "horn",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "ground-horn",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 2825,
+          "y": 712
+        },
+        {
+          "x": 2906,
+          "y": 712
+        },
+        {
+          "x": 2906,
+          "y": 839
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#00bf63",
+      "state": "controlled"
+    }
+  ],
+  "exportMetadata": {
+    "version": 1,
+    "vehicle": {
+      "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+      "vehicleId": "38770-kvg-v42",
+      "vehicleTitle": "AIR BLADE 2011 - 2012",
+      "manufacturer": "HONDA",
+      "modelYear": "2011-2012",
+      "ecmId": "01 00 F9",
+      "scuId": null
+    },
+    "circuit": {
+      "id": "4878d1c6-9a46-4a43-9760-94e632475690",
+      "key": "horn",
+      "title": "Mạch còi",
+      "progressStatus": "DONE",
+      "savedProgressStatus": "DONE",
+      "progressNote": "",
+      "technicalStatus": "NEEDS_REVIEW",
+      "createdAt": "2026-09-30T11:21:12.657Z",
+      "updatedAt": "2026-10-08T15:53:20.940Z"
+    },
+    "unsavedChanges": false
+  }
+}

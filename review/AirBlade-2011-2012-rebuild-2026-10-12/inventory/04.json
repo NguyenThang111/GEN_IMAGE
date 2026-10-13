@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "04",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-37-39.png",
+    "imageSha256": "c80397755c0ab5600d17c0876ff4eb50527e549c19ad85ac3dfb3b5cb1cdef4f",
+    "width": 1687,
+    "height": 952,
+    "recordId": "fa5c1772-6420-4315-af74-97bad7d38762",
+    "identityStatus": "VERIFIED_SAME_BYTES",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "brake-light",
+    "serverImageSha256": "c80397755c0ab5600d17c0876ff4eb50527e549c19ad85ac3dfb3b5cb1cdef4f"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "04:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm trái, dương phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 201,
+        "y": 451,
+        "width": 101,
+        "height": 75
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:main-fuse",
+      "candidateComponentId": "main-fuse",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 403,
+        "y": 374,
+        "width": 85,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:fi-fuse",
+      "candidateComponentId": "fi-fuse",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 403,
+        "y": 452,
+        "width": 85,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:ignition-switch",
+      "candidateComponentId": "ignition-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 575,
+        "y": 444,
+        "width": 77,
+        "height": 44
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:main-relay",
+      "candidateComponentId": "main-relay",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 735,
+        "y": 372,
+        "width": 78,
+        "height": 122
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:turn-horn-fuse",
+      "candidateComponentId": "turn-horn-fuse",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) TURN,HORN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 914,
+        "y": 375,
+        "width": 84,
+        "height": 39
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; W/Bl vào",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 840,
+        "y": 576,
+        "width": 91,
+        "height": 60
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:front-brake-switch",
+      "candidateComponentId": "front-brake-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC PHANH TRƯỚC; Bl → G/Y",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1141,
+        "y": 299,
+        "width": 77,
+        "height": 43
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:rear-brake-switch",
+      "candidateComponentId": "rear-brake-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC PHANH SAU; Bl → G/Y",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1141,
+        "y": 439,
+        "width": 77,
+        "height": 43
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:brake-tail-lamp",
+      "candidateComponentId": "brake-tail-lamp",
+      "kind": "component",
+      "observation": "ĐÈN PHANH/ĐÈN HẬU; panel ba LED, G/Y vào và G ra",
+      "proposedModelId": "lamp.led-panel2",
+      "sourceBox": {
+        "x": 1512,
+        "y": 370,
+        "width": 50,
+        "height": 101
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "04:load-resistor",
+      "candidateComponentId": "load-resistor",
+      "kind": "component",
+      "observation": "ĐIỆN TRỞ 10 Ω 20W; P vào, G ra",
+      "proposedModelId": "passive.resistor2",
+      "sourceBox": {
+        "x": 1369,
+        "y": 526,
+        "width": 32,
+        "height": 85
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "battery-ground.top"
+      ],
+      [
+        "battery.positive",
+        "main-fuse.left",
+        "fi-fuse.left"
+      ],
+      [
+        "main-fuse.right",
+        "main-relay.contact-left"
+      ],
+      [
+        "fi-fuse.right",
+        "ignition-switch.left"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top"
+      ],
+      [
+        "main-relay.contact-right",
+        "turn-horn-fuse.left"
+      ],
+      [
+        "turn-horn-fuse.right",
+        "front-brake-switch.left",
+        "rear-brake-switch.left"
+      ],
+      [
+        "front-brake-switch.right",
+        "rear-brake-switch.right",
+        "brake-tail-lamp.upper-left",
+        "load-resistor.top"
+      ],
+      [
+        "brake-tail-lamp.lower-left",
+        "lamp-ground.top"
+      ],
+      [
+        "load-resistor.bottom",
+        "resistor-ground.top"
+      ]
+    ],
+    "edges": [
+      [
+        "battery.negative",
+        "battery-ground.top",
+        "G"
+      ],
+      [
+        "battery.positive",
+        "main-fuse.left",
+        "R"
+      ],
+      [
+        "battery.positive",
+        "fi-fuse.left",
+        "R"
+      ],
+      [
+        "main-fuse.right",
+        "main-relay.contact-left",
+        "R/W"
+      ],
+      [
+        "fi-fuse.right",
+        "ignition-switch.left",
+        "R/Bl"
+      ],
+      [
+        "ignition-switch.right",
+        "main-relay.coil-left",
+        "Bl"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.top",
+        "W/Bl"
+      ],
+      [
+        "main-relay.contact-right",
+        "turn-horn-fuse.left",
+        "R/Y"
+      ],
+      [
+        "front-brake-switch.right",
+        "rear-brake-switch.right",
+        "G/Y"
+      ],
+      [
+        "brake-tail-lamp.lower-left",
+        "lamp-ground.top",
+        "G"
+      ],
+      [
+        "load-resistor.bottom",
+        "resistor-ground.top",
+        "G"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          221,
+          451
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          282,
+          451
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-left",
+        "xy": [
+          735,
+          394
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-right",
+        "xy": [
+          813,
+          394
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-left",
+        "xy": [
+          735,
+          471
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-right",
+        "xy": [
+          813,
+          471
+        ],
+        "label": null
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": [
+    "LED panel external channels are visible; manufacturer internal topology is not established by this screenshot."
+  ]
+}

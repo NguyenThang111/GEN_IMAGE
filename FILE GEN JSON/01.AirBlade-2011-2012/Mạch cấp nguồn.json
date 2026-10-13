@@ -1,0 +1,1395 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "WhatsApp Image 2026-09-30 at 10.45.01.jpeg",
+  "id": "thang-power-distribution",
+  "vehicleId": "thang",
+  "vehicleTitle": "thang",
+  "circuitTitle": "Mạch cấp nguồn",
+  "canvas": {
+    "width": 1600,
+    "height": 902
+  },
+  "components": [
+    {
+      "id": "bat",
+      "type": "battery",
+      "x": 177,
+      "y": 438,
+      "width": 86,
+      "height": 61,
+      "label": "ẮC QUY",
+      "terminals": [
+        {
+          "id": "neg",
+          "label": "-",
+          "x": 193,
+          "y": 438
+        },
+        {
+          "id": "pos",
+          "label": "+",
+          "x": 243,
+          "y": 438
+        }
+      ]
+    },
+    {
+      "id": "gnd-bat",
+      "type": "ground",
+      "x": 136,
+      "y": 470,
+      "width": 35,
+      "height": 22,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "t",
+          "label": "G",
+          "x": 153,
+          "y": 470
+        }
+      ]
+    },
+    {
+      "id": "fuse-answer",
+      "type": "fuse",
+      "x": 333,
+      "y": 219,
+      "width": 73,
+      "height": 37,
+      "label": "CẦU CHÌ (10A) ANSWER BACK",
+      "terminals": [
+        {
+          "id": "l",
+          "label": "R",
+          "x": 333,
+          "y": 239
+        },
+        {
+          "id": "r",
+          "label": "P/Bl",
+          "x": 406,
+          "y": 239
+        }
+      ]
+    },
+    {
+      "id": "fuse-main",
+      "type": "fuse",
+      "x": 333,
+      "y": 300,
+      "width": 73,
+      "height": 38,
+      "label": "CẦU CHÌ (20A) MAIN",
+      "terminals": [
+        {
+          "id": "l",
+          "label": "R",
+          "x": 333,
+          "y": 319
+        },
+        {
+          "id": "r",
+          "label": "R/W",
+          "x": 406,
+          "y": 319
+        }
+      ]
+    },
+    {
+      "id": "fuse-fi",
+      "type": "fuse",
+      "x": 333,
+      "y": 371,
+      "width": 73,
+      "height": 37,
+      "label": "CẦU CHÌ (10A) FI",
+      "terminals": [
+        {
+          "id": "l",
+          "label": "R",
+          "x": 333,
+          "y": 390
+        },
+        {
+          "id": "r",
+          "label": "R/Bl",
+          "x": 406,
+          "y": 390
+        }
+      ]
+    },
+    {
+      "id": "conn-locator",
+      "type": "connector",
+      "x": 611,
+      "y": 204,
+      "width": 35,
+      "height": 54,
+      "label": "HỘP ĐỊNH VỊ XE / ĐÈN LED",
+      "terminals": [
+        {
+          "id": "in",
+          "label": "P/Bl",
+          "x": 611,
+          "y": 239
+        },
+        {
+          "id": "out1",
+          "label": "HỘP ĐỊNH VỊ XE",
+          "x": 646,
+          "y": 211
+        },
+        {
+          "id": "out2",
+          "label": "ĐÈN LED Ổ KHÓA ĐIỆN",
+          "x": 646,
+          "y": 236
+        },
+        {
+          "id": "out3",
+          "label": "ĐÈN LED THÙNG YÊN",
+          "x": 646,
+          "y": 255
+        }
+      ]
+    },
+    {
+      "id": "reg-rec",
+      "type": "device",
+      "x": 446,
+      "y": 471,
+      "width": 105,
+      "height": 90,
+      "label": "TIẾT CHẾ / CHỈNH LƯU",
+      "terminals": [
+        {
+          "id": "ac1",
+          "label": "Y",
+          "x": 446,
+          "y": 466
+        },
+        {
+          "id": "ac2",
+          "label": "Y",
+          "x": 446,
+          "y": 512
+        },
+        {
+          "id": "ac3",
+          "label": "Y",
+          "x": 446,
+          "y": 545
+        },
+        {
+          "id": "bplus",
+          "label": "R/W",
+          "x": 502,
+          "y": 471
+        },
+        {
+          "id": "gnd",
+          "label": "G",
+          "x": 498,
+          "y": 561
+        }
+      ]
+    },
+    {
+      "id": "acg",
+      "type": "acg",
+      "x": 306,
+      "y": 557,
+      "width": 101,
+      "height": 147,
+      "label": "MÁY PHÁT",
+      "terminals": [
+        {
+          "id": "y1",
+          "label": "Y",
+          "x": 356,
+          "y": 562
+        },
+        {
+          "id": "y2",
+          "label": "Y",
+          "x": 310,
+          "y": 675
+        },
+        {
+          "id": "y3",
+          "label": "Y",
+          "x": 402,
+          "y": 675
+        }
+      ]
+    },
+    {
+      "id": "gnd-reg",
+      "type": "ground",
+      "x": 482,
+      "y": 613,
+      "width": 33,
+      "height": 27,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "t",
+          "label": "G",
+          "x": 498,
+          "y": 613
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "type": "device",
+      "x": 622,
+      "y": 472,
+      "width": 33,
+      "height": 60,
+      "label": "TỤ ĐIỆN",
+      "terminals": [
+        {
+          "id": "p",
+          "label": "R/Bl",
+          "x": 638,
+          "y": 472
+        },
+        {
+          "id": "n",
+          "label": "G",
+          "x": 638,
+          "y": 532
+        }
+      ]
+    },
+    {
+      "id": "gnd-cap",
+      "type": "ground",
+      "x": 622,
+      "y": 574,
+      "width": 33,
+      "height": 25,
+      "label": "G",
+      "terminals": [
+        {
+          "id": "t",
+          "label": "G",
+          "x": 638,
+          "y": 574
+        }
+      ]
+    },
+    {
+      "id": "ign-sw",
+      "type": "switch",
+      "x": 682,
+      "y": 363,
+      "width": 74,
+      "height": 45,
+      "label": "CÔNG TẮC MÁY",
+      "terminals": [
+        {
+          "id": "in",
+          "label": "R/Bl",
+          "x": 682,
+          "y": 390
+        },
+        {
+          "id": "out",
+          "label": "Bl",
+          "x": 756,
+          "y": 390
+        }
+      ]
+    },
+    {
+      "id": "main-relay",
+      "type": "relay",
+      "x": 870,
+      "y": 297,
+      "width": 73,
+      "height": 110,
+      "label": "RƠ LE CHÍNH",
+      "terminals": [
+        {
+          "id": "contact-in",
+          "label": "R/W",
+          "x": 870,
+          "y": 319
+        },
+        {
+          "id": "contact-out",
+          "label": "R/Y",
+          "x": 943,
+          "y": 319
+        },
+        {
+          "id": "coil-in",
+          "label": "Bl",
+          "x": 870,
+          "y": 390
+        },
+        {
+          "id": "coil-out",
+          "label": "W/Bl",
+          "x": 943,
+          "y": 390
+        }
+      ]
+    },
+    {
+      "id": "ecm-small",
+      "type": "ecm",
+      "x": 962,
+      "y": 466,
+      "width": 77,
+      "height": 51,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "p",
+          "label": "W/Bl",
+          "x": 1001,
+          "y": 466
+        }
+      ]
+    },
+    {
+      "id": "fuse-head",
+      "type": "fuse",
+      "x": 1053,
+      "y": 219,
+      "width": 73,
+      "height": 37,
+      "label": "CẦU CHÌ (10A) HEAD LIGHT",
+      "terminals": [
+        {
+          "id": "l",
+          "label": "R/Y",
+          "x": 1053,
+          "y": 239
+        },
+        {
+          "id": "r",
+          "label": "Y",
+          "x": 1126,
+          "y": 239
+        }
+      ]
+    },
+    {
+      "id": "conn-night",
+      "type": "connector",
+      "x": 1251,
+      "y": 229,
+      "width": 12,
+      "height": 21,
+      "label": "CÔNG TẮC ĐÈN ĐÊM",
+      "terminals": [
+        {
+          "id": "in",
+          "label": "Y",
+          "x": 1254,
+          "y": 239
+        }
+      ]
+    },
+    {
+      "id": "fuse-turn-horn",
+      "type": "fuse",
+      "x": 1053,
+      "y": 300,
+      "width": 73,
+      "height": 37,
+      "label": "CẦU CHÌ (10A) TURN,HORN...",
+      "terminals": [
+        {
+          "id": "l",
+          "label": "R/Y",
+          "x": 1053,
+          "y": 319
+        },
+        {
+          "id": "r",
+          "label": "Bl/Br",
+          "x": 1126,
+          "y": 319
+        }
+      ]
+    },
+    {
+      "id": "conn-upper",
+      "type": "connector",
+      "x": 1223,
+      "y": 317,
+      "width": 34,
+      "height": 160,
+      "label": "GIẮC TẢI TRÊN",
+      "terminals": [
+        {
+          "id": "in",
+          "label": "Bl/Br",
+          "x": 1224,
+          "y": 319
+        },
+        {
+          "id": "brake",
+          "label": "CÔNG TẮC PHANH TRƯỚC/SAU",
+          "x": 1255,
+          "y": 319
+        },
+        {
+          "id": "horn-sw",
+          "label": "CÔNG TẮC CÒI",
+          "x": 1255,
+          "y": 338
+        },
+        {
+          "id": "flasher",
+          "label": "RƠ LE XI NHAN",
+          "x": 1255,
+          "y": 357
+        },
+        {
+          "id": "tach",
+          "label": "ĐÈN NỀN ĐỒNG HỒ",
+          "x": 1255,
+          "y": 377
+        },
+        {
+          "id": "warn",
+          "label": "ĐÈN BÁO LỖI",
+          "x": 1255,
+          "y": 397
+        },
+        {
+          "id": "temp",
+          "label": "ĐÈN CẢNH BÁO NHIỆT ĐỘ NƯỚC LÀM MÁT",
+          "x": 1255,
+          "y": 416
+        },
+        {
+          "id": "locator",
+          "label": "HỘP ĐỊNH VỊ XE",
+          "x": 1255,
+          "y": 436
+        },
+        {
+          "id": "night-sw",
+          "label": "CÔNG TẮC ĐÈN ĐÊM",
+          "x": 1255,
+          "y": 455
+        },
+        {
+          "id": "fuel-gauge",
+          "label": "ĐỒNG HỒ BÁO XĂNG",
+          "x": 1255,
+          "y": 475
+        }
+      ]
+    },
+    {
+      "id": "conn-lower",
+      "type": "connector",
+      "x": 1223,
+      "y": 566,
+      "width": 34,
+      "height": 116,
+      "label": "GIẮC TẢI DƯỚI",
+      "terminals": [
+        {
+          "id": "in",
+          "label": "Bl",
+          "x": 1224,
+          "y": 568
+        },
+        {
+          "id": "ecm",
+          "label": "ECM",
+          "x": 1255,
+          "y": 568
+        },
+        {
+          "id": "injector",
+          "label": "KIM PHUN",
+          "x": 1255,
+          "y": 587
+        },
+        {
+          "id": "coil",
+          "label": "MÔ-BIN SƯỜN",
+          "x": 1255,
+          "y": 606
+        },
+        {
+          "id": "pump",
+          "label": "BƠM XĂNG",
+          "x": 1255,
+          "y": 625
+        },
+        {
+          "id": "dlc",
+          "label": "DLC",
+          "x": 1255,
+          "y": 644
+        },
+        {
+          "id": "starter-relay",
+          "label": "RƠ LE KHỞI ĐỘNG",
+          "x": 1255,
+          "y": 662
+        },
+        {
+          "id": "iacv",
+          "label": "VAN CẦM CHỪNG NHANH",
+          "x": 1255,
+          "y": 681
+        }
+      ]
+    },
+    {
+      "id": "j-r-ans",
+      "type": "junction",
+      "x": 239,
+      "y": 235,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "c",
+          "label": "R",
+          "x": 243,
+          "y": 239
+        }
+      ]
+    },
+    {
+      "id": "j-r-main",
+      "type": "junction",
+      "x": 239,
+      "y": 315,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "c",
+          "label": "R",
+          "x": 243,
+          "y": 319
+        }
+      ]
+    },
+    {
+      "id": "j-r-fi",
+      "type": "junction",
+      "x": 239,
+      "y": 386,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "c",
+          "label": "R",
+          "x": 243,
+          "y": 390
+        }
+      ]
+    },
+    {
+      "id": "j-rw-main",
+      "type": "junction",
+      "x": 498,
+      "y": 315,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "c",
+          "label": "R/W",
+          "x": 502,
+          "y": 319
+        }
+      ]
+    },
+    {
+      "id": "j-rbl-cap",
+      "type": "junction",
+      "x": 633,
+      "y": 386,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "c",
+          "label": "R/Bl",
+          "x": 637,
+          "y": 390
+        }
+      ]
+    },
+    {
+      "id": "j-bl-split",
+      "type": "junction",
+      "x": 807,
+      "y": 386,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "c",
+          "label": "Bl",
+          "x": 811,
+          "y": 390
+        }
+      ]
+    },
+    {
+      "id": "j-ry-split",
+      "type": "junction",
+      "x": 996,
+      "y": 315,
+      "width": 8,
+      "height": 8,
+      "label": "",
+      "terminals": [
+        {
+          "id": "c",
+          "label": "R/Y",
+          "x": 1000,
+          "y": 319
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w-bat-pos",
+      "from": {
+        "componentId": "bat",
+        "terminalId": "pos"
+      },
+      "to": {
+        "componentId": "j-r-fi",
+        "terminalId": "c"
+      },
+      "points": [
+        {
+          "x": 243,
+          "y": 438
+        },
+        {
+          "x": 243,
+          "y": 390
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-fi-main",
+      "from": {
+        "componentId": "j-r-fi",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "j-r-main",
+        "terminalId": "c"
+      },
+      "points": [
+        {
+          "x": 243,
+          "y": 390
+        },
+        {
+          "x": 243,
+          "y": 319
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-main-ans",
+      "from": {
+        "componentId": "j-r-main",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "j-r-ans",
+        "terminalId": "c"
+      },
+      "points": [
+        {
+          "x": 243,
+          "y": 319
+        },
+        {
+          "x": 243,
+          "y": 239
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-ans-fuse",
+      "from": {
+        "componentId": "j-r-ans",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "fuse-answer",
+        "terminalId": "l"
+      },
+      "points": [
+        {
+          "x": 243,
+          "y": 239
+        },
+        {
+          "x": 333,
+          "y": 239
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-main-fuse",
+      "from": {
+        "componentId": "j-r-main",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "fuse-main",
+        "terminalId": "l"
+      },
+      "points": [
+        {
+          "x": 243,
+          "y": 319
+        },
+        {
+          "x": 333,
+          "y": 319
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-r-fi-fuse",
+      "from": {
+        "componentId": "j-r-fi",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "fuse-fi",
+        "terminalId": "l"
+      },
+      "points": [
+        {
+          "x": 243,
+          "y": 390
+        },
+        {
+          "x": 333,
+          "y": 390
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#dc143c",
+      "state": "controlled"
+    },
+    {
+      "id": "w-bat-neg-ground",
+      "from": {
+        "componentId": "bat",
+        "terminalId": "neg"
+      },
+      "to": {
+        "componentId": "gnd-bat",
+        "terminalId": "t"
+      },
+      "points": [
+        {
+          "x": 193,
+          "y": 438
+        },
+        {
+          "x": 193,
+          "y": 389
+        },
+        {
+          "x": 153,
+          "y": 389
+        },
+        {
+          "x": 153,
+          "y": 470
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "w-answer-out",
+      "from": {
+        "componentId": "fuse-answer",
+        "terminalId": "r"
+      },
+      "to": {
+        "componentId": "conn-locator",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 406,
+          "y": 239
+        },
+        {
+          "x": 611,
+          "y": 239
+        }
+      ],
+      "code": "P/Bl",
+      "primaryColor": "#f4a3b8",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-main-out",
+      "from": {
+        "componentId": "fuse-main",
+        "terminalId": "r"
+      },
+      "to": {
+        "componentId": "j-rw-main",
+        "terminalId": "c"
+      },
+      "points": [
+        {
+          "x": 406,
+          "y": 319
+        },
+        {
+          "x": 502,
+          "y": 319
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-rw-relay",
+      "from": {
+        "componentId": "j-rw-main",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "contact-in"
+      },
+      "points": [
+        {
+          "x": 502,
+          "y": 319
+        },
+        {
+          "x": 870,
+          "y": 319
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-rw-reg",
+      "from": {
+        "componentId": "j-rw-main",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "reg-rec",
+        "terminalId": "bplus"
+      },
+      "points": [
+        {
+          "x": 502,
+          "y": 319
+        },
+        {
+          "x": 502,
+          "y": 471
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-fi-out",
+      "from": {
+        "componentId": "fuse-fi",
+        "terminalId": "r"
+      },
+      "to": {
+        "componentId": "j-rbl-cap",
+        "terminalId": "c"
+      },
+      "points": [
+        {
+          "x": 406,
+          "y": 390
+        },
+        {
+          "x": 637,
+          "y": 390
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-rbl-switch",
+      "from": {
+        "componentId": "j-rbl-cap",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "ign-sw",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 637,
+          "y": 390
+        },
+        {
+          "x": 682,
+          "y": 390
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-rbl-cap",
+      "from": {
+        "componentId": "j-rbl-cap",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "cap",
+        "terminalId": "p"
+      },
+      "points": [
+        {
+          "x": 637,
+          "y": 390
+        },
+        {
+          "x": 637,
+          "y": 472
+        },
+        {
+          "x": 638,
+          "y": 472
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-switch-bl",
+      "from": {
+        "componentId": "ign-sw",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "j-bl-split",
+        "terminalId": "c"
+      },
+      "points": [
+        {
+          "x": 756,
+          "y": 390
+        },
+        {
+          "x": 811,
+          "y": 390
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-bl-relay",
+      "from": {
+        "componentId": "j-bl-split",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "main-relay",
+        "terminalId": "coil-in"
+      },
+      "points": [
+        {
+          "x": 811,
+          "y": 390
+        },
+        {
+          "x": 870,
+          "y": 390
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-bl-lower-conn",
+      "from": {
+        "componentId": "j-bl-split",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "conn-lower",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 811,
+          "y": 390
+        },
+        {
+          "x": 811,
+          "y": 568
+        },
+        {
+          "x": 1224,
+          "y": 568
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-ecm",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "coil-out"
+      },
+      "to": {
+        "componentId": "ecm-small",
+        "terminalId": "p"
+      },
+      "points": [
+        {
+          "x": 943,
+          "y": 390
+        },
+        {
+          "x": 1001,
+          "y": 390
+        },
+        {
+          "x": 1001,
+          "y": 466
+        }
+      ],
+      "code": "W/Bl",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-relay-ry",
+      "from": {
+        "componentId": "main-relay",
+        "terminalId": "contact-out"
+      },
+      "to": {
+        "componentId": "j-ry-split",
+        "terminalId": "c"
+      },
+      "points": [
+        {
+          "x": 943,
+          "y": 319
+        },
+        {
+          "x": 1000,
+          "y": 319
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#facc15",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ry-turn-fuse",
+      "from": {
+        "componentId": "j-ry-split",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "fuse-turn-horn",
+        "terminalId": "l"
+      },
+      "points": [
+        {
+          "x": 1000,
+          "y": 319
+        },
+        {
+          "x": 1053,
+          "y": 319
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#facc15",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ry-head-fuse",
+      "from": {
+        "componentId": "j-ry-split",
+        "terminalId": "c"
+      },
+      "to": {
+        "componentId": "fuse-head",
+        "terminalId": "l"
+      },
+      "points": [
+        {
+          "x": 1000,
+          "y": 319
+        },
+        {
+          "x": 1000,
+          "y": 239
+        },
+        {
+          "x": 1053,
+          "y": 239
+        }
+      ],
+      "code": "R/Y",
+      "primaryColor": "#dc143c",
+      "stripeColor": "#facc15",
+      "state": "controlled"
+    },
+    {
+      "id": "w-head-out",
+      "from": {
+        "componentId": "fuse-head",
+        "terminalId": "r"
+      },
+      "to": {
+        "componentId": "conn-night",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1126,
+          "y": 239
+        },
+        {
+          "x": 1254,
+          "y": 239
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#facc15",
+      "state": "controlled"
+    },
+    {
+      "id": "w-turn-out",
+      "from": {
+        "componentId": "fuse-turn-horn",
+        "terminalId": "r"
+      },
+      "to": {
+        "componentId": "conn-upper",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1126,
+          "y": 319
+        },
+        {
+          "x": 1224,
+          "y": 319
+        }
+      ],
+      "code": "Bl/Br",
+      "primaryColor": "#111827",
+      "stripeColor": "#8b5a2b",
+      "state": "controlled"
+    },
+    {
+      "id": "w-acg-y1",
+      "from": {
+        "componentId": "acg",
+        "terminalId": "y1"
+      },
+      "to": {
+        "componentId": "reg-rec",
+        "terminalId": "ac1"
+      },
+      "points": [
+        {
+          "x": 356,
+          "y": 562
+        },
+        {
+          "x": 356,
+          "y": 466
+        },
+        {
+          "x": 446,
+          "y": 466
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#facc15",
+      "state": "controlled"
+    },
+    {
+      "id": "w-acg-y2",
+      "from": {
+        "componentId": "acg",
+        "terminalId": "y2"
+      },
+      "to": {
+        "componentId": "reg-rec",
+        "terminalId": "ac2"
+      },
+      "points": [
+        {
+          "x": 310,
+          "y": 675
+        },
+        {
+          "x": 310,
+          "y": 512
+        },
+        {
+          "x": 446,
+          "y": 512
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#facc15",
+      "state": "controlled"
+    },
+    {
+      "id": "w-acg-y3",
+      "from": {
+        "componentId": "acg",
+        "terminalId": "y3"
+      },
+      "to": {
+        "componentId": "reg-rec",
+        "terminalId": "ac3"
+      },
+      "points": [
+        {
+          "x": 402,
+          "y": 675
+        },
+        {
+          "x": 402,
+          "y": 545
+        },
+        {
+          "x": 446,
+          "y": 545
+        }
+      ],
+      "code": "Y",
+      "primaryColor": "#facc15",
+      "state": "controlled"
+    },
+    {
+      "id": "w-reg-ground",
+      "from": {
+        "componentId": "reg-rec",
+        "terminalId": "gnd"
+      },
+      "to": {
+        "componentId": "gnd-reg",
+        "terminalId": "t"
+      },
+      "points": [
+        {
+          "x": 498,
+          "y": 561
+        },
+        {
+          "x": 498,
+          "y": 613
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "w-cap-ground",
+      "from": {
+        "componentId": "cap",
+        "terminalId": "n"
+      },
+      "to": {
+        "componentId": "gnd-cap",
+        "terminalId": "t"
+      },
+      "points": [
+        {
+          "x": 638,
+          "y": 532
+        },
+        {
+          "x": 638,
+          "y": 574
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    }
+  ]
+}

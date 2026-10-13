@@ -1,0 +1,231 @@
+{
+  "number": "05",
+  "schemaSha256": "25b60859da8cc3706aae0f6f6f4c33861cb010d4ad7bab33a9d55fc85cd41aa3",
+  "components": 11,
+  "wires": 13,
+  "sourceTranscriptionCarry": "PASS",
+  "graphCases": [],
+  "inventoryMapping": [
+    {
+      "sourceItemId": "battery",
+      "candidateIds": [
+        "battery"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 84,
+        "y": 170,
+        "width": 84,
+        "height": 64
+      }
+    },
+    {
+      "sourceItemId": "battery-ground",
+      "candidateIds": [
+        "battery-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 47,
+        "y": 200,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "main-fuse",
+      "candidateIds": [
+        "main-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 212,
+        "y": 120,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "key",
+      "candidateIds": [
+        "key"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 415,
+        "y": 112,
+        "width": 70,
+        "height": 44
+      }
+    },
+    {
+      "sourceItemId": "meter-fuse",
+      "candidateIds": [
+        "meter-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 608,
+        "y": 120,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "cluster",
+      "candidateIds": [
+        "cluster"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1085,
+        "y": 101,
+        "width": 174,
+        "height": 165
+      }
+    },
+    {
+      "sourceItemId": "fuel-connector",
+      "candidateIds": [
+        "fuel-connector"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 929,
+        "y": 429,
+        "width": 41,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "sender",
+      "candidateIds": [
+        "sender"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 906,
+        "y": 530,
+        "width": 144,
+        "height": 101
+      }
+    },
+    {
+      "sourceItemId": "ground-bus",
+      "candidateIds": [
+        "ground-bus"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1013,
+        "y": 227,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "cluster-ground",
+      "candidateIds": [
+        "cluster-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1000,
+        "y": 279,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "cluster-pinout",
+      "candidateIds": [
+        "cluster-pinout"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1073,
+        "y": 294,
+        "width": 170,
+        "height": 53
+      }
+    },
+    {
+      "sourceItemId": "src-wire-001",
+      "candidateIds": [
+        "wire-001"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-002",
+      "candidateIds": [
+        "wire-002"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-003",
+      "candidateIds": [
+        "wire-003"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-004",
+      "candidateIds": [
+        "wire-004"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-005",
+      "candidateIds": [
+        "wire-005"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-006",
+      "candidateIds": [
+        "wire-006"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-007",
+      "candidateIds": [
+        "wire-007"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-008",
+      "candidateIds": [
+        "wire-008"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-009",
+      "candidateIds": [
+        "wire-009"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-010",
+      "candidateIds": [
+        "wire-010"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-011",
+      "candidateIds": [
+        "wire-011"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    }
+  ],
+  "sourceInterpretationVerdict": "REVIEW_REQUIRED"
+}

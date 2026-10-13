@@ -1,0 +1,378 @@
+{
+  "status": "PASS_SCHEMA_AND_TEXT_RENDERING",
+  "electricalApproval": false,
+  "browserUiTested": false,
+  "checks": [
+    {
+      "file": "01. power-distribution.schema.json",
+      "texts": 53,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 22,
+          "wires": 23,
+          "nets": 12
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "02. horn.schema.json",
+      "texts": 21,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 12,
+          "wires": 13,
+          "nets": 11
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "03. turn-signals.schema.json",
+      "texts": 28,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 16,
+          "wires": 17,
+          "nets": 15
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "04. brake-light.schema.json",
+      "texts": 26,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 15,
+          "wires": 17,
+          "nets": 11
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "05. fuel-gauge.schema.json",
+      "texts": 29,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 14,
+          "wires": 19,
+          "nets": 11
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "06. lighting.schema.json",
+      "texts": 59,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 27,
+          "wires": 36,
+          "nets": 17
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "07. vehicle-speed.schema.json",
+      "texts": 34,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "source-discrepancy",
+            "message": "Ảnh nguồn có nhãn chưa thống nhất: [{\"detailSources\":[7,10],\"overviewSource\":12,\"detail\":\"VS has three wires: Bl/Br supply, Br signal and G ground.\",\"overview\":\"VS has two represented wires Bu/G and P/G to cluster pins 4 and 2.\"}]"
+          }
+        ],
+        "counts": {
+          "components": 17,
+          "wires": 19,
+          "nets": 12
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "08. ignition.schema.json",
+      "texts": 53,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "wire-code",
+            "owner": "ckp-6p-u",
+            "message": "ckp-6p-u: mã màu chưa nhận biết (V)"
+          },
+          {
+            "severity": "warning",
+            "code": "wire-code",
+            "owner": "ecm-ckp-u",
+            "message": "ecm-ckp-u: mã màu chưa nhận biết (V)"
+          },
+          {
+            "severity": "warning",
+            "code": "source-discrepancy",
+            "message": "Ảnh nguồn có nhãn chưa thống nhất: [{\"detailSources\":[8],\"overviewSource\":12,\"detail\":\"Ignition control is Bu at ECM A27; CKP colors change across 6P.\",\"overview\":\"Ignition control is Y/G; CKP harness labels W/R, W/Bu, W/Bl, Br/Bl, Bu/Y are retained.\"}]"
+          }
+        ],
+        "counts": {
+          "components": 18,
+          "wires": 40,
+          "nets": 18
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "09. starting.schema.json",
+      "texts": 84,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "wire-code",
+            "owner": "ecm-ckp-u",
+            "message": "ecm-ckp-u: mã màu chưa nhận biết (V)"
+          }
+        ],
+        "counts": {
+          "components": 24,
+          "wires": 51,
+          "nets": 25
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "10. idle-stop.schema.json",
+      "texts": 102,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: bank-signal <> idle-signal"
+          },
+          {
+            "severity": "warning",
+            "code": "wire-code",
+            "owner": "ecm-ckp-u",
+            "message": "ecm-ckp-u: mã màu chưa nhận biết (V)"
+          },
+          {
+            "severity": "warning",
+            "code": "source-discrepancy",
+            "message": "Ảnh nguồn có nhãn chưa thống nhất: [{\"detailSources\":[7,10],\"overviewSource\":12,\"detail\":\"VS has three wires: Bl/Br supply, Br signal and G ground.\",\"overview\":\"VS has two represented wires Bu/G and P/G to cluster pins 4 and 2.\"},{\"detailSources\":[10],\"overviewSource\":12,\"detail\":\"TP VCC W/R, TP signal Y; ECT signal Gr/Bu.\",\"overview\":\"TP VCC Y/O, TP signal Y/Bu; ECT signal P.\"},{\"detailSources\":[10],\"overviewSource\":12,\"detail\":\"Cluster speed pin 11, MIL pin 16, supply pin 10, ground pin 1.\",\"overview\":\"Cluster speed pin 3, MIL pin 15, supply pin 6, ground pin 8.\"}]"
+          }
+        ],
+        "counts": {
+          "components": 29,
+          "wires": 61,
+          "nets": 30
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "11. smartkey.schema.json",
+      "texts": 119,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: left-turn <> left-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: right-turn <> right-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: key-sub1 <> brake-feed"
+          },
+          {
+            "severity": "warning",
+            "code": "drawing-bounds",
+            "owner": "battery-ground",
+            "message": "Nét vector vượt khung: battery-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "source-discrepancy",
+            "message": "Ảnh nguồn có nhãn chưa thống nhất: [{\"detailSources\":[11],\"overviewSource\":12,\"detail\":\"SCU 10 IMOID is P; SCU 11 IMOAU is Bu; SCU 19 ENG START is Y.\",\"overview\":\"SCU 10 IMOID is Bu; SCU 11 IMOAU is P; SCU 19 ENG START is G/W.\"}]"
+          }
+        ],
+        "counts": {
+          "components": 37,
+          "wires": 49,
+          "nets": 30
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "12. pgm-fi.schema.json",
+      "texts": 230,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: starter-battery"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-batt"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-negative"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: dlc-power"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: start-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: scu-start-sw"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: scu-start <> vs-vcc"
+          },
+          {
+            "severity": "warning",
+            "code": "source-discrepancy",
+            "message": "Ảnh nguồn có nhãn chưa thống nhất: [{\"detailSources\":[7,10],\"overviewSource\":12,\"detail\":\"VS has three wires: Bl/Br supply, Br signal and G ground.\",\"overview\":\"VS has two represented wires Bu/G and P/G to cluster pins 4 and 2.\"},{\"detailSources\":[10],\"overviewSource\":12,\"detail\":\"TP VCC W/R, TP signal Y; ECT signal Gr/Bu.\",\"overview\":\"TP VCC Y/O, TP signal Y/Bu; ECT signal P.\"},{\"detailSources\":[11],\"overviewSource\":12,\"detail\":\"SCU 10 IMOID is P; SCU 11 IMOAU is Bu; SCU 19 ENG START is Y.\",\"overview\":\"SCU 10 IMOID is Bu; SCU 11 IMOAU is P; SCU 19 ENG START is G/W.\"},{\"detailSources\":[10],\"overviewSource\":12,\"detail\":\"Cluster speed pin 11, MIL pin 16, supply pin 10, ground pin 1.\",\"overview\":\"Cluster speed pin 3, MIL pin 15, supply pin 6, ground pin 8.\"},{\"detailSources\":[8],\"overviewSource\":12,\"detail\":\"Ignition control is Bu at ECM A27; CKP colors change across 6P.\",\"overview\":\"Ignition control is Y/G; CKP harness labels W/R, W/Bu, W/Bl, Br/Bl, Bu/Y are retained.\"}]"
+          }
+        ],
+        "counts": {
+          "components": 43,
+          "wires": 90,
+          "nets": 49
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    }
+  ]
+}

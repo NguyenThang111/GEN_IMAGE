@@ -1,0 +1,510 @@
+{
+  "number": "08",
+  "schemaSha256": "6f1a94e643899e7dad22d9d2701a5dce9901962b3c195a27adf2b81e28acbf28",
+  "components": 17,
+  "wires": 37,
+  "sourceTranscriptionCarry": "PASS",
+  "graphCases": [
+    {
+      "a": "ecm.A20",
+      "b": "ckp.U",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "ecm.A21",
+      "b": "ckp.V",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "ecm.A34",
+      "b": "ckp.W",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "ecm.A22",
+      "b": "ckp.PUL",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "ecm.A2",
+      "b": "ckp.OUT",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "ecm.A39",
+      "b": "ckp.GND",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "ecm.A20",
+      "b": "ecm.A21",
+      "connected": false,
+      "result": "PASS"
+    },
+    {
+      "a": "ecm.A39",
+      "b": "ecm.A22",
+      "connected": false,
+      "result": "PASS"
+    },
+    {
+      "a": "ignition-coil.hv",
+      "b": "spark-plug.hv",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "ignition-coil.primary-a",
+      "b": "ignition-coil.primary-b",
+      "connected": false,
+      "result": "PASS"
+    }
+  ],
+  "inventoryMapping": [
+    {
+      "sourceItemId": "battery",
+      "candidateIds": [
+        "battery"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 115,
+        "y": 157,
+        "width": 84,
+        "height": 64
+      }
+    },
+    {
+      "sourceItemId": "battery-ground",
+      "candidateIds": [
+        "battery-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 40,
+        "y": 198,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "main-fuse",
+      "candidateIds": [
+        "main-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 266,
+        "y": 44,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "ecu-fuse",
+      "candidateIds": [
+        "ecu-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 266,
+        "y": 113,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "key",
+      "candidateIds": [
+        "key"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 407,
+        "y": 105,
+        "width": 70,
+        "height": 86
+      }
+    },
+    {
+      "sourceItemId": "main-relay",
+      "candidateIds": [
+        "main-relay"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 638,
+        "y": 41,
+        "width": 70,
+        "height": 84
+      }
+    },
+    {
+      "sourceItemId": "fi-fuse",
+      "candidateIds": [
+        "fi-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 887,
+        "y": 44,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "ecm",
+      "candidateIds": [
+        "ecm"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 300,
+        "y": 589,
+        "width": 510,
+        "height": 121
+      }
+    },
+    {
+      "sourceItemId": "stand-switch",
+      "candidateIds": [
+        "stand-switch"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 141,
+        "y": 352,
+        "width": 62,
+        "height": 79
+      }
+    },
+    {
+      "sourceItemId": "ignition-coil",
+      "candidateIds": [
+        "ignition-coil"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1174,
+        "y": 548,
+        "width": 48,
+        "height": 81
+      }
+    },
+    {
+      "sourceItemId": "spark-plug",
+      "candidateIds": [
+        "spark-plug"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1180,
+        "y": 629,
+        "width": 36,
+        "height": 81
+      }
+    },
+    {
+      "sourceItemId": "ckp",
+      "candidateIds": [
+        "ckp"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 910,
+        "y": 578,
+        "width": 211,
+        "height": 45
+      }
+    },
+    {
+      "sourceItemId": "ckp-connector",
+      "candidateIds": [
+        "ckp-connector"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 841,
+        "y": 319,
+        "width": 31,
+        "height": 211
+      }
+    },
+    {
+      "sourceItemId": "r-bus",
+      "candidateIds": [
+        "r-bus"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 539,
+        "y": 58,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "bl-bus",
+      "candidateIds": [
+        "bl-bus"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 497,
+        "y": 174,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "ecm-pinout7",
+      "candidateIds": [
+        "ecm-pinout7"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 62,
+        "y": 460,
+        "width": 155,
+        "height": 60
+      }
+    },
+    {
+      "sourceItemId": "ecm-pinout39",
+      "candidateIds": [
+        "ecm-pinout39"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 32,
+        "y": 577,
+        "width": 214,
+        "height": 87
+      }
+    },
+    {
+      "sourceItemId": "src-wire-001",
+      "candidateIds": [
+        "wire-001"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-002",
+      "candidateIds": [
+        "wire-002"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-003",
+      "candidateIds": [
+        "wire-003"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-004",
+      "candidateIds": [
+        "wire-004"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-005",
+      "candidateIds": [
+        "wire-005"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-006",
+      "candidateIds": [
+        "wire-006"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-007",
+      "candidateIds": [
+        "wire-007"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-008",
+      "candidateIds": [
+        "wire-008"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-009",
+      "candidateIds": [
+        "wire-009"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-010",
+      "candidateIds": [
+        "wire-010"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-011",
+      "candidateIds": [
+        "wire-011"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-012",
+      "candidateIds": [
+        "wire-012"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-013",
+      "candidateIds": [
+        "wire-013"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-014",
+      "candidateIds": [
+        "wire-014"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-015",
+      "candidateIds": [
+        "wire-015"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-016",
+      "candidateIds": [
+        "wire-016"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-017",
+      "candidateIds": [
+        "wire-017"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-018",
+      "candidateIds": [
+        "wire-018"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-019",
+      "candidateIds": [
+        "wire-019"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-020",
+      "candidateIds": [
+        "wire-020"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-021",
+      "candidateIds": [
+        "wire-021"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-022",
+      "candidateIds": [
+        "wire-022"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-023",
+      "candidateIds": [
+        "wire-023"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-024",
+      "candidateIds": [
+        "wire-024"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-025",
+      "candidateIds": [
+        "wire-025"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-026",
+      "candidateIds": [
+        "wire-026"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-027",
+      "candidateIds": [
+        "wire-027"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-028",
+      "candidateIds": [
+        "wire-028"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-029",
+      "candidateIds": [
+        "wire-029"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-030",
+      "candidateIds": [
+        "wire-030"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-031",
+      "candidateIds": [
+        "wire-031"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    }
+  ],
+  "sourceInterpretationVerdict": "REVIEW_REQUIRED"
+}

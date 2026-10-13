@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "sourceSha256": "REPLACE",
+  "candidateSha256": "REPLACE",
+  "referenceSha256": "REPLACE",
+  "items": [],
+  "itemExample_NOT_A_REAL_ISSUE": {
+    "id": "feedback-001",
+    "status": "open",
+    "category": "text_number",
+    "objectId": "component-or-text-id",
+    "sourceBox": [0, 0, 0, 0],
+    "expected": "TEXT OR VALUE VERIFIED FROM SOURCE",
+    "actual": "CURRENT VALUE",
+    "note": "Describe the discrepancy and source evidence",
+    "evidenceFiles": [],
+    "regressionTest": null,
+    "history": [],
+    "review": {"reviewer": null, "candidateSha256": null, "verifiedAt": null}
+  }
+}

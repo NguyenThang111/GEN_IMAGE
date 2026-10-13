@@ -1,0 +1,1 @@
+require('esbuild').buildSync({entryPoints:['smartkey-json-runner.tsx'],bundle:true,platform:'node',format:'cjs',jsx:'automatic',external:['sharp'],outfile:'smartkey-json-runner.cjs'});

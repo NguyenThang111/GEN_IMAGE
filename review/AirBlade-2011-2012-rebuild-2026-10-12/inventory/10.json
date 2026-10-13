@@ -1,0 +1,1269 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "10",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-38-16.png",
+    "imageSha256": "c359bc27818b8a46dd642d64e4a92329fcac37b1866f39cdcb1ea1b1246b0608",
+    "width": 1687,
+    "height": 952,
+    "recordId": "fd9e51a9-bfae-420a-90ea-5347cbf2dc8e",
+    "identityStatus": "VERIFIED_SAME_BYTES",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "pgm-fi",
+    "serverImageSha256": "c359bc27818b8a46dd642d64e4a92329fcac37b1866f39cdcb1ea1b1246b0608"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "10:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; xoay, âm dưới, dương trên",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 260,
+        "y": 768,
+        "width": 68,
+        "height": 95
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:fuse-main",
+      "candidateComponentId": "fuse-main",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 203,
+        "y": 625,
+        "width": 37,
+        "height": 74
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 277,
+        "y": 625,
+        "width": 35,
+        "height": 74
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:fuse-horn",
+      "candidateComponentId": "fuse-horn",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) HORN,TURN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 203,
+        "y": 178,
+        "width": 37,
+        "height": 78
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:main-relay",
+      "candidateComponentId": "main-relay",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH; contact trái, coil phải",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 202,
+        "y": 313,
+        "width": 108,
+        "height": 77
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:ignition-switch",
+      "candidateComponentId": "ignition-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 264,
+        "y": 459,
+        "width": 49,
+        "height": 78
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:capacitor",
+      "candidateComponentId": "capacitor",
+      "kind": "component",
+      "observation": "TỤ ĐIỆN; R/W/G; cực DC",
+      "proposedModelId": "capacitor.polarized",
+      "sourceBox": {
+        "x": 375,
+        "y": 458,
+        "width": 32,
+        "height": 50
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:regulator",
+      "candidateComponentId": "regulator",
+      "kind": "component",
+      "observation": "TIẾT CHẾ/CHỈNH LƯU; R/W,G,ba Y",
+      "proposedModelId": "regulator.three-phase5",
+      "sourceBox": {
+        "x": 343,
+        "y": 625,
+        "width": 86,
+        "height": 85
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:acg",
+      "candidateComponentId": "acg",
+      "kind": "component",
+      "observation": "MÁY PHÁT; ba cuộn nối sao",
+      "proposedModelId": "generator.star3",
+      "sourceBox": {
+        "x": 462,
+        "y": 772,
+        "width": 127,
+        "height": 135
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; 25 đầu có dây, các số/chức năng chép riêng",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 474,
+        "y": 462,
+        "width": 914,
+        "height": 152
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:starter-relay",
+      "candidateComponentId": "starter-relay",
+      "kind": "component",
+      "observation": "RƠ LE KHỞI ĐỘNG; R/R/W và Bl/Y/G",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 860,
+        "y": 119,
+        "width": 83,
+        "height": 88
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:starter-motor",
+      "candidateComponentId": "starter-motor",
+      "kind": "component",
+      "observation": "MÔ TƠ KHỞI ĐỘNG; R/W/G",
+      "proposedModelId": "motor.dc2",
+      "sourceBox": {
+        "x": 1020,
+        "y": 117,
+        "width": 59,
+        "height": 46
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:idle-valve",
+      "candidateComponentId": "idle-valve",
+      "kind": "component",
+      "observation": "VAN TỪ CẦM CHỪNG NHANH; Bl/O/Bl",
+      "proposedModelId": "valve.solenoid2",
+      "sourceBox": {
+        "x": 576,
+        "y": 345,
+        "width": 47,
+        "height": 44
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:fuel-pump",
+      "candidateComponentId": "fuel-pump",
+      "kind": "component",
+      "observation": "BƠM XĂNG; Bl/Br/Bl",
+      "proposedModelId": "motor.dc2",
+      "sourceBox": {
+        "x": 710,
+        "y": 314,
+        "width": 50,
+        "height": 59
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:injector",
+      "candidateComponentId": "injector",
+      "kind": "component",
+      "observation": "KIM PHUN; Bl/P/Bu; 20°C: 9–12 Ω",
+      "proposedModelId": "injector.solenoid2",
+      "sourceBox": {
+        "x": 820,
+        "y": 332,
+        "width": 68,
+        "height": 54
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:ignition-coil",
+      "candidateComponentId": "ignition-coil",
+      "kind": "component",
+      "observation": "MÔ-BIN SƯỜN; Bl/Y/Bu và cao áp tới bugi",
+      "proposedModelId": "ignition.module3",
+      "sourceBox": {
+        "x": 941,
+        "y": 319,
+        "width": 70,
+        "height": 49
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:spark-plug",
+      "candidateComponentId": "spark-plug",
+      "kind": "component",
+      "observation": "BUGI; một đầu cao áp và khe hở",
+      "proposedModelId": "spark-plug.chassis1",
+      "sourceBox": {
+        "x": 1013,
+        "y": 321,
+        "width": 87,
+        "height": 42
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:mil",
+      "candidateComponentId": "mil",
+      "kind": "component",
+      "observation": "MIL; bóng sợi đốt Bu/Y / Bl/Br",
+      "proposedModelId": "lamp.filament2",
+      "sourceBox": {
+        "x": 1214,
+        "y": 265,
+        "width": 32,
+        "height": 34
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:temperature-lamp",
+      "candidateComponentId": "temperature-lamp",
+      "kind": "component",
+      "observation": "ĐÈN CẢNH BÁO NHIỆT ĐỘ; LED Lg/R / Bl/Br",
+      "proposedModelId": "lamp.led2",
+      "sourceBox": {
+        "x": 1286,
+        "y": 265,
+        "width": 30,
+        "height": 34
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:front-brake-switch",
+      "candidateComponentId": "front-brake-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC PHANH TRƯỚC",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1355,
+        "y": 224,
+        "width": 42,
+        "height": 56
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:rear-brake-switch",
+      "candidateComponentId": "rear-brake-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC PHANH SAU",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1402,
+        "y": 224,
+        "width": 42,
+        "height": 56
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:starter-switch",
+      "candidateComponentId": "starter-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC KHỞI ĐỘNG; nhấn",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1390,
+        "y": 700,
+        "width": 40,
+        "height": 57
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:ckp",
+      "candidateComponentId": "ckp",
+      "kind": "component",
+      "observation": "CẢM BIẾN CKP; cuộn Bu/Y,W/Y",
+      "proposedModelId": "sensor.pickup-coil2",
+      "sourceBox": {
+        "x": 489,
+        "y": 703,
+        "width": 80,
+        "height": 56
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:tp",
+      "candidateComponentId": "tp",
+      "kind": "component",
+      "observation": "CẢM BIẾN TP; 6 VCC,5 THL,4 SG1",
+      "proposedModelId": "sensor.potentiometer3",
+      "sourceBox": {
+        "x": 638,
+        "y": 756,
+        "width": 68,
+        "height": 45
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:iat",
+      "candidateComponentId": "iat",
+      "kind": "component",
+      "observation": "CẢM BIẾN IAT; 14 TA,4 SG1",
+      "proposedModelId": "sensor.thermistor2",
+      "sourceBox": {
+        "x": 741,
+        "y": 761,
+        "width": 65,
+        "height": 43
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:ect",
+      "candidateComponentId": "ect",
+      "kind": "component",
+      "observation": "CẢM BIẾN ECT; 24 TW,31 SG2",
+      "proposedModelId": "sensor.thermistor2",
+      "sourceBox": {
+        "x": 839,
+        "y": 760,
+        "width": 64,
+        "height": 42
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:oxygen",
+      "candidateComponentId": "oxygen",
+      "kind": "component",
+      "observation": "CẢM BIẾN OXY; 3 O₂, không thêm chân heater",
+      "proposedModelId": "sensor.oxygen-signal1",
+      "sourceBox": {
+        "x": 942,
+        "y": 733,
+        "width": 27,
+        "height": 86
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:side-stand-switch",
+      "candidateComponentId": "side-stand-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC CHỐNG NGHIÊNG; 25 SSTAND và G",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 1031,
+        "y": 722,
+        "width": 39,
+        "height": 58
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:dlc",
+      "candidateComponentId": "dlc",
+      "kind": "component",
+      "observation": "DLC; Bl,O/W,Br,G/Bl; không suy thứ tự OEM",
+      "proposedModelId": "assembly.service-connector",
+      "sourceBox": {
+        "x": 1107,
+        "y": 717,
+        "width": 103,
+        "height": 20
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:scs-tool",
+      "candidateComponentId": "scs-tool",
+      "kind": "component",
+      "observation": "ĐẦU NỐI SCS; dụng cụ/annotation, không có dây mới",
+      "proposedModelId": "assembly.note",
+      "sourceBox": {
+        "x": 1107,
+        "y": 752,
+        "width": 103,
+        "height": 66
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "10:ecm-pinout",
+      "candidateComponentId": "ecm-pinout",
+      "kind": "component",
+      "observation": "ĐẦU NỐI 33P ECM (ĐẦU CỰC LỒI PHÍA ECM); 3×11 khoang theo hướng nguồn",
+      "proposedModelId": "assembly.pinout",
+      "sourceBox": {
+        "x": 1468,
+        "y": 178,
+        "width": 97,
+        "height": 216
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.pos",
+        "fuse-main.bottom",
+        "fuse-fi.bottom",
+        "starter-relay.contact-in"
+      ],
+      [
+        "battery.neg",
+        "battery-ground.in"
+      ],
+      [
+        "fuse-main.top",
+        "main-relay.contact-bottom",
+        "regulator.rw"
+      ],
+      [
+        "fuse-fi.top",
+        "ignition-switch.bottom",
+        "capacitor.bottom"
+      ],
+      [
+        "capacitor.top",
+        "capacitor-ground.in"
+      ],
+      [
+        "regulator.g",
+        "regulator-ground.in"
+      ],
+      [
+        "regulator.y1",
+        "acg.phase-bottom"
+      ],
+      [
+        "regulator.y2",
+        "acg.phase-left"
+      ],
+      [
+        "regulator.y3",
+        "acg.phase-top"
+      ],
+      [
+        "main-relay.contact-top",
+        "fuse-horn.bottom"
+      ],
+      [
+        "main-relay.coil-top",
+        "ecm.p7"
+      ],
+      [
+        "main-relay.coil-bottom",
+        "ignition-switch.top",
+        "ecm.p1",
+        "starter-relay.coil-in",
+        "idle-valve.upper",
+        "fuel-pump.top",
+        "injector.upper",
+        "ignition-coil.upper",
+        "dlc.bl"
+      ],
+      [
+        "starter-relay.coil-out",
+        "ecm.p33"
+      ],
+      [
+        "starter-relay.contact-out",
+        "starter-motor.pos"
+      ],
+      [
+        "starter-motor.neg",
+        "starter-ground.in"
+      ],
+      [
+        "idle-valve.lower",
+        "ecm.p20"
+      ],
+      [
+        "fuel-pump.bottom",
+        "ecm.p8"
+      ],
+      [
+        "injector.lower",
+        "ecm.p16"
+      ],
+      [
+        "ignition-coil.lower",
+        "ecm.p11"
+      ],
+      [
+        "ignition-coil.ht",
+        "spark-plug.ht"
+      ],
+      [
+        "mil.bottom",
+        "ecm.p22"
+      ],
+      [
+        "temperature-lamp.bottom",
+        "ecm.p18"
+      ],
+      [
+        "fuse-horn.top",
+        "mil.top",
+        "temperature-lamp.top",
+        "front-brake-switch.top",
+        "rear-brake-switch.top"
+      ],
+      [
+        "front-brake-switch.bottom",
+        "rear-brake-switch.bottom",
+        "starter-switch.top"
+      ],
+      [
+        "starter-switch.bottom",
+        "ecm.p29"
+      ],
+      [
+        "ecm.p12",
+        "ckp.left"
+      ],
+      [
+        "ecm.p23",
+        "ckp.right"
+      ],
+      [
+        "ecm.p6",
+        "tp.vcc"
+      ],
+      [
+        "ecm.p5",
+        "tp.signal"
+      ],
+      [
+        "ecm.p4",
+        "tp.return",
+        "iat.return"
+      ],
+      [
+        "ecm.p14",
+        "iat.signal"
+      ],
+      [
+        "ecm.p24",
+        "ect.signal"
+      ],
+      [
+        "ecm.p31",
+        "ect.return"
+      ],
+      [
+        "ecm.p3",
+        "oxygen.signal"
+      ],
+      [
+        "ecm.p25",
+        "side-stand-switch.top"
+      ],
+      [
+        "side-stand-switch.bottom",
+        "stand-ground.in"
+      ],
+      [
+        "ecm.p30",
+        "dlc.ow"
+      ],
+      [
+        "ecm.p15",
+        "dlc.br"
+      ],
+      [
+        "ecm.p2",
+        "ecm.p10",
+        "ecm.p9",
+        "dlc.gbl",
+        "ecm-ground.in"
+      ]
+    ],
+    "edges": [
+      [
+        "ecm.p5",
+        "tp.signal",
+        "W/R"
+      ],
+      [
+        "ecm.p3",
+        "oxygen.signal",
+        "Bl/O"
+      ],
+      [
+        "ecm.p12",
+        "ckp.left",
+        "Bu/Y"
+      ],
+      [
+        "ecm.p23",
+        "ckp.right",
+        "W/Y"
+      ],
+      [
+        "ecm.p6",
+        "tp.vcc",
+        "Y/O"
+      ],
+      [
+        "ecm.p4",
+        "tp.return",
+        "G/O"
+      ],
+      [
+        "ecm.p4",
+        "iat.return",
+        "G/O"
+      ],
+      [
+        "ecm.p14",
+        "iat.signal",
+        "Gr/Bu"
+      ],
+      [
+        "ecm.p24",
+        "ect.signal",
+        "P/W"
+      ],
+      [
+        "ecm.p31",
+        "ect.return",
+        "G/R"
+      ],
+      [
+        "main-relay.coil-top",
+        "ecm.p7",
+        "W/Bl"
+      ],
+      [
+        "starter-relay.coil-out",
+        "ecm.p33",
+        "Y/G"
+      ],
+      [
+        "injector.lower",
+        "ecm.p16",
+        "P/Bu"
+      ],
+      [
+        "ignition-coil.lower",
+        "ecm.p11",
+        "Y/Bu"
+      ],
+      [
+        "ecm.p25",
+        "side-stand-switch.top",
+        "G/W"
+      ],
+      [
+        "ecm.p30",
+        "dlc.ow",
+        "O/W"
+      ],
+      [
+        "ecm.p15",
+        "dlc.br",
+        "Br"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.neg",
+        "xy": [
+          260,
+          844
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.pos",
+        "xy": [
+          260,
+          788
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-top",
+        "xy": [
+          222,
+          313
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-bottom",
+        "xy": [
+          222,
+          389
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-top",
+        "xy": [
+          289,
+          313
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-bottom",
+        "xy": [
+          289,
+          389
+        ],
+        "label": null
+      },
+      {
+        "ref": "ecm.p7",
+        "xy": [
+          501,
+          461
+        ],
+        "label": "7 PRC"
+      },
+      {
+        "ref": "ecm.p20",
+        "xy": [
+          563,
+          461
+        ],
+        "label": "20 SOLV"
+      },
+      {
+        "ref": "ecm.p1",
+        "xy": [
+          656,
+          461
+        ],
+        "label": "1 IGP"
+      },
+      {
+        "ref": "ecm.p8",
+        "xy": [
+          735,
+          461
+        ],
+        "label": "8 FLR"
+      },
+      {
+        "ref": "ecm.p16",
+        "xy": [
+          805,
+          461
+        ],
+        "label": "16 INJ"
+      },
+      {
+        "ref": "ecm.p11",
+        "xy": [
+          918,
+          461
+        ],
+        "label": "11 IGPLS"
+      },
+      {
+        "ref": "ecm.p33",
+        "xy": [
+          1164,
+          461
+        ],
+        "label": "33 S/RELAY"
+      },
+      {
+        "ref": "ecm.p22",
+        "xy": [
+          1229,
+          461
+        ],
+        "label": "22 FI WARN"
+      },
+      {
+        "ref": "ecm.p18",
+        "xy": [
+          1300,
+          461
+        ],
+        "label": "18 TW WARN"
+      },
+      {
+        "ref": "ecm.p12",
+        "xy": [
+          501,
+          614
+        ],
+        "label": "12 PCP"
+      },
+      {
+        "ref": "ecm.p23",
+        "xy": [
+          557,
+          614
+        ],
+        "label": "23 PCM"
+      },
+      {
+        "ref": "ecm.p6",
+        "xy": [
+          645,
+          614
+        ],
+        "label": "6 VCC"
+      },
+      {
+        "ref": "ecm.p5",
+        "xy": [
+          672,
+          614
+        ],
+        "label": "5 THL"
+      },
+      {
+        "ref": "ecm.p4",
+        "xy": [
+          698,
+          614
+        ],
+        "label": "4 SG1"
+      },
+      {
+        "ref": "ecm.p14",
+        "xy": [
+          749,
+          614
+        ],
+        "label": "14 TA"
+      },
+      {
+        "ref": "ecm.p24",
+        "xy": [
+          849,
+          614
+        ],
+        "label": "24 TW"
+      },
+      {
+        "ref": "ecm.p31",
+        "xy": [
+          893,
+          614
+        ],
+        "label": "31 SG2"
+      },
+      {
+        "ref": "ecm.p3",
+        "xy": [
+          955,
+          614
+        ],
+        "label": "3 O₂"
+      },
+      {
+        "ref": "ecm.p25",
+        "xy": [
+          1051,
+          614
+        ],
+        "label": "25 SSTAND"
+      },
+      {
+        "ref": "ecm.p30",
+        "xy": [
+          1146,
+          614
+        ],
+        "label": "30 K-LINE"
+      },
+      {
+        "ref": "ecm.p15",
+        "xy": [
+          1171,
+          614
+        ],
+        "label": "15 SCS"
+      },
+      {
+        "ref": "ecm.p2",
+        "xy": [
+          1197,
+          614
+        ],
+        "label": "2 LG"
+      },
+      {
+        "ref": "ecm.p10",
+        "xy": [
+          1226,
+          614
+        ],
+        "label": "10 PG2"
+      },
+      {
+        "ref": "ecm.p9",
+        "xy": [
+          1252,
+          614
+        ],
+        "label": "9 PG1"
+      },
+      {
+        "ref": "ecm.p29",
+        "xy": [
+          1354,
+          614
+        ],
+        "label": "29 STSW"
+      },
+      {
+        "ref": "starter-relay.contact-in",
+        "xy": [
+          860,
+          140
+        ],
+        "label": null
+      },
+      {
+        "ref": "starter-relay.contact-out",
+        "xy": [
+          942,
+          140
+        ],
+        "label": null
+      },
+      {
+        "ref": "starter-relay.coil-in",
+        "xy": [
+          860,
+          190
+        ],
+        "label": null
+      },
+      {
+        "ref": "starter-relay.coil-out",
+        "xy": [
+          942,
+          190
+        ],
+        "label": null
+      },
+      {
+        "ref": "tp.vcc",
+        "xy": [
+          645,
+          756
+        ],
+        "label": null
+      },
+      {
+        "ref": "tp.signal",
+        "xy": [
+          672,
+          756
+        ],
+        "label": null
+      },
+      {
+        "ref": "tp.return",
+        "xy": [
+          698,
+          756
+        ],
+        "label": null
+      },
+      {
+        "ref": "oxygen.signal",
+        "xy": [
+          955,
+          733
+        ],
+        "label": null
+      },
+      {
+        "ref": "ckp.left",
+        "xy": [
+          501,
+          703
+        ],
+        "label": null
+      },
+      {
+        "ref": "ckp.right",
+        "xy": [
+          557,
+          703
+        ],
+        "label": null
+      },
+      {
+        "ref": "iat.signal",
+        "xy": [
+          749,
+          761
+        ],
+        "label": null
+      },
+      {
+        "ref": "iat.return",
+        "xy": [
+          793,
+          761
+        ],
+        "label": null
+      },
+      {
+        "ref": "ect.signal",
+        "xy": [
+          849,
+          760
+        ],
+        "label": null
+      },
+      {
+        "ref": "ect.return",
+        "xy": [
+          893,
+          760
+        ],
+        "label": null
+      },
+      {
+        "ref": "dlc.bl",
+        "xy": [
+          1120,
+          717
+        ],
+        "label": null
+      },
+      {
+        "ref": "dlc.ow",
+        "xy": [
+          1146,
+          717
+        ],
+        "label": null
+      },
+      {
+        "ref": "dlc.br",
+        "xy": [
+          1171,
+          717
+        ],
+        "label": null
+      },
+      {
+        "ref": "dlc.gbl",
+        "xy": [
+          1197,
+          717
+        ],
+        "label": null
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [
+    "Ghi chú",
+    "DTC / MÃ MIL",
+    "ĐỘNG CƠ KHÔNG KHỞI ĐỘNG NẾU CÓ HƯ HỎNG",
+    "CÁC ĐẦU CỰC NGẮN ĐỂ ĐỌC DTC / MÃ MIL",
+    "ĐIỆN TRỞ:",
+    "20°C : 9 - 12 Ω",
+    "ĐIỆN TRỞ",
+    "40°C : 1,0 - 1,3 (kΩ)",
+    "100°C : 0,1 - 0,2 (kΩ)",
+    "(12)",
+    "(33)",
+    "(8)",
+    "(9)",
+    "(7)",
+    "(21)"
+  ],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": [],
+  "ecmSignals": {
+    "7": "PRC",
+    "20": "SOLV",
+    "1": "IGP",
+    "8": "FLR",
+    "16": "INJ",
+    "11": "IGPLS",
+    "33": "S/RELAY",
+    "22": "FI WARN",
+    "18": "TW WARN",
+    "12": "PCP",
+    "23": "PCM",
+    "6": "VCC",
+    "5": "THL",
+    "4": "SG1",
+    "14": "TA",
+    "24": "TW",
+    "31": "SG2",
+    "3": "O₂",
+    "25": "SSTAND",
+    "30": "K-LINE",
+    "15": "SCS",
+    "2": "LG",
+    "10": "PG2",
+    "9": "PG1",
+    "29": "STSW"
+  },
+  "pinout": {
+    "rows": 11,
+    "columns": 3,
+    "labels": [
+      [
+        "11",
+        "22",
+        "33"
+      ],
+      [
+        "10",
+        "21",
+        "32"
+      ],
+      [
+        "9",
+        "20",
+        "31"
+      ],
+      [
+        "8",
+        "19",
+        "30"
+      ],
+      [
+        "7",
+        "18",
+        "29"
+      ],
+      [
+        "6",
+        "17",
+        "28"
+      ],
+      [
+        "5",
+        "16",
+        "27"
+      ],
+      [
+        "4",
+        "15",
+        "26"
+      ],
+      [
+        "3",
+        "14",
+        "25"
+      ],
+      [
+        "2",
+        "13",
+        "24"
+      ],
+      [
+        "1",
+        "12",
+        "23"
+      ]
+    ]
+  }
+}

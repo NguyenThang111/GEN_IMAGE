@@ -1,0 +1,458 @@
+{
+  "circuitNumber": "07",
+  "circuitKey": "vehicle-speed",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/07.Mạch báo tốc độ xe.PNG",
+  "sourceImageSha256": "ba700be71b930e27e521c105c5aba660fe52d5cb1abf858df919b388cb7af872",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1314,
+    747
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 67,
+        "y": 200,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 83,
+          "y": 206,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 131,
+          "y": 206,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 30,
+        "y": 230,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 45,
+          "y": 230,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 194,
+        "y": 151,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 194,
+          "y": 167,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 264,
+          "y": 167,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "switch",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 399,
+        "y": 143,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 399,
+          "y": 167,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 469,
+          "y": 167,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "meter-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) METER / PO",
+      "sourceBox": {
+        "x": 590,
+        "y": 151,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 590,
+          "y": 167,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 660,
+          "y": 167,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "cluster",
+      "glyph": "speed-cluster",
+      "observedText": "CỤM ĐỒNG HỒ",
+      "sourceBox": {
+        "x": 1051,
+        "y": 143,
+        "width": 219,
+        "height": 185
+      },
+      "ports": [
+        {
+          "id": "2",
+          "x": 1029,
+          "y": 167,
+          "label": "2 IGN"
+        },
+        {
+          "id": "12",
+          "x": 1029,
+          "y": 203,
+          "label": "12 SP SIG"
+        },
+        {
+          "id": "10",
+          "x": 1029,
+          "y": 236,
+          "label": "10 SP VCC"
+        },
+        {
+          "id": "11",
+          "x": 1029,
+          "y": 269,
+          "label": "11 SP OUTPUT"
+        },
+        {
+          "id": "1",
+          "x": 1029,
+          "y": 301,
+          "label": "1 GND"
+        }
+      ],
+      "proposedModel": "gauge.speed5",
+      "cavities": 16
+    },
+    {
+      "id": "speed-connector",
+      "glyph": "paired",
+      "observedText": "2P",
+      "sourceBox": {
+        "x": 742,
+        "y": 419,
+        "width": 46,
+        "height": 22
+      },
+      "ports": [
+        {
+          "id": "signal-up",
+          "x": 751,
+          "y": 419,
+          "label": ""
+        },
+        {
+          "id": "signal-down",
+          "x": 751,
+          "y": 441,
+          "label": ""
+        },
+        {
+          "id": "vcc-up",
+          "x": 780,
+          "y": 419,
+          "label": ""
+        },
+        {
+          "id": "vcc-down",
+          "x": 780,
+          "y": 441,
+          "label": ""
+        }
+      ],
+      "proposedModel": "connector.paired2",
+      "cavities": 2
+    },
+    {
+      "id": "speed-sensor",
+      "glyph": "speed-sensor",
+      "observedText": "CẢM BIẾN VS",
+      "sourceBox": {
+        "x": 728,
+        "y": 441,
+        "width": 76,
+        "height": 164
+      },
+      "ports": [
+        {
+          "id": "signal",
+          "x": 751,
+          "y": 441,
+          "label": ""
+        },
+        {
+          "id": "vcc",
+          "x": 780,
+          "y": 441,
+          "label": ""
+        }
+      ],
+      "proposedModel": "sensor.speed-probe2"
+    },
+    {
+      "id": "ecm",
+      "glyph": "module",
+      "observedText": "ECM",
+      "sourceBox": {
+        "x": 1051,
+        "y": 522,
+        "width": 181,
+        "height": 107
+      },
+      "ports": [
+        {
+          "id": "A19",
+          "x": 1030,
+          "y": 575,
+          "label": "A19 VSP"
+        }
+      ],
+      "proposedModel": "control.ecm",
+      "cavities": 39
+    },
+    {
+      "id": "cluster-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 960,
+        "y": 324,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 975,
+          "y": 324,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "cluster-pinout",
+      "glyph": "pinout",
+      "observedText": "GIẮC 16P PHÍA ĐỒNG HỒ",
+      "sourceBox": {
+        "x": 1070,
+        "y": 357,
+        "width": 176,
+        "height": 51
+      },
+      "ports": [],
+      "proposedModel": "assembly.pinout",
+      "cavityRows": [
+        [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9
+        ]
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          83,
+          167
+        ],
+        [
+          45,
+          167
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          131,
+          167
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "main-fuse.b",
+      "b": "key.a",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "key.b",
+      "b": "meter-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "meter-fuse.b",
+      "b": "cluster.2",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "cluster.12",
+      "b": "speed-connector.signal-up",
+      "observedCode": "P",
+      "via": [
+        [
+          751,
+          203
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "cluster.10",
+      "b": "speed-connector.vcc-up",
+      "observedCode": "P/Bu",
+      "via": [
+        [
+          780,
+          236
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "speed-connector.signal-down",
+      "b": "speed-sensor.signal",
+      "observedCode": "P",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "speed-connector.vcc-down",
+      "b": "speed-sensor.vcc",
+      "observedCode": "P/Bu",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "cluster.11",
+      "b": "ecm.A19",
+      "observedCode": "P/G",
+      "via": [
+        [
+          887,
+          269
+        ],
+        [
+          887,
+          575
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "cluster.1",
+      "b": "cluster-ground.in",
+      "observedCode": "G/Bl",
+      "via": [
+        [
+          975,
+          301
+        ]
+      ],
+      "labelAt": null
+    }
+  ],
+  "annotations": [],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

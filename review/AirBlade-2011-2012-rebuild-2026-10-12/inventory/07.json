@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "07",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-37-55.png",
+    "imageSha256": "336da75e7184bf01d7d292fb850a358fb8eaacf207b769a4bb03f47208bbb374",
+    "width": 1687,
+    "height": 952,
+    "recordId": "7d887672-fd04-4a4c-89e1-a20ca635c62f",
+    "identityStatus": "VERIFIED_SAME_BYTES",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "ignition",
+    "serverImageSha256": "336da75e7184bf01d7d292fb850a358fb8eaacf207b769a4bb03f47208bbb374"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "07:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm trái, dương phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 199,
+        "y": 301,
+        "width": 96,
+        "height": 70
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 322,
+        "y": 224,
+        "width": 81,
+        "height": 38
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:capacitor",
+      "candidateComponentId": "capacitor",
+      "kind": "component",
+      "observation": "TỤ ĐIỆN; + ở trên, R/W/G",
+      "proposedModelId": "capacitor.polarized",
+      "sourceBox": {
+        "x": 482,
+        "y": 301,
+        "width": 32,
+        "height": 55
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:main-switch",
+      "candidateComponentId": "main-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 700,
+        "y": 217,
+        "width": 80,
+        "height": 43
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:ckp",
+      "candidateComponentId": "ckp",
+      "kind": "component",
+      "observation": "CẢM BIẾN CKP; cuộn hai đầu Bu/Y và W/Y",
+      "proposedModelId": "sensor.pickup-coil2",
+      "sourceBox": {
+        "x": 760,
+        "y": 525,
+        "width": 70,
+        "height": 98
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:ckp-rotor",
+      "candidateComponentId": "ckp-rotor",
+      "kind": "component",
+      "observation": "Rôto có răng, không có dây nối",
+      "proposedModelId": "assembly.rotor",
+      "sourceBox": {
+        "x": 626,
+        "y": 512,
+        "width": 129,
+        "height": 125
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; chân 23,12,1,11,25,9,2,10",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 895,
+        "y": 679,
+        "width": 326,
+        "height": 104
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:side-stand-switch",
+      "candidateComponentId": "side-stand-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC CHỐNG NGHIÊNG; ba điểm tiếp xúc, chỉ hai đầu G/G/W có dây",
+      "proposedModelId": "switch.tilt-module3",
+      "sourceBox": {
+        "x": 1369,
+        "y": 669,
+        "width": 83,
+        "height": 73
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:ignition-coil",
+      "candidateComponentId": "ignition-coil",
+      "kind": "component",
+      "observation": "MÔ-BIN SƯỜN; sơ cấp Y/Bu và Bl độc lập, cao áp xuống bugi",
+      "proposedModelId": "ignition.module3",
+      "sourceBox": {
+        "x": 1490,
+        "y": 452,
+        "width": 54,
+        "height": 98
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "07:spark-plug",
+      "candidateComponentId": "spark-plug",
+      "kind": "component",
+      "observation": "BUGI; một đầu cao áp, khe hở và mass minh họa",
+      "proposedModelId": "spark-plug.chassis1",
+      "sourceBox": {
+        "x": 1499,
+        "y": 548,
+        "width": 43,
+        "height": 83
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "ground-battery.in"
+      ],
+      [
+        "battery.positive",
+        "fuse-fi.left"
+      ],
+      [
+        "fuse-fi.right",
+        "capacitor.top",
+        "main-switch.in"
+      ],
+      [
+        "capacitor.bottom",
+        "ground-capacitor.in"
+      ],
+      [
+        "main-switch.out",
+        "ecm.pin-1",
+        "ignition-coil.right"
+      ],
+      [
+        "ecm.pin-11",
+        "ignition-coil.left"
+      ],
+      [
+        "ecm.pin-12",
+        "ckp.upper"
+      ],
+      [
+        "ecm.pin-23",
+        "ckp.lower"
+      ],
+      [
+        "ecm.pin-25",
+        "side-stand-switch.right"
+      ],
+      [
+        "ecm.pin-9",
+        "ecm.pin-2",
+        "ecm.pin-10",
+        "ground-ecm.in",
+        "side-stand-switch.left"
+      ],
+      [
+        "ignition-coil.hv",
+        "spark-plug.top"
+      ]
+    ],
+    "edges": [
+      [
+        "main-switch.out",
+        "ecm.pin-1",
+        "Bl"
+      ],
+      [
+        "main-switch.out",
+        "ignition-coil.right",
+        "Bl"
+      ],
+      [
+        "ecm.pin-11",
+        "ignition-coil.left",
+        "Y/Bu"
+      ],
+      [
+        "ecm.pin-12",
+        "ckp.upper",
+        "Bu/Y"
+      ],
+      [
+        "ecm.pin-23",
+        "ckp.lower",
+        "W/Y"
+      ],
+      [
+        "ecm.pin-25",
+        "side-stand-switch.right",
+        "G/W"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          218,
+          301
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          275,
+          301
+        ],
+        "label": null
+      },
+      {
+        "ref": "ecm.pin-23",
+        "xy": [
+          914,
+          679
+        ],
+        "label": "23"
+      },
+      {
+        "ref": "ecm.pin-12",
+        "xy": [
+          954,
+          679
+        ],
+        "label": "12"
+      },
+      {
+        "ref": "ecm.pin-1",
+        "xy": [
+          994,
+          679
+        ],
+        "label": "1"
+      },
+      {
+        "ref": "ecm.pin-11",
+        "xy": [
+          1035,
+          679
+        ],
+        "label": "11"
+      },
+      {
+        "ref": "ecm.pin-25",
+        "xy": [
+          1075,
+          679
+        ],
+        "label": "25"
+      },
+      {
+        "ref": "ecm.pin-9",
+        "xy": [
+          1115,
+          679
+        ],
+        "label": "9"
+      },
+      {
+        "ref": "ecm.pin-2",
+        "xy": [
+          1155,
+          679
+        ],
+        "label": "2"
+      },
+      {
+        "ref": "ecm.pin-10",
+        "xy": [
+          1201,
+          679
+        ],
+        "label": "10"
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": [
+    "Tilt symbol shows three contact points but only G and G/W external wires; preserve the unused contact without inventing internal electrical edges."
+  ],
+  "ecmPinOrder": [
+    "23",
+    "12",
+    "1",
+    "11",
+    "25",
+    "9",
+    "2",
+    "10"
+  ]
+}

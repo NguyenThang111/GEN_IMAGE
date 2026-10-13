@@ -1,0 +1,14 @@
+.productionWorklogTag{display:inline-flex;align-items:center;width:fit-content;max-width:100%;padding:3px 8px;border:1px solid;border-radius:6px;font-size:.65rem;font-weight:750;line-height:1.4;letter-spacing:.02em;white-space:normal}
+.productionWorklogTag.cable{background:#eaf2ff;border-color:#b6cdf0;color:#1d4e99}
+.productionWorklogTag.solder{background:#f3eaff;border-color:#d7b7ee;color:#74379b}
+:root[data-theme="dark"] .productionWorklogTag.cable{background:#1d304a;border-color:#3b6089;color:#aacfff}
+:root[data-theme="dark"] .productionWorklogTag.solder{background:#35243f;border-color:#72518a;color:#e3bdff}
+.productionWorklogGroupHint{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:4px 0 16px}
+.productionWorklogGroupHint small{color:#667085}
+:root[data-theme="dark"] .productionWorklogGroupHint small{color:#a9b3c2}
+.productionWorklogIdentity .productionWorklogTag{margin-bottom:4px}
+.productionModalHead .productionWorklogTag{margin-bottom:6px}
+.testQueue .productionWorklogTag{margin-bottom:4px}
+.productionCreateWorklog label{display:grid;gap:6px;margin-bottom:14px}
+.productionCreateWorklog select,.productionCreateWorklog input{width:100%;min-width:0}
+:root[data-theme="dark"] .productionCreateWorklog .formHint{background:#292432;color:#ddcfe8;border-color:#72518a}

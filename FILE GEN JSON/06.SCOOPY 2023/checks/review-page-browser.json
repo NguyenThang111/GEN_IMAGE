@@ -1,0 +1,71 @@
+{
+  "browser": "Microsoft Edge headless, Playwright",
+  "reviewPage": "FILE GEN JSON/06.SCOOPY 2023/index.html",
+  "circuits": [
+    {
+      "number": "01",
+      "loaded": true,
+      "jsonLink": "01. power-distribution.schema.json"
+    },
+    {
+      "number": "02",
+      "loaded": true,
+      "jsonLink": "02. horn.schema.json"
+    },
+    {
+      "number": "03",
+      "loaded": true,
+      "jsonLink": "03. turn-signals.schema.json"
+    },
+    {
+      "number": "04",
+      "loaded": true,
+      "jsonLink": "04. brake-light.schema.json"
+    },
+    {
+      "number": "05",
+      "loaded": true,
+      "jsonLink": "05. fuel-gauge.schema.json"
+    },
+    {
+      "number": "06",
+      "loaded": true,
+      "jsonLink": "06. night-lighting.schema.json"
+    },
+    {
+      "number": "07",
+      "loaded": true,
+      "jsonLink": "07. vehicle-speed.schema.json"
+    },
+    {
+      "number": "08",
+      "loaded": true,
+      "jsonLink": "08. ignition.schema.json"
+    },
+    {
+      "number": "09",
+      "loaded": true,
+      "jsonLink": "09. starting.schema.json"
+    },
+    {
+      "number": "10",
+      "loaded": true,
+      "jsonLink": "10. vehicle-locator-alarm.schema.json"
+    },
+    {
+      "number": "11",
+      "loaded": true,
+      "jsonLink": "11. idling-stop.schema.json"
+    },
+    {
+      "number": "12",
+      "loaded": true,
+      "jsonLink": "12. pgm-fi.schema.json"
+    }
+  ],
+  "zoom150": "PASS",
+  "overlay": "PASS",
+  "pageDarkTheme": "PASS",
+  "appTheme": "NOT_RUN",
+  "source12Rotation": "Present in source SVG transform"
+}

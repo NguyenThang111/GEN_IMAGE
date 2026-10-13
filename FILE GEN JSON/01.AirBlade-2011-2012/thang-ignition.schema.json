@@ -1,0 +1,970 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "draft",
+  "sourceImage": "Screenshot from 2026-09-30 08-37-55.png",
+  "id": "thang-ignition",
+  "vehicleId": "thang",
+  "vehicleTitle": "thang",
+  "circuitTitle": "Mạch đánh lửa",
+  "canvas": {
+    "width": 1687,
+    "height": 952
+  },
+  "components": [
+    {
+      "id": "battery",
+      "type": "battery",
+      "x": 199,
+      "y": 300,
+      "width": 97,
+      "height": 72,
+      "label": "Ắc quy",
+      "terminals": [
+        {
+          "id": "negative",
+          "label": "-",
+          "x": 218,
+          "y": 305
+        },
+        {
+          "id": "positive",
+          "label": "+",
+          "x": 275,
+          "y": 305
+        }
+      ]
+    },
+    {
+      "id": "fuse-fi",
+      "type": "fuse",
+      "x": 322,
+      "y": 224,
+      "width": 81,
+      "height": 38,
+      "label": "Cầu chì FI 10A",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 322,
+          "y": 243
+        },
+        {
+          "id": "right",
+          "x": 403,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "id": "j-power",
+      "type": "junction",
+      "x": 488,
+      "y": 234,
+      "width": 18,
+      "height": 18,
+      "label": "Điểm nối nguồn",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 497,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "id": "capacitor",
+      "type": "device",
+      "x": 482,
+      "y": 301,
+      "width": 31,
+      "height": 55,
+      "label": "Tụ điện",
+      "terminals": [
+        {
+          "id": "top",
+          "label": "+",
+          "x": 497,
+          "y": 301
+        },
+        {
+          "id": "bottom",
+          "x": 497,
+          "y": 356
+        }
+      ]
+    },
+    {
+      "id": "ground-battery",
+      "type": "ground",
+      "x": 154,
+      "y": 315,
+      "width": 39,
+      "height": 26,
+      "label": "Mass ắc quy",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 174,
+          "y": 316
+        }
+      ]
+    },
+    {
+      "id": "ground-capacitor",
+      "type": "ground",
+      "x": 484,
+      "y": 399,
+      "width": 27,
+      "height": 18,
+      "label": "Mass tụ điện",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 497,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "main-switch",
+      "type": "switch",
+      "x": 700,
+      "y": 216,
+      "width": 80,
+      "height": 45,
+      "label": "Công tắc máy",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 700,
+          "y": 243
+        },
+        {
+          "id": "out",
+          "x": 780,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "id": "j-ignition",
+      "type": "junction",
+      "x": 990,
+      "y": 239,
+      "width": 9,
+      "height": 9,
+      "label": "Nhánh nguồn sau công tắc máy",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 994,
+          "y": 243
+        }
+      ]
+    },
+    {
+      "id": "ckp",
+      "type": "sensor",
+      "x": 783,
+      "y": 525,
+      "width": 47,
+      "height": 98,
+      "label": "Cảm biến CKP",
+      "terminals": [
+        {
+          "id": "upper",
+          "x": 830,
+          "y": 540
+        },
+        {
+          "id": "lower",
+          "x": 830,
+          "y": 607
+        }
+      ]
+    },
+    {
+      "id": "ckp-rotor",
+      "type": "device",
+      "x": 626,
+      "y": 511,
+      "width": 131,
+      "height": 128,
+      "label": "Rôto cạnh cảm biến CKP",
+      "terminals": []
+    },
+    {
+      "id": "ecm",
+      "type": "ecm",
+      "x": 894,
+      "y": 679,
+      "width": 327,
+      "height": 103,
+      "label": "ECM",
+      "terminals": [
+        {
+          "id": "pin-23",
+          "label": "23",
+          "x": 914,
+          "y": 679
+        },
+        {
+          "id": "pin-12",
+          "label": "12",
+          "x": 954,
+          "y": 679
+        },
+        {
+          "id": "pin-1",
+          "label": "1",
+          "x": 994,
+          "y": 679
+        },
+        {
+          "id": "pin-11",
+          "label": "11",
+          "x": 1035,
+          "y": 679
+        },
+        {
+          "id": "pin-25",
+          "label": "25",
+          "x": 1075,
+          "y": 679
+        },
+        {
+          "id": "pin-9",
+          "label": "9",
+          "x": 1115,
+          "y": 679
+        },
+        {
+          "id": "pin-2",
+          "label": "2",
+          "x": 1155,
+          "y": 679
+        },
+        {
+          "id": "pin-10",
+          "label": "10",
+          "x": 1201,
+          "y": 679
+        }
+      ]
+    },
+    {
+      "id": "j-green",
+      "type": "junction",
+      "x": 1329,
+      "y": 359,
+      "width": 21,
+      "height": 21,
+      "label": "Điểm nối dây G",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1339,
+          "y": 369
+        }
+      ]
+    },
+    {
+      "id": "j-ground",
+      "type": "junction",
+      "x": 1290,
+      "y": 691,
+      "width": 8,
+      "height": 8,
+      "label": "Điểm hội tụ dây mass ECM",
+      "terminals": [
+        {
+          "id": "node",
+          "x": 1294,
+          "y": 695
+        }
+      ]
+    },
+    {
+      "id": "ground-ecm",
+      "type": "ground",
+      "x": 1278,
+      "y": 699,
+      "width": 33,
+      "height": 28,
+      "label": "Mass ECM",
+      "terminals": [
+        {
+          "id": "in",
+          "x": 1294,
+          "y": 699
+        }
+      ]
+    },
+    {
+      "id": "side-stand-switch",
+      "type": "switch",
+      "x": 1368,
+      "y": 669,
+      "width": 84,
+      "height": 73,
+      "label": "Công tắc chống nghiêng",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 1389,
+          "y": 669
+        },
+        {
+          "id": "right",
+          "x": 1432,
+          "y": 669
+        }
+      ]
+    },
+    {
+      "id": "ignition-coil",
+      "type": "ignitionCoil",
+      "x": 1490,
+      "y": 452,
+      "width": 54,
+      "height": 78,
+      "label": "Mô-bin sườn",
+      "terminals": [
+        {
+          "id": "left",
+          "x": 1501,
+          "y": 452
+        },
+        {
+          "id": "right",
+          "x": 1532,
+          "y": 452
+        },
+        {
+          "id": "hv",
+          "x": 1516,
+          "y": 530
+        }
+      ]
+    },
+    {
+      "id": "spark-plug",
+      "type": "sparkPlug",
+      "x": 1502,
+      "y": 534,
+      "width": 30,
+      "height": 97,
+      "label": "Bugi",
+      "terminals": [
+        {
+          "id": "top",
+          "x": 1516,
+          "y": 534
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w-battery-ground",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "negative"
+      },
+      "to": {
+        "componentId": "ground-battery",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 218,
+          "y": 305
+        },
+        {
+          "x": 218,
+          "y": 243
+        },
+        {
+          "x": 174,
+          "y": 243
+        },
+        {
+          "x": 174,
+          "y": 316
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "w-battery-fuse",
+      "from": {
+        "componentId": "battery",
+        "terminalId": "positive"
+      },
+      "to": {
+        "componentId": "fuse-fi",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 275,
+          "y": 305
+        },
+        {
+          "x": 275,
+          "y": 243
+        },
+        {
+          "x": 322,
+          "y": 243
+        }
+      ],
+      "code": "R",
+      "primaryColor": "#ef4444",
+      "state": "controlled"
+    },
+    {
+      "id": "w-fuse-power",
+      "from": {
+        "componentId": "fuse-fi",
+        "terminalId": "right"
+      },
+      "to": {
+        "componentId": "j-power",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 403,
+          "y": 243
+        },
+        {
+          "x": 497,
+          "y": 243
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#ef4444",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-power-switch",
+      "from": {
+        "componentId": "j-power",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "main-switch",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 497,
+          "y": 243
+        },
+        {
+          "x": 700,
+          "y": 243
+        }
+      ],
+      "code": "R/Bl",
+      "primaryColor": "#ef4444",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-power-capacitor",
+      "from": {
+        "componentId": "j-power",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "capacitor",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 497,
+          "y": 243
+        },
+        {
+          "x": 497,
+          "y": 301
+        }
+      ],
+      "code": "R/W",
+      "primaryColor": "#ef4444",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-capacitor-ground",
+      "from": {
+        "componentId": "capacitor",
+        "terminalId": "bottom"
+      },
+      "to": {
+        "componentId": "ground-capacitor",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 497,
+          "y": 356
+        },
+        {
+          "x": 497,
+          "y": 400
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "w-switch-ignition",
+      "from": {
+        "componentId": "main-switch",
+        "terminalId": "out"
+      },
+      "to": {
+        "componentId": "j-ignition",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 780,
+          "y": 243
+        },
+        {
+          "x": 994,
+          "y": 243
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ignition-ecm",
+      "from": {
+        "componentId": "j-ignition",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "pin-1"
+      },
+      "points": [
+        {
+          "x": 994,
+          "y": 243
+        },
+        {
+          "x": 994,
+          "y": 679
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ignition-coil",
+      "from": {
+        "componentId": "j-ignition",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "ignition-coil",
+        "terminalId": "right"
+      },
+      "points": [
+        {
+          "x": 994,
+          "y": 243
+        },
+        {
+          "x": 1532,
+          "y": 243
+        },
+        {
+          "x": 1532,
+          "y": 452
+        }
+      ],
+      "code": "Bl",
+      "primaryColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ckp-12",
+      "from": {
+        "componentId": "ckp",
+        "terminalId": "upper"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "pin-12"
+      },
+      "points": [
+        {
+          "x": 830,
+          "y": 540
+        },
+        {
+          "x": 954,
+          "y": 540
+        },
+        {
+          "x": 954,
+          "y": 679
+        }
+      ],
+      "code": "Bu/Y",
+      "primaryColor": "#38bdf8",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ckp-23",
+      "from": {
+        "componentId": "ckp",
+        "terminalId": "lower"
+      },
+      "to": {
+        "componentId": "ecm",
+        "terminalId": "pin-23"
+      },
+      "points": [
+        {
+          "x": 830,
+          "y": 607
+        },
+        {
+          "x": 914,
+          "y": 607
+        },
+        {
+          "x": 914,
+          "y": 679
+        }
+      ],
+      "code": "W/Y",
+      "primaryColor": "#ffffff",
+      "stripeColor": "#ffff00",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ecm-coil",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "pin-11"
+      },
+      "to": {
+        "componentId": "ignition-coil",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 1035,
+          "y": 679
+        },
+        {
+          "x": 1035,
+          "y": 288
+        },
+        {
+          "x": 1501,
+          "y": 288
+        },
+        {
+          "x": 1501,
+          "y": 452
+        }
+      ],
+      "code": "Y/Bu",
+      "primaryColor": "#ffff00",
+      "stripeColor": "#38bdf8",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ecm-side-stand",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "pin-25"
+      },
+      "to": {
+        "componentId": "side-stand-switch",
+        "terminalId": "right"
+      },
+      "points": [
+        {
+          "x": 1075,
+          "y": 679
+        },
+        {
+          "x": 1075,
+          "y": 330
+        },
+        {
+          "x": 1432,
+          "y": 330
+        },
+        {
+          "x": 1432,
+          "y": 669
+        }
+      ],
+      "code": "G/W",
+      "primaryColor": "#22c55e",
+      "stripeColor": "#ffffff",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ecm-green",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "pin-9"
+      },
+      "to": {
+        "componentId": "j-green",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1115,
+          "y": 679
+        },
+        {
+          "x": 1115,
+          "y": 369
+        },
+        {
+          "x": 1339,
+          "y": 369
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "w-green-side-stand",
+      "from": {
+        "componentId": "j-green",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "side-stand-switch",
+        "terminalId": "left"
+      },
+      "points": [
+        {
+          "x": 1339,
+          "y": 369
+        },
+        {
+          "x": 1389,
+          "y": 369
+        },
+        {
+          "x": 1389,
+          "y": 669
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "w-green-ground",
+      "from": {
+        "componentId": "j-green",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "j-ground",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1339,
+          "y": 369
+        },
+        {
+          "x": 1339,
+          "y": 642
+        },
+        {
+          "x": 1324,
+          "y": 642
+        },
+        {
+          "x": 1324,
+          "y": 660
+        },
+        {
+          "x": 1309,
+          "y": 660
+        },
+        {
+          "x": 1309,
+          "y": 677
+        },
+        {
+          "x": 1294,
+          "y": 677
+        },
+        {
+          "x": 1294,
+          "y": 695
+        }
+      ],
+      "code": "G",
+      "primaryColor": "#22c55e",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ecm-2-ground",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "pin-2"
+      },
+      "to": {
+        "componentId": "j-ground",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1155,
+          "y": 679
+        },
+        {
+          "x": 1155,
+          "y": 407
+        },
+        {
+          "x": 1294,
+          "y": 407
+        },
+        {
+          "x": 1294,
+          "y": 695
+        }
+      ],
+      "code": "G/Bl",
+      "primaryColor": "#22c55e",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ecm-10-ground",
+      "from": {
+        "componentId": "ecm",
+        "terminalId": "pin-10"
+      },
+      "to": {
+        "componentId": "j-ground",
+        "terminalId": "node"
+      },
+      "points": [
+        {
+          "x": 1201,
+          "y": 679
+        },
+        {
+          "x": 1201,
+          "y": 462
+        },
+        {
+          "x": 1249,
+          "y": 462
+        },
+        {
+          "x": 1249,
+          "y": 641
+        },
+        {
+          "x": 1264,
+          "y": 641
+        },
+        {
+          "x": 1264,
+          "y": 659
+        },
+        {
+          "x": 1279,
+          "y": 659
+        },
+        {
+          "x": 1279,
+          "y": 677
+        },
+        {
+          "x": 1294,
+          "y": 677
+        },
+        {
+          "x": 1294,
+          "y": 695
+        }
+      ],
+      "code": "G/Bl",
+      "primaryColor": "#22c55e",
+      "stripeColor": "#111827",
+      "state": "controlled"
+    },
+    {
+      "id": "w-ground-terminal",
+      "from": {
+        "componentId": "j-ground",
+        "terminalId": "node"
+      },
+      "to": {
+        "componentId": "ground-ecm",
+        "terminalId": "in"
+      },
+      "points": [
+        {
+          "x": 1294,
+          "y": 695
+        },
+        {
+          "x": 1294,
+          "y": 699
+        }
+      ],
+      "code": "",
+      "primaryColor": "#4b5563",
+      "state": "controlled"
+    },
+    {
+      "id": "w-coil-plug",
+      "from": {
+        "componentId": "ignition-coil",
+        "terminalId": "hv"
+      },
+      "to": {
+        "componentId": "spark-plug",
+        "terminalId": "top"
+      },
+      "points": [
+        {
+          "x": 1516,
+          "y": 530
+        },
+        {
+          "x": 1516,
+          "y": 534
+        }
+      ],
+      "code": "",
+      "primaryColor": "#4b5563",
+      "state": "controlled"
+    }
+  ]
+}

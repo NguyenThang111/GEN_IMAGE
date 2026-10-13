@@ -1,0 +1,395 @@
+{
+  "number": "03",
+  "schemaSha256": "1c1353f15f7c72521b26c1b587348a3f8fe02ab268b59726538239cc07e43e36",
+  "components": 18,
+  "wires": 17,
+  "sourceTranscriptionCarry": "PASS",
+  "graphCases": [
+    {
+      "a": "turn-switch.throw1",
+      "b": "front-left.feed",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "rear-left.feed",
+      "b": "front-left.feed",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "turn-switch.throw2",
+      "b": "front-right.feed",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "front-right.feed",
+      "b": "rear-right.feed",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "turn-switch.throw1",
+      "b": "turn-switch.throw2",
+      "connected": false,
+      "result": "PASS"
+    }
+  ],
+  "inventoryMapping": [
+    {
+      "sourceItemId": "battery",
+      "candidateIds": [
+        "battery"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 60,
+        "y": 405,
+        "width": 84,
+        "height": 64
+      }
+    },
+    {
+      "sourceItemId": "battery-ground",
+      "candidateIds": [
+        "battery-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 23,
+        "y": 435,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "main-fuse",
+      "candidateIds": [
+        "main-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 170,
+        "y": 359,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "key",
+      "candidateIds": [
+        "key"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 340,
+        "y": 351,
+        "width": 70,
+        "height": 44
+      }
+    },
+    {
+      "sourceItemId": "meter-fuse",
+      "candidateIds": [
+        "meter-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 503,
+        "y": 359,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "flasher",
+      "candidateIds": [
+        "flasher"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 673,
+        "y": 348,
+        "width": 78,
+        "height": 46
+      }
+    },
+    {
+      "sourceItemId": "diode",
+      "candidateIds": [
+        "diode"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 830,
+        "y": 357,
+        "width": 40,
+        "height": 37
+      }
+    },
+    {
+      "sourceItemId": "turn-switch",
+      "candidateIds": [
+        "turn-switch"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 949,
+        "y": 341,
+        "width": 76,
+        "height": 68
+      }
+    },
+    {
+      "sourceItemId": "left-bus",
+      "candidateIds": [
+        "left-bus"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1089,
+        "y": 282,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "right-bus",
+      "candidateIds": [
+        "right-bus"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1089,
+        "y": 465,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "rear-left",
+      "candidateIds": [
+        "rear-left"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1177,
+        "y": 131,
+        "width": 95,
+        "height": 70
+      }
+    },
+    {
+      "sourceItemId": "rear-left-ground",
+      "candidateIds": [
+        "rear-left-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1113,
+        "y": 201,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "front-left",
+      "candidateIds": [
+        "front-left"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1177,
+        "y": 258,
+        "width": 95,
+        "height": 70
+      }
+    },
+    {
+      "sourceItemId": "front-left-ground",
+      "candidateIds": [
+        "front-left-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1113,
+        "y": 328,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "front-right",
+      "candidateIds": [
+        "front-right"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1177,
+        "y": 441,
+        "width": 95,
+        "height": 70
+      }
+    },
+    {
+      "sourceItemId": "front-right-ground",
+      "candidateIds": [
+        "front-right-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1113,
+        "y": 511,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "rear-right",
+      "candidateIds": [
+        "rear-right"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1177,
+        "y": 566,
+        "width": 95,
+        "height": 70
+      }
+    },
+    {
+      "sourceItemId": "rear-right-ground",
+      "candidateIds": [
+        "rear-right-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1113,
+        "y": 636,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "src-wire-001",
+      "candidateIds": [
+        "wire-001"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-002",
+      "candidateIds": [
+        "wire-002"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-003",
+      "candidateIds": [
+        "wire-003"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-004",
+      "candidateIds": [
+        "wire-004"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-005",
+      "candidateIds": [
+        "wire-005"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-006",
+      "candidateIds": [
+        "wire-006"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-007",
+      "candidateIds": [
+        "wire-007"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-008",
+      "candidateIds": [
+        "wire-008"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-009",
+      "candidateIds": [
+        "wire-009"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-010",
+      "candidateIds": [
+        "wire-010"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-011",
+      "candidateIds": [
+        "wire-011"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-012",
+      "candidateIds": [
+        "wire-012"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-013",
+      "candidateIds": [
+        "wire-013"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-014",
+      "candidateIds": [
+        "wire-014"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-015",
+      "candidateIds": [
+        "wire-015"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-016",
+      "candidateIds": [
+        "wire-016"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-017",
+      "candidateIds": [
+        "wire-017"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    }
+  ],
+  "sourceInterpretationVerdict": "REVIEW_REQUIRED"
+}

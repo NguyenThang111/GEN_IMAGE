@@ -1,0 +1,256 @@
+{
+  "number": "04",
+  "schemaSha256": "c3149b10b71668e01fdb284c20e8275dea5fcb00f0708751692be2ccff5436aa",
+  "components": 11,
+  "wires": 11,
+  "sourceTranscriptionCarry": "PASS",
+  "graphCases": [
+    {
+      "a": "front-brake.a",
+      "b": "rear-brake.a",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "front-brake.b",
+      "b": "rear-brake.b",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "front-brake.b",
+      "b": "brake-tail.feed",
+      "connected": true,
+      "result": "PASS"
+    },
+    {
+      "a": "brake-tail.feed",
+      "b": "brake-tail.return",
+      "connected": false,
+      "result": "PASS"
+    }
+  ],
+  "inventoryMapping": [
+    {
+      "sourceItemId": "battery",
+      "candidateIds": [
+        "battery"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 115,
+        "y": 426,
+        "width": 84,
+        "height": 64
+      }
+    },
+    {
+      "sourceItemId": "battery-ground",
+      "candidateIds": [
+        "battery-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 78,
+        "y": 456,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "main-fuse",
+      "candidateIds": [
+        "main-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 243,
+        "y": 375,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "key",
+      "candidateIds": [
+        "key"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 418,
+        "y": 367,
+        "width": 70,
+        "height": 44
+      }
+    },
+    {
+      "sourceItemId": "meter-fuse",
+      "candidateIds": [
+        "meter-fuse"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 610,
+        "y": 375,
+        "width": 70,
+        "height": 32
+      }
+    },
+    {
+      "sourceItemId": "front-brake",
+      "candidateIds": [
+        "front-brake"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 870,
+        "y": 304,
+        "width": 70,
+        "height": 44
+      }
+    },
+    {
+      "sourceItemId": "rear-brake",
+      "candidateIds": [
+        "rear-brake"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 870,
+        "y": 434,
+        "width": 70,
+        "height": 44
+      }
+    },
+    {
+      "sourceItemId": "brake-supply",
+      "candidateIds": [
+        "brake-supply"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 807,
+        "y": 389,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "brake-return",
+      "candidateIds": [
+        "brake-return"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1003,
+        "y": 389,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "sourceItemId": "brake-tail",
+      "candidateIds": [
+        "brake-tail"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1126,
+        "y": 365,
+        "width": 95,
+        "height": 70
+      }
+    },
+    {
+      "sourceItemId": "lamp-ground",
+      "candidateIds": [
+        "lamp-ground"
+      ],
+      "check": "TRANSCRIPTION_CARRIED; image interpretation still requires review",
+      "sourceBox": {
+        "x": 1115,
+        "y": 477,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "sourceItemId": "src-wire-001",
+      "candidateIds": [
+        "wire-001"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-002",
+      "candidateIds": [
+        "wire-002"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-003",
+      "candidateIds": [
+        "wire-003"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-004",
+      "candidateIds": [
+        "wire-004"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-005",
+      "candidateIds": [
+        "wire-005"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-006",
+      "candidateIds": [
+        "wire-006"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-007",
+      "candidateIds": [
+        "wire-007"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-008",
+      "candidateIds": [
+        "wire-008"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-009",
+      "candidateIds": [
+        "wire-009"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-010",
+      "candidateIds": [
+        "wire-010"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    },
+    {
+      "sourceItemId": "src-wire-011",
+      "candidateIds": [
+        "wire-011"
+      ],
+      "check": "ENDPOINTS_AND_CODE_CARRIED"
+    }
+  ],
+  "sourceInterpretationVerdict": "REVIEW_REQUIRED"
+}

@@ -1,0 +1,1733 @@
+{
+  "status": "NEEDS_REVIEW",
+  "structuralErrors": 0,
+  "targetAppVerified": false,
+  "browserUiTested": false,
+  "electricalSimulationValidated": false,
+  "sourceDiscrepancies": [
+    {
+      "detailSources": [
+        7,
+        10
+      ],
+      "overviewSource": 12,
+      "detail": "VS has three wires: Bl/Br supply, Br signal and G ground.",
+      "overview": "VS has two represented wires Bu/G and P/G to cluster pins 4 and 2."
+    },
+    {
+      "detailSources": [
+        10
+      ],
+      "overviewSource": 12,
+      "detail": "TP VCC W/R, TP signal Y; ECT signal Gr/Bu.",
+      "overview": "TP VCC Y/O, TP signal Y/Bu; ECT signal P."
+    },
+    {
+      "detailSources": [
+        11
+      ],
+      "overviewSource": 12,
+      "detail": "SCU 10 IMOID is P; SCU 11 IMOAU is Bu; SCU 19 ENG START is Y.",
+      "overview": "SCU 10 IMOID is Bu; SCU 11 IMOAU is P; SCU 19 ENG START is G/W."
+    },
+    {
+      "detailSources": [
+        10
+      ],
+      "overviewSource": 12,
+      "detail": "Cluster speed pin 11, MIL pin 16, supply pin 10, ground pin 1.",
+      "overview": "Cluster speed pin 3, MIL pin 15, supply pin 6, ground pin 8."
+    },
+    {
+      "detailSources": [
+        8
+      ],
+      "overviewSource": 12,
+      "detail": "Ignition control is Bu at ECM A27; CKP colors change across 6P.",
+      "overview": "Ignition control is Y/G; CKP harness labels W/R, W/Bu, W/Bl, Br/Bl, Bu/Y are retained."
+    }
+  ],
+  "limitations": [
+    "Supplied source 12 differs from detail diagrams; no variants are merged.",
+    "Symbols are simplified, not pixel-perfect.",
+    "Source comparison is selected coverage, not an electrical approval.",
+    "No live project or database updated."
+  ],
+  "files": [
+    {
+      "file": "01. power-distribution.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [],
+      "componentCount": 22,
+      "wireCount": 23,
+      "netCount": 12,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in",
+          "backup.in",
+          "battery-starter.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1",
+          "relay-bus.n",
+          "starter-load.in",
+          "usb.in",
+          "sub2.in"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2",
+          "control-bus.n",
+          "control-loads.in"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "sub1-loads.in"
+        ],
+        [
+          "backup.out",
+          "backup-loads.in"
+        ],
+        [
+          "usb.out",
+          "usb-load.in"
+        ],
+        [
+          "sub2.out",
+          "engine-feed.n",
+          "engine-loads.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 53,
+        "projectedTextCount": 53,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "02. horn.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [],
+      "componentCount": 12,
+      "wireCount": 13,
+      "netCount": 11,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "horn-switch.in"
+        ],
+        [
+          "horn-switch.out",
+          "horn.power"
+        ],
+        [
+          "horn.ground",
+          "horn-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 21,
+        "projectedTextCount": 21,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "03. turn-signals.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [],
+      "componentCount": 16,
+      "wireCount": 17,
+      "netCount": 15,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "flasher.power"
+        ],
+        [
+          "flasher.out",
+          "diode.cathode"
+        ],
+        [
+          "diode.anode",
+          "turn-switch.common"
+        ],
+        [
+          "turn-switch.left",
+          "left-lamp.power"
+        ],
+        [
+          "turn-switch.right",
+          "right-lamp.power"
+        ],
+        [
+          "left-lamp.ground",
+          "left-ground.in"
+        ],
+        [
+          "right-lamp.ground",
+          "right-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 28,
+        "projectedTextCount": 28,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "04. brake-light.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [],
+      "componentCount": 15,
+      "wireCount": 17,
+      "netCount": 11,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "brake-feed.n",
+          "front-brake.in",
+          "rear-brake.in"
+        ],
+        [
+          "brake-out.n",
+          "front-brake.out",
+          "rear-brake.out",
+          "brake-lamp.power"
+        ],
+        [
+          "brake-lamp.ground",
+          "lamp-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 26,
+        "projectedTextCount": 26,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "05. fuel-gauge.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [],
+      "componentCount": 14,
+      "wireCount": 19,
+      "netCount": 11,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "cluster.power"
+        ],
+        [
+          "cluster.fuel",
+          "fuel-5p.fuel-in",
+          "fuel-5p.fuel-out",
+          "sender.fuel"
+        ],
+        [
+          "cluster.ground",
+          "fuel-5p.ground-in",
+          "fuel-5p.ground-out",
+          "sender.ground",
+          "fuel-ground-bus.n",
+          "cluster-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 29,
+        "projectedTextCount": 29,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "06. lighting.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [],
+      "componentCount": 27,
+      "wireCount": 36,
+      "netCount": 17,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "headlamp.power",
+          "lighting-bus.n",
+          "position.power",
+          "position-plug.power-in",
+          "position-plug.power-out",
+          "tail.power",
+          "tail-plug.power-in",
+          "tail-plug.power-out",
+          "plate.power"
+        ],
+        [
+          "cluster.high",
+          "headlamp.high"
+        ],
+        [
+          "dimmer.common",
+          "dimmer-3p.dimmer-in",
+          "dimmer-3p.dimmer-out",
+          "headlamp.dimmer"
+        ],
+        [
+          "dimmer.high",
+          "dimmer-3p.ground-in",
+          "dimmer-3p.ground-out",
+          "dimmer-ground.in"
+        ],
+        [
+          "dimmer.low"
+        ],
+        [
+          "headlamp.gnd1",
+          "headlamp.gnd2",
+          "headlamp-ground-bus.n",
+          "headlamp-ground.in"
+        ],
+        [
+          "position.ground",
+          "position-plug.ground-in",
+          "position-plug.ground-out",
+          "position-ground.in"
+        ],
+        [
+          "tail.ground",
+          "tail-plug.ground-in",
+          "tail-plug.ground-out",
+          "tail-ground.in"
+        ],
+        [
+          "plate.ground",
+          "plate-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 59,
+        "projectedTextCount": 59,
+        "noteBoxes": [
+          {
+            "owner": "headlamp-note",
+            "lines": 2,
+            "padding": 10,
+            "titleAnchor": "middle",
+            "bodyAnchor": "start"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "file": "07. vehicle-speed.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [
+        {
+          "detailSources": [
+            7,
+            10
+          ],
+          "overviewSource": 12,
+          "detail": "VS has three wires: Bl/Br supply, Br signal and G ground.",
+          "overview": "VS has two represented wires Bu/G and P/G to cluster pins 4 and 2."
+        }
+      ],
+      "componentCount": 17,
+      "wireCount": 19,
+      "netCount": 12,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "cluster.power",
+          "vs.power",
+          "vs-power.n"
+        ],
+        [
+          "cluster.speed",
+          "ecm.speed",
+          "vs.signal",
+          "vs-signal.n"
+        ],
+        [
+          "cluster.ground",
+          "cluster-ground.in"
+        ],
+        [
+          "ecm.lg",
+          "vs.ground",
+          "vs-ground.n"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 34,
+        "projectedTextCount": 34,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "08. ignition.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [
+        {
+          "detailSources": [
+            8
+          ],
+          "overviewSource": 12,
+          "detail": "Ignition control is Bu at ECM A27; CKP colors change across 6P.",
+          "overview": "Ignition control is Y/G; CKP harness labels W/R, W/Bu, W/Bl, Br/Bl, Bu/Y are retained."
+        }
+      ],
+      "componentCount": 18,
+      "wireCount": 40,
+      "netCount": 18,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in",
+          "ecm.ground"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.in"
+        ],
+        [
+          "key.out",
+          "main-relay.coil-in",
+          "control-bus.n",
+          "ecm.power"
+        ],
+        [
+          "main-relay.contact-out",
+          "sub2.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "relay-ground.in"
+        ],
+        [
+          "sub2.out",
+          "ignition-coil.power",
+          "coil-color-change.n"
+        ],
+        [
+          "ecm.bank",
+          "bank.signal",
+          "bank-2p.signal-in",
+          "bank-2p.signal-out"
+        ],
+        [
+          "ecm.lg",
+          "bank.ground",
+          "bank-2p.ground-in",
+          "bank-2p.ground-out"
+        ],
+        [
+          "ecm.ignition",
+          "ignition-coil.control"
+        ],
+        [
+          "ecm.u",
+          "ckp-6p.u-in",
+          "ckp-6p.u-out",
+          "ckp.u"
+        ],
+        [
+          "ecm.v",
+          "ckp-6p.v-in",
+          "ckp-6p.v-out",
+          "ckp.v"
+        ],
+        [
+          "ecm.w",
+          "ckp-6p.w-in",
+          "ckp-6p.w-out",
+          "ckp.w"
+        ],
+        [
+          "ecm.gnd",
+          "ckp-6p.gnd-in",
+          "ckp-6p.gnd-out",
+          "ckp.gnd"
+        ],
+        [
+          "ecm.out",
+          "ckp-6p.out-in",
+          "ckp-6p.out-out",
+          "ckp.out"
+        ],
+        [
+          "ecm.pul",
+          "ckp-6p.pul-in",
+          "ckp-6p.pul-out",
+          "ckp.pul"
+        ],
+        [
+          "ignition-coil.ht",
+          "spark-plug.ht"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 53,
+        "projectedTextCount": 53,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "09. starting.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [],
+      "componentCount": 24,
+      "wireCount": 51,
+      "netCount": 25,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in",
+          "ecm.ground"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in",
+          "starter-relay.battery"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1",
+          "main-bus.n",
+          "starter-relay.contact-in"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2",
+          "control-bus.n",
+          "starter-relay.coil-in",
+          "ecm.power"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "brake-feed.n",
+          "front-brake.in",
+          "rear-brake.in"
+        ],
+        [
+          "starter-relay.contact-out",
+          "ecm.starter-battery"
+        ],
+        [
+          "starter-relay.coil-out",
+          "ecm.starter-coil"
+        ],
+        [
+          "ecm.start",
+          "scu.start"
+        ],
+        [
+          "ecm.phase-u",
+          "acg.u"
+        ],
+        [
+          "ecm.phase-v",
+          "acg.v"
+        ],
+        [
+          "ecm.phase-w",
+          "acg.w"
+        ],
+        [
+          "ecm.u",
+          "ckp.u",
+          "ckp-6p.u-in",
+          "ckp-6p.u-out"
+        ],
+        [
+          "ecm.v",
+          "ckp.v",
+          "ckp-6p.v-in",
+          "ckp-6p.v-out"
+        ],
+        [
+          "ecm.w",
+          "ckp.w",
+          "ckp-6p.w-in",
+          "ckp-6p.w-out"
+        ],
+        [
+          "ecm.out",
+          "ckp.out",
+          "ckp-6p.out-in",
+          "ckp-6p.out-out"
+        ],
+        [
+          "ecm.pul",
+          "ckp.pul",
+          "ckp-6p.pul-in",
+          "ckp-6p.pul-out"
+        ],
+        [
+          "ecm.gnd",
+          "ckp.gnd",
+          "ckp-6p.gnd-in",
+          "ckp-6p.gnd-out"
+        ],
+        [
+          "ecm.bank",
+          "bank.signal"
+        ],
+        [
+          "ecm.lg",
+          "bank.ground",
+          "lg-bus.n"
+        ],
+        [
+          "brake-out.n",
+          "front-brake.out",
+          "rear-brake.out",
+          "start-switch.in"
+        ],
+        [
+          "start-switch.out",
+          "scu.button"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 84,
+        "projectedTextCount": 84,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "10. idle-stop.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [
+        {
+          "detailSources": [
+            7,
+            10
+          ],
+          "overviewSource": 12,
+          "detail": "VS has three wires: Bl/Br supply, Br signal and G ground.",
+          "overview": "VS has two represented wires Bu/G and P/G to cluster pins 4 and 2."
+        },
+        {
+          "detailSources": [
+            10
+          ],
+          "overviewSource": 12,
+          "detail": "TP VCC W/R, TP signal Y; ECT signal Gr/Bu.",
+          "overview": "TP VCC Y/O, TP signal Y/Bu; ECT signal P."
+        },
+        {
+          "detailSources": [
+            10
+          ],
+          "overviewSource": 12,
+          "detail": "Cluster speed pin 11, MIL pin 16, supply pin 10, ground pin 1.",
+          "overview": "Cluster speed pin 3, MIL pin 15, supply pin 6, ground pin 8."
+        }
+      ],
+      "componentCount": 29,
+      "wireCount": 61,
+      "netCount": 30,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in",
+          "ecm.ground"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "main-fuse.in",
+          "ign-fuse.in",
+          "starter-relay.battery"
+        ],
+        [
+          "main-fuse.out",
+          "main-relay.contact-in"
+        ],
+        [
+          "ign-fuse.out",
+          "key.out2"
+        ],
+        [
+          "main-relay.contact-out",
+          "key.in1",
+          "main-bus.n",
+          "starter-relay.contact-in"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "key.in2",
+          "control-bus.n",
+          "starter-relay.coil-in",
+          "ecm.power"
+        ],
+        [
+          "key.out1",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "cluster.power",
+          "vs-power.n",
+          "vs.power"
+        ],
+        [
+          "starter-relay.contact-out",
+          "ecm.starter-battery"
+        ],
+        [
+          "starter-relay.coil-out",
+          "ecm.starter-coil"
+        ],
+        [
+          "ecm.speed",
+          "cluster.speed",
+          "vs-signal.n",
+          "vs.signal"
+        ],
+        [
+          "ecm.mil",
+          "cluster.mil"
+        ],
+        [
+          "ecm.phase-u",
+          "acg.u"
+        ],
+        [
+          "ecm.phase-v",
+          "acg.v"
+        ],
+        [
+          "ecm.phase-w",
+          "acg.w"
+        ],
+        [
+          "ecm.u",
+          "ckp.u",
+          "ckp-6p.u-in",
+          "ckp-6p.u-out"
+        ],
+        [
+          "ecm.v",
+          "ckp.v",
+          "ckp-6p.v-in",
+          "ckp-6p.v-out"
+        ],
+        [
+          "ecm.w",
+          "ckp.w",
+          "ckp-6p.w-in",
+          "ckp-6p.w-out"
+        ],
+        [
+          "ecm.out",
+          "ckp.out",
+          "ckp-6p.out-in",
+          "ckp-6p.out-out"
+        ],
+        [
+          "ecm.pul",
+          "ckp.pul",
+          "ckp-6p.pul-in",
+          "ckp-6p.pul-out"
+        ],
+        [
+          "ecm.gnd",
+          "ckp.gnd",
+          "ckp-6p.gnd-in",
+          "ckp-6p.gnd-out"
+        ],
+        [
+          "ecm.bank",
+          "bank.signal"
+        ],
+        [
+          "ecm.lg",
+          "bank.ground",
+          "lg-bus.n",
+          "idle-switch.out",
+          "vs-ground.n",
+          "vs.ground"
+        ],
+        [
+          "ecm.idle",
+          "idle-switch.in"
+        ],
+        [
+          "ecm.tp-vcc",
+          "tp.vcc"
+        ],
+        [
+          "ecm.tp-signal",
+          "tp.signal"
+        ],
+        [
+          "ecm.sg",
+          "tp.ground",
+          "ect.ground",
+          "sensor-ground-bus.n"
+        ],
+        [
+          "ecm.ect",
+          "ect.signal"
+        ],
+        [
+          "cluster.ground",
+          "cluster-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 102,
+        "projectedTextCount": 102,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "11. smartkey.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [
+        {
+          "detailSources": [
+            11
+          ],
+          "overviewSource": 12,
+          "detail": "SCU 10 IMOID is P; SCU 11 IMOAU is Bu; SCU 19 ENG START is Y.",
+          "overview": "SCU 10 IMOID is Bu; SCU 11 IMOAU is P; SCU 19 ENG START is G/W."
+        }
+      ],
+      "componentCount": 37,
+      "wireCount": 49,
+      "netCount": 30,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "battery-bus.n",
+          "backup.in",
+          "ign.in",
+          "main.in"
+        ],
+        [
+          "backup.out",
+          "scu.battery",
+          "backup-bus.n",
+          "cluster.battery",
+          "seat.power",
+          "seat-plug.power-in",
+          "seat-plug.power-out",
+          "seat-power.n"
+        ],
+        [
+          "ign.out",
+          "key.in1"
+        ],
+        [
+          "main.out",
+          "main-relay.contact-out"
+        ],
+        [
+          "scu.sol+",
+          "solenoid.plus"
+        ],
+        [
+          "scu.sol-",
+          "solenoid.minus"
+        ],
+        [
+          "scu.knob",
+          "knob.out"
+        ],
+        [
+          "scu.ground",
+          "knob.in",
+          "knob-ground.n",
+          "knob-chassis.in"
+        ],
+        [
+          "scu.main",
+          "main-relay.coil-in",
+          "key.out1",
+          "main-control.n"
+        ],
+        [
+          "scu.start-sw",
+          "start-switch.out"
+        ],
+        [
+          "scu.entry",
+          "service-plug.entry"
+        ],
+        [
+          "scu.seat",
+          "seat.ground",
+          "seat-plug.ground-in",
+          "seat-plug.ground-out"
+        ],
+        [
+          "scu.smart",
+          "cluster.smart"
+        ],
+        [
+          "scu.alarm",
+          "cluster.alarm"
+        ],
+        [
+          "scu.left",
+          "left-turn.power"
+        ],
+        [
+          "scu.right",
+          "right-turn.power"
+        ],
+        [
+          "scu.buzzer+",
+          "buzzer.power"
+        ],
+        [
+          "scu.buzzer-",
+          "buzzer.ground"
+        ],
+        [
+          "scu.start",
+          "ecm.start"
+        ],
+        [
+          "scu.imoid",
+          "ecm.imoid"
+        ],
+        [
+          "scu.imoau",
+          "ecm.imoau"
+        ],
+        [
+          "cluster.ground",
+          "cluster-ground.in"
+        ],
+        [
+          "left-turn.ground",
+          "left-ground.in"
+        ],
+        [
+          "right-turn.ground",
+          "right-ground.in"
+        ],
+        [
+          "main-relay.contact-in",
+          "key.in2"
+        ],
+        [
+          "main-relay.coil-out",
+          "relay-ground.in"
+        ],
+        [
+          "key.out2",
+          "sub1.in"
+        ],
+        [
+          "sub1.out",
+          "brake-feed.n",
+          "front-brake.in",
+          "rear-brake.in"
+        ],
+        [
+          "brake-out.n",
+          "front-brake.out",
+          "rear-brake.out",
+          "start-switch.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 119,
+        "projectedTextCount": 119,
+        "noteBoxes": [],
+        "errors": []
+      }
+    },
+    {
+      "file": "12. pgm-fi.schema.json",
+      "errors": [],
+      "warnings": [],
+      "sourceDiscrepancies": [
+        {
+          "detailSources": [
+            7,
+            10
+          ],
+          "overviewSource": 12,
+          "detail": "VS has three wires: Bl/Br supply, Br signal and G ground.",
+          "overview": "VS has two represented wires Bu/G and P/G to cluster pins 4 and 2."
+        },
+        {
+          "detailSources": [
+            10
+          ],
+          "overviewSource": 12,
+          "detail": "TP VCC W/R, TP signal Y; ECT signal Gr/Bu.",
+          "overview": "TP VCC Y/O, TP signal Y/Bu; ECT signal P."
+        },
+        {
+          "detailSources": [
+            11
+          ],
+          "overviewSource": 12,
+          "detail": "SCU 10 IMOID is P; SCU 11 IMOAU is Bu; SCU 19 ENG START is Y.",
+          "overview": "SCU 10 IMOID is Bu; SCU 11 IMOAU is P; SCU 19 ENG START is G/W."
+        },
+        {
+          "detailSources": [
+            10
+          ],
+          "overviewSource": 12,
+          "detail": "Cluster speed pin 11, MIL pin 16, supply pin 10, ground pin 1.",
+          "overview": "Cluster speed pin 3, MIL pin 15, supply pin 6, ground pin 8."
+        },
+        {
+          "detailSources": [
+            8
+          ],
+          "overviewSource": 12,
+          "detail": "Ignition control is Bu at ECM A27; CKP colors change across 6P.",
+          "overview": "Ignition control is Y/G; CKP harness labels W/R, W/Bu, W/Bl, Br/Bl, Bu/Y are retained."
+        }
+      ],
+      "componentCount": 43,
+      "wireCount": 90,
+      "netCount": 49,
+      "nets": [
+        [
+          "ecm.negative",
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "ecm.pcb",
+          "ckp.pcb",
+          "ckp-6p.pcb-in",
+          "ckp-6p.pcb-out"
+        ],
+        [
+          "ecm.vout",
+          "ckp.vout",
+          "ckp-6p.vout-in",
+          "ckp-6p.vout-out"
+        ],
+        [
+          "ecm.ckp-ground",
+          "ckp.ckp-ground",
+          "ckp-6p.ckp-ground-in",
+          "ckp-6p.ckp-ground-out"
+        ],
+        [
+          "ecm.ihu",
+          "ckp.ihu",
+          "ckp-6p.ihu-in",
+          "ckp-6p.ihu-out"
+        ],
+        [
+          "ecm.ihv",
+          "ckp.ihv",
+          "ckp-6p.ihv-in",
+          "ckp-6p.ihv-out"
+        ],
+        [
+          "ecm.ihw",
+          "ckp.ihw",
+          "ckp-6p.ihw-in",
+          "ckp-6p.ihw-out"
+        ],
+        [
+          "ecm.vcc",
+          "tp.vcc"
+        ],
+        [
+          "ecm.tp",
+          "tp.signal"
+        ],
+        [
+          "ecm.sg",
+          "tp.ground",
+          "iat.ground",
+          "ect.ground",
+          "sensor-ground.n",
+          "oxygen.signal",
+          "oxy-2p.signal-in",
+          "oxy-2p.signal-out"
+        ],
+        [
+          "ecm.iat",
+          "iat.signal"
+        ],
+        [
+          "ecm.ect",
+          "ect.signal"
+        ],
+        [
+          "ecm.oxygen",
+          "oxygen.heater",
+          "oxy-2p.heater-in",
+          "oxy-2p.heater-out"
+        ],
+        [
+          "ecm.kline",
+          "dlc.diag"
+        ],
+        [
+          "ecm.scs",
+          "dlc.scs"
+        ],
+        [
+          "ecm.lg",
+          "dlc.ground",
+          "control-ground.n",
+          "bank-switch.ground",
+          "idle-switch.ground",
+          "scu.start-sw",
+          "start-switch.in"
+        ],
+        [
+          "ecm.idle",
+          "idle-switch.signal"
+        ],
+        [
+          "ecm.bank",
+          "bank-switch.signal"
+        ],
+        [
+          "ecm.imoau",
+          "scu.imoau"
+        ],
+        [
+          "ecm.imoid",
+          "scu.imoid"
+        ],
+        [
+          "ecm.start",
+          "scu.start"
+        ],
+        [
+          "ecm.starter",
+          "starter-relay.coil-in"
+        ],
+        [
+          "ecm.positive",
+          "starter-relay.contact-out"
+        ],
+        [
+          "ecm.batt",
+          "fi.out",
+          "main-relay.coil-out",
+          "fi-bus.n",
+          "starter-relay.coil-out"
+        ],
+        [
+          "ecm.purge",
+          "purge.control"
+        ],
+        [
+          "ecm.pump",
+          "pump.control"
+        ],
+        [
+          "ecm.solv",
+          "solv.control"
+        ],
+        [
+          "ecm.injector",
+          "injector.control"
+        ],
+        [
+          "ecm.ignition",
+          "ignition-coil.control"
+        ],
+        [
+          "ecm.phase-u",
+          "acg.u"
+        ],
+        [
+          "ecm.phase-v",
+          "acg.v"
+        ],
+        [
+          "ecm.phase-w",
+          "acg.w"
+        ],
+        [
+          "ecm.mil",
+          "cluster.mil"
+        ],
+        [
+          "ecm.eng-check",
+          "cluster.eng-check"
+        ],
+        [
+          "ecm.speed",
+          "cluster.speed"
+        ],
+        [
+          "ecm.temp-ind",
+          "cluster.temp-ind"
+        ],
+        [
+          "battery.pos",
+          "main.in",
+          "starter-relay.battery"
+        ],
+        [
+          "main.out",
+          "key.in1",
+          "key.in2",
+          "main-bus.n",
+          "main-relay.contact-in"
+        ],
+        [
+          "key.out1",
+          "meter.in"
+        ],
+        [
+          "key.out2",
+          "fi.in"
+        ],
+        [
+          "meter.out",
+          "cluster.power",
+          "safety-switch.out"
+        ],
+        [
+          "main-relay.contact-out",
+          "pump-fuse.in",
+          "starter-relay.contact-in"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "pump-fuse.out",
+          "power-bus.n",
+          "purge.power",
+          "solv.power",
+          "pump.power",
+          "injector.power",
+          "ignition-coil.power",
+          "dlc.power"
+        ],
+        [
+          "ignition-coil.ht",
+          "spark-plug.ht"
+        ],
+        [
+          "cluster.vs-vcc",
+          "vs.vcc"
+        ],
+        [
+          "cluster.vs-ground",
+          "vs.ground"
+        ],
+        [
+          "cluster.ground",
+          "cluster-ground.in"
+        ],
+        [
+          "start-switch.out",
+          "safety-switch.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true,
+        "textInsideCanvas": true,
+        "noOverlappingText": true
+      },
+      "textAudit": {
+        "textCount": 230,
+        "projectedTextCount": 230,
+        "noteBoxes": [
+          {
+            "owner": "dtc-note",
+            "lines": 6,
+            "padding": 10,
+            "titleAnchor": "middle",
+            "bodyAnchor": "start"
+          }
+        ],
+        "errors": []
+      }
+    }
+  ],
+  "studioModuleValidation": {
+    "schemaErrors": 0,
+    "diagrams": 12,
+    "renderPaths": 24,
+    "textItems": 838,
+    "bothRenderersPreserveText": true,
+    "rendererModuleVerified": true,
+    "liveWebsiteVerified": false,
+    "browserUiTested": false
+  },
+  "selectedSourceValidation": {
+    "pinLabels": 142,
+    "fuseRatings": 41,
+    "networks": 50,
+    "wireCodes": 49,
+    "errors": 0,
+    "scope": "Hand-read selected pins, fuses, wire codes and networks; not a full electrical certification."
+  },
+  "svgRasterValidation": [
+    {
+      "file": "01. power-distribution.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.0666,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "02. horn.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.0325,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "03. turn-signals.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.0376,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "04. brake-light.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.0375,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "05. fuel-gauge.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.0763,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "06. lighting.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.1559,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "07. vehicle-speed.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.0749,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "08. ignition.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.1001,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "09. starting.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.1333,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "10. idle-stop.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.1632,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "11. smartkey.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.2638,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    },
+    {
+      "file": "12. pgm-fi.schema.json",
+      "svgRasterNonblank": true,
+      "inkFraction": 0.1884,
+      "backend": "MuPDF SVG rasterizer, not browser screenshot"
+    }
+  ],
+  "remainingLayoutWarnings": "Any Studio trace-clearance, nonorthogonal or unfamiliar-color-code notices are retained in web-tool-checks.json. Browser UI and full electrical validation were not performed."
+}

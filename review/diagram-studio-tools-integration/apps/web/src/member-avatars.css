@@ -1,0 +1,26 @@
+.memberAvatarImage{display:block!important;width:100%!important;height:100%!important;min-width:0;object-fit:cover;border-radius:inherit}
+.memberAvatarManager{width:min(800px,94vw);max-height:88vh;overflow:auto;padding:22px;background:#fff;color:#202936;border-radius:18px;border:1px solid #d6deea}
+.memberAvatarManager header{display:flex;justify-content:space-between;gap:16px;align-items:start}.memberAvatarManager h2{margin:0}.memberAvatarManager header p{font-size:14px;color:#58677c}
+.memberAvatarList{display:grid;gap:12px}.memberAvatarList article{display:flex;align-items:center;gap:14px;padding:14px;border:1px solid #d6deea;border-radius:12px}
+.memberAvatarList .avatar{display:flex;align-items:center;justify-content:center;width:52px;height:52px;flex:0 0 52px;overflow:hidden;background:#405e80;color:white;border-radius:50%}
+.memberAvatarList article>b{flex:1;min-width:0}.memberAvatarList label{display:grid;gap:6px;max-width:210px;font-size:13px;font-weight:600}.memberAvatarList input{width:100%;min-width:0;font-size:12px}
+.memberAvatarManager [role=alert]{color:#b42318}.memberAvatarManager [role=status]{color:#187147}
+:root[data-theme="dark"] .memberAvatarManager{background:#1c2530;color:#e7eaf0;border-color:#3b4b5f}
+:root[data-theme="dark"] .memberAvatarManager header p{color:#afbdd0}:root[data-theme="dark"] .memberAvatarList article{border-color:#3b4b5f}
+:root[data-theme="dark"] .memberAvatarManager [role=alert]{color:#ffb4aa}:root[data-theme="dark"] .memberAvatarManager [role=status]{color:#99ddb7}
+.productionWorklogSpace .productionScheduleGrid .productionTeamHeading{grid-column:1/-1;text-align:left;padding:8px 12px;font-weight:750;display:flex;flex-direction:row;justify-content:flex-start;min-height:36px;gap:12px;align-items:center;font-size:12px}
+.productionWorklogSpace .productionScheduleGrid .productionTeamHeading small{font-size:11px;color:inherit}
+.productionWorklogSpace .productionScheduleGrid .productionTeamHeading small::after{content:none}
+.productionTeamHeading.solder{background:#e7f3ec;color:#236045}.productionTeamHeading.cable{background:#eaf1fc;color:#254f88}.productionTeamHeading small{font-weight:400}
+.productionWorklogSpace .productionScheduleGrid .productionScheduleMember{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.productionScheduleMember .avatar{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;flex:0 0 28px;border-radius:50%;background:#405e80;color:#fff}
+.productionWorklogSpace .productionScheduleGrid button .scheduleStartTime{color:#224f8c!important;font-size:13px;line-height:1.45}
+.productionWorklogSpace .productionScheduleGrid button.missingStartTime{background:#fff3d6!important;border-color:#dab05d!important}
+.productionWorklogSpace .productionScheduleGrid button.missingStartTime small,.productionWorklogSpace .productionScheduleGrid button.missingStartTime .scheduleStartTime{color:#82520a!important}
+.productionRegistrationTime .registrationPaymentWarning{background:#fff3d6;color:#82520a;border:1px solid #dab05d;border-radius:9px;padding:10px;font-size:14px}
+:root[data-theme="dark"] .productionTeamHeading.solder{background:#193b2e;color:#a7e3bf}:root[data-theme="dark"] .productionTeamHeading.cable{background:#1d3452;color:#b1d1ff}
+:root[data-theme="dark"] .productionWorklogSpace .productionScheduleGrid button .scheduleStartTime{color:#e2eeff!important}
+:root[data-theme="dark"] .productionWorklogSpace .productionScheduleGrid button.missingStartTime{background:#493719!important;border-color:#8e6f36!important}
+:root[data-theme="dark"] .productionWorklogSpace .productionScheduleGrid button.missingStartTime small,:root[data-theme="dark"] .productionWorklogSpace .productionScheduleGrid button.missingStartTime .scheduleStartTime{color:#ffe0a0!important}
+:root[data-theme="dark"] .productionRegistrationTime .registrationPaymentWarning{background:#493719;color:#ffe0a0;border-color:#8e6f36}
+@media(max-width:600px){.memberAvatarManager{padding:14px}.memberAvatarList article{flex-wrap:wrap}.memberAvatarList label{max-width:none;width:100%}.productionScheduleMember .avatar{width:24px;height:24px;flex-basis:24px}}

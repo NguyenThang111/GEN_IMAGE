@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "vehicleFolder": "01.AirBlade-2011-2012",
+  "circuitNumber": "01",
+  "source": {
+    "path": "FILE ANH/01.AirBlade-2011-2012/Screenshot from 2026-09-30 08-37-20.png",
+    "imageSha256": "cdd7c9ffe0bebf68c6ed07895bfddce9e9aa11f570f94e72f1f6fbd84ab5a456",
+    "width": 1687,
+    "height": 952,
+    "recordId": "8eede04a-1e19-4afd-a4e9-bfc29e96955d",
+    "identityStatus": "SERVER_SOURCE_REPLACEMENT_REQUIRED",
+    "projectId": "a8867bdf-059b-4ecd-a535-e02714ac0e38",
+    "circuitKey": "power-distribution",
+    "serverImageSha256": "efa56979f6527da9907ba54c9695fff9ba99867cb27b1c88ae5c794aeaae8193"
+  },
+  "coordinateSpace": "original-screenshot-pixels",
+  "sourceCrop": {
+    "x": 127,
+    "y": 64,
+    "width": 1499,
+    "height": 844
+  },
+  "items": [
+    {
+      "sourceItemId": "01:battery",
+      "candidateComponentId": "battery",
+      "kind": "component",
+      "observation": "ẮC QUY; âm bên trái, dương bên phải",
+      "proposedModelId": "battery",
+      "sourceBox": {
+        "x": 184,
+        "y": 459,
+        "width": 91,
+        "height": 67
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:fuse-answer-back",
+      "candidateComponentId": "fuse-answer-back",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) ANSWER BACK",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 350,
+        "y": 236,
+        "width": 75,
+        "height": 35
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:fuse-main",
+      "candidateComponentId": "fuse-main",
+      "kind": "component",
+      "observation": "CẦU CHÌ (20A) MAIN",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 350,
+        "y": 319,
+        "width": 75,
+        "height": 34
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:fuse-fi",
+      "candidateComponentId": "fuse-fi",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) FI",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 350,
+        "y": 395,
+        "width": 75,
+        "height": 34
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:fuse-headlight",
+      "candidateComponentId": "fuse-headlight",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) HEAD LIGHT",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 1110,
+        "y": 231,
+        "width": 76,
+        "height": 35
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:fuse-turn-horn",
+      "candidateComponentId": "fuse-turn-horn",
+      "kind": "component",
+      "observation": "CẦU CHÌ (10A) TURN,HORN...",
+      "proposedModelId": "fuse",
+      "sourceBox": {
+        "x": 1110,
+        "y": 318,
+        "width": 76,
+        "height": 35
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:regulator",
+      "candidateComponentId": "regulator",
+      "kind": "component",
+      "observation": "TIẾT CHẾ/CHỈNH LƯU; DC R/W, ba Y, G",
+      "proposedModelId": "regulator.three-phase5",
+      "sourceBox": {
+        "x": 470,
+        "y": 497,
+        "width": 112,
+        "height": 96
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:acg",
+      "candidateComponentId": "acg",
+      "kind": "component",
+      "observation": "MÁY PHÁT; ba cuộn Y có nút sao nhìn thấy",
+      "proposedModelId": "generator.star3",
+      "sourceBox": {
+        "x": 318,
+        "y": 629,
+        "width": 112,
+        "height": 115
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:capacitor",
+      "candidateComponentId": "capacitor",
+      "kind": "component",
+      "observation": "TỤ ĐIỆN; cực + ở trên; R/W vào, G ra",
+      "proposedModelId": "capacitor.polarized",
+      "sourceBox": {
+        "x": 656,
+        "y": 508,
+        "width": 32,
+        "height": 52
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:ignition-switch",
+      "candidateComponentId": "ignition-switch",
+      "kind": "component",
+      "observation": "CÔNG TẮC MÁY; R/Bl → Bl",
+      "proposedModelId": "switch.spst2",
+      "sourceBox": {
+        "x": 719,
+        "y": 385,
+        "width": 77,
+        "height": 43
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:main-relay",
+      "candidateComponentId": "main-relay",
+      "kind": "component",
+      "observation": "RƠ LE CHÍNH; tiếp điểm R/W → R/Y, coil Bl/W/Bl",
+      "proposedModelId": "relay.contact-coil4",
+      "sourceBox": {
+        "x": 917,
+        "y": 312,
+        "width": 77,
+        "height": 116
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:ecm",
+      "candidateComponentId": "ecm",
+      "kind": "component",
+      "observation": "ECM; kênh điều khiển rơ le W/Bl",
+      "proposedModelId": "control.ecm",
+      "sourceBox": {
+        "x": 1013,
+        "y": 491,
+        "width": 82,
+        "height": 55
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED"
+    },
+    {
+      "sourceItemId": "01:night-light-switch",
+      "candidateComponentId": "night-light-switch",
+      "kind": "continuation",
+      "observation": "Đầu ra chữ CÔNG TẮC ĐÈN ĐÊM; không có hình công tắc",
+      "proposedModelId": "continuation.loads",
+      "sourceBox": {
+        "x": 1325,
+        "y": 232,
+        "width": 175,
+        "height": 31
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED",
+      "targets": [
+        "CÔNG TẮC ĐÈN ĐÊM"
+      ]
+    },
+    {
+      "sourceItemId": "01:answer-loads",
+      "candidateComponentId": "answer-loads",
+      "kind": "continuation",
+      "observation": "Danh sách tải sau cầu chì ANSWER BACK",
+      "proposedModelId": "continuation.loads",
+      "sourceBox": {
+        "x": 644,
+        "y": 211,
+        "width": 220,
+        "height": 58
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED",
+      "targets": [
+        "HỘP ĐỊNH VỊ XE",
+        "ĐÈN LED Ổ KHÓA ĐIỆN",
+        "ĐÈN LED THÙNG YÊN"
+      ]
+    },
+    {
+      "sourceItemId": "01:turn-loads",
+      "candidateComponentId": "turn-loads",
+      "kind": "continuation",
+      "observation": "Danh sách tải sau cầu chì TURN,HORN",
+      "proposedModelId": "continuation.loads",
+      "sourceBox": {
+        "x": 1291,
+        "y": 322,
+        "width": 323,
+        "height": 189
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED",
+      "targets": [
+        "CÔNG TẮC PHANH TRƯỚC/SAU",
+        "CÔNG TẮC CÒI",
+        "RƠ LE XI NHAN",
+        "ĐÈN NỀN ĐỒNG HỒ",
+        "ĐÈN BÁO LỖI",
+        "ĐÈN CẢNH BÁO NHIỆT ĐỘ NƯỚC LÀM MÁT",
+        "HỘP ĐỊNH VỊ XE",
+        "CÔNG TẮC ĐÈN ĐÊM",
+        "ĐỒNG HỒ BÁO XĂNG"
+      ]
+    },
+    {
+      "sourceItemId": "01:engine-loads",
+      "candidateComponentId": "engine-loads",
+      "kind": "continuation",
+      "observation": "Danh sách tải Bl sau công tắc máy",
+      "proposedModelId": "continuation.loads",
+      "sourceBox": {
+        "x": 1291,
+        "y": 588,
+        "width": 288,
+        "height": 141
+      },
+      "observationMethod": "manual-original-image",
+      "consumerModelSupport": "UNVERIFIED",
+      "targets": [
+        "ECM",
+        "KIM PHUN",
+        "MÔ-BIN SƯỜN",
+        "BƠM XĂNG",
+        "DLC",
+        "RƠ LE KHỞI ĐỘNG",
+        "VAN CẦM CHỪNG NHANH"
+      ]
+    }
+  ],
+  "electricalReference": {
+    "artifact": "tools/diagram_check/reference.py",
+    "artifactSha256": "e61a465dd0bcddbeda3488c25d808f9c7d1f815970fe3d14c9aaf3de6500c19d",
+    "nets": [
+      [
+        "battery.negative",
+        "battery-ground.in"
+      ],
+      [
+        "battery.positive",
+        "fuse-answer-back.in",
+        "fuse-main.in",
+        "fuse-fi.in"
+      ],
+      [
+        "fuse-answer-back.out",
+        "answer-loads.in"
+      ],
+      [
+        "fuse-main.out",
+        "main-relay.contact-in",
+        "regulator.dc"
+      ],
+      [
+        "fuse-fi.out",
+        "ignition-switch.in",
+        "capacitor.positive"
+      ],
+      [
+        "ignition-switch.out",
+        "main-relay.coil-left",
+        "engine-loads.in"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.relay-control"
+      ],
+      [
+        "main-relay.contact-out",
+        "fuse-headlight.in",
+        "fuse-turn-horn.in"
+      ],
+      [
+        "fuse-headlight.out",
+        "night-light-switch.in"
+      ],
+      [
+        "fuse-turn-horn.out",
+        "turn-loads.in"
+      ],
+      [
+        "capacitor.ground",
+        "capacitor-ground.in"
+      ],
+      [
+        "regulator.ground",
+        "regulator-ground.in"
+      ],
+      [
+        "regulator.ac-upper",
+        "acg.left"
+      ],
+      [
+        "regulator.ac-middle",
+        "acg.top"
+      ],
+      [
+        "regulator.ac-lower",
+        "acg.right"
+      ]
+    ],
+    "edges": [
+      [
+        "fuse-answer-back.out",
+        "answer-loads.in",
+        "P/Bl"
+      ],
+      [
+        "fuse-main.out",
+        "main-relay.contact-in",
+        "R/W"
+      ],
+      [
+        "fuse-main.out",
+        "regulator.dc",
+        "R/W"
+      ],
+      [
+        "fuse-fi.out",
+        "ignition-switch.in",
+        "R/Bl"
+      ],
+      [
+        "ignition-switch.out",
+        "engine-loads.in",
+        "Bl"
+      ],
+      [
+        "main-relay.coil-right",
+        "ecm.relay-control",
+        "W/Bl"
+      ],
+      [
+        "main-relay.contact-out",
+        "fuse-headlight.in",
+        "R/Y"
+      ],
+      [
+        "main-relay.contact-out",
+        "fuse-turn-horn.in",
+        "R/Y"
+      ],
+      [
+        "fuse-headlight.out",
+        "night-light-switch.in",
+        "Y"
+      ],
+      [
+        "fuse-turn-horn.out",
+        "turn-loads.in",
+        "Bl/Br"
+      ]
+    ],
+    "anchors": [
+      {
+        "ref": "battery.negative",
+        "xy": [
+          202,
+          459
+        ],
+        "label": null
+      },
+      {
+        "ref": "battery.positive",
+        "xy": [
+          257,
+          459
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-in",
+        "xy": [
+          917,
+          336
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.contact-out",
+        "xy": [
+          994,
+          336
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-left",
+        "xy": [
+          917,
+          412
+        ],
+        "label": null
+      },
+      {
+        "ref": "main-relay.coil-right",
+        "xy": [
+          994,
+          412
+        ],
+        "label": null
+      }
+    ],
+    "coverage": {
+      "all_nets": true,
+      "all_text": false,
+      "all_symbols": false,
+      "app_render": false
+    }
+  },
+  "annotations": [],
+  "coverage": {
+    "electricalReference": "LOCKED_LEGACY_REFERENCE",
+    "allTextOccurrences": "PARTIAL",
+    "independentAppReview": "PENDING"
+  },
+  "unresolved": [
+    "Server source is a derived render (01/02) or the wrong circuit (06); use the original local screenshot and replace the record source through a reviewed workflow."
+  ]
+}

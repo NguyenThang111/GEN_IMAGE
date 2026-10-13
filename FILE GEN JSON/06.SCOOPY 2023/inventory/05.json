@@ -1,0 +1,431 @@
+{
+  "circuitNumber": "05",
+  "circuitKey": "fuel-gauge",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/05.Mạch báo xăng.PNG",
+  "sourceImageSha256": "77ca1c187771b4d10b0da3bd481e67e74ab5f200ab9b8e78f6c7b20bdc052894",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1305,
+    734
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 84,
+        "y": 170,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 100,
+          "y": 176,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 148,
+          "y": 176,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 47,
+        "y": 200,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 62,
+          "y": 200,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 212,
+        "y": 120,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 212,
+          "y": 136,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 282,
+          "y": 136,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "switch",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 415,
+        "y": 112,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 415,
+          "y": 136,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 485,
+          "y": 136,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "meter-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) METER / PO",
+      "sourceBox": {
+        "x": 608,
+        "y": 120,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 608,
+          "y": 136,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 678,
+          "y": 136,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "cluster",
+      "glyph": "fuel-cluster",
+      "observedText": "CỤM ĐỒNG HỒ",
+      "sourceBox": {
+        "x": 1085,
+        "y": 101,
+        "width": 174,
+        "height": 165
+      },
+      "ports": [
+        {
+          "id": "2",
+          "x": 1064,
+          "y": 136,
+          "label": "2 IGN"
+        },
+        {
+          "id": "8",
+          "x": 1064,
+          "y": 184,
+          "label": "8 FUEL"
+        },
+        {
+          "id": "1",
+          "x": 1064,
+          "y": 229,
+          "label": "1 GND"
+        }
+      ],
+      "proposedModel": "gauge.fuel3",
+      "cavities": 16
+    },
+    {
+      "id": "fuel-connector",
+      "glyph": "paired",
+      "observedText": "5P",
+      "sourceBox": {
+        "x": 929,
+        "y": 429,
+        "width": 41,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "signal-up",
+          "x": 936,
+          "y": 429,
+          "label": ""
+        },
+        {
+          "id": "signal-down",
+          "x": 936,
+          "y": 449,
+          "label": ""
+        },
+        {
+          "id": "return-up",
+          "x": 964,
+          "y": 429,
+          "label": ""
+        },
+        {
+          "id": "return-down",
+          "x": 964,
+          "y": 449,
+          "label": ""
+        }
+      ],
+      "proposedModel": "connector.paired2",
+      "cavities": 5
+    },
+    {
+      "id": "sender",
+      "glyph": "sender",
+      "observedText": "PHAO XĂNG",
+      "sourceBox": {
+        "x": 906,
+        "y": 530,
+        "width": 144,
+        "height": 101
+      },
+      "ports": [
+        {
+          "id": "resistor-end",
+          "x": 936,
+          "y": 530,
+          "label": ""
+        },
+        {
+          "id": "wiper",
+          "x": 964,
+          "y": 530,
+          "label": ""
+        }
+      ],
+      "proposedModel": "sensor.fuel-rheostat2"
+    },
+    {
+      "id": "ground-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1013,
+        "y": 227,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 1015,
+          "y": 229,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "cluster-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1000,
+        "y": 279,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1015,
+          "y": 279,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "cluster-pinout",
+      "glyph": "pinout",
+      "observedText": "GIẮC 16P PHÍA ĐỒNG HỒ",
+      "sourceBox": {
+        "x": 1073,
+        "y": 294,
+        "width": 170,
+        "height": 53
+      },
+      "ports": [],
+      "proposedModel": "assembly.pinout",
+      "cavityRows": [
+        [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9
+        ]
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          100,
+          136
+        ],
+        [
+          62,
+          136
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          148,
+          136
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "main-fuse.b",
+      "b": "key.a",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "key.b",
+      "b": "meter-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "meter-fuse.b",
+      "b": "cluster.2",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "cluster.8",
+      "b": "fuel-connector.signal-up",
+      "observedCode": "Y/W",
+      "via": [
+        [
+          936,
+          184
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "fuel-connector.signal-down",
+      "b": "sender.resistor-end",
+      "observedCode": "R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "fuel-connector.return-down",
+      "b": "sender.wiper",
+      "observedCode": "Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "fuel-connector.return-up",
+      "b": "ground-bus.node",
+      "observedCode": "G/Bl",
+      "via": [
+        [
+          964,
+          229
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "ground-bus.node",
+      "b": "cluster.1",
+      "observedCode": "G/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "ground-bus.node",
+      "b": "cluster-ground.in",
+      "observedCode": "G/Bl",
+      "via": [],
+      "labelAt": null
+    }
+  ],
+  "annotations": [],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

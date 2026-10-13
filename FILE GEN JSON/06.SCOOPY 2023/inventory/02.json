@@ -1,0 +1,545 @@
+{
+  "circuitNumber": "02",
+  "circuitKey": "horn",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/02.Mạch còi.PNG",
+  "sourceImageSha256": "d132fd7db1f2820adeab107a7a048831822137b2638a83410c51e17e0106eaeb",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1318,
+    745
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 78,
+        "y": 333,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 94,
+          "y": 339,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 142,
+          "y": 339,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 39,
+        "y": 363,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 54,
+          "y": 363,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "horn-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1247,
+        "y": 303,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1262,
+          "y": 303,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 203,
+        "y": 267,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 203,
+          "y": 283,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 273,
+          "y": 283,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "key4",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 406,
+        "y": 436,
+        "width": 70,
+        "height": 86
+      },
+      "ports": [
+        {
+          "id": "in1",
+          "x": 406,
+          "y": 460,
+          "label": ""
+        },
+        {
+          "id": "out1",
+          "x": 476,
+          "y": 460,
+          "label": ""
+        },
+        {
+          "id": "in2",
+          "x": 406,
+          "y": 510,
+          "label": ""
+        },
+        {
+          "id": "out2",
+          "x": 476,
+          "y": 510,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.dpst4"
+    },
+    {
+      "id": "main-relay",
+      "glyph": "relay",
+      "observedText": "RƠ LE CHÍNH",
+      "sourceBox": {
+        "x": 406,
+        "y": 264,
+        "width": 70,
+        "height": 84
+      },
+      "ports": [
+        {
+          "id": "contact-left",
+          "x": 406,
+          "y": 283,
+          "label": ""
+        },
+        {
+          "id": "contact-right",
+          "x": 476,
+          "y": 283,
+          "label": ""
+        },
+        {
+          "id": "coil-left",
+          "x": 406,
+          "y": 333,
+          "label": ""
+        },
+        {
+          "id": "coil-right",
+          "x": 476,
+          "y": 333,
+          "label": ""
+        }
+      ],
+      "proposedModel": "relay.contact-coil4",
+      "reverseCoil": false
+    },
+    {
+      "id": "horn-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) HORN",
+      "sourceBox": {
+        "x": 631,
+        "y": 267,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 631,
+          "y": 283,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 701,
+          "y": 283,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "ecu-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) ECU",
+      "sourceBox": {
+        "x": 560,
+        "y": 493,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 560,
+          "y": 509,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 630,
+          "y": 509,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "horn-switch",
+      "glyph": "push-switch",
+      "observedText": "CÔNG TẮC CÒI",
+      "sourceBox": {
+        "x": 878,
+        "y": 259,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 878,
+          "y": 283,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 948,
+          "y": 283,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "horn",
+      "glyph": "horn",
+      "observedText": "CÒI",
+      "sourceBox": {
+        "x": 1125,
+        "y": 213,
+        "width": 51,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 1138,
+          "y": 283,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 1163,
+          "y": 283,
+          "label": ""
+        }
+      ],
+      "proposedModel": "horn.two-terminal"
+    },
+    {
+      "id": "ecm",
+      "glyph": "module",
+      "observedText": "ECM",
+      "sourceBox": {
+        "x": 744,
+        "y": 321,
+        "width": 201,
+        "height": 212
+      },
+      "ports": [
+        {
+          "id": "A31",
+          "x": 722,
+          "y": 341,
+          "label": "A31 M/RELAY"
+        },
+        {
+          "id": "A4",
+          "x": 722,
+          "y": 391,
+          "label": "A4 BATT(IGP)"
+        },
+        {
+          "id": "A15",
+          "x": 722,
+          "y": 460,
+          "label": "A15 C&L"
+        },
+        {
+          "id": "A3",
+          "x": 722,
+          "y": 509,
+          "label": "A3 B-CUT"
+        }
+      ],
+      "proposedModel": "control.ecm",
+      "cavities": 39
+    },
+    {
+      "id": "r-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 317,
+        "y": 507,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 319,
+          "y": 509,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "bl-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 348,
+        "y": 389,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 350,
+          "y": 391,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          94,
+          283
+        ],
+        [
+          54,
+          283
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          142,
+          283
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "main-fuse.b",
+      "b": "main-relay.contact-left",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "main-fuse.b",
+      "b": "r-bus.node",
+      "observedCode": "R/Bl",
+      "via": [
+        [
+          319,
+          319
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "r-bus.node",
+      "b": "key.in2",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "key.out2",
+      "b": "ecu-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "ecu-fuse.b",
+      "b": "ecm.A3",
+      "observedCode": "Bl/G",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "key.out1",
+      "b": "ecm.A15",
+      "observedCode": "Bl/G",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "key.in1",
+      "b": "bl-bus.node",
+      "observedCode": "Bl",
+      "via": [
+        [
+          350,
+          460
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "bl-bus.node",
+      "b": "ecm.A4",
+      "observedCode": "Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "bl-bus.node",
+      "b": "main-relay.coil-left",
+      "observedCode": "Bl",
+      "via": [
+        [
+          350,
+          333
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-012",
+      "a": "main-relay.coil-right",
+      "b": "ecm.A31",
+      "observedCode": "G/W",
+      "via": [
+        [
+          520,
+          333
+        ],
+        [
+          520,
+          341
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-013",
+      "a": "main-relay.contact-right",
+      "b": "horn-fuse.a",
+      "observedCode": "Bl/Y",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-014",
+      "a": "horn-fuse.b",
+      "b": "horn-switch.a",
+      "observedCode": "Bl/Lg",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-015",
+      "a": "horn-switch.b",
+      "b": "horn.a",
+      "observedCode": "Lg",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-016",
+      "a": "horn.b",
+      "b": "horn-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1262,
+          283
+        ]
+      ],
+      "labelAt": null
+    }
+  ],
+  "annotations": [],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

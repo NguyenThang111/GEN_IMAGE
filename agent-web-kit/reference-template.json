@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "method": "Transcribe from original source image; this template is NOT verified evidence",
+  "source": {
+    "sha256": "REPLACE_WITH_ORIGINAL_FILE_SHA256",
+    "width": 0,
+    "height": 0,
+    "crop": [0, 0, 0, 0]
+  },
+  "canvas": {"width": 0, "height": 0},
+  "coverage": {"all_text": false, "all_nets": false, "all_symbols": false, "clean_image": false, "app_render": false},
+  "texts": [],
+  "anchors": [],
+  "nets": [],
+  "unresolved": [
+    {"id": "template-not-filled", "reason": "Populate every text occurrence, anchor and net from the original image", "sourceBox": null}
+  ],
+  "entryExamples_NOT_EXPECTED_FACTS": {
+    "text": {"id": "text-001", "text": "EXACT STRING FROM SOURCE", "owner": "component-id", "xy": [120, 80], "tolerance": 3, "reviewed": false},
+    "anchor": {"ref": "component-id.terminal-id", "xy": [120, 100], "label": "EXACT TERMINAL LABEL IF VISIBLE", "tolerance": 1, "reviewed": false},
+    "net": ["component-a.terminal-a", "component-b.terminal-b"]
+  },
+  "coordinateContract": "texts[].xy and anchors[].xy are ORIGINAL source pixel coordinates; source.crop is [x,y,width,height]; canvas is the target. Crop+scale only in starter. Do not use entryExamples as reference facts."
+}

@@ -1,0 +1,67 @@
+{
+  "profilePath": "review\\SCOOPY-2023-gen-2026-10-12\\component-fix-r02\\production-contract.json",
+  "profileSha256": "acb08a6ecc33525fe0461e9fc54c1ce3cc77ecf4a2fae9a69bd626dcc71a7790",
+  "scope": "Component types only; does not prove graph, render, field retention or electrical source approval",
+  "files": [
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\01. power-distribution.schema.json",
+      "sha256": "7dddbbcdef38cbd6c38336e11068f1f7e72689e2036ec217dee2f22e476b422f",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\02. horn.schema.json",
+      "sha256": "28ba567e20380eb0763ac87dad543806231233cebead8af4c77453e9e3c361b8",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\03. turn-signals.schema.json",
+      "sha256": "1c1353f15f7c72521b26c1b587348a3f8fe02ab268b59726538239cc07e43e36",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\04. brake-light.schema.json",
+      "sha256": "c3149b10b71668e01fdb284c20e8275dea5fcb00f0708751692be2ccff5436aa",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\05. fuel-gauge.schema.json",
+      "sha256": "25b60859da8cc3706aae0f6f6f4c33861cb010d4ad7bab33a9d55fc85cd41aa3",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\06. night-lighting.schema.json",
+      "sha256": "6e9fc358986a5022c325b7f7561743c2e1b37ba4d6372b5b859c34e6f8b02205",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\07. vehicle-speed.schema.json",
+      "sha256": "4acb02ab17b921c3426bfe4bc6465367b5234ebe37a51a47e0fff9f2ec77686c",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\08. ignition.schema.json",
+      "sha256": "6f1a94e643899e7dad22d9d2701a5dce9901962b3c195a27adf2b81e28acbf28",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\09. starting.schema.json",
+      "sha256": "c0a8c7627659452e25759b2898bfac577103f8f64f528b0a0e62188163445602",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\10. vehicle-locator-alarm.schema.json",
+      "sha256": "dd6de1c6012a6f0fb8ed715956319a8328f0957b4655ac581ba0a571a66546b7",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\11. idling-stop.schema.json",
+      "sha256": "37e9d8caf426c1938f9fee6be45a94282a2ef6490ab5a3f7cf41fae9adb1ef0b",
+      "errors": []
+    },
+    {
+      "file": "FILE GEN JSON\\06.SCOOPY 2023\\12. pgm-fi.schema.json",
+      "sha256": "7b44fcf6f57f1641e96ef7b2741986da8537965fccd72116d84498be080b7f7d",
+      "errors": []
+    }
+  ]
+}

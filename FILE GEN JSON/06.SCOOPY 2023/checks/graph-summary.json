@@ -1,0 +1,447 @@
+{
+  "circuits": 12,
+  "components": 230,
+  "wires": 368,
+  "verdict": "PASS_TRANSCRIPTION_AND_SELECTED_NET_CHECKS",
+  "sourceApproval": "REVIEW_REQUIRED",
+  "results": [
+    {
+      "number": "01",
+      "schemaSha256": "7dddbbcdef38cbd6c38336e11068f1f7e72689e2036ec217dee2f22e476b422f",
+      "components": 27,
+      "wires": 30,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": []
+    },
+    {
+      "number": "02",
+      "schemaSha256": "28ba567e20380eb0763ac87dad543806231233cebead8af4c77453e9e3c361b8",
+      "components": 13,
+      "wires": 16,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": []
+    },
+    {
+      "number": "03",
+      "schemaSha256": "1c1353f15f7c72521b26c1b587348a3f8fe02ab268b59726538239cc07e43e36",
+      "components": 18,
+      "wires": 17,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": [
+        {
+          "a": "turn-switch.throw1",
+          "b": "front-left.feed",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "rear-left.feed",
+          "b": "front-left.feed",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "turn-switch.throw2",
+          "b": "front-right.feed",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "front-right.feed",
+          "b": "rear-right.feed",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "turn-switch.throw1",
+          "b": "turn-switch.throw2",
+          "connected": false,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "schemaSha256": "c3149b10b71668e01fdb284c20e8275dea5fcb00f0708751692be2ccff5436aa",
+      "components": 11,
+      "wires": 11,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": [
+        {
+          "a": "front-brake.a",
+          "b": "rear-brake.a",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "front-brake.b",
+          "b": "rear-brake.b",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "front-brake.b",
+          "b": "brake-tail.feed",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "brake-tail.feed",
+          "b": "brake-tail.return",
+          "connected": false,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "schemaSha256": "25b60859da8cc3706aae0f6f6f4c33861cb010d4ad7bab33a9d55fc85cd41aa3",
+      "components": 11,
+      "wires": 13,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": []
+    },
+    {
+      "number": "06",
+      "schemaSha256": "6e9fc358986a5022c325b7f7561743c2e1b37ba4d6372b5b859c34e6f8b02205",
+      "components": 18,
+      "wires": 21,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": []
+    },
+    {
+      "number": "07",
+      "schemaSha256": "4acb02ab17b921c3426bfe4bc6465367b5234ebe37a51a47e0fff9f2ec77686c",
+      "components": 11,
+      "wires": 13,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": []
+    },
+    {
+      "number": "08",
+      "schemaSha256": "6f1a94e643899e7dad22d9d2701a5dce9901962b3c195a27adf2b81e28acbf28",
+      "components": 17,
+      "wires": 37,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": [
+        {
+          "a": "ecm.A20",
+          "b": "ckp.U",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A21",
+          "b": "ckp.V",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A34",
+          "b": "ckp.W",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A22",
+          "b": "ckp.PUL",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A2",
+          "b": "ckp.OUT",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ckp.GND",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A20",
+          "b": "ecm.A21",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ecm.A22",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "ignition-coil.hv",
+          "b": "spark-plug.hv",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ignition-coil.primary-a",
+          "b": "ignition-coil.primary-b",
+          "connected": false,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "schemaSha256": "c0a8c7627659452e25759b2898bfac577103f8f64f528b0a0e62188163445602",
+      "components": 21,
+      "wires": 50,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": [
+        {
+          "a": "ecm.A20",
+          "b": "ckp.U",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A21",
+          "b": "ckp.V",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A34",
+          "b": "ckp.W",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A22",
+          "b": "ckp.PUL",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A2",
+          "b": "ckp.OUT",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ckp.GND",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A20",
+          "b": "ecm.A21",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ecm.A22",
+          "connected": false,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "schemaSha256": "dd6de1c6012a6f0fb8ed715956319a8328f0957b4655ac581ba0a571a66546b7",
+      "components": 16,
+      "wires": 17,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": []
+    },
+    {
+      "number": "11",
+      "schemaSha256": "37e9d8caf426c1938f9fee6be45a94282a2ef6490ab5a3f7cf41fae9adb1ef0b",
+      "components": 23,
+      "wires": 57,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": [
+        {
+          "a": "ecm.A20",
+          "b": "ckp.U",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A21",
+          "b": "ckp.V",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A34",
+          "b": "ckp.W",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A22",
+          "b": "ckp.PUL",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A2",
+          "b": "ckp.OUT",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ckp.GND",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A20",
+          "b": "ecm.A21",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ecm.A22",
+          "connected": false,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "schemaSha256": "7b44fcf6f57f1641e96ef7b2741986da8537965fccd72116d84498be080b7f7d",
+      "components": 44,
+      "wires": 86,
+      "sourceTranscriptionCarry": "PASS",
+      "graphCases": [
+        {
+          "a": "ecm.A20",
+          "b": "ckp.U",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A21",
+          "b": "ckp.V",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A34",
+          "b": "ckp.W",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A22",
+          "b": "ckp.PUL",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A2",
+          "b": "ckp.OUT",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ckp.GND",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A20",
+          "b": "ecm.A21",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "ecm.A39",
+          "b": "ecm.A22",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "ignition-coil.hv",
+          "b": "spark-plug.hv",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "ignition-coil.primary-a",
+          "b": "ignition-coil.primary-b",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "tp.return",
+          "b": "eot.return",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "tp.return",
+          "b": "ecm.A12",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "tp.supply",
+          "b": "tp.return",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "dlc.bcut",
+          "b": "ecm.A3",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "pump.b",
+          "b": "injector.b",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "pump.b",
+          "b": "ignition-coil.primary-b",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "pump.b",
+          "b": "idle-valve.b",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "dlc.scs",
+          "b": "dlc.lg",
+          "connected": false,
+          "result": "PASS"
+        },
+        {
+          "a": "generator.U",
+          "b": "ecm.B2",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "generator.V",
+          "b": "ecm.B5",
+          "connected": true,
+          "result": "PASS"
+        },
+        {
+          "a": "generator.W",
+          "b": "ecm.B1",
+          "connected": true,
+          "result": "PASS"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+{
+  "circuitNumber": "01",
+  "circuitKey": "power-distribution",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/01.Mạch cấp nguồn.PNG",
+  "sourceImageSha256": "8be4ff97e4ba35d12d49646bf7bfc05b2d4a9f5e8f6f793ce314d124c9ee793d",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1308,
+    741
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 65,
+        "y": 627,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 81,
+          "y": 633,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 129,
+          "y": 633,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 27,
+        "y": 665,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 42,
+          "y": 665,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 191,
+        "y": 439,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 191,
+          "y": 455,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 261,
+          "y": 455,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "backup-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (10A) BACKUP",
+      "sourceBox": {
+        "x": 191,
+        "y": 517,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 191,
+          "y": 533,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 261,
+          "y": 533,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "key4",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 399,
+        "y": 382,
+        "width": 70,
+        "height": 86
+      },
+      "ports": [
+        {
+          "id": "in1",
+          "x": 399,
+          "y": 406,
+          "label": ""
+        },
+        {
+          "id": "out1",
+          "x": 469,
+          "y": 406,
+          "label": ""
+        },
+        {
+          "id": "in2",
+          "x": 399,
+          "y": 456,
+          "label": ""
+        },
+        {
+          "id": "out2",
+          "x": 469,
+          "y": 456,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.dpst4"
+    },
+    {
+      "id": "main-relay",
+      "glyph": "relay",
+      "observedText": "RƠ LE CHÍNH",
+      "sourceBox": {
+        "x": 399,
+        "y": 223,
+        "width": 70,
+        "height": 84
+      },
+      "ports": [
+        {
+          "id": "contact-left",
+          "x": 399,
+          "y": 242,
+          "label": ""
+        },
+        {
+          "id": "contact-right",
+          "x": 469,
+          "y": 242,
+          "label": ""
+        },
+        {
+          "id": "coil-left",
+          "x": 399,
+          "y": 292,
+          "label": ""
+        },
+        {
+          "id": "coil-right",
+          "x": 469,
+          "y": 292,
+          "label": ""
+        }
+      ],
+      "proposedModel": "relay.contact-coil4",
+      "reverseCoil": false
+    },
+    {
+      "id": "usb-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) USB",
+      "sourceBox": {
+        "x": 595,
+        "y": 78,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 595,
+          "y": 94,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 665,
+          "y": 94,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "fi-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (10A) FI",
+      "sourceBox": {
+        "x": 595,
+        "y": 153,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 595,
+          "y": 169,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 665,
+          "y": 169,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "horn-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) HORN",
+      "sourceBox": {
+        "x": 595,
+        "y": 226,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 595,
+          "y": 242,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 665,
+          "y": 242,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "ecu-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) ECU",
+      "sourceBox": {
+        "x": 595,
+        "y": 439,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 595,
+          "y": 455,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 665,
+          "y": 455,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "hl-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) H/L",
+      "sourceBox": {
+        "x": 595,
+        "y": 532,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 595,
+          "y": 548,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 665,
+          "y": 548,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "meter-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) METER / PO",
+      "sourceBox": {
+        "x": 595,
+        "y": 608,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 595,
+          "y": 624,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 665,
+          "y": 624,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "ecm",
+      "glyph": "module",
+      "observedText": "ECM",
+      "sourceBox": {
+        "x": 1090,
+        "y": 269,
+        "width": 177,
+        "height": 209
+      },
+      "ports": [
+        {
+          "id": "A31",
+          "x": 1070,
+          "y": 292,
+          "label": "A31  M/RELAY"
+        },
+        {
+          "id": "A4",
+          "x": 1070,
+          "y": 331,
+          "label": "A4  BATT(IGP)"
+        },
+        {
+          "id": "A15",
+          "x": 1070,
+          "y": 406,
+          "label": "A15  C&L"
+        },
+        {
+          "id": "A3",
+          "x": 1070,
+          "y": 455,
+          "label": "A3  B-CUT"
+        }
+      ],
+      "proposedModel": "control.ecm",
+      "cavities": 39
+    },
+    {
+      "id": "r-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 308,
+        "y": 453,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 310,
+          "y": 455,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "bl-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 338,
+        "y": 329,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 340,
+          "y": 331,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "bi-y-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 531,
+        "y": 240,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 533,
+          "y": 242,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "key-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 533,
+        "y": 453,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 535,
+          "y": 455,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "start-contact-feed",
+      "glyph": "loads",
+      "observedText": "TIẾP ĐIỂM RƠ LE KHỞI ĐỘNG / SẠC",
+      "sourceBox": {
+        "x": 735,
+        "y": 30,
+        "width": 220,
+        "height": 25
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 735,
+          "y": 38,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "TIẾP ĐIỂM RƠ LE KHỞI ĐỘNG / SẠC"
+      ]
+    },
+    {
+      "id": "usb-out",
+      "glyph": "loads",
+      "observedText": "Ổ CẮM SẠC PHỤ KIỆN (USB)",
+      "sourceBox": {
+        "x": 837,
+        "y": 86,
+        "width": 220,
+        "height": 25
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 837,
+          "y": 94,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "Ổ CẮM SẠC PHỤ KIỆN (USB)"
+      ]
+    },
+    {
+      "id": "fi-loads",
+      "glyph": "loads",
+      "observedText": "KIM PHUN\nBƠM XĂNG\nMÔ BIN SƯỜN\nVAN CẦM CHỪNG NHANH",
+      "sourceBox": {
+        "x": 990,
+        "y": 161,
+        "width": 220,
+        "height": 72
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 990,
+          "y": 169,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "KIM PHUN",
+        "BƠM XĂNG",
+        "MÔ BIN SƯỜN",
+        "VAN CẦM CHỪNG NHANH"
+      ]
+    },
+    {
+      "id": "horn-out",
+      "glyph": "loads",
+      "observedText": "CÔNG TẮC CÒI",
+      "sourceBox": {
+        "x": 837,
+        "y": 234,
+        "width": 220,
+        "height": 25
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 837,
+          "y": 242,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "CÔNG TẮC CÒI"
+      ]
+    },
+    {
+      "id": "start-coil-feed",
+      "glyph": "loads",
+      "observedText": "CUỘN HÚT RƠ LE KHỞI ĐỘNG / SẠC",
+      "sourceBox": {
+        "x": 659,
+        "y": 355,
+        "width": 220,
+        "height": 25
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 659,
+          "y": 363,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "CUỘN HÚT RƠ LE KHỞI ĐỘNG / SẠC"
+      ]
+    },
+    {
+      "id": "backup-loads",
+      "glyph": "loads",
+      "observedText": "BỘ XÁC ĐỊNH VỊ TRÍ XE\nCỤM ĐỒNG HỒ",
+      "sourceBox": {
+        "x": 348,
+        "y": 509,
+        "width": 220,
+        "height": 36
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 348,
+          "y": 517,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "BỘ XÁC ĐỊNH VỊ TRÍ XE",
+        "CỤM ĐỒNG HỒ"
+      ]
+    },
+    {
+      "id": "battery-start-contact",
+      "glyph": "loads",
+      "observedText": "TIẾP ĐIỂM RƠ LE KHỞI ĐỘNG / SẠC",
+      "sourceBox": {
+        "x": 235,
+        "y": 574,
+        "width": 220,
+        "height": 25
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 235,
+          "y": 582,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "TIẾP ĐIỂM RƠ LE KHỞI ĐỘNG / SẠC"
+      ]
+    },
+    {
+      "id": "ecu-loads",
+      "glyph": "loads",
+      "observedText": "GIẮC CHẨN ĐOÁN (DLC)\nBỘ XÁC ĐỊNH VỊ TRÍ XE",
+      "sourceBox": {
+        "x": 778,
+        "y": 478,
+        "width": 220,
+        "height": 36
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 778,
+          "y": 486,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "GIẮC CHẨN ĐOÁN (DLC)",
+        "BỘ XÁC ĐỊNH VỊ TRÍ XE"
+      ]
+    },
+    {
+      "id": "head-led-feed",
+      "glyph": "loads",
+      "observedText": "CỤM ĐÈN PHA LED",
+      "sourceBox": {
+        "x": 1007,
+        "y": 540,
+        "width": 220,
+        "height": 25
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1007,
+          "y": 548,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "CỤM ĐÈN PHA LED"
+      ]
+    },
+    {
+      "id": "meter-loads",
+      "glyph": "loads",
+      "observedText": "ĐÈN HẬU\nCỤM ĐỒNG HỒ\nRƠ LE XI NHAN\nĐÈN SOI BIỂN SỐ\nCỤM ĐÈN PHA LED (ĐÈN VỊ TRÍ)\nCÔNG TẮC PHANH TRƯỚC / SAU",
+      "sourceBox": {
+        "x": 991,
+        "y": 616,
+        "width": 220,
+        "height": 108
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 991,
+          "y": 624,
+          "label": ""
+        }
+      ],
+      "proposedModel": "continuation.loads",
+      "targets": [
+        "ĐÈN HẬU",
+        "CỤM ĐỒNG HỒ",
+        "RƠ LE XI NHAN",
+        "ĐÈN SOI BIỂN SỐ",
+        "CỤM ĐÈN PHA LED (ĐÈN VỊ TRÍ)",
+        "CÔNG TẮC PHANH TRƯỚC / SAU"
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          81,
+          582
+        ],
+        [
+          42,
+          582
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          129,
+          455
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "battery.positive",
+      "b": "backup-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          129,
+          533
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "battery.positive",
+      "b": "battery-start-contact.in",
+      "observedCode": "R",
+      "via": [
+        [
+          148,
+          582
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "main-fuse.b",
+      "b": "r-bus.node",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "r-bus.node",
+      "b": "key.in2",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "r-bus.node",
+      "b": "main-relay.contact-left",
+      "observedCode": "R/Bl",
+      "via": [
+        [
+          310,
+          242
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "backup-fuse.b",
+      "b": "backup-loads.in",
+      "observedCode": "R/W",
+      "via": [
+        [
+          330,
+          533
+        ],
+        [
+          330,
+          517
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "key.out2",
+      "b": "key-bus.node",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "key-bus.node",
+      "b": "ecu-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "key-bus.node",
+      "b": "hl-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [
+        [
+          535,
+          548
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-012",
+      "a": "key-bus.node",
+      "b": "meter-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [
+        [
+          535,
+          624
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-013",
+      "a": "ecu-fuse.b",
+      "b": "ecm.A3",
+      "observedCode": "Bl/G",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-014",
+      "a": "ecu-fuse.b",
+      "b": "ecu-loads.in",
+      "observedCode": "Bl/G",
+      "via": [
+        [
+          778,
+          455
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-015",
+      "a": "hl-fuse.b",
+      "b": "head-led-feed.in",
+      "observedCode": "Bl/Bu",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-016",
+      "a": "meter-fuse.b",
+      "b": "meter-loads.in",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-017",
+      "a": "key.out1",
+      "b": "ecm.A15",
+      "observedCode": "Bl/G",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-018",
+      "a": "key.in1",
+      "b": "bl-bus.node",
+      "observedCode": "Bl",
+      "via": [
+        [
+          340,
+          406
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-019",
+      "a": "bl-bus.node",
+      "b": "ecm.A4",
+      "observedCode": "Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-020",
+      "a": "bl-bus.node",
+      "b": "main-relay.coil-left",
+      "observedCode": "Bl",
+      "via": [
+        [
+          340,
+          292
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-021",
+      "a": "bl-bus.node",
+      "b": "start-coil-feed.in",
+      "observedCode": "Bl",
+      "via": [
+        [
+          598,
+          331
+        ],
+        [
+          598,
+          363
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-022",
+      "a": "main-relay.coil-right",
+      "b": "ecm.A31",
+      "observedCode": "G/W",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-023",
+      "a": "main-relay.contact-right",
+      "b": "bi-y-bus.node",
+      "observedCode": "Bl/Y",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-024",
+      "a": "bi-y-bus.node",
+      "b": "horn-fuse.a",
+      "observedCode": "Bl/Y",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-025",
+      "a": "bi-y-bus.node",
+      "b": "usb-fuse.a",
+      "observedCode": "Bl/Y",
+      "via": [
+        [
+          533,
+          94
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-026",
+      "a": "bi-y-bus.node",
+      "b": "fi-fuse.a",
+      "observedCode": "Bl/Y",
+      "via": [
+        [
+          533,
+          169
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-027",
+      "a": "bi-y-bus.node",
+      "b": "start-contact-feed.in",
+      "observedCode": "Bl/Y",
+      "via": [
+        [
+          533,
+          38
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-028",
+      "a": "horn-fuse.b",
+      "b": "horn-out.in",
+      "observedCode": "Bl/Lg",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-029",
+      "a": "usb-fuse.b",
+      "b": "usb-out.in",
+      "observedCode": "Bl/O",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-030",
+      "a": "fi-fuse.b",
+      "b": "fi-loads.in",
+      "observedCode": "Bl/W",
+      "via": [],
+      "labelAt": null
+    }
+  ],
+  "annotations": [],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

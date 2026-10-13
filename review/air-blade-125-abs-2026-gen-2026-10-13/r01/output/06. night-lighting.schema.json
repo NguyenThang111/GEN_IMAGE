@@ -1,0 +1,1268 @@
+﻿{
+    "schemaVersion":  1,
+    "reviewStatus":  "draft",
+    "id":  "air-blade-125-abs-2026-night-lighting",
+    "vehicleId":  "air-blade-2026-125-abs",
+    "vehicleTitle":  "AIR BLADE 2026 (125 / ABS)",
+    "vehicleModel":  "Honda AIR BLADE 125 ABS 2026",
+    "circuitTitle":  "Mạch đèn đêm và đèn pha LED",
+    "sourceImage":  "air-blade-2026-125-abs-night-lighting.source.jpg",
+    "canvas":  {
+                   "width":  1600,
+                   "height":  800,
+                   "background":  "#ffffff"
+               },
+    "sourceCrop":  {
+                       "x":  0,
+                       "y":  0,
+                       "width":  1600,
+                       "height":  800
+                   },
+    "sourceTransform":  {
+                            "rotateClockwise":  0
+                        },
+    "components":  [
+                       {
+                           "id":  "battery",
+                           "type":  "battery",
+                           "x":  60,
+                           "y":  380,
+                           "width":  80,
+                           "height":  58,
+                           "label":  "ẮC QUY",
+                           "terminals":  [
+                                             {
+                                                 "id":  "neg",
+                                                 "x":  76,
+                                                 "y":  380,
+                                                 "label":  "-"
+                                             },
+                                             {
+                                                 "id":  "pos",
+                                                 "x":  124,
+                                                 "y":  380,
+                                                 "label":  "+"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "battery@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "negative":  "neg",
+                                                           "positive":  "pos"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-battery",
+                           "type":  "ground",
+                           "x":  64,
+                           "y":  336,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  76,
+                                                 "y":  348
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-main",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  365,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (20A) MAIN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  380
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  380
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "relay-main",
+                           "type":  "relay",
+                           "x":  360,
+                           "y":  325,
+                           "width":  120,
+                           "height":  110,
+                           "label":  "RƠ LE CHÍNH",
+                           "terminals":  [
+                                             {
+                                                 "id":  "cl",
+                                                 "x":  360,
+                                                 "y":  380,
+                                                 "label":  "R/W"
+                                             },
+                                             {
+                                                 "id":  "cr",
+                                                 "x":  480,
+                                                 "y":  380,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "col",
+                                                 "x":  396,
+                                                 "y":  435,
+                                                 "label":  "G"
+                                             },
+                                             {
+                                                 "id":  "cor",
+                                                 "x":  444,
+                                                 "y":  435,
+                                                 "label":  "Bl/Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "relay.contact-coil4@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "coil-left":  "col",
+                                                           "coil-right":  "cor",
+                                                           "contact-left":  "cl",
+                                                           "contact-right":  "cr"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-relay",
+                           "type":  "ground",
+                           "x":  384,
+                           "y":  445,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  396,
+                                                 "y":  457
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "ignition-switch",
+                           "type":  "switch",
+                           "x":  530,
+                           "y":  320,
+                           "width":  110,
+                           "height":  120,
+                           "label":  "KHÓA ĐIỆN",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p1-in",
+                                                 "x":  530,
+                                                 "y":  380,
+                                                 "label":  "Bl/R"
+                                             },
+                                             {
+                                                 "id":  "p1-out",
+                                                 "x":  640,
+                                                 "y":  380,
+                                                 "label":  "R/Bl"
+                                             },
+                                             {
+                                                 "id":  "p2-in",
+                                                 "x":  530,
+                                                 "y":  440,
+                                                 "label":  "Bl/Bu"
+                                             },
+                                             {
+                                                 "id":  "p2-out",
+                                                 "x":  640,
+                                                 "y":  440,
+                                                 "label":  "R/Br"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.dpst4@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "pole1-in":  "p1-in",
+                                                           "pole1-out":  "p1-out",
+                                                           "pole2-in":  "p2-in",
+                                                           "pole2-out":  "p2-out"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-sub1",
+                           "type":  "fuse",
+                           "x":  700,
+                           "y":  365,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (10A) SUB 1",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  700,
+                                                 "y":  380
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  780,
+                                                 "y":  380
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-headlight",
+                           "type":  "fuse",
+                           "x":  700,
+                           "y":  235,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (5A) HEAD LIGHT",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  700,
+                                                 "y":  250
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  780,
+                                                 "y":  250
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "headlight-cluster",
+                           "type":  "connector",
+                           "x":  940,
+                           "y":  140,
+                           "width":  160,
+                           "height":  200,
+                           "label":  "CỤM ĐÈN PHA LED (6P)",
+                           "connectorType":  "6P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "hi-beam",
+                                                 "x":  940,
+                                                 "y":  180,
+                                                 "label":  "HI BEAM Bu"
+                                             },
+                                             {
+                                                 "id":  "dimmer",
+                                                 "x":  940,
+                                                 "y":  220,
+                                                 "label":  "DIMMER SW W"
+                                             },
+                                             {
+                                                 "id":  "vcc-hl",
+                                                 "x":  940,
+                                                 "y":  260,
+                                                 "label":  "VCC H/L W/G"
+                                             },
+                                             {
+                                                 "id":  "vcc-po",
+                                                 "x":  940,
+                                                 "y":  300,
+                                                 "label":  "VCC PO Bl"
+                                             },
+                                             {
+                                                 "id":  "gnd",
+                                                 "x":  940,
+                                                 "y":  340,
+                                                 "label":  "GND G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         },
+                           "note":  "6P giắc, 5 đường dùng. Kênh HI, LO, PO. Nội bộ cụm LED cần review model."
+                       },
+                       {
+                           "id":  "mass-headlight",
+                           "type":  "ground",
+                           "x":  928,
+                           "y":  352,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G/Bl",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  940,
+                                                 "y":  364
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "hi-beam-switch",
+                           "type":  "switch",
+                           "x":  1160,
+                           "y":  140,
+                           "width":  110,
+                           "height":  90,
+                           "label":  "CT PHA/CỐT (3P)",
+                           "connectorType":  "3P",
+                           "terminals":  [
+                                             {
+                                                 "id":  "w-dim",
+                                                 "x":  1160,
+                                                 "y":  180,
+                                                 "label":  "W"
+                                             },
+                                             {
+                                                 "id":  "com",
+                                                 "x":  1160,
+                                                 "y":  220,
+                                                 "label":  "G/Bl (mass)"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "switch.generic@1",
+                                             "version":  1
+                                         },
+                           "note":  "3P switch, W tới DIMMER, G/Bl về mass. Vị trí còn lại không dây ngoài."
+                       },
+                       {
+                           "id":  "mass-hi-switch",
+                           "type":  "ground",
+                           "x":  1148,
+                           "y":  232,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G/Bl",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1160,
+                                                 "y":  244
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "meter-hi-beam",
+                           "type":  "connector",
+                           "x":  1160,
+                           "y":  80,
+                           "width":  120,
+                           "height":  40,
+                           "label":  "ĐỒNG HỒ 16P\nChân 3 HIGH BEAM",
+                           "terminals":  [
+                                             {
+                                                 "id":  "p3-hi",
+                                                 "x":  1160,
+                                                 "y":  100,
+                                                 "label":  "3 HIGH BEAM Bu"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "connector.generic@1",
+                                             "version":  1
+                                         }
+                       },
+                       {
+                           "id":  "lamp-license",
+                           "type":  "lamp",
+                           "x":  1000,
+                           "y":  520,
+                           "width":  100,
+                           "height":  60,
+                           "label":  "ĐÈN SOI BIỂN SỐ",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1000,
+                                                 "y":  550,
+                                                 "label":  "Bl"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1100,
+                                                 "y":  550,
+                                                 "label":  "G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.led@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "feed":  "feed",
+                                                           "return":  "return"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "mass-license",
+                           "type":  "ground",
+                           "x":  1088,
+                           "y":  518,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G/Bl",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1100,
+                                                 "y":  530
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "lamp-taillight",
+                           "type":  "lamp",
+                           "x":  1000,
+                           "y":  630,
+                           "width":  100,
+                           "height":  60,
+                           "label":  "ĐÈN HẬU (9P Bl/G)",
+                           "terminals":  [
+                                             {
+                                                 "id":  "feed",
+                                                 "x":  1000,
+                                                 "y":  660,
+                                                 "label":  "Bl/G"
+                                             },
+                                             {
+                                                 "id":  "return",
+                                                 "x":  1100,
+                                                 "y":  660,
+                                                 "label":  "G/Bl"
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "lamp.led@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "feed":  "feed",
+                                                           "return":  "return"
+                                                       }
+                                         },
+                           "note":  "Dây Bl/G trong giắc 9P của mạch đèn đêm. Dây G/Y của mạch phanh là khác."
+                       },
+                       {
+                           "id":  "mass-taillight",
+                           "type":  "ground",
+                           "x":  1088,
+                           "y":  628,
+                           "width":  24,
+                           "height":  32,
+                           "label":  "G/Bl",
+                           "terminals":  [
+                                             {
+                                                 "id":  "in",
+                                                 "x":  1100,
+                                                 "y":  640
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "ground@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "in":  "in"
+                                                       }
+                                         }
+                       },
+                       {
+                           "id":  "fuse-ecu",
+                           "type":  "fuse",
+                           "x":  200,
+                           "y":  535,
+                           "width":  80,
+                           "height":  30,
+                           "label":  "CẦU CHÌ (15A) ECU",
+                           "terminals":  [
+                                             {
+                                                 "id":  "a",
+                                                 "x":  200,
+                                                 "y":  550
+                                             },
+                                             {
+                                                 "id":  "b",
+                                                 "x":  280,
+                                                 "y":  550
+                                             }
+                                         ],
+                           "symbolRef":  {
+                                             "id":  "fuse@1",
+                                             "version":  1,
+                                             "ports":  {
+                                                           "a":  "a",
+                                                           "b":  "b"
+                                                       }
+                                         }
+                       }
+                   ],
+    "wires":  [
+                  {
+                      "id":  "w-bat-neg-mass",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "neg"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-battery",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  76,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  76,
+                                         "y":  360
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-main",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-main",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  380
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-main-relay",
+                      "from":  {
+                                   "componentId":  "fuse-main",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "relay-main",
+                                 "terminalId":  "cl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  360,
+                                         "y":  380
+                                     }
+                                 ],
+                      "code":  "R/W",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/W",
+                                         "x":  318,
+                                         "y":  370,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-main-relay",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-ign1",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cr"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p1-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  480,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  380
+                                     }
+                                 ],
+                      "code":  "Bl/R",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/R",
+                                         "x":  504,
+                                         "y":  370,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-ign1",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-relay-coil-mass",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "col"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-relay",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  396,
+                                         "y":  435
+                                     },
+                                     {
+                                         "x":  396,
+                                         "y":  457
+                                     }
+                                 ],
+                      "code":  "G",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-relay-coil-ign2",
+                      "from":  {
+                                   "componentId":  "relay-main",
+                                   "terminalId":  "cor"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  444,
+                                         "y":  435
+                                     },
+                                     {
+                                         "x":  444,
+                                         "y":  460
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  460
+                                     },
+                                     {
+                                         "x":  516,
+                                         "y":  440
+                                     },
+                                     {
+                                         "x":  530,
+                                         "y":  440
+                                     }
+                                 ],
+                      "code":  "Bl/Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/Bu",
+                                         "x":  480,
+                                         "y":  450,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-relay-coil-ign2",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ign1-sub1-headlight",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p1-out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-headlight",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  660,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  660,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  250
+                                     }
+                                 ],
+                      "code":  "R/Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Bl",
+                                         "x":  648,
+                                         "y":  310,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ign1-sub1-headlight",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-ign1-sub1",
+                      "from":  {
+                                   "componentId":  "ignition-switch",
+                                   "terminalId":  "p1-out"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-sub1",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  640,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  700,
+                                         "y":  380
+                                     }
+                                 ],
+                      "code":  "R/Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-headlight-vcc-hl",
+                      "from":  {
+                                   "componentId":  "fuse-headlight",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "headlight-cluster",
+                                 "terminalId":  "vcc-hl"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  780,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  250
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  260
+                                     },
+                                     {
+                                         "x":  940,
+                                         "y":  260
+                                     }
+                                 ],
+                      "code":  "W/G",
+                      "primaryColor":  "#aaddaa",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "W/G",
+                                         "x":  860,
+                                         "y":  240,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-headlight-vcc-hl",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-vcc-po",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "headlight-cluster",
+                                 "terminalId":  "vcc-po"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  780,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  300
+                                     },
+                                     {
+                                         "x":  940,
+                                         "y":  300
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl",
+                                         "x":  810,
+                                         "y":  370,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub1-vcc-po",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-sub1-license",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-license",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  860,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  1000,
+                                         "y":  550
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-sub1-taillight",
+                      "from":  {
+                                   "componentId":  "fuse-sub1",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "lamp-taillight",
+                                 "terminalId":  "feed"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  860,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  860,
+                                         "y":  660
+                                     },
+                                     {
+                                         "x":  1000,
+                                         "y":  660
+                                     }
+                                 ],
+                      "code":  "Bl",
+                      "primaryColor":  "#000000",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bl/G (9P)",
+                                         "x":  900,
+                                         "y":  650,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-sub1-taillight",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-hl-gnd-mass",
+                      "from":  {
+                                   "componentId":  "headlight-cluster",
+                                   "terminalId":  "gnd"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-headlight",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  940,
+                                         "y":  340
+                                     },
+                                     {
+                                         "x":  940,
+                                         "y":  364
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-headlight-hi-beam",
+                      "from":  {
+                                   "componentId":  "headlight-cluster",
+                                   "terminalId":  "hi-beam"
+                               },
+                      "to":  {
+                                 "componentId":  "meter-hi-beam",
+                                 "terminalId":  "p3-hi"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  180
+                                     },
+                                     {
+                                         "x":  1160,
+                                         "y":  180
+                                     }
+                                 ],
+                      "code":  "Bu",
+                      "primaryColor":  "#000099",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "Bu",
+                                         "x":  1130,
+                                         "y":  170,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-headlight-hi-beam",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-headlight-dimmer",
+                      "from":  {
+                                   "componentId":  "headlight-cluster",
+                                   "terminalId":  "dimmer"
+                               },
+                      "to":  {
+                                 "componentId":  "hi-beam-switch",
+                                 "terminalId":  "w-dim"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  220
+                                     },
+                                     {
+                                         "x":  1160,
+                                         "y":  220
+                                     }
+                                 ],
+                      "code":  "W",
+                      "primaryColor":  "#ffffff",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "W",
+                                         "x":  1130,
+                                         "y":  210,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-headlight-dimmer",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "w-hiswitch-mass",
+                      "from":  {
+                                   "componentId":  "hi-beam-switch",
+                                   "terminalId":  "com"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-hi-switch",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1160,
+                                         "y":  220
+                                     },
+                                     {
+                                         "x":  1160,
+                                         "y":  244
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-license-mass",
+                      "from":  {
+                                   "componentId":  "lamp-license",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-license",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  530
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-taillight-mass",
+                      "from":  {
+                                   "componentId":  "lamp-taillight",
+                                   "terminalId":  "return"
+                               },
+                      "to":  {
+                                 "componentId":  "mass-taillight",
+                                 "terminalId":  "in"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  1100,
+                                         "y":  660
+                                     },
+                                     {
+                                         "x":  1100,
+                                         "y":  640
+                                     }
+                                 ],
+                      "code":  "G/Bl",
+                      "primaryColor":  "#22aa22",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-bat-ecu",
+                      "from":  {
+                                   "componentId":  "battery",
+                                   "terminalId":  "pos"
+                               },
+                      "to":  {
+                                 "componentId":  "fuse-ecu",
+                                 "terminalId":  "a"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  124,
+                                         "y":  380
+                                     },
+                                     {
+                                         "x":  124,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  200,
+                                         "y":  550
+                                     }
+                                 ],
+                      "code":  "R",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled"
+                  },
+                  {
+                      "id":  "w-ecu-ign2out",
+                      "from":  {
+                                   "componentId":  "fuse-ecu",
+                                   "terminalId":  "b"
+                               },
+                      "to":  {
+                                 "componentId":  "ignition-switch",
+                                 "terminalId":  "p2-out"
+                             },
+                      "points":  [
+                                     {
+                                         "x":  280,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  550
+                                     },
+                                     {
+                                         "x":  640,
+                                         "y":  440
+                                     }
+                                 ],
+                      "code":  "R/Br",
+                      "primaryColor":  "#dd2222",
+                      "state":  "controlled",
+                      "labels":  [
+                                     {
+                                         "kind":  "text",
+                                         "text":  "R/Br",
+                                         "x":  460,
+                                         "y":  540,
+                                         "size":  13,
+                                         "anchor":  "middle",
+                                         "rotate":  0,
+                                         "bold":  true,
+                                         "fill":  "#343434",
+                                         "owner":  "w-ecu-ign2out",
+                                         "role":  "wire-label"
+                                     }
+                                 ]
+                  }
+              ],
+    "reviewIssues":  [
+                         {
+                             "id":  "ri-light-01",
+                             "severity":  "info",
+                             "description":  "Cụm pha LED 6P có 5 đường dùng. Kênh HI/LO/PO bên trong cụm cần review model. Không tự suy nội bộ cụm LED."
+                         },
+                         {
+                             "id":  "ri-light-02",
+                             "severity":  "info",
+                             "description":  "Đèn hậu dùng Bl/G trong giắc 9P ở mạch đèn đêm. Dây G/Y trong giắc 9P là mạch phanh riêng, không nhầm."
+                         },
+                         {
+                             "id":  "ri-light-03",
+                             "severity":  "info",
+                             "description":  "Công tắc pha/cốt 3P: W→DIMMER, G/Bl→mass. Vị trí còn lại không có dây ngoài, không tự suy chân."
+                         }
+                     ],
+    "genReview":  {
+                      "reviewer":  "kiro-agent",
+                      "date":  "2026-10-13",
+                      "verdict":  "PENDING",
+                      "notes":  "Draft. HEAD LIGHT 5A R/Bl→W/G→VCC H/L cụm pha. SUB1 10A Bl→VCC PO song song với đèn biển số và đèn hậu. HI BEAM Bu→đồng hồ chân 3. Công tắc pha/cốt 3P."
+                  }
+}

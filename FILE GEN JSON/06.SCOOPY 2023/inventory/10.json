@@ -1,0 +1,670 @@
+{
+  "circuitNumber": "10",
+  "circuitKey": "vehicle-locator-alarm",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/10.Mạch tìm xe và báo động.PNG",
+  "sourceImageSha256": "345e502ef875a339204919cd04573d4908c395c24561b484b7ba6457d316e5a2",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1302,
+    738
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 91,
+        "y": 228,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 107,
+          "y": 234,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 155,
+          "y": 234,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 49,
+        "y": 249,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 64,
+          "y": 249,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 222,
+        "y": 80,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 222,
+          "y": 96,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 292,
+          "y": 96,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "backup-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (10A) BACKUP",
+      "sourceBox": {
+        "x": 222,
+        "y": 171,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 222,
+          "y": 187,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 292,
+          "y": 187,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "switch",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 406,
+        "y": 72,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 406,
+          "y": 96,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 476,
+          "y": 96,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "ecu-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) ECU",
+      "sourceBox": {
+        "x": 586,
+        "y": 80,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 586,
+          "y": 96,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 656,
+          "y": 96,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "cluster",
+      "glyph": "alarm-cluster",
+      "observedText": "CỤM ĐỒNG HỒ",
+      "sourceBox": {
+        "x": 308,
+        "y": 237,
+        "width": 148,
+        "height": 76
+      },
+      "ports": [
+        {
+          "id": "3",
+          "x": 471,
+          "y": 259,
+          "label": "3"
+        },
+        {
+          "id": "13",
+          "x": 471,
+          "y": 291,
+          "label": "13"
+        }
+      ],
+      "proposedModel": "assembly.cluster-indicators",
+      "cavities": 16
+    },
+    {
+      "id": "alarm",
+      "glyph": "alarm-module",
+      "observedText": "BỘ TÌM XE VÀ\nBÁO ĐỘNG",
+      "sourceBox": {
+        "x": 552,
+        "y": 525,
+        "width": 398,
+        "height": 184
+      },
+      "ports": [
+        {
+          "id": "10",
+          "x": 577,
+          "y": 505,
+          "label": "10"
+        },
+        {
+          "id": "3",
+          "x": 621,
+          "y": 505,
+          "label": "3"
+        },
+        {
+          "id": "7",
+          "x": 667,
+          "y": 505,
+          "label": "7"
+        },
+        {
+          "id": "1",
+          "x": 713,
+          "y": 505,
+          "label": "1"
+        },
+        {
+          "id": "6",
+          "x": 767,
+          "y": 505,
+          "label": "6"
+        },
+        {
+          "id": "2",
+          "x": 819,
+          "y": 505,
+          "label": "2"
+        },
+        {
+          "id": "4",
+          "x": 872,
+          "y": 505,
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "x": 922,
+          "y": 505,
+          "label": "5"
+        }
+      ],
+      "proposedModel": "assembly.functional-module",
+      "cavities": 10
+    },
+    {
+      "id": "left-lamp",
+      "glyph": "bulb",
+      "observedText": "ĐÈN\nXI NHAN TRÁI",
+      "sourceBox": {
+        "x": 288,
+        "y": 337,
+        "width": 107,
+        "height": 73
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 395,
+          "y": 364,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 395,
+          "y": 382,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.filament2",
+      "mirror": true
+    },
+    {
+      "id": "right-lamp",
+      "glyph": "bulb",
+      "observedText": "ĐÈN\nXI NHAN PHẢI",
+      "sourceBox": {
+        "x": 1049,
+        "y": 170,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1049,
+          "y": 196,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1049,
+          "y": 216,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.filament2"
+    },
+    {
+      "id": "left-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 444,
+        "y": 411,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 459,
+          "y": 411,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "right-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 968,
+        "y": 239,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 983,
+          "y": 239,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "alarm-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 487,
+        "y": 517,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 502,
+          "y": 517,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "buzzer",
+      "glyph": "speaker",
+      "observedText": "CÒI ĐIỆN TỬ",
+      "sourceBox": {
+        "x": 1113,
+        "y": 302,
+        "width": 37,
+        "height": 73
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 1113,
+          "y": 327,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 1113,
+          "y": 351,
+          "label": ""
+        }
+      ],
+      "proposedModel": "buzzer.two-terminal"
+    },
+    {
+      "id": "backup-bus",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 711,
+        "y": 257,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 713,
+          "y": 259,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "alarm-pinout",
+      "glyph": "pinout",
+      "observedText": "ĐẦU NỐI 10P CỰC LỒI\nPHÍA BỘ TÌM XE",
+      "sourceBox": {
+        "x": 252,
+        "y": 506,
+        "width": 185,
+        "height": 110
+      },
+      "ports": [],
+      "proposedModel": "assembly.pinout",
+      "cavityRows": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          107,
+          187
+        ],
+        [
+          64,
+          187
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          159,
+          96
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "battery.positive",
+      "b": "backup-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          159,
+          187
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "main-fuse.b",
+      "b": "key.a",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "key.b",
+      "b": "ecu-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "ecu-fuse.b",
+      "b": "alarm.6",
+      "observedCode": "Bl/G",
+      "via": [
+        [
+          767,
+          96
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "backup-fuse.b",
+      "b": "backup-bus.node",
+      "observedCode": "R/W",
+      "via": [
+        [
+          713,
+          187
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "backup-bus.node",
+      "b": "alarm.1",
+      "observedCode": "R/W",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "backup-bus.node",
+      "b": "cluster.3",
+      "observedCode": "R/W",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "cluster.13",
+      "b": "alarm.7",
+      "observedCode": "Gr/R",
+      "via": [
+        [
+          667,
+          291
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "alarm.10",
+      "b": "alarm-ground.in",
+      "observedCode": "G/W",
+      "via": [
+        [
+          577,
+          453
+        ],
+        [
+          502,
+          453
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-012",
+      "a": "alarm.3",
+      "b": "left-lamp.feed",
+      "observedCode": "O",
+      "via": [
+        [
+          621,
+          364
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-013",
+      "a": "left-lamp.return",
+      "b": "left-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          459,
+          382
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-014",
+      "a": "alarm.2",
+      "b": "right-lamp.feed",
+      "observedCode": "Lb",
+      "via": [
+        [
+          819,
+          196
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-015",
+      "a": "right-lamp.return",
+      "b": "right-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          983,
+          216
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-016",
+      "a": "alarm.4",
+      "b": "buzzer.a",
+      "observedCode": "Bu",
+      "via": [
+        [
+          872,
+          327
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-017",
+      "a": "alarm.5",
+      "b": "buzzer.b",
+      "observedCode": "G",
+      "via": [
+        [
+          922,
+          351
+        ]
+      ],
+      "labelAt": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "alarm-led",
+      "observedText": "ĐÈN BÁO ĐỘNG",
+      "sourceBox": {
+        "x": 325,
+        "y": 249,
+        "width": 100,
+        "height": 55
+      }
+    }
+  ],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

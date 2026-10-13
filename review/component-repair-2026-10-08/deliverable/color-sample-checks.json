@@ -1,0 +1,2885 @@
+{
+  "verifiedSamples": 288,
+  "checks": [
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        33,
+        59
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        14,
+        190,
+        94
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        57,
+        55,
+        57
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Br",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        162,
+        139,
+        117
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Y",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        254,
+        252,
+        34
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        168,
+        217,
+        76
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        149,
+        220,
+        243
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Bu",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        71,
+        197,
+        237
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        168,
+        171
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        162,
+        175
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "O",
+      "source": "12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG",
+      "rgb": [
+        237,
+        148,
+        97
+      ]
+    },
+    {
+      "vehicle": "SH Mode 2023-2025",
+      "code": "W",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        254,
+        253,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "R",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        219,
+        41,
+        64
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "G",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        23,
+        184,
+        95
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bl",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "W",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        254,
+        251,
+        254
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Y",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        251,
+        251,
+        32
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Bu",
+      "source": "06.Mạch báo đèn đêm- Mạch báo đèn led.PNG",
+      "rgb": [
+        18,
+        185,
+        237
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lb",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        150,
+        217,
+        243
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "O",
+      "source": "03.Mạch xi nhan.PNG",
+      "rgb": [
+        236,
+        126,
+        62
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Lg",
+      "source": "02.Mạch còi.PNG",
+      "rgb": [
+        167,
+        216,
+        77
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Gr",
+      "source": "10.Mạch dừng động cơ tạm thời ( Idingstop).PNG",
+      "rgb": [
+        167,
+        167,
+        170
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "Br",
+      "source": "08.Mạch đánh lửa.PNG",
+      "rgb": [
+        163,
+        140,
+        118
+      ]
+    },
+    {
+      "vehicle": "Vario 2023 - 2025",
+      "code": "P",
+      "source": "07.Mạch báo tốc độ xe.PNG",
+      "rgb": [
+        237,
+        159,
+        170
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "circuitNumber": "04",
+  "circuitKey": "brake-light",
+  "sourcePath": "FILE ANH/06.SCOOPY 2023/04.Mạch đèn phanh.PNG",
+  "sourceImageSha256": "e91ff565b653986a72d409423596803f46762b343cf4d903e9751af13fdddccc",
+  "coordinateSpace": "original-image-pixels",
+  "rotationClockwise": 0,
+  "canvasSize": [
+    1306,
+    748
+  ],
+  "components": [
+    {
+      "id": "battery",
+      "glyph": "battery",
+      "observedText": "ẮC QUY",
+      "sourceBox": {
+        "x": 115,
+        "y": 426,
+        "width": 84,
+        "height": 64
+      },
+      "ports": [
+        {
+          "id": "negative",
+          "x": 131,
+          "y": 432,
+          "label": "−"
+        },
+        {
+          "id": "positive",
+          "x": 179,
+          "y": 432,
+          "label": "+"
+        }
+      ],
+      "proposedModel": "battery"
+    },
+    {
+      "id": "battery-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 78,
+        "y": 456,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 93,
+          "y": 456,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    },
+    {
+      "id": "main-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (20A) MAIN",
+      "sourceBox": {
+        "x": 243,
+        "y": 375,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 243,
+          "y": 391,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 313,
+          "y": 391,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "key",
+      "glyph": "switch",
+      "observedText": "KHÓA ĐIỆN",
+      "sourceBox": {
+        "x": 418,
+        "y": 367,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 418,
+          "y": 391,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 488,
+          "y": 391,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "meter-fuse",
+      "glyph": "fuse",
+      "observedText": "CẦU CHÌ (5A) METER / PO",
+      "sourceBox": {
+        "x": 610,
+        "y": 375,
+        "width": 70,
+        "height": 32
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 610,
+          "y": 391,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 680,
+          "y": 391,
+          "label": ""
+        }
+      ],
+      "proposedModel": "fuse"
+    },
+    {
+      "id": "front-brake",
+      "glyph": "switch",
+      "observedText": "CÔNG TẮC\nPHANH TRƯỚC",
+      "sourceBox": {
+        "x": 870,
+        "y": 304,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 870,
+          "y": 328,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 940,
+          "y": 328,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "rear-brake",
+      "glyph": "switch",
+      "observedText": "CÔNG TẮC\nPHANH SAU",
+      "sourceBox": {
+        "x": 870,
+        "y": 434,
+        "width": 70,
+        "height": 44
+      },
+      "ports": [
+        {
+          "id": "a",
+          "x": 870,
+          "y": 458,
+          "label": ""
+        },
+        {
+          "id": "b",
+          "x": 940,
+          "y": 458,
+          "label": ""
+        }
+      ],
+      "proposedModel": "switch.spst2"
+    },
+    {
+      "id": "brake-supply",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 807,
+        "y": 389,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 809,
+          "y": 391,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "brake-return",
+      "glyph": "junction",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1003,
+        "y": 389,
+        "width": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "id": "node",
+          "x": 1005,
+          "y": 391,
+          "label": ""
+        }
+      ],
+      "proposedModel": "junction"
+    },
+    {
+      "id": "brake-tail",
+      "glyph": "bulb",
+      "observedText": "ĐÈN PHANH/\nĐÈN HẬU",
+      "sourceBox": {
+        "x": 1126,
+        "y": 365,
+        "width": 95,
+        "height": 70
+      },
+      "ports": [
+        {
+          "id": "feed",
+          "x": 1126,
+          "y": 391,
+          "label": ""
+        },
+        {
+          "id": "return",
+          "x": 1126,
+          "y": 411,
+          "label": ""
+        }
+      ],
+      "proposedModel": "lamp.dual-filament-module2",
+      "unresolved": "Hai sợi đốt vẽ trong ảnh; chỉ hai đường dây ngoài. Không suy liên kết nội bộ."
+    },
+    {
+      "id": "lamp-ground",
+      "glyph": "ground",
+      "observedText": "",
+      "sourceBox": {
+        "x": 1115,
+        "y": 477,
+        "width": 30,
+        "height": 20
+      },
+      "ports": [
+        {
+          "id": "in",
+          "x": 1130,
+          "y": 477,
+          "label": ""
+        }
+      ],
+      "proposedModel": "ground"
+    }
+  ],
+  "wires": [
+    {
+      "id": "src-wire-001",
+      "a": "battery.negative",
+      "b": "battery-ground.in",
+      "observedCode": "G",
+      "via": [
+        [
+          131,
+          391
+        ],
+        [
+          93,
+          391
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-002",
+      "a": "battery.positive",
+      "b": "main-fuse.a",
+      "observedCode": "R",
+      "via": [
+        [
+          179,
+          391
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-003",
+      "a": "main-fuse.b",
+      "b": "key.a",
+      "observedCode": "R/Bl",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-004",
+      "a": "key.b",
+      "b": "meter-fuse.a",
+      "observedCode": "Bl/R",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-005",
+      "a": "meter-fuse.b",
+      "b": "brake-supply.node",
+      "observedCode": "Bl/Br",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-006",
+      "a": "brake-supply.node",
+      "b": "front-brake.a",
+      "observedCode": "Bl/Br",
+      "via": [
+        [
+          809,
+          328
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-007",
+      "a": "brake-supply.node",
+      "b": "rear-brake.a",
+      "observedCode": "Bl",
+      "via": [
+        [
+          809,
+          458
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-008",
+      "a": "front-brake.b",
+      "b": "brake-return.node",
+      "observedCode": "G/Y",
+      "via": [
+        [
+          1005,
+          328
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-009",
+      "a": "rear-brake.b",
+      "b": "brake-return.node",
+      "observedCode": "G/Y",
+      "via": [
+        [
+          1005,
+          458
+        ]
+      ],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-010",
+      "a": "brake-return.node",
+      "b": "brake-tail.feed",
+      "observedCode": "G/Y",
+      "via": [],
+      "labelAt": null
+    },
+    {
+      "id": "src-wire-011",
+      "a": "brake-tail.return",
+      "b": "lamp-ground.in",
+      "observedCode": "G/Bu",
+      "via": [
+        [
+          1130,
+          411
+        ]
+      ],
+      "labelAt": null
+    }
+  ],
+  "annotations": [],
+  "method": "Manual visual transcription before candidate generation",
+  "coverageVerdict": "TRANSCRIBED_REQUIRES_REVIEW",
+  "unresolved": [
+    "brake-tail: Hai sợi đốt vẽ trong ảnh; chỉ hai đường dây ngoài. Không suy liên kết nội bộ.",
+    "Exact text occurrence/label positions and pinout shell contours need detailed independent review."
+  ]
+}

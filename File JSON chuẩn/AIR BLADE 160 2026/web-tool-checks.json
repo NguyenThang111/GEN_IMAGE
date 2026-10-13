@@ -1,0 +1,480 @@
+{
+  "status": "PASS_SCHEMA_AND_TEXT_RENDERING",
+  "electricalApproval": false,
+  "browserUiTested": false,
+  "checks": [
+    {
+      "file": "01. power-distribution.schema.json",
+      "texts": 66,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: starter-battery-feed"
+          }
+        ],
+        "counts": {
+          "components": 28,
+          "wires": 29,
+          "nets": 15
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "02. horn.schema.json",
+      "texts": 24,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 15,
+          "wires": 17,
+          "nets": 11
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "03. turn-signals.schema.json",
+      "texts": 40,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 22,
+          "wires": 23,
+          "nets": 17
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "04. brake-light.schema.json",
+      "texts": 27,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 15,
+          "wires": 17,
+          "nets": 11
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "05. fuel-indicator.schema.json",
+      "texts": 54,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 17,
+          "wires": 19,
+          "nets": 11
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "06. night-lighting.schema.json",
+      "texts": 53,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 24,
+          "wires": 35,
+          "nets": 17
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "07. vehicle-speed.schema.json",
+      "texts": 37,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [],
+        "counts": {
+          "components": 17,
+          "wires": 21,
+          "nets": 13
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "08. ignition.schema.json",
+      "texts": 100,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-ground"
+          }
+        ],
+        "counts": {
+          "components": 14,
+          "wires": 30,
+          "nets": 16
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "09. starting.schema.json",
+      "texts": 78,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: starter-battery"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: relay-key <> ecm-power"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: ecu-feed <> starter-battery"
+          }
+        ],
+        "counts": {
+          "components": 23,
+          "wires": 50,
+          "nets": 25
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "10. idling-stop.schema.json",
+      "texts": 104,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: starter-battery"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: rear-b"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: ecu-feed <> starter-battery"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: relay-coil-key <> ecm-power"
+          }
+        ],
+        "counts": {
+          "components": 29,
+          "wires": 60,
+          "nets": 34
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "11. smartkey-system.schema.json",
+      "texts": 153,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: left0-in <> left0-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: left1-in <> left1-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: right0-in <> right0-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: right1-in <> right1-ground"
+          }
+        ],
+        "counts": {
+          "components": 40,
+          "wires": 54,
+          "nets": 34
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "12. abs.schema.json",
+      "texts": 112,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: abs-indicator"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: rear-two"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: front-two"
+          }
+        ],
+        "counts": {
+          "components": 36,
+          "wires": 48,
+          "nets": 25
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "13. pgm-fi.schema.json",
+      "texts": 226,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: starter-battery"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-negative"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: front-two"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: starter-coil <> power-bus"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: ecm-batt <> power-bus"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: injector-control <> dlc-power"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: cluster-power <> rear-feed"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: cluster-power <> cluster-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: front-one <> front-two"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: rear-one <> rear-two"
+          },
+          {
+            "severity": "warning",
+            "code": "source-discrepancy",
+            "message": "Ảnh nguồn có nhãn chưa thống nhất: [{\"subject\":\"PGM-FI source variant\",\"resolution\":\"Separate artifacts; no pin labels or topology merged\",\"otherSourceImage\":\"12.Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG\",\"examples\":[\"CKP IHU A20 / A23\",\"ECM battery A4 / A8\",\"SCU IMOID A35 / A34\",\"ABS in source 13 only\"]}]"
+          }
+        ],
+        "counts": {
+          "components": 47,
+          "wires": 89,
+          "nets": 48
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    },
+    {
+      "file": "alternate/12. pgm-fi-source-12.schema.json",
+      "texts": 230,
+      "schemaValid": true,
+      "roundTripPreserved": true,
+      "sourceHashMatched": true,
+      "bothRenderersPreserveText": true,
+      "quality": {
+        "version": 1,
+        "status": "NEEDS_REVIEW",
+        "canExport": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: starter-battery"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-batt"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: ecm-negative"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: dlc-power"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: start-ground"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Non-orthogonal wire segment: scu-start-sw"
+          },
+          {
+            "severity": "warning",
+            "code": "schema",
+            "message": "Trace clearance below 16: scu-start <> vs-vcc"
+          },
+          {
+            "severity": "warning",
+            "code": "source-discrepancy",
+            "message": "Ảnh nguồn có nhãn chưa thống nhất: [{\"subject\":\"PGM-FI source variant\",\"resolution\":\"Separate artifacts; no pin labels or topology merged\",\"otherSourceImage\":\"13. Sơ đồ nguyên lý hệ thống phun xăng điện tử.PNG\",\"examples\":[\"CKP IHU A20 / A23\",\"ECM battery A4 / A8\",\"SCU IMOID A35 / A34\",\"ABS in source 13 only\"]}]"
+          }
+        ],
+        "counts": {
+          "components": 43,
+          "wires": 90,
+          "nets": 49
+        },
+        "scope": "Đã kiểm tra cấu trúc, đầu dây, màu sọc, tọa độ và nguồn. Kết quả chưa xác nhận đúng điện; đối chiếu chân và mạng với ảnh gốc."
+      }
+    }
+  ]
+}

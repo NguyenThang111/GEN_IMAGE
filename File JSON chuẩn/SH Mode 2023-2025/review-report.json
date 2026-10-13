@@ -1,0 +1,1277 @@
+{
+  "status": "draft",
+  "method": "manual source transcription; structural JSON and render validation",
+  "allStructuralChecksPassed": true,
+  "targetAppVerified": false,
+  "browserUiTested": false,
+  "reviewPageChecks": "JavaScript syntax and local asset existence only; browser unavailable",
+  "electricalSimulationValidated": false,
+  "limitations": [
+    "Ký hiệu được vẽ lại bằng vector, hình dáng không trùng từng pixel với ảnh nguồn.",
+    "Ảnh gốc có watermark; preview dùng nền trắng và không tái tạo watermark.",
+    "FOB là hình vector minh họa thay cho ảnh chụp trong sơ đồ Smartkey.",
+    "Hai sơ đồ Smartkey và PGM-FI xoay 90 độ theo chiều kim đồng hồ để đọc; sourceTransform lưu phép xoay.",
+    "Giắc tham chiếu 6P/21P/39P/5P/3P giữ nhãn/số chân nhìn thấy; đường viền vỏ giắc được giản lược.",
+    "Chưa kiểm thử nhập/xuất trên ứng dụng đích hoặc kiểm chứng điện thực tế."
+  ],
+  "circuits": [
+    {
+      "file": "01. Mạch cấp nguồn.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 31,
+      "wireCount": 32,
+      "netCount": 15,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "positive.n",
+          "starter-feed.in",
+          "backup.in",
+          "main-fuse.in"
+        ],
+        [
+          "key-feed.n",
+          "main-fuse.out",
+          "main-relay.contact-in",
+          "key.in1",
+          "key.in2"
+        ],
+        [
+          "main-out.n",
+          "main-relay.contact-out",
+          "starter-supply.in",
+          "usb.in",
+          "usb-split.n",
+          "pump-fuse.in"
+        ],
+        [
+          "key-load.n",
+          "key.out2",
+          "horn-fuse.in",
+          "head-fuse.in",
+          "meter-fuse.in"
+        ],
+        [
+          "backup.out",
+          "backup-loads.in",
+          "backup-out.n"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "fi.out",
+          "fi-output.n",
+          "fi-loads.in"
+        ],
+        [
+          "key.out1",
+          "fi.in"
+        ],
+        [
+          "usb.out",
+          "usb-output.in"
+        ],
+        [
+          "pump-fuse.out",
+          "engine-loads.in"
+        ],
+        [
+          "horn-fuse.out",
+          "horn-load.in"
+        ],
+        [
+          "head-fuse.out",
+          "head-load.in"
+        ],
+        [
+          "meter-fuse.out",
+          "meter-loads.in",
+          "diode.in"
+        ],
+        [
+          "diode.out",
+          "flasher-load.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "02. Mạch còi.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 8,
+      "wireCount": 7,
+      "netCount": 7,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "key.in"
+        ],
+        [
+          "key.out",
+          "load-fuse.in"
+        ],
+        [
+          "load-fuse.out",
+          "horn-switch.in"
+        ],
+        [
+          "horn-switch.out",
+          "horn.in"
+        ],
+        [
+          "horn.out",
+          "horn-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "03. Mạch xi nhan.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 12,
+      "wireCount": 11,
+      "netCount": 11,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "key.in"
+        ],
+        [
+          "key.out",
+          "load-fuse.in"
+        ],
+        [
+          "load-fuse.out",
+          "diode.in"
+        ],
+        [
+          "diode.out",
+          "flasher.in"
+        ],
+        [
+          "flasher.out",
+          "turn-switch.in"
+        ],
+        [
+          "turn-switch.left",
+          "left-lamp.in"
+        ],
+        [
+          "turn-switch.right",
+          "right-lamp.in"
+        ],
+        [
+          "left-lamp.out",
+          "left-ground.in"
+        ],
+        [
+          "right-lamp.out",
+          "right-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "04. Mạch đèn phanh.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 11,
+      "wireCount": 11,
+      "netCount": 7,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "key.in"
+        ],
+        [
+          "key.out",
+          "load-fuse.in"
+        ],
+        [
+          "load-fuse.out",
+          "brake-feed.n",
+          "front-brake.in",
+          "rear-brake.in"
+        ],
+        [
+          "brake-out.n",
+          "front-brake.out",
+          "rear-brake.out",
+          "brake-lamp.in"
+        ],
+        [
+          "brake-lamp.out",
+          "lamp-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "05. Mạch báo xăng.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 9,
+      "wireCount": 9,
+      "netCount": 7,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "key.in"
+        ],
+        [
+          "key.out",
+          "load-fuse.in"
+        ],
+        [
+          "load-fuse.out",
+          "fuel-gauge.power"
+        ],
+        [
+          "fuel-gauge.ground",
+          "fuel-sender.ground",
+          "fuel-ground.n",
+          "gauge-ground.in"
+        ],
+        [
+          "fuel-gauge.signal",
+          "fuel-sender.signal"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "06. Mạch đèn đêm và đèn pha LED.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 21,
+      "wireCount": 22,
+      "netCount": 13,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "key.in"
+        ],
+        [
+          "key.out",
+          "load-fuse.in",
+          "key-split.n",
+          "meter-fuse.in"
+        ],
+        [
+          "load-fuse.out",
+          "head-led.power"
+        ],
+        [
+          "meter-fuse.out",
+          "tail-feed.n",
+          "position.feed",
+          "license.feed",
+          "tail.feed"
+        ],
+        [
+          "head-led.hi",
+          "dimmer.hi"
+        ],
+        [
+          "head-led.lo",
+          "dimmer.lo",
+          "cluster.hi-minus",
+          "low.n"
+        ],
+        [
+          "head-led.switch-common",
+          "dimmer.in",
+          "cluster.hi-plus",
+          "common.n"
+        ],
+        [
+          "head-led.ground",
+          "head-ground.in"
+        ],
+        [
+          "position.ground",
+          "position-ground.in"
+        ],
+        [
+          "license.ground",
+          "license-ground.in"
+        ],
+        [
+          "tail.ground",
+          "tail-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "07. Mạch báo tốc độ xe.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 10,
+      "wireCount": 9,
+      "netCount": 9,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "key.in"
+        ],
+        [
+          "key.out",
+          "load-fuse.in"
+        ],
+        [
+          "load-fuse.out",
+          "cluster.power"
+        ],
+        [
+          "cluster.vs-in",
+          "vs.signal"
+        ],
+        [
+          "cluster.vs-return",
+          "vs.return"
+        ],
+        [
+          "cluster.ecm-out",
+          "ecm.speed"
+        ],
+        [
+          "cluster.ground",
+          "cluster-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "08. Mạch đánh lửa.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 16,
+      "wireCount": 35,
+      "netCount": 19,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in",
+          "ecm.ground"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in"
+        ],
+        [
+          "main-fuse.out",
+          "main-feed.n",
+          "key.in",
+          "main-relay.contact-in"
+        ],
+        [
+          "key.out",
+          "fi.in"
+        ],
+        [
+          "fi.out",
+          "main-relay.coil-in",
+          "ecm.power",
+          "fi-output.n"
+        ],
+        [
+          "main-relay.contact-out",
+          "pump-fuse.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "relay-ground.in"
+        ],
+        [
+          "pump-fuse.out",
+          "ignition-coil.power"
+        ],
+        [
+          "ecm.stand",
+          "stand.out"
+        ],
+        [
+          "ecm.stand-ground",
+          "stand.ground"
+        ],
+        [
+          "ecm.ignition",
+          "ignition-coil.control"
+        ],
+        [
+          "ecm.ckp-ihu",
+          "connector-6p.i1",
+          "connector-6p.o1",
+          "ckp.ihu"
+        ],
+        [
+          "ecm.ckp-ihv",
+          "connector-6p.i2",
+          "connector-6p.o2",
+          "ckp.ihv"
+        ],
+        [
+          "ecm.ckp-ihw",
+          "connector-6p.i3",
+          "connector-6p.o3",
+          "ckp.ihw"
+        ],
+        [
+          "ecm.ckp-ground",
+          "connector-6p.i4",
+          "connector-6p.o4",
+          "ckp.ground"
+        ],
+        [
+          "ecm.ckp-out",
+          "connector-6p.i5",
+          "connector-6p.o5",
+          "ckp.out"
+        ],
+        [
+          "ecm.ckp-pcb",
+          "connector-6p.i6",
+          "connector-6p.o6",
+          "ckp.pcb"
+        ],
+        [
+          "stand.in"
+        ],
+        [
+          "ignition-coil.ht",
+          "spark-plug.ht"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "09. Mạch khởi động.json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 21,
+      "wireCount": 37,
+      "netCount": 26,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in",
+          "ecm.ground"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in",
+          "starter-relay.battery",
+          "battery-split.n"
+        ],
+        [
+          "main-fuse.out",
+          "main-split.n",
+          "main-relay.contact-in",
+          "key.in1",
+          "key.in2"
+        ],
+        [
+          "main-relay.contact-out",
+          "starter-relay.contact-in"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "fi.out",
+          "ecm.power",
+          "starter-relay.coil-in",
+          "fi-bus.n",
+          "relay-bus.n",
+          "scu.power"
+        ],
+        [
+          "key.out1",
+          "meter-fuse.in"
+        ],
+        [
+          "key.out2",
+          "fi.in"
+        ],
+        [
+          "meter-fuse.out",
+          "safety.in"
+        ],
+        [
+          "ecm.scu-start",
+          "scu.ecm-start"
+        ],
+        [
+          "ecm.starter-y",
+          "starter-relay.coil-out"
+        ],
+        [
+          "ecm.starter-r",
+          "starter-relay.contact-out"
+        ],
+        [
+          "ecm.acg-u",
+          "acg.u"
+        ],
+        [
+          "ecm.acg-v",
+          "acg.v"
+        ],
+        [
+          "ecm.acg-w",
+          "acg.w"
+        ],
+        [
+          "ecm.ckp-ihu",
+          "ckp.ihu"
+        ],
+        [
+          "ecm.ckp-ihv",
+          "ckp.ihv"
+        ],
+        [
+          "ecm.ckp-ihw",
+          "ckp.ihw"
+        ],
+        [
+          "ecm.ckp-out",
+          "ckp.out"
+        ],
+        [
+          "ecm.ckp-pcb",
+          "ckp.pcb"
+        ],
+        [
+          "ecm.ckp-ground",
+          "ckp.ground"
+        ],
+        [
+          "ecm.stand",
+          "stand.in"
+        ],
+        [
+          "ecm.stand-ground",
+          "stand.out"
+        ],
+        [
+          "scu.ground",
+          "scu-ground.in"
+        ],
+        [
+          "scu.start",
+          "starter-switch.out"
+        ],
+        [
+          "safety.out",
+          "starter-switch.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "10. Mạch dừng động cơ tạm thời (Idling Stop).json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 27,
+      "wireCount": 47,
+      "netCount": 32,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in",
+          "ecm.ground"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in",
+          "starter-relay.battery",
+          "battery-split.n"
+        ],
+        [
+          "main-fuse.out",
+          "main-split.n",
+          "main-relay.contact-in",
+          "key.in1",
+          "key.in2"
+        ],
+        [
+          "main-relay.contact-out",
+          "starter-relay.contact-in"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "main-relay.coil-out",
+          "fi.out",
+          "ecm.power",
+          "starter-relay.coil-in",
+          "fi-bus.n",
+          "relay-bus.n"
+        ],
+        [
+          "key.out1",
+          "meter-fuse.in"
+        ],
+        [
+          "key.out2",
+          "fi.in"
+        ],
+        [
+          "meter-fuse.out",
+          "cluster.power",
+          "meter-feed.n"
+        ],
+        [
+          "ecm.speed",
+          "cluster.ecm-speed"
+        ],
+        [
+          "ecm.idle-ind",
+          "cluster.idle-ind"
+        ],
+        [
+          "ecm.starter-y",
+          "starter-relay.coil-out"
+        ],
+        [
+          "ecm.starter-r",
+          "starter-relay.contact-out"
+        ],
+        [
+          "ecm.acg-u",
+          "acg.u"
+        ],
+        [
+          "ecm.acg-v",
+          "acg.v"
+        ],
+        [
+          "ecm.acg-w",
+          "acg.w"
+        ],
+        [
+          "ecm.ckp-ihu",
+          "ckp.ihu"
+        ],
+        [
+          "ecm.ckp-ihv",
+          "ckp.ihv"
+        ],
+        [
+          "ecm.ckp-ihw",
+          "ckp.ihw"
+        ],
+        [
+          "ecm.ckp-out",
+          "ckp.out"
+        ],
+        [
+          "ecm.ckp-pcb",
+          "ckp.pcb"
+        ],
+        [
+          "ecm.ckp-ground",
+          "ckp.ground"
+        ],
+        [
+          "ecm.idle-switch",
+          "idle-switch.in"
+        ],
+        [
+          "ecm.stand",
+          "stand.in"
+        ],
+        [
+          "ecm.stand-ground",
+          "stand.out",
+          "idle-switch.out",
+          "stand-ground.n"
+        ],
+        [
+          "ecm.tp-vcc",
+          "tp.vcc"
+        ],
+        [
+          "ecm.tp-signal",
+          "tp.signal"
+        ],
+        [
+          "ecm.sensor-ground",
+          "tp.ground",
+          "ect.ground",
+          "sensor-ground.n"
+        ],
+        [
+          "ecm.ect",
+          "ect.signal"
+        ],
+        [
+          "cluster.ground",
+          "cluster-ground.in"
+        ],
+        [
+          "cluster.vs-return",
+          "vs.return"
+        ],
+        [
+          "cluster.vs-signal",
+          "vs.signal"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "11. Sơ đồ nguyên lý hệ thống khóa thông minh (Smartkey).json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 34,
+      "wireCount": 40,
+      "netCount": 28,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.out",
+          "backup-fuse.out",
+          "battery-supply.n"
+        ],
+        [
+          "main-fuse.in",
+          "main-bus.n",
+          "key.in1",
+          "key.in2"
+        ],
+        [
+          "backup-fuse.in",
+          "backup-feed.n",
+          "backup-cluster.n",
+          "scu.battery",
+          "cluster.power",
+          "key-led-supply.n",
+          "alarm-led.in",
+          "face-led.in"
+        ],
+        [
+          "key-output.n",
+          "key.out1",
+          "fi.in",
+          "fi-input.n"
+        ],
+        [
+          "scu.sol-plus",
+          "key-solenoid.plus"
+        ],
+        [
+          "scu.sol-minus",
+          "key-solenoid.minus"
+        ],
+        [
+          "scu.alarm",
+          "alarm-led.out"
+        ],
+        [
+          "scu.face-led",
+          "face-led.out"
+        ],
+        [
+          "scu.knob",
+          "knob.out"
+        ],
+        [
+          "scu.main",
+          "fi.out"
+        ],
+        [
+          "scu.start",
+          "start.out"
+        ],
+        [
+          "scu.entry",
+          "test-connector.entry"
+        ],
+        [
+          "scu.ground",
+          "scu-ground.in"
+        ],
+        [
+          "scu.smart",
+          "cluster.indicator"
+        ],
+        [
+          "scu.buzzer-plus",
+          "buzzer.plus"
+        ],
+        [
+          "scu.buzzer-minus",
+          "buzzer.minus"
+        ],
+        [
+          "scu.left-turn",
+          "left-lamp.feed"
+        ],
+        [
+          "scu.right-turn",
+          "right-lamp.feed"
+        ],
+        [
+          "scu.imoid",
+          "ecm.imoid"
+        ],
+        [
+          "scu.imoau",
+          "ecm.imoau"
+        ],
+        [
+          "scu.engine-start",
+          "ecm.start"
+        ],
+        [
+          "knob.in",
+          "knob-ground.in"
+        ],
+        [
+          "key.out2",
+          "meter-fuse.out"
+        ],
+        [
+          "meter-fuse.in",
+          "safety.in"
+        ],
+        [
+          "safety.out",
+          "start.in"
+        ],
+        [
+          "left-lamp.ground",
+          "left-ground.in"
+        ],
+        [
+          "right-lamp.ground",
+          "right-ground.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    },
+    {
+      "file": "12. Sơ đồ nguyên lý hệ thống phun xăng điện tử (PGM-FI).json",
+      "errors": [],
+      "warnings": [],
+      "componentCount": 46,
+      "wireCount": 83,
+      "netCount": 49,
+      "nets": [
+        [
+          "battery.neg",
+          "battery-ground.in",
+          "ecm.ground"
+        ],
+        [
+          "battery.pos",
+          "main-fuse.in",
+          "battery-feed.n",
+          "starter-relay.battery"
+        ],
+        [
+          "main-fuse.out",
+          "main-bus.n",
+          "key.in1",
+          "key.in2",
+          "main-relay.contact-in"
+        ],
+        [
+          "key.out1",
+          "meter-fuse.in"
+        ],
+        [
+          "key.out2",
+          "fi.in"
+        ],
+        [
+          "meter-fuse.out",
+          "meter-bus.n",
+          "cluster.power",
+          "safety.out"
+        ],
+        [
+          "fi.out",
+          "main-relay.coil-out",
+          "starter-relay.coil-out",
+          "ecm.power",
+          "fi-bus.n",
+          "dlc.power"
+        ],
+        [
+          "main-relay.contact-out",
+          "pump-fuse.in",
+          "starter-relay.contact-in"
+        ],
+        [
+          "main-relay.coil-in",
+          "relay-ground.in"
+        ],
+        [
+          "pump-fuse.out",
+          "power-bus.n",
+          "power-tap.n",
+          "pcs.power",
+          "pump.power",
+          "solv.power",
+          "injector.power",
+          "coil.power"
+        ],
+        [
+          "starter-relay.contact-out",
+          "ecm.starter-r"
+        ],
+        [
+          "starter-relay.coil-in",
+          "ecm.starter-y"
+        ],
+        [
+          "ecm.ckp-pcb",
+          "ckp.pcb"
+        ],
+        [
+          "ecm.ckp-out",
+          "ckp.out"
+        ],
+        [
+          "ecm.ckp-ground",
+          "ckp.ground"
+        ],
+        [
+          "ecm.ckp-ihu",
+          "ckp.ihu"
+        ],
+        [
+          "ecm.ckp-ihv",
+          "ckp.ihv"
+        ],
+        [
+          "ecm.ckp-ihw",
+          "ckp.ihw"
+        ],
+        [
+          "ecm.tp-vcc",
+          "tp.vcc"
+        ],
+        [
+          "ecm.tp",
+          "tp.signal"
+        ],
+        [
+          "ecm.sensor-ground",
+          "tp.ground",
+          "iat.ground",
+          "ect.ground",
+          "sensor-ground.n",
+          "iat-ground.n",
+          "ect-ground.n",
+          "oxygen.ground",
+          "oxygen-connector.g-in",
+          "oxygen-connector.g-out"
+        ],
+        [
+          "ecm.iat",
+          "iat.signal"
+        ],
+        [
+          "ecm.ect",
+          "ect.signal"
+        ],
+        [
+          "ecm.oxygen",
+          "oxygen.signal",
+          "oxygen-connector.s-in",
+          "oxygen-connector.s-out"
+        ],
+        [
+          "ecm.kline",
+          "dlc.kline"
+        ],
+        [
+          "ecm.scs",
+          "dlc.scs"
+        ],
+        [
+          "ecm.lg",
+          "dlc.ground",
+          "ground-bus.n",
+          "idle-switch.in",
+          "stand.in",
+          "scu.start-switch",
+          "start-switch.in"
+        ],
+        [
+          "ecm.idle-switch",
+          "idle-switch.out"
+        ],
+        [
+          "ecm.stand",
+          "stand.out"
+        ],
+        [
+          "ecm.imoau",
+          "scu.imoau"
+        ],
+        [
+          "ecm.imoid",
+          "scu.imoid"
+        ],
+        [
+          "ecm.start",
+          "scu.start"
+        ],
+        [
+          "ecm.pcs",
+          "pcs.control"
+        ],
+        [
+          "ecm.pump",
+          "pump.control"
+        ],
+        [
+          "ecm.solv",
+          "solv.control"
+        ],
+        [
+          "ecm.injector",
+          "injector.control"
+        ],
+        [
+          "ecm.ignition",
+          "coil.control"
+        ],
+        [
+          "ecm.acg-u",
+          "acg.u"
+        ],
+        [
+          "ecm.acg-v",
+          "acg.v"
+        ],
+        [
+          "ecm.acg-w",
+          "acg.w"
+        ],
+        [
+          "ecm.idle-ind",
+          "cluster.idle"
+        ],
+        [
+          "ecm.mil",
+          "cluster.mil"
+        ],
+        [
+          "ecm.speed",
+          "cluster.speed"
+        ],
+        [
+          "ecm.temp-warn",
+          "cluster.temp"
+        ],
+        [
+          "coil.ht",
+          "spark-plug.ht"
+        ],
+        [
+          "cluster.vs-return",
+          "vs.return"
+        ],
+        [
+          "cluster.vs-signal",
+          "vs.signal"
+        ],
+        [
+          "cluster.ground",
+          "cluster-ground.in"
+        ],
+        [
+          "start-switch.out",
+          "safety.in"
+        ]
+      ],
+      "checks": {
+        "uniqueIds": true,
+        "terminalReferences": true,
+        "wireEndpoints": true,
+        "verticesInsideCanvas": true,
+        "noEmbeddedSourceBitmaps": true
+      },
+      "manualReview": "source and generated preview compared visually",
+      "targetAppVerified": false
+    }
+  ],
+  "componentCompatibilityRepair": {
+    "date": "2026-10-08",
+    "contract": "Original Studio 24 component types",
+    "componentErrors": 0,
+    "symbolKindStoredAs": "symbolType",
+    "drawingAndTerminalsUnchanged": true,
+    "liveProjectUpdated": false
+  },
+  "textRepair": {
+    "date": "2026-10-08",
+    "glyphMetrics": "Arial Windows",
+    "labelsFilled": 24,
+    "textCount": 721,
+    "bothRenderersChecked": true,
+    "noteTitleAnchor": "middle",
+    "noteBodyAnchor": "start",
+    "liveWebsiteUpdated": false
+  }
+}

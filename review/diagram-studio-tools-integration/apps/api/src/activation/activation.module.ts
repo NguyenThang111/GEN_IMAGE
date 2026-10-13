@@ -1,0 +1,2 @@
+import { Module } from '@nestjs/common';import { TypeOrmModule } from '@nestjs/typeorm';import { ActivationCode } from './activation.entity';import { ActivationController } from './activation.controller';import { ActivationService } from './activation.service';
+@Module({imports:[TypeOrmModule.forFeature([ActivationCode])],controllers:[ActivationController],providers:[ActivationService]}) export class ActivationModule{}

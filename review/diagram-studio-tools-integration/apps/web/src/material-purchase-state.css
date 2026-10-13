@@ -1,0 +1,15 @@
+.inventoryDetail .materialPurchaseState{margin:0 20px 18px;padding:16px 18px;border:1px solid #c9d9ea;border-radius:12px;background:#f0f6fc;color:#263449}
+.inventoryDetail .materialPurchaseState header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:0;border:0;background:none}
+.inventoryDetail .materialPurchaseState header>div{display:flex;flex-wrap:wrap;gap:8px}
+.inventoryDetail .materialPurchaseState p,.inventoryDetail .materialPurchaseState small{font-size:12px;line-height:1.5;color:#596c83}
+.inventoryDetail .materialPurchaseState p{margin:10px 0 0}
+.inventoryDetail .materialPurchaseState ul{list-style:none;margin:8px 0 0;padding:0}
+.inventoryDetail .materialPurchaseState li{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 0;border-top:1px solid #d3dfeb;flex-wrap:wrap}
+.inventoryDetail .materialPurchaseState li>span{min-width:0;overflow-wrap:anywhere}
+.inventoryDetail .materialPurchaseState li b{font-size:14px}
+.inventoryDetail .materialPurchaseState li small{display:block}
+.inventoryDetail .materialPurchaseState a{font-size:13px;font-weight:600;color:#245f97;text-decoration:underline}
+:root[data-theme="dark"] .inventoryDetail .materialPurchaseState{background:#1d2b3a;color:#e5edf5;border-color:#3a5168}
+:root[data-theme="dark"] .inventoryDetail .materialPurchaseState :is(p,small){color:#b4c4d5}
+:root[data-theme="dark"] .inventoryDetail .materialPurchaseState li{border-color:#3a5168}
+:root[data-theme="dark"] .inventoryDetail .materialPurchaseState a{color:#9cc7f1}
